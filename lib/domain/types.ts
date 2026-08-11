@@ -54,21 +54,30 @@ export type DraftPick = {
   auctionAmount?: number;
 };
 
-export type TradeMove = {
+export type RosterMoveKind = "trade" | "add-drop";
+export type RosterMoveAction = "added" | "dropped" | "traded";
+
+export type RosterMove = {
+  kind: RosterMoveKind;
+  action: RosterMoveAction;
   playerId?: number;
   playerName: string;
+  teamId?: number;
+  managerId?: string;
   fromTeamId?: number;
   toTeamId?: number;
   fromManagerId?: string;
   toManagerId?: string;
+  bidAmount?: number;
 };
 
-export type TradeActivity = {
+export type RosterMoveActivity = {
   id: string;
   season: number;
+  kind: RosterMoveKind;
   date?: string;
   timestamp?: number;
-  moves: TradeMove[];
+  moves: RosterMove[];
 };
 
 export type Season = {
@@ -81,7 +90,7 @@ export type Season = {
   teams: TeamSeason[];
   matchups: Matchup[];
   draftPicks: DraftPick[];
-  trades: TradeActivity[];
+  rosterMoves: RosterMoveActivity[];
   notes: string[];
 };
 

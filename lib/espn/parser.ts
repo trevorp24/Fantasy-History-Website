@@ -1,4 +1,4 @@
-import { DraftPick, Manager, Matchup, Season, SeasonStatus, TeamSeason, TradeActivity } from "@/lib/domain/types";
+import { DraftPick, Manager, Matchup, RosterMoveActivity, Season, SeasonStatus, TeamSeason } from "@/lib/domain/types";
 import { LINEUP_SLOT_BY_ID, POSITION_BY_ID } from "@/lib/espn/constants";
 
 type JsonObject = Record<string, unknown>;
@@ -205,35 +205,69 @@ function extractDraft(raw: JsonObject, year: number, teams: TeamSeason[]): Draft
   });
 }
 
-export function parseEspnTradeActivity(raw: unknown, year: number, season: Season, seasonRaw: unknown): TradeActivity[] {
+export function parseEspnRosterMoveActivity(raw: unknown, year: number, season: Season, seasonRaw: unknown): RosterMoveActivity[] {
   const data = asObject(raw);
   const original = asObject(seasonRaw);
   const teamToManager = new Map(season.teams.map((team) => [team.teamId, team.managerId]));
   const players = extractPlayerLookup(original);
+  const addDropTypeIds = new Set([178, 179, 180, 181, 239]);
   return asArray(data.topics).flatMap((item, index) => {
     const topic = asObject(item);
-    const tradeMessages = asArray(topic.messages).map(asObject).filter((message) => asNumberish(message.messageTypeId) === 244);
-    if (!tradeMessages.length) return [];
+    const messages = asArray(topic.messages).map(asObject);
+    const tradeMessages = messages.filter((message) => asNumberish(message.messageTypeId) === 244);
+    const addDropMessages = messages.filter((message) => addDropTypeIds.has(asNumberish(message.messageTypeId) ?? 0));
+    if (!tradeMessages.length && !addDropMessages.length) return [];
     const timestamp = asNumberish(topic.date);
-    return [{
-      id: `${year}-${asString(topic.id) ?? index}`,
+    const activities: RosterMoveActivity[] = [];
+    if (tradeMessages.length) {
+      activities.push({
+        id: `${year}-${asString(topic.id) ?? index}-trade`,
+        season: year,
+        kind: "trade",
+        timestamp,
+        date: timestamp ? new Date(timestamp).toISOString() : undefined,
+        moves: tradeMessages.map((message) => {
+          const playerId = asNumberish(message.targetId);
+          const fromTeamId = asNumberish(message.from);
+          const toTeamId = asNumberish(message.to);
+          return {
+            kind: "trade",
+            action: "traded",
+            playerId,
+            playerName: playerId ? players.get(playerId)?.name ?? `Player ${playerId}` : "Player Unknown",
+            fromTeamId,
+            toTeamId,
+            fromManagerId: fromTeamId ? teamToManager.get(fromTeamId) : undefined,
+            toManagerId: toTeamId ? teamToManager.get(toTeamId) : undefined
+          };
+        })
+      });
+    }
+    if (addDropMessages.length) {
+      activities.push({
+        id: `${year}-${asString(topic.id) ?? index}-add-drop`,
       season: year,
+        kind: "add-drop",
       timestamp,
       date: timestamp ? new Date(timestamp).toISOString() : undefined,
-      moves: tradeMessages.map((message) => {
+        moves: addDropMessages.map((message) => {
+          const typeId = asNumberish(message.messageTypeId);
         const playerId = asNumberish(message.targetId);
-        const fromTeamId = asNumberish(message.from);
-        const toTeamId = asNumberish(message.to);
+          const teamId = typeId === 239 ? asNumberish(message.for) : asNumberish(message.to);
+          const action = typeId === 178 || typeId === 180 ? "added" : "dropped";
         return {
+            kind: "add-drop",
+            action,
           playerId,
           playerName: playerId ? players.get(playerId)?.name ?? `Player ${playerId}` : "Player Unknown",
-          fromTeamId,
-          toTeamId,
-          fromManagerId: fromTeamId ? teamToManager.get(fromTeamId) : undefined,
-          toManagerId: toTeamId ? teamToManager.get(toTeamId) : undefined
+            teamId,
+            managerId: teamId ? teamToManager.get(teamId) : undefined,
+            bidAmount: typeId === 180 ? asNumberish(message.from) : undefined
         };
       })
-    }];
+      });
+    }
+    return activities;
   });
 }
 
@@ -271,7 +305,7 @@ export function parseEspnSeason(raw: unknown, year: number, sourceFile: string):
       teams,
       matchups,
       draftPicks,
-      trades: [],
+      rosterMoves: [],
       notes
     }
   };
@@ -284,7 +318,7 @@ export function missingSeason(year: number): Season {
     teams: [],
     matchups: [],
     draftPicks: [],
-    trades: [],
+    rosterMoves: [],
     notes: ["Backfill ready. Add a matching ESPN JSON export when available."]
   };
 }

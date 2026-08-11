@@ -16,7 +16,7 @@ const nav = [
   { href: "/records", label: "Records", icon: Trophy },
   { href: "/rivalries", label: "Rivalries", icon: Swords },
   { href: "/drafts", label: "Drafts", icon: ClipboardList },
-  { href: "/trades", label: "Trades", icon: ArrowLeftRight }
+  { href: "/trades", label: "Roster Moves", icon: ArrowLeftRight }
 ];
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

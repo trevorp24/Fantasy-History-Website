@@ -42,13 +42,13 @@ export-and-update-moggate-site.cmd
 
 The first time, it asks for your ESPN `SWID` and `espn_s2` cookies. They are saved only on your computer in `.env.local`, which is ignored by Git.
 
-The exporter also saves 2026 ESPN trade/activity data into:
+The exporter also saves 2026 ESPN roster-move activity data into:
 
 ```text
 data/raw/moggate_2026_activity.json
 ```
 
-That powers the Trades page going forward. If ESPN returns no trade messages yet, the page will show a waiting message.
+That powers the Roster Moves page going forward. If ESPN returns no trade or add/drop messages yet, the page will show a waiting message.
 
 To only download the latest ESPN JSON without rebuilding the site, double-click:
 
