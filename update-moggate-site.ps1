@@ -116,14 +116,24 @@ try {
   if (-not $Status) {
     Write-Host "No changes to commit."
   } else {
-    & $Git add docs app lib scripts README.md update-moggate-site.ps1 update-moggate-site.cmd export-moggate-json.ps1 export-moggate-json.cmd export-and-update-moggate-site.cmd reset-espn-cookies-and-export.cmd package.json pnpm-lock.yaml tsconfig.json next.config.ts next-env.d.ts .gitignore
-    & $Git commit -m "Update Moggate league site"
+    & $Git add docs app lib scripts data README.md update-moggate-site.ps1 update-moggate-site.cmd export-moggate-json.ps1 export-moggate-json.cmd export-and-update-moggate-site.cmd reset-espn-cookies-and-export.cmd connect-github-repo.ps1 connect-github-repo.cmd package.json pnpm-lock.yaml tsconfig.json next.config.ts next-env.d.ts .gitignore
+    $Staged = & $Git diff --cached --name-only
+    if ($Staged) {
+      & $Git commit -m "Update Moggate league site"
+    } else {
+      Write-Host "No tracked website changes to commit."
+    }
 
     if ($Push) {
       $Remote = & $Git remote
       if ($Remote) {
         Write-Step "Pushing to GitHub"
-        & $Git push
+        $Upstream = & $Git rev-parse --abbrev-ref --symbolic-full-name "@{u}" 2>$null
+        if ($LASTEXITCODE -eq 0 -and $Upstream) {
+          & $Git push
+        } else {
+          & $Git push --set-upstream origin main
+        }
       } else {
         Write-Host "Local commit created, but no GitHub remote is connected for this folder." -ForegroundColor DarkYellow
         Write-Host "Open this folder in GitHub Desktop or connect a remote before pushing."
