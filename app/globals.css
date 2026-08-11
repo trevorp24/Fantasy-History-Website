@@ -879,6 +879,55 @@ p {
   align-items: center;
 }
 
+.current-standings .playoff-cutoff td {
+  border-top: 3px solid var(--gold);
+}
+
+.movement {
+  display: inline-flex;
+  justify-content: center;
+  min-width: 44px;
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-weight: 900;
+}
+
+.movement.up {
+  background: #dfeee6;
+  color: var(--green);
+}
+
+.movement.down {
+  background: #f5dfda;
+  color: var(--red);
+}
+
+.movement.even {
+  background: color-mix(in srgb, var(--muted) 12%, transparent);
+  color: var(--muted);
+}
+
+.mover-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.mover-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) minmax(160px, 2fr) auto;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-soft);
+  padding: 12px;
+}
+
+.mover-row span {
+  color: var(--muted);
+}
+
 @media (max-width: 920px) {
   .shell {
     grid-template-columns: 1fr;
@@ -921,6 +970,7 @@ p {
   .grid.cols-4,
   .member-grid,
   .mini-stats,
+  .mover-row,
   .manager-picker {
     grid-template-columns: 1fr;
   }
