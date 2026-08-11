@@ -73,8 +73,6 @@ export default function CurrentSeasonPage() {
       movement: previousRank ? previousRank - rank : 0
     };
   });
-  const movers = standings.filter((team) => team.movement !== 0).sort((a, b) => Math.abs(b.movement) - Math.abs(a.movement));
-
   return (
     <>
       <header className="page-header">
@@ -90,7 +88,7 @@ export default function CurrentSeasonPage() {
           <thead>
             <tr>
               <th>Rank</th>
-              <th>Move</th>
+              <th>Weekly Move</th>
               <th>Team</th>
               <th>Record</th>
               <th>PF (Tiebreaker)</th>
@@ -110,26 +108,6 @@ export default function CurrentSeasonPage() {
             ))}
           </tbody>
         </table>
-      </section>
-
-      <section className="section card">
-        <div className="row-between">
-          <h2>Weekly Movers</h2>
-          <span className="tag gold">{latestCompletedWeek ? `Week ${latestCompletedWeek}` : "Waiting for Week 1"}</span>
-        </div>
-        {movers.length ? (
-          <div className="mover-list">
-            {movers.map((team) => (
-              <div className="mover-row" key={team.teamId}>
-                <strong>{team.ownerName}</strong>
-                <span>{team.teamName}</span>
-                {movementLabel(team.movement)}
-              </div>
-            ))}
-          </div>
-        ) : (
-          <p>No week-to-week movement yet.</p>
-        )}
       </section>
     </>
   );
