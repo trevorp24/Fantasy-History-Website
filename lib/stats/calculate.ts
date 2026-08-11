@@ -6,7 +6,8 @@ import {
   Manager,
   Matchup,
   RecordBookEntry,
-  Season
+  Season,
+  TradeImpact
 } from "@/lib/domain/types";
 
 const pct = (wins: number, losses: number, ties: number) => {
@@ -26,6 +27,7 @@ export function calculateLeague(managers: Manager[], seasons: Season[], backfill
     headToHead: calculateHeadToHead(seasons, managerById),
     recordBook: calculateRecordBook(seasons, managerById),
     allPlay: calculateAllPlay(seasons, managerById),
+    tradeImpacts: calculateTradeImpacts(seasons),
     backfillYears
   };
 }
@@ -239,4 +241,39 @@ function calculateAllPlay(seasons: Season[], managerById: Map<string, Manager>):
     }
   }
   return rows.sort((a, b) => b.luckDelta - a.luckDelta);
+}
+
+function calculateTradeImpacts(seasons: Season[]): TradeImpact[] {
+  const impacts: TradeImpact[] = [];
+
+  for (const season of seasons) {
+    const weeklyScores = season.weeklyPlayerScores.filter((score) => score.playerId && score.managerId);
+    if (!weeklyScores.length) continue;
+
+    for (const activity of season.rosterMoves.filter((move) => move.kind === "trade")) {
+      for (const move of activity.moves.filter((item) => item.action === "traded")) {
+        const rows = activity.week
+          ? weeklyScores.filter((score) =>
+            score.playerId === move.playerId &&
+            score.managerId === move.toManagerId &&
+            score.week > activity.week!
+          )
+          : [];
+        impacts.push({
+          activityId: activity.id,
+          season: season.year,
+          tradeDate: activity.date,
+          playerId: move.playerId,
+          playerName: move.playerName,
+          fromManagerId: move.fromManagerId,
+          toManagerId: move.toManagerId,
+          weeksTracked: rows.length,
+          pointsAfterTrade: rows.reduce((sum, row) => sum + row.points, 0),
+          projectedOnly: rows.length > 0 && rows.every((row) => row.projected)
+        });
+      }
+    }
+  }
+
+  return impacts.sort((a, b) => b.pointsAfterTrade - a.pointsAfterTrade || a.playerName.localeCompare(b.playerName));
 }

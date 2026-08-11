@@ -74,10 +74,36 @@ export type RosterMove = {
 export type RosterMoveActivity = {
   id: string;
   season: number;
+  week?: number;
   kind: RosterMoveKind;
   date?: string;
   timestamp?: number;
   moves: RosterMove[];
+};
+
+export type WeeklyPlayerScore = {
+  season: number;
+  week: number;
+  teamId?: number;
+  managerId?: string;
+  playerId: number;
+  playerName: string;
+  lineupSlotId?: number;
+  points: number;
+  projected: boolean;
+};
+
+export type TradeImpact = {
+  activityId: string;
+  season: number;
+  tradeDate?: string;
+  playerId?: number;
+  playerName: string;
+  fromManagerId?: string;
+  toManagerId?: string;
+  weeksTracked: number;
+  pointsAfterTrade: number;
+  projectedOnly: boolean;
 };
 
 export type Season = {
@@ -91,6 +117,7 @@ export type Season = {
   matchups: Matchup[];
   draftPicks: DraftPick[];
   rosterMoves: RosterMoveActivity[];
+  weeklyPlayerScores: WeeklyPlayerScore[];
   notes: string[];
 };
 
@@ -149,5 +176,6 @@ export type LeagueData = {
   headToHead: HeadToHeadRecord[];
   recordBook: RecordBookEntry[];
   allPlay: AllPlaySeason[];
+  tradeImpacts: TradeImpact[];
   backfillYears: number[];
 };

@@ -1,4 +1,4 @@
-import { DraftPick, Manager, Matchup, RosterMoveActivity, Season, SeasonStatus, TeamSeason } from "@/lib/domain/types";
+import { DraftPick, Manager, Matchup, RosterMoveActivity, Season, SeasonStatus, TeamSeason, WeeklyPlayerScore } from "@/lib/domain/types";
 import { LINEUP_SLOT_BY_ID, POSITION_BY_ID } from "@/lib/espn/constants";
 
 type JsonObject = Record<string, unknown>;
@@ -205,6 +205,50 @@ function extractDraft(raw: JsonObject, year: number, teams: TeamSeason[]): Draft
   });
 }
 
+function extractWeeklyPlayerScores(raw: JsonObject, year: number, teams: TeamSeason[]): WeeklyPlayerScore[] {
+  const teamToManager = new Map(teams.map((team) => [team.teamId, team.managerId]));
+  const scores = new Map<string, WeeklyPlayerScore>();
+
+  for (const item of asArray(raw.schedule).map(asObject)) {
+    const week = asNumber(item.matchupPeriodId) ?? asNumber(item.scoringPeriodId);
+    if (!week) continue;
+
+    for (const side of ["home", "away"] as const) {
+      const matchupSide = asObject(item[side]);
+      const teamId = asNumber(matchupSide.teamId);
+      const roster = asObject(matchupSide.rosterForCurrentScoringPeriod);
+      for (const rosterEntry of asArray(roster.entries).map(asObject)) {
+        const playerId = asNumberish(rosterEntry.playerId);
+        if (!playerId) continue;
+
+        const poolEntry = asObject(rosterEntry.playerPoolEntry);
+        const player = asObject(poolEntry.player);
+        const statRows = asArray(player.stats).map(asObject).filter((stat) => asNumberish(stat.scoringPeriodId) === week);
+        const actual = statRows.find((stat) => asNumberish(stat.statSourceId) === 0);
+        const projected = statRows.find((stat) => asNumberish(stat.statSourceId) === 1);
+        const stat = actual ?? projected;
+        const points = asNumber(stat?.appliedTotal);
+        if (!stat || points === undefined) continue;
+
+        const key = `${year}-${week}-${teamId ?? "unknown"}-${playerId}`;
+        scores.set(key, {
+          season: year,
+          week,
+          teamId,
+          managerId: teamId ? teamToManager.get(teamId) : undefined,
+          playerId,
+          playerName: asString(player.fullName) ?? asString(player.name) ?? `Player ${playerId}`,
+          lineupSlotId: asNumber(rosterEntry.lineupSlotId),
+          points,
+          projected: asNumberish(stat.statSourceId) !== 0
+        });
+      }
+    }
+  }
+
+  return Array.from(scores.values()).sort((a, b) => a.week - b.week || a.playerName.localeCompare(b.playerName));
+}
+
 export function parseEspnRosterMoveActivity(raw: unknown, year: number, season: Season, seasonRaw: unknown): RosterMoveActivity[] {
   const data = asObject(raw);
   const original = asObject(seasonRaw);
@@ -218,11 +262,13 @@ export function parseEspnRosterMoveActivity(raw: unknown, year: number, season: 
     const addDropMessages = messages.filter((message) => addDropTypeIds.has(asNumberish(message.messageTypeId) ?? 0));
     if (!tradeMessages.length && !addDropMessages.length) return [];
     const timestamp = asNumberish(topic.date);
+    const week = asNumberish(topic.scoringPeriodId) ?? asNumberish(topic.matchupPeriodId) ?? asNumberish(topic.proScoringPeriodId);
     const activities: RosterMoveActivity[] = [];
     if (tradeMessages.length) {
       activities.push({
         id: `${year}-${asString(topic.id) ?? index}-trade`,
         season: year,
+        week,
         kind: "trade",
         timestamp,
         date: timestamp ? new Date(timestamp).toISOString() : undefined,
@@ -246,25 +292,26 @@ export function parseEspnRosterMoveActivity(raw: unknown, year: number, season: 
     if (addDropMessages.length) {
       activities.push({
         id: `${year}-${asString(topic.id) ?? index}-add-drop`,
-      season: year,
+        season: year,
+        week,
         kind: "add-drop",
-      timestamp,
-      date: timestamp ? new Date(timestamp).toISOString() : undefined,
+        timestamp,
+        date: timestamp ? new Date(timestamp).toISOString() : undefined,
         moves: addDropMessages.map((message) => {
           const typeId = asNumberish(message.messageTypeId);
-        const playerId = asNumberish(message.targetId);
+          const playerId = asNumberish(message.targetId);
           const teamId = typeId === 239 ? asNumberish(message.for) : asNumberish(message.to);
           const action = typeId === 178 || typeId === 180 ? "added" : "dropped";
-        return {
+          return {
             kind: "add-drop",
             action,
-          playerId,
-          playerName: playerId ? players.get(playerId)?.name ?? `Player ${playerId}` : "Player Unknown",
+            playerId,
+            playerName: playerId ? players.get(playerId)?.name ?? `Player ${playerId}` : "Player Unknown",
             teamId,
             managerId: teamId ? teamToManager.get(teamId) : undefined,
             bidAmount: typeId === 180 ? asNumberish(message.from) : undefined
-        };
-      })
+          };
+        })
       });
     }
     return activities;
@@ -286,6 +333,7 @@ export function parseEspnSeason(raw: unknown, year: number, sourceFile: string):
   const teams = extractTeams(data, year, managers);
   const matchups = extractMatchups(data, year, teams);
   const draftPicks = extractDraft(data, year, teams);
+  const weeklyPlayerScores = extractWeeklyPlayerScores(data, year, teams);
   const settings = asObject(data.settings);
   const scheduleSettings = asObject(settings.scheduleSettings);
   const notes: string[] = [];
@@ -306,6 +354,7 @@ export function parseEspnSeason(raw: unknown, year: number, sourceFile: string):
       matchups,
       draftPicks,
       rosterMoves: [],
+      weeklyPlayerScores,
       notes
     }
   };
@@ -319,6 +368,7 @@ export function missingSeason(year: number): Season {
     matchups: [],
     draftPicks: [],
     rosterMoves: [],
+    weeklyPlayerScores: [],
     notes: ["Backfill ready. Add a matching ESPN JSON export when available."]
   };
 }

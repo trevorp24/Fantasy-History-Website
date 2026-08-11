@@ -13,7 +13,7 @@ export default function RosterMovesPage() {
   return (
     <>
       <h1>2026 Roster Moves</h1>
-      <RosterMovesTabs trades={trades} addDrops={addDrops} managerNames={managerNames} />
+      <RosterMovesTabs trades={trades} addDrops={addDrops} tradeImpacts={data.tradeImpacts} managerNames={managerNames} />
     </>
   );
 }

@@ -2,11 +2,16 @@
 
 Place raw ESPN exports here using these filenames:
 
+- `moggate_2020.json`
+- `moggate_2021.json`
+- `moggate_2022.json`
+- `moggate_2023.json`
 - `moggate_2024.json`
 - `moggate_2025.json`
 - `moggate_2026.json`
 
-The site also reserves 2020, 2021, 2022, and 2023 as missing seasons so they can be backfilled later without changing the data model.
+The weekly updater only needs to refresh `moggate_2026.json` and `moggate_2026_activity.json` from now on.
+Each one-click ESPN download also saves dated copies under `snapshots/2026/` so future trade-impact calculations can compare weekly roster and scoring snapshots.
 
 Optional copied draft recap text can be placed in:
 

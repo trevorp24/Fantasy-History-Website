@@ -7,6 +7,10 @@ const leagueId = Number(process.argv.find((arg) => arg.startsWith("--leagueId=")
 const outputArg = process.argv.find((arg) => arg.startsWith("--output="))?.split("=").slice(1).join("=");
 const outputFile = outputArg ? path.resolve(projectRoot, outputArg) : path.join(projectRoot, "data", "raw", `moggate_${season}.json`);
 const activityFile = path.join(projectRoot, "data", "raw", `moggate_${season}_activity.json`);
+const snapshotDir = path.join(projectRoot, "data", "snapshots", String(season));
+const snapshotStamp = new Date().toISOString().slice(0, 10);
+const snapshotFile = path.join(snapshotDir, `moggate_${season}_${snapshotStamp}.json`);
+const activitySnapshotFile = path.join(snapshotDir, `moggate_${season}_activity_${snapshotStamp}.json`);
 const envFile = path.join(projectRoot, ".env.local");
 
 function readEnv(filePath) {
@@ -79,6 +83,9 @@ if (data.id !== leagueId || data.seasonId !== season) {
 fs.mkdirSync(path.dirname(outputFile), { recursive: true });
 fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
 console.log(`Saved ${outputFile}`);
+fs.mkdirSync(snapshotDir, { recursive: true });
+fs.writeFileSync(snapshotFile, JSON.stringify(data, null, 2));
+console.log(`Saved weekly snapshot ${snapshotFile}`);
 
 console.log(`Downloading Moggate ${season} trade/activity JSON...`);
 const activityResponse = await fetch(activityUrl, {
@@ -97,3 +104,5 @@ if (!activityResponse.ok) {
 const activityData = await activityResponse.json();
 fs.writeFileSync(activityFile, JSON.stringify(activityData, null, 2));
 console.log(`Saved ${activityFile}`);
+fs.writeFileSync(activitySnapshotFile, JSON.stringify(activityData, null, 2));
+console.log(`Saved weekly activity snapshot ${activitySnapshotFile}`);

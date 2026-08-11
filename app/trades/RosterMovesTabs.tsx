@@ -1,11 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import type { RosterMoveActivity } from "@/lib/domain/types";
+import type { RosterMoveActivity, TradeImpact } from "@/lib/domain/types";
 
 type Props = {
   trades: RosterMoveActivity[];
   addDrops: RosterMoveActivity[];
+  tradeImpacts: TradeImpact[];
   managerNames: Record<string, string>;
 };
 
@@ -13,11 +14,11 @@ function managerName(managerNames: Record<string, string>, id?: string) {
   return id ? managerNames[id] ?? id : "-";
 }
 
-function dateLabel(activity: RosterMoveActivity) {
-  return activity.date ? new Date(activity.date).toLocaleDateString() : "Unknown date";
+function dateLabel(date?: string) {
+  return date ? new Date(date).toLocaleDateString() : "Unknown date";
 }
 
-export function RosterMovesTabs({ trades, addDrops, managerNames }: Props) {
+export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }: Props) {
   const [tab, setTab] = useState<"trades" | "add-drop">("trades");
   const demoTrades: RosterMoveActivity[] = [{
     id: "demo-trade",
@@ -66,7 +67,7 @@ export function RosterMovesTabs({ trades, addDrops, managerNames }: Props) {
             <article className="card" key={activity.id}>
               <div className="top">
                 <div>
-                  <h2>{dateLabel(activity)}</h2>
+                  <h2>{dateLabel(activity.date)}</h2>
                   <span className="tag green">{activity.season}</span>
                 </div>
                 <span className="tag">{activity.moves.length} player moves</span>
@@ -114,6 +115,47 @@ export function RosterMovesTabs({ trades, addDrops, managerNames }: Props) {
               )}
             </article>
           ))}
+          {tab === "trades" && (
+            <article className="card">
+              <div className="top">
+                <div>
+                  <span className="tag green">Trade Impact</span>
+                  <h2>Post-trade player points</h2>
+                </div>
+                <span className="tag">{tradeImpacts.length} players</span>
+              </div>
+              {tradeImpacts.length ? (
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Player</th>
+                      <th>New Manager</th>
+                      <th>Weeks</th>
+                      <th>Points After Trade</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {tradeImpacts.map((impact) => (
+                      <tr key={`${impact.activityId}-${impact.playerId ?? impact.playerName}`}>
+                        <td>
+                          <strong>{impact.playerName}</strong>
+                          <span className="cell-note">{impact.tradeDate ? dateLabel(impact.tradeDate) : "Trade date pending"}</span>
+                        </td>
+                        <td>{managerName(managerNames, impact.toManagerId)}</td>
+                        <td>{impact.weeksTracked || "-"}</td>
+                        <td>
+                          {impact.weeksTracked ? impact.pointsAfterTrade.toLocaleString(undefined, { maximumFractionDigits: 2 }) : "Pending"}
+                          {impact.projectedOnly && <span className="cell-note">Projected until games are final</span>}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              ) : (
+                <p>Once a real 2026 trade appears and weekly roster scores are available, this will total each traded player's points for the new manager only after the trade.</p>
+              )}
+            </article>
+          )}
         </section>
       ) : (
         <section className="card">
