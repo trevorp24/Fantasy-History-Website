@@ -26,7 +26,11 @@ export default function HomePage() {
       {championBanners.length > 0 && (
         <section className="champion-banners" aria-label="Previous winners">
           {championBanners.map(({ season, winner }, index) => (
-            <div className="champion-banner" style={{ animationDelay: `${index * -0.45}s` }} key={season}>
+            <div
+              className={`champion-banner ${index === championBanners.length - 1 ? "latest" : ""}`}
+              style={{ animationDelay: `${index * -0.45}s` }}
+              key={season}
+            >
               <span>Moggate</span>
               <span className="banner-year">{season}</span>
               <strong>{managerById.get(winner.managerId)?.displayName ?? "Owner unavailable"}</strong>
