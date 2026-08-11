@@ -18,6 +18,15 @@ function dateLabel(date?: string) {
   return date ? new Date(date).toLocaleDateString() : "Unknown date";
 }
 
+function impactFor(tradeImpacts: TradeImpact[], activityId: string, moveIndex: number) {
+  return tradeImpacts.find((impact) => impact.activityId === activityId && impact.moveIndex === moveIndex);
+}
+
+function impactPoints(impact?: TradeImpact) {
+  if (!impact?.weeksTracked) return "Pending";
+  return impact.pointsAfterMove.toLocaleString(undefined, { maximumFractionDigits: 2 });
+}
+
 export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }: Props) {
   const [tab, setTab] = useState<"trades" | "add-drop">("trades");
   const demoTrades: RosterMoveActivity[] = [{
@@ -79,16 +88,26 @@ export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }
                       <th>Player</th>
                       <th>From</th>
                       <th>To</th>
+                      <th>Weeks Since</th>
+                      <th>Points Since</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {activity.moves.map((move, index) => (
-                      <tr key={`${activity.id}-${index}`}>
-                        <td><strong>{move.playerName}</strong></td>
-                        <td>{managerName(managerNames, move.fromManagerId)}</td>
-                        <td>{managerName(managerNames, move.toManagerId)}</td>
-                      </tr>
-                    ))}
+                    {activity.moves.map((move, index) => {
+                      const impact = impactFor(tradeImpacts, activity.id, index);
+                      return (
+                        <tr key={`${activity.id}-${index}`}>
+                          <td>
+                            <strong>{move.playerName}</strong>
+                            {impact?.projectedOnly && <span className="cell-note">Projected until games are final</span>}
+                          </td>
+                          <td>{managerName(managerNames, move.fromManagerId)}</td>
+                          <td>{managerName(managerNames, move.toManagerId)}</td>
+                          <td>{impact?.weeksTracked || "-"}</td>
+                          <td>{impactPoints(impact)}</td>
+                        </tr>
+                      );
+                    })}
                   </tbody>
                 </table>
               ) : (
@@ -99,63 +118,32 @@ export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }
                       <th>Move</th>
                       <th>Manager</th>
                       <th>FAAB</th>
+                      <th>Weeks Since</th>
+                      <th>Points Since</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {activity.moves.map((move, index) => (
-                      <tr key={`${activity.id}-${index}`}>
-                        <td><strong>{move.playerName}</strong></td>
-                        <td>{move.action === "added" ? "Added" : "Dropped"}</td>
-                        <td>{managerName(managerNames, move.managerId)}</td>
-                        <td>{move.bidAmount !== undefined ? `$${move.bidAmount}` : "-"}</td>
-                      </tr>
-                    ))}
+                    {activity.moves.map((move, index) => {
+                      const impact = impactFor(tradeImpacts, activity.id, index);
+                      return (
+                        <tr key={`${activity.id}-${index}`}>
+                          <td>
+                            <strong>{move.playerName}</strong>
+                            {impact?.projectedOnly && <span className="cell-note">Projected until games are final</span>}
+                          </td>
+                          <td>{move.action === "added" ? "Added" : "Dropped"}</td>
+                          <td>{managerName(managerNames, move.managerId)}</td>
+                          <td>{move.bidAmount !== undefined ? `$${move.bidAmount}` : "-"}</td>
+                          <td>{impact?.weeksTracked || "-"}</td>
+                          <td>{move.action === "added" ? impactPoints(impact) : "-"}</td>
+                        </tr>
+                      );
+                    })}
                   </tbody>
                 </table>
               )}
             </article>
           ))}
-          {tab === "trades" && (
-            <article className="card">
-              <div className="top">
-                <div>
-                  <span className="tag green">Trade Impact</span>
-                  <h2>Post-trade player points</h2>
-                </div>
-                <span className="tag">{tradeImpacts.length} players</span>
-              </div>
-              {tradeImpacts.length ? (
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Player</th>
-                      <th>New Manager</th>
-                      <th>Weeks</th>
-                      <th>Points After Trade</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {tradeImpacts.map((impact) => (
-                      <tr key={`${impact.activityId}-${impact.playerId ?? impact.playerName}`}>
-                        <td>
-                          <strong>{impact.playerName}</strong>
-                          <span className="cell-note">{impact.tradeDate ? dateLabel(impact.tradeDate) : "Trade date pending"}</span>
-                        </td>
-                        <td>{managerName(managerNames, impact.toManagerId)}</td>
-                        <td>{impact.weeksTracked || "-"}</td>
-                        <td>
-                          {impact.weeksTracked ? impact.pointsAfterTrade.toLocaleString(undefined, { maximumFractionDigits: 2 }) : "Pending"}
-                          {impact.projectedOnly && <span className="cell-note">Projected until games are final</span>}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              ) : (
-                <p>Once a real 2026 trade appears and weekly roster scores are available, this will total each traded player's points for the new manager only after the trade.</p>
-              )}
-            </article>
-          )}
         </section>
       ) : (
         <section className="card">

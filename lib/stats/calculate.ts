@@ -250,30 +250,35 @@ function calculateTradeImpacts(seasons: Season[]): TradeImpact[] {
     const weeklyScores = season.weeklyPlayerScores.filter((score) => score.playerId && score.managerId);
     if (!weeklyScores.length) continue;
 
-    for (const activity of season.rosterMoves.filter((move) => move.kind === "trade")) {
-      for (const move of activity.moves.filter((item) => item.action === "traded")) {
+    for (const activity of season.rosterMoves) {
+      activity.moves.forEach((move, moveIndex) => {
+        const targetManagerId = move.action === "traded" ? move.toManagerId : move.action === "added" ? move.managerId : undefined;
         const rows = activity.week
           ? weeklyScores.filter((score) =>
             score.playerId === move.playerId &&
-            score.managerId === move.toManagerId &&
+            score.managerId === targetManagerId &&
             score.week > activity.week!
           )
           : [];
         impacts.push({
           activityId: activity.id,
+          moveIndex,
           season: season.year,
           tradeDate: activity.date,
+          kind: activity.kind,
+          action: move.action,
           playerId: move.playerId,
           playerName: move.playerName,
           fromManagerId: move.fromManagerId,
           toManagerId: move.toManagerId,
+          managerId: move.managerId,
           weeksTracked: rows.length,
-          pointsAfterTrade: rows.reduce((sum, row) => sum + row.points, 0),
+          pointsAfterMove: rows.reduce((sum, row) => sum + row.points, 0),
           projectedOnly: rows.length > 0 && rows.every((row) => row.projected)
         });
-      }
+      });
     }
   }
 
-  return impacts.sort((a, b) => b.pointsAfterTrade - a.pointsAfterTrade || a.playerName.localeCompare(b.playerName));
+  return impacts.sort((a, b) => b.pointsAfterMove - a.pointsAfterMove || a.playerName.localeCompare(b.playerName));
 }

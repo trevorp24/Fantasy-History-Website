@@ -95,14 +95,18 @@ export type WeeklyPlayerScore = {
 
 export type TradeImpact = {
   activityId: string;
+  moveIndex: number;
   season: number;
   tradeDate?: string;
+  kind: RosterMoveKind;
+  action: RosterMoveAction;
   playerId?: number;
   playerName: string;
   fromManagerId?: string;
   toManagerId?: string;
+  managerId?: string;
   weeksTracked: number;
-  pointsAfterTrade: number;
+  pointsAfterMove: number;
   projectedOnly: boolean;
 };
 
