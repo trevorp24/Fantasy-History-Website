@@ -180,6 +180,12 @@ nav a:hover {
   background: color-mix(in srgb, var(--green) 12%, transparent);
 }
 
+.nav-divider {
+  border-top: 1px solid var(--line);
+  display: block;
+  margin: 6px 4px;
+}
+
 .theme-toggle {
   align-items: center;
   background: var(--panel);
