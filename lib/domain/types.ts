@@ -54,6 +54,23 @@ export type DraftPick = {
   auctionAmount?: number;
 };
 
+export type TradeMove = {
+  playerId?: number;
+  playerName: string;
+  fromTeamId?: number;
+  toTeamId?: number;
+  fromManagerId?: string;
+  toManagerId?: string;
+};
+
+export type TradeActivity = {
+  id: string;
+  season: number;
+  date?: string;
+  timestamp?: number;
+  moves: TradeMove[];
+};
+
 export type Season = {
   year: number;
   status: SeasonStatus;
@@ -64,6 +81,7 @@ export type Season = {
   teams: TeamSeason[];
   matchups: Matchup[];
   draftPicks: DraftPick[];
+  trades: TradeActivity[];
   notes: string[];
 };
 

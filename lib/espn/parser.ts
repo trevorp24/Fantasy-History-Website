@@ -1,4 +1,4 @@
-import { DraftPick, Manager, Matchup, Season, SeasonStatus, TeamSeason } from "@/lib/domain/types";
+import { DraftPick, Manager, Matchup, Season, SeasonStatus, TeamSeason, TradeActivity } from "@/lib/domain/types";
 import { LINEUP_SLOT_BY_ID, POSITION_BY_ID } from "@/lib/espn/constants";
 
 type JsonObject = Record<string, unknown>;
@@ -12,6 +12,11 @@ const asObject = (value: unknown): JsonObject => (value && typeof value === "obj
 const asArray = (value: unknown): unknown[] => Array.isArray(value) ? value : [];
 const asString = (value: unknown): string | undefined => typeof value === "string" && value.trim() ? value : undefined;
 const asNumber = (value: unknown): number | undefined => typeof value === "number" && Number.isFinite(value) ? value : undefined;
+const asNumberish = (value: unknown): number | undefined => {
+  if (typeof value === "number" && Number.isFinite(value)) return value;
+  if (typeof value === "string" && value.trim() && Number.isFinite(Number(value))) return Number(value);
+  return undefined;
+};
 
 function teamName(team: JsonObject): string {
   const explicit = asString(team.name);
@@ -200,6 +205,38 @@ function extractDraft(raw: JsonObject, year: number, teams: TeamSeason[]): Draft
   });
 }
 
+export function parseEspnTradeActivity(raw: unknown, year: number, season: Season, seasonRaw: unknown): TradeActivity[] {
+  const data = asObject(raw);
+  const original = asObject(seasonRaw);
+  const teamToManager = new Map(season.teams.map((team) => [team.teamId, team.managerId]));
+  const players = extractPlayerLookup(original);
+  return asArray(data.topics).flatMap((item, index) => {
+    const topic = asObject(item);
+    const tradeMessages = asArray(topic.messages).map(asObject).filter((message) => asNumberish(message.messageTypeId) === 244);
+    if (!tradeMessages.length) return [];
+    const timestamp = asNumberish(topic.date);
+    return [{
+      id: `${year}-${asString(topic.id) ?? index}`,
+      season: year,
+      timestamp,
+      date: timestamp ? new Date(timestamp).toISOString() : undefined,
+      moves: tradeMessages.map((message) => {
+        const playerId = asNumberish(message.targetId);
+        const fromTeamId = asNumberish(message.from);
+        const toTeamId = asNumberish(message.to);
+        return {
+          playerId,
+          playerName: playerId ? players.get(playerId)?.name ?? `Player ${playerId}` : "Player Unknown",
+          fromTeamId,
+          toTeamId,
+          fromManagerId: fromTeamId ? teamToManager.get(fromTeamId) : undefined,
+          toManagerId: toTeamId ? teamToManager.get(toTeamId) : undefined
+        };
+      })
+    }];
+  });
+}
+
 function determineStatus(year: number, teams: TeamSeason[], matchups: Matchup[]): SeasonStatus {
   const hasScores = matchups.some((matchup) => matchup.completed);
   const hasFinalPlacements = teams.some((team) => team.finalPlacement !== undefined && team.finalPlacement > 0);
@@ -234,6 +271,7 @@ export function parseEspnSeason(raw: unknown, year: number, sourceFile: string):
       teams,
       matchups,
       draftPicks,
+      trades: [],
       notes
     }
   };
@@ -246,6 +284,7 @@ export function missingSeason(year: number): Season {
     teams: [],
     matchups: [],
     draftPicks: [],
+    trades: [],
     notes: ["Backfill ready. Add a matching ESPN JSON export when available."]
   };
 }

@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { LeagueData, Manager, Season } from "@/lib/domain/types";
 import { AVAILABLE_EXPORT_YEARS, EXPECTED_YEARS } from "@/lib/espn/constants";
-import { missingSeason, parseEspnSeason } from "@/lib/espn/parser";
+import { missingSeason, parseEspnSeason, parseEspnTradeActivity } from "@/lib/espn/parser";
 import { applyDraftRecap } from "@/lib/data/draftRecaps";
 import { calculateLeague } from "@/lib/stats/calculate";
 
@@ -15,6 +15,11 @@ function loadRawSeason(year: number): { season: Season; managers: Manager[] } | 
   const raw = JSON.parse(fs.readFileSync(fullPath, "utf8"));
   const parsed = parseEspnSeason(raw, year, sourceFile);
   parsed.season.draftPicks = applyDraftRecap(parsed.season.draftPicks, year);
+  const activityPath = path.join(rawDir, `moggate_${year}_activity.json`);
+  if (fs.existsSync(activityPath)) {
+    const activityRaw = JSON.parse(fs.readFileSync(activityPath, "utf8"));
+    parsed.season.trades = parseEspnTradeActivity(activityRaw, year, parsed.season, raw);
+  }
   return parsed;
 }
 

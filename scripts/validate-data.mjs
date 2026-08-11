@@ -11,5 +11,9 @@ for (const year of expected) {
     continue;
   }
   const data = JSON.parse(fs.readFileSync(file, "utf8"));
-  console.log(`${year}: teams=${data.teams?.length ?? 0}, matchups=${data.schedule?.length ?? 0}, draftPicks=${data.draftDetail?.picks?.length ?? 0}`);
+  const activityFile = path.join(rawDir, `moggate_${year}_activity.json`);
+  const activity = fs.existsSync(activityFile) ? JSON.parse(fs.readFileSync(activityFile, "utf8")) : undefined;
+  const tradeTopics = activity?.topics?.filter((topic) => topic.messages?.some((message) => message.messageTypeId === 244))?.length ?? 0;
+  const activityLabel = activity ? `, tradeTopics=${tradeTopics}` : "";
+  console.log(`${year}: teams=${data.teams?.length ?? 0}, matchups=${data.schedule?.length ?? 0}, draftPicks=${data.draftDetail?.picks?.length ?? 0}${activityLabel}`);
 }

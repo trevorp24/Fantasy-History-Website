@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BookOpen, ChevronDown, ClipboardList, Home, Swords, Trophy, Users } from "lucide-react";
+import { ArrowLeftRight, BookOpen, ChevronDown, ClipboardList, Home, Swords, Trophy, Users } from "lucide-react";
 import { ThemeToggle } from "@/app/components/ThemeToggle";
 import "./globals.css";
 
@@ -15,7 +15,8 @@ const nav = [
   { href: "/managers", label: "Managers", icon: Users },
   { href: "/records", label: "Records", icon: Trophy },
   { href: "/rivalries", label: "Rivalries", icon: Swords },
-  { href: "/drafts", label: "Drafts", icon: ClipboardList }
+  { href: "/drafts", label: "Drafts", icon: ClipboardList },
+  { href: "/trades", label: "Trades", icon: ArrowLeftRight }
 ];
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
