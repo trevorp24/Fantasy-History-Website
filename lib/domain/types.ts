@@ -1,0 +1,126 @@
+export type SeasonStatus = "missing" | "preseason" | "active" | "complete";
+
+export type Manager = {
+  id: string;
+  displayName: string;
+  firstName?: string;
+  lastName?: string;
+};
+
+export type TeamSeason = {
+  season: number;
+  teamId: number;
+  managerId: string;
+  teamName: string;
+  abbreviation?: string;
+  wins: number;
+  losses: number;
+  ties: number;
+  pointsFor: number;
+  pointsAgainst: number;
+  playoffSeed?: number;
+  finalPlacement?: number;
+};
+
+export type Matchup = {
+  id: string;
+  season: number;
+  week: number;
+  homeTeamId?: number;
+  awayTeamId?: number;
+  homeManagerId?: string;
+  awayManagerId?: string;
+  homeScore?: number;
+  awayScore?: number;
+  winnerManagerId?: string;
+  loserManagerId?: string;
+  margin?: number;
+  isPlayoff: boolean;
+  completed: boolean;
+};
+
+export type DraftPick = {
+  season: number;
+  round?: number;
+  roundPick?: number;
+  overall?: number;
+  teamId?: number;
+  managerId?: string;
+  playerId?: number;
+  playerName: string;
+  position?: string;
+  proTeam?: string;
+  keeper: boolean;
+  auctionAmount?: number;
+};
+
+export type Season = {
+  year: number;
+  status: SeasonStatus;
+  sourceFile?: string;
+  leagueId?: number;
+  leagueName?: string;
+  playoffTeamCount?: number;
+  teams: TeamSeason[];
+  matchups: Matchup[];
+  draftPicks: DraftPick[];
+  notes: string[];
+};
+
+export type CareerRecord = {
+  manager: Manager;
+  seasons: number;
+  wins: number;
+  losses: number;
+  ties: number;
+  pointsFor: number;
+  pointsAgainst: number;
+  championships: number;
+  runnerUps: number;
+  playoffAppearances: number;
+  winPct: number;
+  averageFinish?: number;
+};
+
+export type HeadToHeadRecord = {
+  managerAId: string;
+  managerBId: string;
+  managerAName: string;
+  managerBName: string;
+  winsA: number;
+  winsB: number;
+  ties: number;
+  pointsA: number;
+  pointsB: number;
+  games: number;
+  largestMargin?: number;
+  closestMargin?: number;
+};
+
+export type RecordBookEntry = {
+  label: string;
+  value: string;
+  detail: string;
+  season?: number;
+  managerId?: string;
+};
+
+export type AllPlaySeason = {
+  season: number;
+  managerId: string;
+  managerName: string;
+  actualWins: number;
+  allPlayWins: number;
+  allPlayLosses: number;
+  luckDelta: number;
+};
+
+export type LeagueData = {
+  managers: Manager[];
+  seasons: Season[];
+  careerRecords: CareerRecord[];
+  headToHead: HeadToHeadRecord[];
+  recordBook: RecordBookEntry[];
+  allPlay: AllPlaySeason[];
+  backfillYears: number[];
+};

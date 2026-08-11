@@ -1,0 +1,13 @@
+.next/
+node_modules/
+out/
+dist/
+outputs/
+work/
+*.log
+.env
+.env.local
+espn-cookie.txt
+*.tsbuildinfo
+data/raw/*.json
+!data/raw/.gitkeep
