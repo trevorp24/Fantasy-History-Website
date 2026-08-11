@@ -19,7 +19,28 @@ function dateLabel(activity: RosterMoveActivity) {
 
 export function RosterMovesTabs({ trades, addDrops, managerNames }: Props) {
   const [tab, setTab] = useState<"trades" | "add-drop">("trades");
-  const activeMoves = tab === "trades" ? trades : addDrops;
+  const demoTrades: RosterMoveActivity[] = [{
+    id: "demo-trade",
+    season: 2026,
+    kind: "trade",
+    date: new Date("2026-09-10T12:00:00").toISOString(),
+    moves: [
+      { kind: "trade", action: "traded", playerName: "Sample Player A", fromManagerId: "Sample Manager 1", toManagerId: "Sample Manager 2" },
+      { kind: "trade", action: "traded", playerName: "Sample Player B", fromManagerId: "Sample Manager 2", toManagerId: "Sample Manager 1" }
+    ]
+  }];
+  const demoAddDrops: RosterMoveActivity[] = [{
+    id: "demo-add-drop",
+    season: 2026,
+    kind: "add-drop",
+    date: new Date("2026-09-11T12:00:00").toISOString(),
+    moves: [
+      { kind: "add-drop", action: "added", playerName: "Sample Waiver Pickup", managerId: "Sample Manager 1", bidAmount: 17 },
+      { kind: "add-drop", action: "dropped", playerName: "Sample Dropped Player", managerId: "Sample Manager 1" }
+    ]
+  }];
+  const hasRealMoves = tab === "trades" ? trades.length > 0 : addDrops.length > 0;
+  const activeMoves = hasRealMoves ? (tab === "trades" ? trades : addDrops) : (tab === "trades" ? demoTrades : demoAddDrops);
 
   return (
     <>
@@ -34,6 +55,13 @@ export function RosterMovesTabs({ trades, addDrops, managerNames }: Props) {
 
       {activeMoves.length ? (
         <section className="nested-sections">
+          {!hasRealMoves && (
+            <section className="card">
+              <span className="tag gold">Sample data</span>
+              <h2>{tab === "trades" ? "Example trade" : "Example add/drop"}</h2>
+              <p>This is only here to show what information the page will include. It will be replaced when ESPN returns real roster moves.</p>
+            </section>
+          )}
           {activeMoves.map((activity) => (
             <article className="card" key={activity.id}>
               <div className="top">
