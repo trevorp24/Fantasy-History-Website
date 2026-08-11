@@ -101,7 +101,7 @@ export default function HomePage() {
 
       <section className="section grid cols-2">
         <Link className="card link-card" href="/history">
-          <h2>Season History</h2>
+          <h2>League History</h2>
         </Link>
         <Link className="card link-card" href="/rivalries">
           <h2>Rivalries</h2>

@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 
 const nav = [
   { href: "/", label: "Home", icon: Home },
-  { href: "/history", label: "History", icon: BookOpen },
-  { href: "/managers", label: "Managers", icon: Users },
-  { href: "/records", label: "Records", icon: Trophy },
+  { href: "/history", label: "League History", icon: BookOpen },
+  { href: "/managers", label: "Manager Stats", icon: Users },
+  { href: "/records", label: "Awards", icon: Trophy },
   { href: "/rivalries", label: "Rivalries", icon: Swords },
   { href: "/drafts", label: "Drafts", icon: ClipboardList },
-  { href: "/trades", label: "Roster Moves", icon: ArrowLeftRight }
+  { href: "/trades", label: "2026 Roster Moves", icon: ArrowLeftRight }
 ];
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

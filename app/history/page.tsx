@@ -8,7 +8,7 @@ export default function HistoryPage() {
       <header className="page-header">
         <div>
           <div className="eyebrow">Seasons</div>
-          <h1>History</h1>
+          <h1>League History</h1>
         </div>
       </header>
       <HistoryExplorer seasons={data.seasons} managers={data.managers} />

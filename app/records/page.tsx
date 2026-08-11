@@ -7,7 +7,7 @@ export default function RecordsPage() {
       <header className="page-header">
         <div>
           <div className="eyebrow">Record book</div>
-          <h1>Records</h1>
+          <h1>Awards</h1>
         </div>
       </header>
       <section className="grid cols-3">
@@ -18,7 +18,7 @@ export default function RecordsPage() {
             <p>{entry.detail}{entry.season ? ` - ${entry.season}` : ""}</p>
           </article>
         ))}
-        {!data.recordBook.length && <div className="card">Records will appear after completed ESPN exports are added.</div>}
+        {!data.recordBook.length && <div className="card">Awards will appear after completed ESPN exports are added.</div>}
       </section>
     </>
   );

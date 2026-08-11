@@ -33,7 +33,7 @@ export default function ManagersPage() {
       <header className="page-header">
         <div>
           <div className="eyebrow">Identity continuity</div>
-          <h1>Managers</h1>
+          <h1>Manager Stats</h1>
           <p>Managers are connected across seasons by ESPN member ID first, with team ID fallback only when ESPN omits owner data.</p>
         </div>
       </header>
