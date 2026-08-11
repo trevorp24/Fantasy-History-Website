@@ -207,6 +207,64 @@ main {
   padding: 34px;
 }
 
+.champion-banners {
+  display: flex;
+  gap: 14px;
+  margin: -34px -34px 28px;
+  padding: 0 24px 16px;
+  overflow-x: auto;
+}
+
+.champion-banner {
+  position: relative;
+  display: grid;
+  gap: 5px;
+  min-width: 138px;
+  padding: 24px 14px 15px;
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, var(--line));
+  border-top: 0;
+  border-radius: 0 0 8px 8px;
+  background: linear-gradient(180deg, #f5d88d, #b98524);
+  color: #24180a;
+  text-align: center;
+  transform-origin: top center;
+  animation: banner-sway 4.8s ease-in-out infinite;
+  box-shadow: 0 12px 28px rgba(38, 31, 22, 0.14);
+}
+
+.champion-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 8px;
+  height: 24px;
+  background: color-mix(in srgb, var(--ink) 55%, transparent);
+  transform: translateX(-50%);
+}
+
+.champion-banner span,
+.champion-banner small {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.champion-banner strong {
+  font-size: 15px;
+  line-height: 1.1;
+}
+
+@keyframes banner-sway {
+  0%,
+  100% {
+    transform: rotate(-1.6deg);
+  }
+
+  50% {
+    transform: rotate(1.6deg);
+  }
+}
+
 .page-header {
   display: flex;
   justify-content: space-between;
@@ -790,6 +848,11 @@ p {
 
   main {
     padding: 22px;
+  }
+
+  .champion-banners {
+    margin: -22px -22px 22px;
+    padding-inline: 16px;
   }
 
   .page-header,

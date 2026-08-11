@@ -7,6 +7,12 @@ export default function HomePage() {
   const completedSeasons = data.seasons.filter((season) => season.status === "complete");
   const previousSeason = [...completedSeasons].sort((a, b) => b.year - a.year)[0];
   const previousWinner = previousSeason?.teams.find((team) => team.finalPlacement === 1);
+  const championBanners = [...completedSeasons]
+    .sort((a, b) => a.year - b.year)
+    .flatMap((season) => {
+      const winner = season.teams.find((team) => team.finalPlacement === 1);
+      return winner ? [{ season: season.year, winner }] : [];
+    });
   const previousLoser = previousSeason
     ? [...previousSeason.teams]
       .filter((team) => team.finalPlacement !== undefined)
@@ -17,6 +23,18 @@ export default function HomePage() {
 
   return (
     <>
+      {championBanners.length > 0 && (
+        <section className="champion-banners" aria-label="Previous winners">
+          {championBanners.map(({ season, winner }, index) => (
+            <div className="champion-banner" style={{ animationDelay: `${index * -0.45}s` }} key={season}>
+              <span>{season}</span>
+              <strong>{managerById.get(winner.managerId)?.displayName ?? "Owner unavailable"}</strong>
+              <small>{winner.wins}-{winner.losses}{winner.ties ? `-${winner.ties}` : ""}</small>
+            </div>
+          ))}
+        </section>
+      )}
+
       <header className="home-hero">
         <div>
           <h1>Moggate 2026</h1>
