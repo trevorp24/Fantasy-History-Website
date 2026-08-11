@@ -4,7 +4,23 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+function Clear-LocalProxyForGit {
+  foreach ($Name in @("HTTP_PROXY", "http_proxy", "HTTPS_PROXY", "https_proxy", "ALL_PROXY", "all_proxy")) {
+    [Environment]::SetEnvironmentVariable($Name, $null, "Process")
+  }
+}
+
 function Find-Git {
+  $programFilesGit = "C:\Program Files\Git\cmd\git.exe"
+  if (Test-Path -LiteralPath $programFilesGit) {
+    return $programFilesGit
+  }
+
+  $localGit = "$env:LOCALAPPDATA\Programs\Git\cmd\git.exe"
+  if (Test-Path -LiteralPath $localGit) {
+    return $localGit
+  }
+
   $bundledGit = "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe"
   if (Test-Path -LiteralPath $bundledGit) {
     return $bundledGit
@@ -33,6 +49,7 @@ function Ensure-GitIdentity($Git) {
 
 $ProjectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Git = Find-Git
+Clear-LocalProxyForGit
 
 Push-Location $ProjectRoot
 try {
@@ -65,7 +82,7 @@ try {
 
   Write-Host ""
   Write-Host "Now pushing to GitHub. If GitHub asks you to sign in, complete the browser prompt."
-  & $Git push -u origin main --force-with-lease
+  & $Git -c http.sslBackend=openssl push -u origin main --force-with-lease
 }
 finally {
   Pop-Location

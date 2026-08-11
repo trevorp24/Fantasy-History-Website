@@ -11,6 +11,12 @@ function Write-Step($Message) {
   Write-Host "== $Message ==" -ForegroundColor Cyan
 }
 
+function Clear-LocalProxyForGit {
+  foreach ($Name in @("HTTP_PROXY", "http_proxy", "HTTPS_PROXY", "https_proxy", "ALL_PROXY", "all_proxy")) {
+    [Environment]::SetEnvironmentVariable($Name, $null, "Process")
+  }
+}
+
 function Find-Node {
   $bundledNode = "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
   if (Test-Path -LiteralPath $bundledNode) {
@@ -26,6 +32,16 @@ function Find-Node {
 }
 
 function Find-Git {
+  $programFilesGit = "C:\Program Files\Git\cmd\git.exe"
+  if (Test-Path -LiteralPath $programFilesGit) {
+    return $programFilesGit
+  }
+
+  $localGit = "$env:LOCALAPPDATA\Programs\Git\cmd\git.exe"
+  if (Test-Path -LiteralPath $localGit) {
+    return $localGit
+  }
+
   $bundledGit = "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe"
   if (Test-Path -LiteralPath $bundledGit) {
     return $bundledGit
@@ -58,6 +74,7 @@ $OutputFolder = Join-Path $ProjectRoot "outputs\moggate-preview-pages"
 $DocsFolder = Join-Path $ProjectRoot "docs"
 $Node = Find-Node
 $Git = Find-Git
+Clear-LocalProxyForGit
 
 Write-Host "Moggate weekly update" -ForegroundColor Green
 Write-Host "Project: $ProjectRoot"
@@ -130,9 +147,9 @@ try {
         Write-Step "Pushing to GitHub"
         $Upstream = & $Git rev-parse --abbrev-ref --symbolic-full-name "@{u}" 2>$null
         if ($LASTEXITCODE -eq 0 -and $Upstream) {
-          & $Git push
+          & $Git -c http.sslBackend=openssl push
         } else {
-          & $Git push --set-upstream origin main
+          & $Git -c http.sslBackend=openssl push --set-upstream origin main
         }
       } else {
         Write-Host "Local commit created, but no GitHub remote is connected for this folder." -ForegroundColor DarkYellow
