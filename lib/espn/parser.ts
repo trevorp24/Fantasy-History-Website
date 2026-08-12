@@ -1,4 +1,4 @@
-import { DraftPick, Manager, Matchup, RosterMoveActivity, Season, SeasonStatus, TeamSeason, WeeklyPlayerScore } from "@/lib/domain/types";
+import { DraftPick, Manager, Matchup, RosterMoveActivity, RosterPlayer, Season, SeasonStatus, TeamSeason, WeeklyPlayerScore } from "@/lib/domain/types";
 import { LINEUP_SLOT_BY_ID, POSITION_BY_ID } from "@/lib/espn/constants";
 
 type JsonObject = Record<string, unknown>;
@@ -205,6 +205,32 @@ function extractDraft(raw: JsonObject, year: number, teams: TeamSeason[]): Draft
   });
 }
 
+function extractFinalRosters(raw: JsonObject, year: number, teams: TeamSeason[]): RosterPlayer[] {
+  const teamToManager = new Map(teams.map((team) => [team.teamId, team.managerId]));
+  return asArray(raw.teams).flatMap((teamValue) => {
+    const team = asObject(teamValue);
+    const teamId = asNumber(team.id);
+    return asArray(asObject(team.roster).entries).map((entryValue) => {
+      const entry = asObject(entryValue);
+      const poolEntry = asObject(entry.playerPoolEntry);
+      const player = asObject(poolEntry.player);
+      const playerId = asNumberish(entry.playerId) ?? asNumberish(player.id);
+      const defaultPositionId = asNumber(player.defaultPositionId);
+      return {
+        season: year,
+        teamId,
+        managerId: teamId ? teamToManager.get(teamId) : undefined,
+        playerId,
+        playerName: asString(player.fullName) ?? asString(player.name) ?? (playerId ? `Player ${playerId}` : "Player Unknown"),
+        position: defaultPositionId !== undefined ? POSITION_BY_ID[defaultPositionId] : undefined,
+        proTeam: asNumber(player.proTeamId)?.toString(),
+        lineupSlotId: asNumber(entry.lineupSlotId),
+        acquisitionType: asString(entry.acquisitionType)
+      };
+    });
+  }).sort((a, b) => (a.teamId ?? 0) - (b.teamId ?? 0) || (a.lineupSlotId ?? 999) - (b.lineupSlotId ?? 999) || a.playerName.localeCompare(b.playerName));
+}
+
 function extractWeeklyPlayerScores(raw: JsonObject, year: number, teams: TeamSeason[]): WeeklyPlayerScore[] {
   const teamToManager = new Map(teams.map((team) => [team.teamId, team.managerId]));
   const scores = new Map<string, WeeklyPlayerScore>();
@@ -333,6 +359,7 @@ export function parseEspnSeason(raw: unknown, year: number, sourceFile: string):
   const teams = extractTeams(data, year, managers);
   const matchups = extractMatchups(data, year, teams);
   const draftPicks = extractDraft(data, year, teams);
+  const finalRosters = extractFinalRosters(data, year, teams);
   const weeklyPlayerScores = extractWeeklyPlayerScores(data, year, teams);
   const settings = asObject(data.settings);
   const scheduleSettings = asObject(settings.scheduleSettings);
@@ -353,6 +380,7 @@ export function parseEspnSeason(raw: unknown, year: number, sourceFile: string):
       teams,
       matchups,
       draftPicks,
+      finalRosters,
       rosterMoves: [],
       weeklyPlayerScores,
       notes
@@ -367,6 +395,7 @@ export function missingSeason(year: number): Season {
     teams: [],
     matchups: [],
     draftPicks: [],
+    finalRosters: [],
     rosterMoves: [],
     weeklyPlayerScores: [],
     notes: ["Backfill ready. Add a matching ESPN JSON export when available."]

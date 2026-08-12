@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import { Manager, Season } from "@/lib/domain/types";
 
 type HistoryExplorerProps = {
@@ -12,9 +12,14 @@ function formatPoints(value: number) {
   return value.toLocaleString(undefined, { maximumFractionDigits: 2 });
 }
 
+function formatPosition(position?: string) {
+  return position ?? "-";
+}
+
 export function HistoryExplorer({ seasons, managers }: HistoryExplorerProps) {
   const defaultSeason = [...seasons].reverse().find((season) => season.teams.length)?.year ?? seasons[0]?.year ?? 0;
   const [selectedYear, setSelectedYear] = useState(defaultSeason);
+  const [openTeamId, setOpenTeamId] = useState<number | undefined>();
   const selected = useMemo(
     () => seasons.find((season) => season.year === selectedYear) ?? seasons[0],
     [seasons, selectedYear]
@@ -39,7 +44,10 @@ export function HistoryExplorer({ seasons, managers }: HistoryExplorerProps) {
             className={season.year === selected.year ? "active" : ""}
             key={season.year}
             type="button"
-            onClick={() => setSelectedYear(season.year)}
+            onClick={() => {
+              setSelectedYear(season.year);
+              setOpenTeamId(undefined);
+            }}
           >
             <strong>{season.year}</strong>
             <span>{season.status}</span>
@@ -67,23 +75,48 @@ export function HistoryExplorer({ seasons, managers }: HistoryExplorerProps) {
             <tbody>
               {[...selected.teams].sort((a, b) => (a.finalPlacement ?? 999) - (b.finalPlacement ?? 999) || b.wins - a.wins).map((team) => {
                 const owner = managerById.get(team.managerId)?.displayName ?? "Owner unavailable";
+                const roster = selected.finalRosters.filter((player) => player.teamId === team.teamId);
+                const isOpen = openTeamId === team.teamId;
+                const teamLabel = team.finalPlacement === 1
+                  ? `${team.teamName} 🏆`
+                  : team.teamId === lastPlace?.teamId
+                    ? `${team.teamName} 💩`
+                    : team.teamName;
+
                 return (
-                  <tr key={team.teamId}>
-                    <td>{team.finalPlacement ?? "-"}</td>
-                    <td>
-                      <strong>
-                        {team.finalPlacement === 1
-                          ? `${team.teamName} 🏆`
-                          : team.teamId === lastPlace?.teamId
-                            ? `${team.teamName} 💩`
-                            : team.teamName}
-                      </strong>
-                      <span className="cell-note">{owner}</span>
-                    </td>
-                    <td>{team.wins}-{team.losses}{team.ties ? `-${team.ties}` : ""}</td>
-                    <td className="right">{formatPoints(team.pointsFor)}</td>
-                    <td className="right">{formatPoints(team.pointsAgainst)}</td>
-                  </tr>
+                  <Fragment key={team.teamId}>
+                    <tr>
+                      <td>{team.finalPlacement ?? "-"}</td>
+                      <td>
+                        <button className={`row-toggle ${isOpen ? "open" : ""}`} type="button" onClick={() => setOpenTeamId(isOpen ? undefined : team.teamId)}>
+                          <span>⌄</span>
+                          <strong>{teamLabel}</strong>
+                        </button>
+                        <span className="cell-note">{owner}</span>
+                      </td>
+                      <td>{team.wins}-{team.losses}{team.ties ? `-${team.ties}` : ""}</td>
+                      <td className="right">{formatPoints(team.pointsFor)}</td>
+                      <td className="right">{formatPoints(team.pointsAgainst)}</td>
+                    </tr>
+                    {isOpen && (
+                      <tr className="manager-detail-row">
+                        <td colSpan={5}>
+                          {roster.length ? (
+                            <div className="roster-grid">
+                              {roster.map((player) => (
+                                <div className="roster-player" key={`${player.playerId ?? player.playerName}-${player.lineupSlotId ?? "slot"}`}>
+                                  <strong>{player.playerName}</strong>
+                                  <span>{formatPosition(player.position)}{player.acquisitionType ? ` - ${player.acquisitionType}` : ""}</span>
+                                </div>
+                              ))}
+                            </div>
+                          ) : (
+                            <p className="muted">No final roster snapshot found in this ESPN export.</p>
+                          )}
+                        </td>
+                      </tr>
+                    )}
+                  </Fragment>
                 );
               })}
             </tbody>

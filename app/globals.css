@@ -814,6 +814,30 @@ p {
   font-size: 13px;
 }
 
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.roster-player {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 10px;
+}
+
+.roster-player strong,
+.roster-player span {
+  display: block;
+}
+
+.roster-player span {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 4px;
+}
+
 .rivalry-explorer {
   display: grid;
   gap: 16px;

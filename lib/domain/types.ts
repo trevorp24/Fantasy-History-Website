@@ -54,6 +54,18 @@ export type DraftPick = {
   auctionAmount?: number;
 };
 
+export type RosterPlayer = {
+  season: number;
+  teamId?: number;
+  managerId?: string;
+  playerId?: number;
+  playerName: string;
+  position?: string;
+  proTeam?: string;
+  lineupSlotId?: number;
+  acquisitionType?: string;
+};
+
 export type RosterMoveKind = "trade" | "add-drop";
 export type RosterMoveAction = "added" | "dropped" | "traded";
 
@@ -120,6 +132,7 @@ export type Season = {
   teams: TeamSeason[];
   matchups: Matchup[];
   draftPicks: DraftPick[];
+  finalRosters: RosterPlayer[];
   rosterMoves: RosterMoveActivity[];
   weeklyPlayerScores: WeeklyPlayerScore[];
   notes: string[];
