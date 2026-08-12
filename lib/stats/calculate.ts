@@ -18,7 +18,7 @@ const pct = (wins: number, losses: number, ties: number) => {
 const formatRecord = (wins: number, losses: number, ties = 0) => ties ? `${wins}-${losses}-${ties}` : `${wins}-${losses}`;
 const points = (value: number) => value.toLocaleString(undefined, { maximumFractionDigits: 2 });
 const countsTowardPlayoffRecord = (matchup: Matchup) =>
-  matchup.playoffTier === "WINNERS_BRACKET" || matchup.playoffTier === "WINNERS_CONSOLATION_LADDER";
+  matchup.playoffTier === "WINNERS_BRACKET";
 
 export function calculateLeague(managers: Manager[], seasons: Season[], backfillYears: number[]): LeagueData {
   const managerById = new Map(managers.map((manager) => [manager.id, manager]));

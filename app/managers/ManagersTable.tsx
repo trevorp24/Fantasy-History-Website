@@ -27,10 +27,10 @@ type ManagersTableProps = {
 const sortLabels: Record<SortKey, string> = {
   winPct: "Win %",
   seasons: "Seasons",
-  wins: "Regular Record",
+  wins: "Regular Season Record",
   championships: "Titles",
   playoffAppearances: "Playoffs",
-  playoffWins: "Playoff Record",
+  playoffWins: "Winners Bracket Record",
   averageFinish: "Avg Finish",
   pointsFor: "PF"
 };
