@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeftRight, BarChart3, BookOpen, CalendarDays, ChevronDown, ClipboardList, Home, Swords, Trophy, Users } from "lucide-react";
+import { ArrowLeftRight, BarChart3, BookOpen, CalendarDays, ChevronDown, ClipboardList, Home, Search, Swords, Trophy, Users } from "lucide-react";
 import { ThemeToggle } from "@/app/components/ThemeToggle";
 import { loadLeagueData } from "@/lib/data/loadLeague";
 import "./globals.css";
@@ -20,7 +20,8 @@ const nav = [
   { href: "/managers", label: "Manager Stats", icon: Users },
   { href: "/records", label: "Awards", icon: Trophy },
   { href: "/rivalries", label: "Rivalries", icon: Swords },
-  { href: "/drafts", label: "Drafts", icon: ClipboardList }
+  { href: "/drafts", label: "Drafts", icon: ClipboardList },
+  { href: "/player-lookup", label: "Player Lookup", icon: Search }
 ];
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

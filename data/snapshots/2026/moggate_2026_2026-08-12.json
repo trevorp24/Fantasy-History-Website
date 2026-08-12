@@ -18717,7 +18717,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1784235357000,
+        "lastNewsDate": 1786544437000,
         "ownership": {
           "activityLevel": null,
           "auctionValueAverage": 0.14,
@@ -21355,7 +21355,7 @@
                   "injured": false,
                   "injuryStatus": "ACTIVE",
                   "lastName": "Bateman",
-                  "lastNewsDate": 1784235357000,
+                  "lastNewsDate": 1786544437000,
                   "proTeamId": 33,
                   "rankings": {
                     "0": [
