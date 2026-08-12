@@ -149,6 +149,7 @@ export type CareerRecord = {
   pointsAgainst: number;
   championships: number;
   runnerUps: number;
+  topThreeFinishes: number;
   playoffAppearances: number;
   playoffWins: number;
   playoffLosses: number;

@@ -17,7 +17,7 @@ type ManagerTableRow = {
   placements: PlacementPoint[];
 };
 
-type SortKey = "winPct" | "seasons" | "wins" | "championships" | "playoffAppearances" | "playoffWins" | "averageFinish" | "pointsFor";
+type SortKey = "winPct" | "seasons" | "wins" | "championships" | "topThreeFinishes" | "playoffAppearances" | "playoffWins" | "averageFinish" | "pointsFor";
 type SortDirection = "desc" | "asc";
 
 type ManagersTableProps = {
@@ -29,6 +29,7 @@ const sortLabels: Record<SortKey, string> = {
   seasons: "Seasons",
   wins: "Regular Season Record",
   championships: "Titles",
+  topThreeFinishes: "Top 3 Finishes",
   playoffAppearances: "Playoffs",
   playoffWins: "Winners Bracket Record",
   averageFinish: "Avg Finish",
@@ -76,6 +77,7 @@ export function ManagersTable({ rows }: ManagersTableProps) {
           <th><button className={sortKey === "wins" ? "active" : ""} type="button" onClick={() => updateSort("wins")}>{sortLabel("wins")}</button></th>
           <th><button className={sortKey === "winPct" ? "active" : ""} type="button" onClick={() => updateSort("winPct")}>{sortLabel("winPct")}</button></th>
           <th><button className={sortKey === "championships" ? "active" : ""} type="button" onClick={() => updateSort("championships")}>{sortLabel("championships")}</button></th>
+          <th><button className={sortKey === "topThreeFinishes" ? "active" : ""} type="button" onClick={() => updateSort("topThreeFinishes")}>{sortLabel("topThreeFinishes")}</button></th>
           <th><button className={sortKey === "playoffAppearances" ? "active" : ""} type="button" onClick={() => updateSort("playoffAppearances")}>{sortLabel("playoffAppearances")}</button></th>
           <th><button className={sortKey === "playoffWins" ? "active" : ""} type="button" onClick={() => updateSort("playoffWins")}>{sortLabel("playoffWins")}</button></th>
           <th><button className={sortKey === "averageFinish" ? "active" : ""} type="button" onClick={() => updateSort("averageFinish")}>{sortLabel("averageFinish")}</button></th>
@@ -104,6 +106,7 @@ export function ManagersTable({ rows }: ManagersTableProps) {
                 <td>{record.wins}-{record.losses}{record.ties ? `-${record.ties}` : ""}</td>
                 <td>{formatPct(record.winPct)}</td>
                 <td>{record.championships}</td>
+                <td>{record.topThreeFinishes}</td>
                 <td>{record.playoffAppearances}</td>
                 <td>{record.playoffWins}-{record.playoffLosses}{record.playoffTies ? `-${record.playoffTies}` : ""}</td>
                 <td>{record.averageFinish?.toFixed(1) ?? "-"}</td>
@@ -111,7 +114,7 @@ export function ManagersTable({ rows }: ManagersTableProps) {
               </tr>
               {isOpen && (
                 <tr className="manager-detail-row">
-                  <td colSpan={10}>
+                  <td colSpan={11}>
                     <PlacementChart placements={placements} />
                   </td>
                 </tr>
@@ -119,7 +122,7 @@ export function ManagersTable({ rows }: ManagersTableProps) {
             </Fragment>
           );
         })}
-        {!sortedRows.length && <tr><td colSpan={10}>Add ESPN exports to populate manager profiles.</td></tr>}
+        {!sortedRows.length && <tr><td colSpan={11}>Add ESPN exports to populate manager profiles.</td></tr>}
       </tbody>
     </table>
   );

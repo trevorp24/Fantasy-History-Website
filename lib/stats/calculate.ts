@@ -62,6 +62,7 @@ function calculateCareerRecords(managers: Manager[], seasons: Season[]): CareerR
       pointsAgainst: rows.reduce((sum, row) => sum + row.pointsAgainst, 0),
       championships: rows.filter((row) => row.finalPlacement === 1).length,
       runnerUps: rows.filter((row) => row.finalPlacement === 2).length,
+      topThreeFinishes: rows.filter((row) => row.finalPlacement !== undefined && row.finalPlacement > 0 && row.finalPlacement <= 3).length,
       playoffAppearances,
       playoffWins,
       playoffLosses,
