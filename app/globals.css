@@ -773,7 +773,8 @@ p {
   text-transform: uppercase;
 }
 
-.select-field select {
+.select-field select,
+.select-field input {
   appearance: none;
   background: var(--panel);
   border: 1px solid var(--line);
