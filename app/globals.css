@@ -513,7 +513,7 @@ p {
 .table td {
   border-bottom: 1px solid var(--line);
   padding: 11px 8px;
-  text-align: left;
+  text-align: center;
 }
 
 .table th {
@@ -538,6 +538,7 @@ p {
   gap: 5px;
   padding: 0;
   text-transform: inherit;
+  justify-content: center;
 }
 
 .sortable-table th button::after {
@@ -567,7 +568,7 @@ p {
 }
 
 .right {
-  text-align: right !important;
+  text-align: center !important;
 }
 
 .row-toggle {
