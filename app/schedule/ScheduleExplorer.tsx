@@ -42,14 +42,16 @@ export function ScheduleExplorer({ weeks, matchups, teams, managerNames, rivalry
   return (
     <>
       <section className="card">
-        <div className="manager-picker season-picker" aria-label="Select schedule week">
-          {weeks.map((week) => (
-            <button className={week === selectedWeek ? "active" : ""} key={week} type="button" onClick={() => setSelectedWeek(week)}>
-              <strong>Week {week}</strong>
-              <span>{matchups.filter((matchup) => matchup.week === week && matchup.homeTeamId && matchup.awayTeamId).length} matchups</span>
-            </button>
-          ))}
-        </div>
+        <label className="select-field">
+          <span>Week</span>
+          <select value={selectedWeek} onChange={(event) => setSelectedWeek(Number(event.target.value))}>
+            {weeks.map((week) => (
+              <option value={week} key={week}>
+                Week {week}
+              </option>
+            ))}
+          </select>
+        </label>
       </section>
 
       <section className="card">
