@@ -1,3 +1,4 @@
+import { CurrentSeasonStandings } from "@/app/current-season/CurrentSeasonStandings";
 import { loadLeagueData, formatPoints } from "@/lib/data/loadLeague";
 import type { Matchup, Season, TeamSeason } from "@/lib/domain/types";
 
@@ -47,12 +48,6 @@ function standingsThroughWeek(season: Season, week: number) {
   return sortStandings(Array.from(rows.values()));
 }
 
-function movementLabel(movement: number) {
-  if (movement > 0) return <span className="movement up">↑ {movement}</span>;
-  if (movement < 0) return <span className="movement down">↓ {Math.abs(movement)}</span>;
-  return <span className="movement even">-</span>;
-}
-
 export default function CurrentSeasonPage() {
   const data = loadLeagueData();
   const season = data.seasons.find((item) => item.year === 2026);
@@ -73,6 +68,13 @@ export default function CurrentSeasonPage() {
       movement: previousRank ? previousRank - rank : 0
     };
   });
+  const rows = standings.map((team) => ({
+    ...team,
+    pointsFor: formatPoints(team.pointsFor),
+    pointsAgainst: formatPoints(team.pointsAgainst),
+    roster: season.finalRosters.filter((player) => player.teamId === team.teamId)
+  }));
+
   return (
     <>
       <header className="page-header">
@@ -84,30 +86,7 @@ export default function CurrentSeasonPage() {
       </header>
 
       <section className="card">
-        <table className="table current-standings">
-          <thead>
-            <tr>
-              <th>Rank</th>
-              <th>Weekly Move</th>
-              <th>Team</th>
-              <th>Record</th>
-              <th>PF (Tiebreaker)</th>
-              <th>PA</th>
-            </tr>
-          </thead>
-          <tbody>
-            {standings.map((team) => (
-              <tr className={team.rank === 9 ? "playoff-cutoff" : ""} key={team.teamId}>
-                <td>{team.rank}</td>
-                <td>{movementLabel(team.movement)}</td>
-                <td><strong>{team.teamName}</strong><span className="cell-note">{team.ownerName}</span></td>
-                <td>{team.wins}-{team.losses}{team.ties ? `-${team.ties}` : ""}</td>
-                <td>{formatPoints(team.pointsFor)}</td>
-                <td>{formatPoints(team.pointsAgainst)}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <CurrentSeasonStandings standings={rows} />
       </section>
     </>
   );

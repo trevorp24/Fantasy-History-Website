@@ -89,7 +89,7 @@ export function HistoryExplorer({ seasons, managers }: HistoryExplorerProps) {
                       <td>{team.finalPlacement ?? "-"}</td>
                       <td>
                         <button className={`row-toggle ${isOpen ? "open" : ""}`} type="button" onClick={() => setOpenTeamId(isOpen ? undefined : team.teamId)}>
-                          <span>⌄</span>
+                          <span>▾</span>
                           <strong>{teamLabel}</strong>
                         </button>
                         <span className="cell-note">{owner}</span>

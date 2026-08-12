@@ -207,7 +207,7 @@ function extractDraft(raw: JsonObject, year: number, teams: TeamSeason[]): Draft
 
 function extractFinalRosters(raw: JsonObject, year: number, teams: TeamSeason[]): RosterPlayer[] {
   const teamToManager = new Map(teams.map((team) => [team.teamId, team.managerId]));
-  return asArray(raw.teams).flatMap((teamValue) => {
+  const rosterRows = asArray(raw.teams).flatMap((teamValue) => {
     const team = asObject(teamValue);
     const teamId = asNumber(team.id);
     return asArray(asObject(team.roster).entries).map((entryValue) => {
@@ -229,6 +229,54 @@ function extractFinalRosters(raw: JsonObject, year: number, teams: TeamSeason[])
       };
     });
   }).sort((a, b) => (a.teamId ?? 0) - (b.teamId ?? 0) || (a.lineupSlotId ?? 999) - (b.lineupSlotId ?? 999) || a.playerName.localeCompare(b.playerName));
+  if (rosterRows.length) return rosterRows;
+
+  const hasCompletedMatchups = asArray(raw.schedule).some((matchupValue) => {
+    const matchup = asObject(matchupValue);
+    const home = asObject(matchup.home);
+    const away = asObject(matchup.away);
+    const homeScore = asNumber(home.totalPoints);
+    const awayScore = asNumber(away.totalPoints);
+    return homeScore !== undefined && awayScore !== undefined && (homeScore > 0 || awayScore > 0);
+  });
+  if (!hasCompletedMatchups) return [];
+
+  const rawScoringPeriod = asNumber(raw.scoringPeriodId);
+  const snapshotWeek = rawScoringPeriod && rawScoringPeriod > 0
+    ? rawScoringPeriod
+    : Math.min(...asArray(raw.schedule).map((matchup) => asNumber(asObject(matchup).matchupPeriodId) ?? 999));
+  const seen = new Set<string>();
+  const snapshotRows: RosterPlayer[] = [];
+  for (const matchupValue of asArray(raw.schedule).map(asObject)) {
+    const week = asNumber(matchupValue.matchupPeriodId) ?? asNumber(matchupValue.scoringPeriodId);
+    if (week !== snapshotWeek) continue;
+    for (const side of ["home", "away"] as const) {
+      const matchupSide = asObject(matchupValue[side]);
+      const teamId = asNumber(matchupSide.teamId);
+      for (const entryValue of asArray(asObject(matchupSide.rosterForCurrentScoringPeriod).entries)) {
+        const entry = asObject(entryValue);
+        const poolEntry = asObject(entry.playerPoolEntry);
+        const player = asObject(poolEntry.player);
+        const playerId = asNumberish(entry.playerId) ?? asNumberish(player.id);
+        const key = `${teamId ?? "unknown"}-${playerId ?? asString(player.fullName) ?? asString(player.name)}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        const defaultPositionId = asNumber(player.defaultPositionId);
+        snapshotRows.push({
+          season: year,
+          teamId,
+          managerId: teamId ? teamToManager.get(teamId) : undefined,
+          playerId,
+          playerName: asString(player.fullName) ?? asString(player.name) ?? (playerId ? `Player ${playerId}` : "Player Unknown"),
+          position: defaultPositionId !== undefined ? POSITION_BY_ID[defaultPositionId] : undefined,
+          proTeam: asNumber(player.proTeamId)?.toString(),
+          lineupSlotId: asNumber(entry.lineupSlotId),
+          acquisitionType: asString(entry.acquisitionType)
+        });
+      }
+    }
+  }
+  return snapshotRows.sort((a, b) => (a.teamId ?? 0) - (b.teamId ?? 0) || (a.lineupSlotId ?? 999) - (b.lineupSlotId ?? 999) || a.playerName.localeCompare(b.playerName));
 }
 
 function extractWeeklyPlayerScores(raw: JsonObject, year: number, teams: TeamSeason[]): WeeklyPlayerScore[] {

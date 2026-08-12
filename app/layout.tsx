@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeftRight, BarChart3, BookOpen, ChevronDown, ClipboardList, Home, Swords, Trophy, Users } from "lucide-react";
+import { ArrowLeftRight, BarChart3, BookOpen, CalendarDays, ChevronDown, ClipboardList, Home, Swords, Trophy, Users } from "lucide-react";
 import { ThemeToggle } from "@/app/components/ThemeToggle";
 import { loadLeagueData } from "@/lib/data/loadLeague";
 import "./globals.css";
@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 const nav = [
   { href: "/", label: "Home", icon: Home },
   { href: "/current-season", label: "Current Season", icon: BarChart3 },
+  { href: "/schedule", label: "2026 Schedule", icon: CalendarDays },
   { href: "/trades", label: "2026 Roster Moves", icon: ArrowLeftRight },
   { divider: true },
   { href: "/history", label: "League History", icon: BookOpen },

@@ -14,6 +14,25 @@ export default function HomePage() {
     : undefined;
   const upcomingSeason = data.seasons.find((season) => season.year === 2026);
   const managerById = new Map(data.managers.map((manager) => [manager.id, manager]));
+  const teamById = new Map(upcomingSeason?.teams.map((team) => [team.teamId, team]) ?? []);
+  const latestCompletedWeek = upcomingSeason ? Math.max(0, ...upcomingSeason.matchups.filter((matchup) => matchup.completed).map((matchup) => matchup.week)) : 0;
+  const currentWeek = latestCompletedWeek > 0
+    ? latestCompletedWeek
+    : Math.min(...(upcomingSeason?.matchups.map((matchup) => matchup.week).filter((week) => week > 0) ?? [1]));
+  const weeklyMatchups = upcomingSeason?.matchups
+    .filter((matchup) => matchup.week === currentWeek && matchup.homeTeamId && matchup.awayTeamId)
+    .sort((a, b) => (a.id).localeCompare(b.id)) ?? [];
+  const rivalryRecord = (homeManagerId?: string, awayManagerId?: string) => {
+    if (!homeManagerId || !awayManagerId) return "No history";
+    const record = data.headToHead.find((item) =>
+      (item.managerAId === homeManagerId && item.managerBId === awayManagerId) ||
+      (item.managerAId === awayManagerId && item.managerBId === homeManagerId)
+    );
+    if (!record) return "0-0";
+    return record.managerAId === homeManagerId
+      ? `${record.winsA}-${record.winsB}${record.ties ? `-${record.ties}` : ""}`
+      : `${record.winsB}-${record.winsA}${record.ties ? `-${record.ties}` : ""}`;
+  };
 
   return (
     <>
@@ -73,6 +92,35 @@ export default function HomePage() {
               <span>{team.teamName}</span>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="section card">
+        <div className="row-between">
+          <h2>Week {currentWeek} Schedule</h2>
+          <Link className="text-button" href="/current-season">Current season</Link>
+        </div>
+        <div className="schedule-list">
+          {weeklyMatchups.map((matchup) => {
+            const home = matchup.homeTeamId ? teamById.get(matchup.homeTeamId) : undefined;
+            const away = matchup.awayTeamId ? teamById.get(matchup.awayTeamId) : undefined;
+            return (
+              <div className="schedule-matchup" key={matchup.id}>
+                <div>
+                  <strong>{home?.teamName ?? "Home Team"}</strong>
+                  <span>{home ? managerById.get(home.managerId)?.displayName ?? "Owner unavailable" : "Owner unavailable"}</span>
+                </div>
+                <div className="matchup-score">
+                  <b>{formatPoints(matchup.homeScore ?? 0)} - {formatPoints(matchup.awayScore ?? 0)}</b>
+                  <span>Rivalry: {rivalryRecord(home?.managerId, away?.managerId)}</span>
+                </div>
+                <div>
+                  <strong>{away?.teamName ?? "Away Team"}</strong>
+                  <span>{away ? managerById.get(away.managerId)?.displayName ?? "Owner unavailable" : "Owner unavailable"}</span>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 

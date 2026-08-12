@@ -719,6 +719,43 @@ p {
   margin-top: 5px;
 }
 
+.schedule-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.schedule-matchup {
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr auto 1fr;
+  padding: 12px;
+}
+
+.schedule-matchup > div:last-child {
+  text-align: right;
+}
+
+.schedule-matchup span,
+.matchup-score span {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.matchup-score {
+  min-width: 150px;
+  text-align: center;
+}
+
+.matchup-score b {
+  font-size: 18px;
+}
+
 .text-button {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -836,6 +873,35 @@ p {
   color: var(--muted);
   font-size: 12px;
   margin-top: 4px;
+}
+
+.live-roster-list {
+  display: grid;
+  gap: 4px;
+}
+
+.live-roster-player {
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  padding: 5px 0;
+}
+
+.live-roster-player:last-child {
+  border-bottom: 0;
+}
+
+.live-roster-player strong {
+  font-size: 12px;
+}
+
+.live-roster-player span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
 }
 
 .rivalry-explorer {
@@ -982,6 +1048,16 @@ p {
   .mini-stats,
   .manager-picker {
     grid-template-columns: 1fr;
+  }
+
+  .schedule-matchup {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-matchup > div,
+  .schedule-matchup > div:last-child,
+  .matchup-score {
+    text-align: left;
   }
 
   .countdown-card {

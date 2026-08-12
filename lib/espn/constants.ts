@@ -3,7 +3,7 @@ export const AVAILABLE_EXPORT_YEARS = [2020, 2021, 2022, 2023, 2024, 2025, 2026]
 
 export const POSITION_BY_ID: Record<number, string> = {
   0: "QB",
-  1: "TQB",
+  1: "QB",
   2: "RB",
   3: "RB/WR",
   4: "WR",
