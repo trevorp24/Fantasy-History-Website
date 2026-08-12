@@ -36,6 +36,7 @@ export type Matchup = {
   loserManagerId?: string;
   margin?: number;
   isPlayoff: boolean;
+  playoffTier?: string;
   completed: boolean;
 };
 
@@ -149,6 +150,9 @@ export type CareerRecord = {
   championships: number;
   runnerUps: number;
   playoffAppearances: number;
+  playoffWins: number;
+  playoffLosses: number;
+  playoffTies: number;
   winPct: number;
   averageFinish?: number;
 };

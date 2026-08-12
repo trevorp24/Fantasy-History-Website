@@ -143,6 +143,7 @@ function extractMatchups(raw: JsonObject, year: number, teams: TeamSeason[]): Ma
       loserManagerId,
       margin,
       isPlayoff: Boolean(playoffTier && playoffTier !== "NONE"),
+      playoffTier,
       completed
     };
   });

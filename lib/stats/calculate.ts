@@ -17,6 +17,8 @@ const pct = (wins: number, losses: number, ties: number) => {
 
 const formatRecord = (wins: number, losses: number, ties = 0) => ties ? `${wins}-${losses}-${ties}` : `${wins}-${losses}`;
 const points = (value: number) => value.toLocaleString(undefined, { maximumFractionDigits: 2 });
+const countsTowardPlayoffRecord = (matchup: Matchup) =>
+  matchup.playoffTier === "WINNERS_BRACKET" || matchup.playoffTier === "WINNERS_CONSOLATION_LADDER";
 
 export function calculateLeague(managers: Manager[], seasons: Season[], backfillYears: number[]): LeagueData {
   const managerById = new Map(managers.map((manager) => [manager.id, manager]));
@@ -43,6 +45,12 @@ function calculateCareerRecords(managers: Manager[], seasons: Season[]): CareerR
     const wins = rows.reduce((sum, row) => sum + row.wins, 0);
     const losses = rows.reduce((sum, row) => sum + row.losses, 0);
     const ties = rows.reduce((sum, row) => sum + row.ties, 0);
+    const playoffGames = completedMatchups(seasons).filter((matchup) =>
+      countsTowardPlayoffRecord(matchup) && (matchup.homeManagerId === manager.id || matchup.awayManagerId === manager.id)
+    );
+    const playoffWins = playoffGames.filter((matchup) => matchup.winnerManagerId === manager.id).length;
+    const playoffLosses = playoffGames.filter((matchup) => matchup.loserManagerId === manager.id).length;
+    const playoffTies = playoffGames.length - playoffWins - playoffLosses;
     const finishes = rows.map((row) => row.finalPlacement).filter((finish): finish is number => finish !== undefined && finish > 0);
     return {
       manager,
@@ -55,6 +63,9 @@ function calculateCareerRecords(managers: Manager[], seasons: Season[]): CareerR
       championships: rows.filter((row) => row.finalPlacement === 1).length,
       runnerUps: rows.filter((row) => row.finalPlacement === 2).length,
       playoffAppearances,
+      playoffWins,
+      playoffLosses,
+      playoffTies,
       winPct: pct(wins, losses, ties),
       averageFinish: finishes.length ? finishes.reduce((sum, finish) => sum + finish, 0) / finishes.length : undefined
     };
