@@ -15,6 +15,20 @@ export default function HomePage() {
   const upcomingSeason = data.seasons.find((season) => season.year === 2026);
   const managerById = new Map(data.managers.map((manager) => [manager.id, manager]));
   const teamById = new Map(upcomingSeason?.teams.map((team) => [team.teamId, team]) ?? []);
+  const draftOrder = [...(upcomingSeason?.draftPicks ?? [])]
+    .filter((pick) => pick.overall && pick.teamId)
+    .sort((a, b) => (a.overall ?? 999) - (b.overall ?? 999))
+    .reduce<{ slot: number; teamId: number; managerName: string; teamName: string }[]>((rows, pick) => {
+      if (!pick.teamId || rows.some((row) => row.teamId === pick.teamId)) return rows;
+      const team = teamById.get(pick.teamId);
+      rows.push({
+        slot: pick.overall ?? rows.length + 1,
+        teamId: pick.teamId,
+        managerName: team ? managerById.get(team.managerId)?.displayName ?? "Owner unavailable" : "Owner unavailable",
+        teamName: team?.teamName ?? `Team ${pick.teamId}`
+      });
+      return rows;
+    }, []);
   const latestCompletedWeek = upcomingSeason ? Math.max(0, ...upcomingSeason.matchups.filter((matchup) => matchup.completed).map((matchup) => matchup.week)) : 0;
   const currentWeek = latestCompletedWeek > 0
     ? latestCompletedWeek
@@ -77,6 +91,22 @@ export default function HomePage() {
             <span><b>{data.backfillYears.length}</b><small>Backfill years</small></span>
             <span><b>{data.seasons.flatMap((season) => season.matchups).filter((game) => game.completed).length}</b><small>Scored matchups</small></span>
           </div>
+        </div>
+      </section>
+
+      <section className="section card">
+        <div className="row-between">
+          <h2>2026 Draft Order</h2>
+          <Link className="text-button" href="/drafts">Drafts</Link>
+        </div>
+        <div className="draft-order-grid">
+          {draftOrder.map((row) => (
+            <div className="draft-order-tile" key={row.teamId}>
+              <b>{row.slot}</b>
+              <strong>{row.managerName}</strong>
+              <span>{row.teamName}</span>
+            </div>
+          ))}
         </div>
       </section>
 
