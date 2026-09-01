@@ -75,9 +75,9 @@ export function CurrentSeasonStandings({ standings }: Props) {
                 <tr className="manager-detail-row">
                   <td colSpan={6}>
                     {team.roster.length ? (
-                      <div className="live-roster-list">
+                      <div className="roster-grid">
                         {team.roster.map((player) => (
-                          <div className="live-roster-player" key={`${player.playerId ?? player.playerName}-${player.lineupSlotId ?? "slot"}`}>
+                          <div className="roster-player" key={`${player.playerId ?? player.playerName}-${player.lineupSlotId ?? "slot"}`}>
                             <strong>{player.playerName}</strong>
                             <span>{formatPosition(player)}</span>
                           </div>

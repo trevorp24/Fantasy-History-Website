@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeftRight, BarChart3, BookOpen, CalendarDays, ChevronDown, ClipboardList, Home, Search, Swords, Trophy, Users } from "lucide-react";
 import { ThemeToggle } from "@/app/components/ThemeToggle";
 import { loadLeagueData } from "@/lib/data/loadLeague";
+import packageJson from "@/package.json";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -87,6 +88,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             {children}
           </main>
         </div>
+        <span className="site-version">v{packageJson.version}</span>
       </body>
     </html>
   );

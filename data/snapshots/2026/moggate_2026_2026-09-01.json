@@ -40452,7 +40452,7 @@
                   "injured": false,
                   "injuryStatus": "QUESTIONABLE",
                   "lastName": "Kittle",
-                  "lastNewsDate": 1788209126000,
+                  "lastNewsDate": 1788279091000,
                   "lastVideoDate": 1786123329000,
                   "proTeamId": 25,
                   "rankings": {
@@ -62760,7 +62760,7 @@
                   "injured": false,
                   "injuryStatus": "ACTIVE",
                   "lastName": "Henry",
-                  "lastNewsDate": 1786364430000,
+                  "lastNewsDate": 1788279731000,
                   "proTeamId": 17,
                   "rankings": {
                     "0": [
@@ -129299,7 +129299,7 @@
                 "injuryStatus": "ACTIVE",
                 "jersey": "85",
                 "lastName": "Henry",
-                "lastNewsDate": 1786364430000,
+                "lastNewsDate": 1788279731000,
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 0.71,
@@ -162527,7 +162527,7 @@
                 "injuryStatus": "QUESTIONABLE",
                 "jersey": "85",
                 "lastName": "Kittle",
-                "lastNewsDate": 1788209126000,
+                "lastNewsDate": 1788279091000,
                 "lastVideoDate": 1786123329000,
                 "ownership": {
                   "activityLevel": null,
