@@ -1,6 +1,7 @@
 "use client";
 
 import { Fragment, useState } from "react";
+import { LINEUP_SLOT_BY_ID } from "@/lib/espn/constants";
 import type { RosterPlayer } from "@/lib/domain/types";
 
 type CurrentSeasonRow = {
@@ -25,6 +26,10 @@ function movementLabel(movement: number) {
   if (movement > 0) return <span className="movement up">↑ {movement}</span>;
   if (movement < 0) return <span className="movement down">↓ {Math.abs(movement)}</span>;
   return <span className="movement even">-</span>;
+}
+
+function formatPosition(player: RosterPlayer) {
+  return player.position ?? (player.lineupSlotId !== undefined ? LINEUP_SLOT_BY_ID[player.lineupSlotId] : undefined) ?? "-";
 }
 
 export function CurrentSeasonStandings({ standings }: Props) {
@@ -74,7 +79,7 @@ export function CurrentSeasonStandings({ standings }: Props) {
                         {team.roster.map((player) => (
                           <div className="live-roster-player" key={`${player.playerId ?? player.playerName}-${player.lineupSlotId ?? "slot"}`}>
                             <strong>{player.playerName}</strong>
-                            <span>{player.position ?? "-"}</span>
+                            <span>{formatPosition(player)}</span>
                           </div>
                         ))}
                       </div>
