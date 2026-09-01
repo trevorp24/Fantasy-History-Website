@@ -11758,7 +11758,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "10",
         "lastName": "Allen",
-        "lastNewsDate": 1788092036000,
+        "lastNewsDate": 1788276623000,
         "lastVideoDate": 1787755152000,
         "ownership": {
           "activityLevel": null,
@@ -35505,7 +35505,7 @@
                   "injuryStatus": "QUESTIONABLE",
                   "lastName": "Egbuka",
                   "lastNewsDate": 1788275916000,
-                  "lastVideoDate": 1787151224000,
+                  "lastVideoDate": 1788275337000,
                   "proTeamId": 27,
                   "rankings": {
                     "0": [
@@ -74865,7 +74865,7 @@
                   "injured": false,
                   "injuryStatus": "ACTIVE",
                   "lastName": "Allen",
-                  "lastNewsDate": 1788092036000,
+                  "lastNewsDate": 1788276623000,
                   "lastVideoDate": 1787755152000,
                   "proTeamId": 11,
                   "rankings": {
@@ -116472,7 +116472,7 @@
                 "jersey": "2",
                 "lastName": "Egbuka",
                 "lastNewsDate": 1788275916000,
-                "lastVideoDate": 1787151224000,
+                "lastVideoDate": 1788275337000,
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 20.51,
@@ -117573,9 +117573,7 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 23,
-            "pendingTransactionIds": [
-              "beff3f5d-1ae8-4825-9bfc-100a0f5cd9a8"
-            ],
+            "pendingTransactionIds": [],
             "playerId": 16737,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -118607,9 +118605,7 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 20,
-            "pendingTransactionIds": [
-              "beff3f5d-1ae8-4825-9bfc-100a0f5cd9a8"
-            ],
+            "pendingTransactionIds": [],
             "playerId": 4608686,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -120908,9 +120904,7 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 20,
-            "pendingTransactionIds": [
-              "beff3f5d-1ae8-4825-9bfc-100a0f5cd9a8"
-            ],
+            "pendingTransactionIds": [],
             "playerId": 3139477,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -144150,7 +144144,7 @@
                 "injuryStatus": "ACTIVE",
                 "jersey": "10",
                 "lastName": "Allen",
-                "lastNewsDate": 1788092036000,
+                "lastNewsDate": 1788276623000,
                 "lastVideoDate": 1787755152000,
                 "ownership": {
                   "activityLevel": null,
@@ -183928,9 +183922,7 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 2,
-            "pendingTransactionIds": [
-              "beff3f5d-1ae8-4825-9bfc-100a0f5cd9a8"
-            ],
+            "pendingTransactionIds": [],
             "playerId": 4685702,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -188354,9 +188346,7 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 20,
-            "pendingTransactionIds": [
-              "beff3f5d-1ae8-4825-9bfc-100a0f5cd9a8"
-            ],
+            "pendingTransactionIds": [],
             "playerId": 3052587,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
