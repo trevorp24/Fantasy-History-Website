@@ -3,7 +3,8 @@ node_modules/
 out/
 dist/
 outputs/
-work/
+work/*
+!work/generate-preview-pages.mjs
 *.log
 .env
 .env.local

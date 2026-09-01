@@ -29,7 +29,7 @@ function movementLabel(movement: number) {
 }
 
 function formatPosition(player: RosterPlayer) {
-  return player.position ?? (player.lineupSlotId !== undefined ? LINEUP_SLOT_BY_ID[player.lineupSlotId] : undefined) ?? "-";
+  return (player.lineupSlotId !== undefined ? LINEUP_SLOT_BY_ID[player.lineupSlotId] : undefined) ?? player.position ?? "-";
 }
 
 export function CurrentSeasonStandings({ standings }: Props) {
