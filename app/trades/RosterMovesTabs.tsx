@@ -251,7 +251,9 @@ export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }
                             <strong>{move.playerName}</strong>
                             {impact?.projectedOnly && <span className="cell-note">Projected until games are final</span>}
                           </td>
-                          <td>{move.action === "added" ? "Added" : "Dropped"}</td>
+                          <td>
+                            <span className={`move-action ${move.action}`}>{move.action === "added" ? "Added" : "Dropped"}</span>
+                          </td>
                           <td>{managerName(managerNames, move.managerId)}</td>
                           <td>{move.bidAmount !== undefined ? `$${move.bidAmount}` : "-"}</td>
                           <td>{impact?.weeksTracked || "-"}</td>

@@ -923,6 +923,26 @@ p {
   border-bottom: 0;
 }
 
+.move-action {
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 900;
+  justify-content: center;
+  min-width: 72px;
+  padding: 5px 10px;
+}
+
+.move-action.added {
+  background: #dfeee6;
+  color: var(--green);
+}
+
+.move-action.dropped {
+  background: #f5dfda;
+  color: var(--red);
+}
+
 .subsection {
   border: 1px solid var(--line);
   border-radius: 8px;
