@@ -7,6 +7,11 @@ const MANAGER_OVERRIDES = {
   andresPalacio: "{E99193C6-A234-4A24-9193-C6A234BA2477}",
   alexKlang: "{900D53E0-6C85-4D02-8D53-E06C85ED0253}"
 } as const;
+const ESPN_PLAYER_NAME_OVERRIDES = new Map<number, string>([
+  [3122840, "Deshaun Watson"],
+  [4870612, "Zachariah Branch"],
+  [-16016, "Vikings D/ST"]
+]);
 
 const asObject = (value: unknown): JsonObject => (value && typeof value === "object" && !Array.isArray(value) ? value as JsonObject : {});
 const asArray = (value: unknown): unknown[] => Array.isArray(value) ? value : [];
@@ -171,7 +176,32 @@ function extractPlayerLookup(raw: JsonObject): Map<number, { name: string; posit
       addPlayer(asObject(asObject(entryValue).playerPoolEntry));
     }
   }
+  for (const pick of asArray(asObject(raw.draftDetail).picks).map(asObject)) {
+    addPlayer(asObject(pick.playerPoolEntry));
+  }
   return players;
+}
+
+function activityPlayerName(
+  players: Map<number, { name: string; position?: string; proTeam?: string }>,
+  season: Season,
+  message: JsonObject,
+  playerId?: number
+) {
+  const knownPlayer = playerId ? players.get(playerId) : undefined;
+  if (knownPlayer) return knownPlayer.name;
+  const directName =
+    asString(message.playerName) ??
+    asString(message.targetName) ??
+    asString(message.fullName) ??
+    asString(asObject(message.player).fullName) ??
+    asString(asObject(message.player).name);
+  if (directName) return directName;
+  const overrideName = playerId ? ESPN_PLAYER_NAME_OVERRIDES.get(playerId) : undefined;
+  if (overrideName) return overrideName;
+  const draftedName = season.draftPicks.find((pick) => pick.playerId === playerId)?.playerName;
+  if (draftedName && draftedName !== "TBD" && !draftedName.startsWith("Player ")) return draftedName;
+  return playerId ? `Player ${playerId}` : "Player Unknown";
 }
 
 function extractDraft(raw: JsonObject, year: number, teams: TeamSeason[]): DraftPick[] {
@@ -355,7 +385,7 @@ export function parseEspnRosterMoveActivity(raw: unknown, year: number, season: 
             kind: "trade",
             action: "traded",
             playerId,
-            playerName: playerId ? players.get(playerId)?.name ?? `Player ${playerId}` : "Player Unknown",
+            playerName: activityPlayerName(players, season, message, playerId),
             fromTeamId,
             toTeamId,
             fromManagerId: fromTeamId ? teamToManager.get(fromTeamId) : undefined,
@@ -381,7 +411,7 @@ export function parseEspnRosterMoveActivity(raw: unknown, year: number, season: 
             kind: "add-drop",
             action,
             playerId,
-            playerName: playerId ? players.get(playerId)?.name ?? `Player ${playerId}` : "Player Unknown",
+            playerName: activityPlayerName(players, season, message, playerId),
             teamId,
             managerId: teamId ? teamToManager.get(teamId) : undefined,
             bidAmount: typeId === 180 ? asNumberish(message.from) : undefined

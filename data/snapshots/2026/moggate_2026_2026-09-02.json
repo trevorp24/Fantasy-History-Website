@@ -7477,10 +7477,10 @@
           "auctionValueAverageChange": 0,
           "averageDraftPosition": 169.97,
           "averageDraftPositionPercentChange": 0,
-          "date": 1788319822489,
+          "date": 1788348619405,
           "leagueType": 0,
           "percentChange": -0.07,
-          "percentOwned": 1.3,
+          "percentOwned": 1.29,
           "percentStarted": 0.04
         },
         "proTeamId": 25,
@@ -13274,10 +13274,10 @@
           "auctionValueAverageChange": 0.02,
           "averageDraftPosition": 162.74,
           "averageDraftPositionPercentChange": 0.09,
-          "date": 1788345014715,
+          "date": 1788348620305,
           "leagueType": 0,
           "percentChange": 0.83,
-          "percentOwned": 33.96,
+          "percentOwned": 33.97,
           "percentStarted": 0.73
         },
         "proTeamId": 22,
@@ -13394,16 +13394,16 @@
             {
               "auctionValue": 0,
               "published": false,
-              "rank": 47,
-              "rankSourceId": 10,
+              "rank": 39,
+              "rankSourceId": 6,
               "rankType": "PPR",
               "slotId": 2
             },
             {
               "auctionValue": 0,
               "published": false,
-              "rank": 39,
-              "rankSourceId": 6,
+              "rank": 47,
+              "rankSourceId": 10,
               "rankType": "PPR",
               "slotId": 2
             },
@@ -13828,11 +13828,11 @@
           "auctionValueAverageChange": -0.02,
           "averageDraftPosition": 126.21,
           "averageDraftPositionPercentChange": -0.38,
-          "date": 1788341413679,
+          "date": 1788348619497,
           "leagueType": 0,
           "percentChange": 0.19,
-          "percentOwned": 81.61,
-          "percentStarted": 27.31
+          "percentOwned": 81.62,
+          "percentStarted": 27.33
         },
         "proTeamId": 33,
         "rankings": {
@@ -13948,16 +13948,16 @@
             {
               "auctionValue": 0,
               "published": false,
-              "rank": 12,
-              "rankSourceId": 12,
+              "rank": 13,
+              "rankSourceId": 6,
               "rankType": "PPR",
               "slotId": 6
             },
             {
               "auctionValue": 0,
               "published": false,
-              "rank": 13,
-              "rankSourceId": 6,
+              "rank": 12,
+              "rankSourceId": 12,
               "rankType": "PPR",
               "slotId": 6
             },
@@ -23784,16 +23784,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 35,
-                        "rankSourceId": 10,
+                        "rank": 36,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 36,
-                        "rankSourceId": 6,
+                        "rank": 35,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -28350,16 +28350,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 24,
-                        "rankSourceId": 10,
+                        "rank": 26,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 26,
-                        "rankSourceId": 6,
+                        "rank": 24,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -29105,16 +29105,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 14,
-                        "rankSourceId": 11,
+                        "rank": 7,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 7,
-                        "rankSourceId": 6,
+                        "rank": 14,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -29631,7 +29631,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 60,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -29639,7 +29639,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 60,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -32456,16 +32456,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 18,
-                        "rankSourceId": 10,
+                        "rank": 20,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 20,
-                        "rankSourceId": 6,
+                        "rank": 18,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -33220,16 +33220,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 16,
-                        "rankSourceId": 11,
+                        "rank": 12,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 12,
-                        "rankSourceId": 6,
+                        "rank": 16,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -33527,16 +33527,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 49,
-                        "rankSourceId": 10,
+                        "rank": 40,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 40,
-                        "rankSourceId": 6,
+                        "rank": 49,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -36971,16 +36971,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 5,
-                        "rankSourceId": 11,
+                        "rank": 2,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 2,
-                        "rankSourceId": 6,
+                        "rank": 5,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -37792,16 +37792,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 34,
-                        "rankSourceId": 10,
+                        "rank": 35,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 35,
-                        "rankSourceId": 6,
+                        "rank": 34,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -38055,16 +38055,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 12,
-                        "rankSourceId": 12,
+                        "rank": 13,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 13,
-                        "rankSourceId": 6,
+                        "rank": 12,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -38598,16 +38598,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 53,
-                        "rankSourceId": 10,
+                        "rank": 54,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 54,
-                        "rankSourceId": 6,
+                        "rank": 53,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -40399,16 +40399,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 7,
-                        "rankSourceId": 10,
+                        "rank": 9,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 9,
-                        "rankSourceId": 6,
+                        "rank": 7,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -41427,16 +41427,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 23,
-                        "rankSourceId": 10,
+                        "rank": 29,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 29,
-                        "rankSourceId": 6,
+                        "rank": 23,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -41988,16 +41988,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 19,
-                        "rankSourceId": 12,
+                        "rank": 18,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 18,
-                        "rankSourceId": 6,
+                        "rank": 19,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -43317,7 +43317,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 63,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -43325,7 +43325,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 63,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -44074,7 +44074,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 66,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -44082,7 +44082,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 66,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -47024,16 +47024,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 38,
-                        "rankSourceId": 10,
+                        "rank": 44,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 44,
-                        "rankSourceId": 6,
+                        "rank": 38,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -47920,7 +47920,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 61,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -47928,7 +47928,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 61,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -48445,16 +48445,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 20,
-                        "rankSourceId": 11,
+                        "rank": 27,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 27,
-                        "rankSourceId": 6,
+                        "rank": 20,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -50940,16 +50940,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 8,
-                        "rankSourceId": 12,
+                        "rank": 5,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 5,
-                        "rankSourceId": 6,
+                        "rank": 8,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -51999,16 +51999,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 10,
-                        "rankSourceId": 11,
+                        "rank": 13,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 13,
-                        "rankSourceId": 6,
+                        "rank": 10,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -52565,16 +52565,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 51,
-                        "rankSourceId": 10,
+                        "rank": 52,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 52,
-                        "rankSourceId": 6,
+                        "rank": 51,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -52825,16 +52825,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 14,
-                        "rankSourceId": 12,
+                        "rank": 19,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 19,
-                        "rankSourceId": 6,
+                        "rank": 14,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -54185,7 +54185,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 15,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -54193,7 +54193,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 15,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -55225,16 +55225,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 25,
-                        "rankSourceId": 10,
+                        "rank": 22,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 22,
-                        "rankSourceId": 6,
+                        "rank": 25,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -56030,16 +56030,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 15,
-                        "rankSourceId": 11,
+                        "rank": 18,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 18,
-                        "rankSourceId": 6,
+                        "rank": 15,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -56933,16 +56933,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 34,
-                        "rankSourceId": 12,
+                        "rank": 35,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 35,
-                        "rankSourceId": 6,
+                        "rank": 34,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -59617,16 +59617,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 32,
-                        "rankSourceId": 10,
+                        "rank": 30,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 30,
-                        "rankSourceId": 6,
+                        "rank": 32,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -59880,16 +59880,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 30,
-                        "rankSourceId": 10,
+                        "rank": 23,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 23,
-                        "rankSourceId": 6,
+                        "rank": 30,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -61180,16 +61180,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 47,
-                        "rankSourceId": 10,
+                        "rank": 39,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 39,
-                        "rankSourceId": 6,
+                        "rank": 47,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -61424,16 +61424,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 21,
-                        "rankSourceId": 11,
+                        "rank": 22,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 22,
-                        "rankSourceId": 6,
+                        "rank": 21,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -61691,7 +61691,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 69,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -61699,7 +61699,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 69,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -64111,16 +64111,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 11,
-                        "rankSourceId": 11,
+                        "rank": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 10,
-                        "rankSourceId": 6,
+                        "rank": 11,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -64677,16 +64677,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 15,
-                        "rankSourceId": 12,
+                        "rank": 12,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 12,
-                        "rankSourceId": 6,
+                        "rank": 15,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -65446,16 +65446,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 46,
-                        "rankSourceId": 10,
+                        "rank": 37,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 37,
-                        "rankSourceId": 6,
+                        "rank": 46,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -65664,18 +65664,18 @@
                       },
                       {
                         "auctionValue": 0,
+                        "averageRank": 49.75,
                         "published": true,
-                        "rank": 55,
-                        "rankSourceId": 11,
+                        "rank": 0,
+                        "rankSourceId": 0,
                         "rankType": "PPR",
                         "slotId": 4
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 49.75,
                         "published": true,
-                        "rank": 0,
-                        "rankSourceId": 0,
+                        "rank": 55,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 4
                       },
@@ -68103,7 +68103,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 14,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -68111,7 +68111,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 14,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -68351,16 +68351,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 8,
-                        "rankSourceId": 11,
+                        "rank": 14,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 14,
-                        "rankSourceId": 6,
+                        "rank": 8,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -72866,16 +72866,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 6,
-                        "rankSourceId": 11,
+                        "rank": 9,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 9,
-                        "rankSourceId": 6,
+                        "rank": 6,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -73418,7 +73418,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 31,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -73426,7 +73426,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 31,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -73686,16 +73686,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 42,
-                        "rankSourceId": 10,
+                        "rank": 43,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 43,
-                        "rankSourceId": 6,
+                        "rank": 42,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -73948,16 +73948,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 7,
-                        "rankSourceId": 12,
+                        "rank": 9,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 9,
-                        "rankSourceId": 6,
+                        "rank": 7,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -74180,16 +74180,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 12,
-                        "rankSourceId": 11,
+                        "rank": 15,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 15,
-                        "rankSourceId": 6,
+                        "rank": 12,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -75279,16 +75279,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 21,
-                        "rankSourceId": 12,
+                        "rank": 25,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 25,
-                        "rankSourceId": 6,
+                        "rank": 21,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -77635,16 +77635,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 7,
-                        "rankSourceId": 11,
+                        "rank": 3,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 3,
-                        "rankSourceId": 6,
+                        "rank": 7,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -78205,16 +78205,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 33,
-                        "rankSourceId": 10,
+                        "rank": 34,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 34,
-                        "rankSourceId": 6,
+                        "rank": 33,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -78467,16 +78467,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 11,
-                        "rankSourceId": 12,
+                        "rank": 8,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 8,
-                        "rankSourceId": 6,
+                        "rank": 11,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -81379,7 +81379,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 13,
-                        "rankSourceId": 10,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -81387,7 +81387,7 @@
                         "auctionValue": 0,
                         "published": false,
                         "rank": 13,
-                        "rankSourceId": 6,
+                        "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 2
                       },
@@ -81887,16 +81887,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 2,
-                        "rankSourceId": 11,
+                        "rank": 4,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 4,
-                        "rankSourceId": 6,
+                        "rank": 2,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -83744,16 +83744,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 10,
-                        "rankSourceId": 12,
+                        "rank": 14,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 6
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 14,
-                        "rankSourceId": 6,
+                        "rank": 10,
+                        "rankSourceId": 12,
                         "rankType": "PPR",
                         "slotId": 6
                       },
@@ -84139,16 +84139,16 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 19,
-                        "rankSourceId": 11,
+                        "rank": 24,
+                        "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 0
                       },
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 24,
-                        "rankSourceId": 6,
+                        "rank": 19,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 0
                       },
@@ -90182,11 +90182,11 @@
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 85.39,
                   "averageDraftPositionPercentChange": 0.15,
-                  "date": 1788337817702,
+                  "date": 1788348619359,
                   "leagueType": 0,
                   "percentChange": 0.14,
                   "percentOwned": 91.44,
-                  "percentStarted": 30.07
+                  "percentStarted": 30.08
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -91314,11 +91314,11 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 132.49,
                   "averageDraftPositionPercentChange": 0.48,
-                  "date": 1788334212972,
+                  "date": 1788348619623,
                   "leagueType": 0,
                   "percentChange": 0.06,
-                  "percentOwned": 75.12,
-                  "percentStarted": 3.56
+                  "percentOwned": 75.11,
+                  "percentStarted": 3.55
                 },
                 "proTeamId": 21,
                 "rankings": {
@@ -91720,10 +91720,10 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 146.98,
                   "averageDraftPositionPercentChange": 0.25,
-                  "date": 1788345014790,
+                  "date": 1788348619636,
                   "leagueType": 0,
                   "percentChange": 0.81,
-                  "percentOwned": 51.63,
+                  "percentOwned": 51.64,
                   "percentStarted": 1.88
                 },
                 "proTeamId": 10,
@@ -91840,16 +91840,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 38,
-                      "rankSourceId": 10,
+                      "rank": 44,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 44,
-                      "rankSourceId": 6,
+                      "rank": 38,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -93537,9 +93537,9 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 170.23,
                   "averageDraftPositionPercentChange": -0.06,
-                  "date": 1788341413832,
+                  "date": 1788348620067,
                   "leagueType": 0,
-                  "percentChange": 0.43,
+                  "percentChange": 0.42,
                   "percentOwned": 2.26,
                   "percentStarted": 0.11
                 },
@@ -93640,7 +93640,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 61,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -93648,7 +93648,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 61,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -93995,11 +93995,11 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 153.42,
                   "averageDraftPositionPercentChange": -0.28,
-                  "date": 1788345014163,
+                  "date": 1788348620211,
                   "leagueType": 0,
                   "percentChange": -0.38,
-                  "percentOwned": 70.15,
-                  "percentStarted": 57.78
+                  "percentOwned": 70.14,
+                  "percentStarted": 57.75
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -94661,10 +94661,10 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 162.39,
                   "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788334213795,
+                  "date": 1788348620062,
                   "leagueType": 0,
                   "percentChange": 0.14,
-                  "percentOwned": 25.97,
+                  "percentOwned": 25.98,
                   "percentStarted": 2.81
                 },
                 "proTeamId": 26,
@@ -94765,16 +94765,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 20,
-                      "rankSourceId": 11,
+                      "rank": 27,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 27,
-                      "rankSourceId": 6,
+                      "rank": 20,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -96580,11 +96580,11 @@
                   "auctionValueAverageChange": 0.18,
                   "averageDraftPosition": 52.35,
                   "averageDraftPositionPercentChange": 0.3,
-                  "date": 1788334213969,
+                  "date": 1788348620132,
                   "leagueType": 0,
                   "percentChange": 0.11,
                   "percentOwned": 96.48,
-                  "percentStarted": 68.41
+                  "percentStarted": 68.4
                 },
                 "proTeamId": 7,
                 "rankings": {
@@ -97143,11 +97143,11 @@
                   "auctionValueAverageChange": 0.18,
                   "averageDraftPosition": 51.17,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788334213782,
+                  "date": 1788348620050,
                   "leagueType": 0,
                   "percentChange": 0.05,
                   "percentOwned": 97.06,
-                  "percentStarted": 74.86
+                  "percentStarted": 74.85
                 },
                 "proTeamId": 4,
                 "rankings": {
@@ -98140,11 +98140,11 @@
                   "auctionValueAverageChange": 0.1,
                   "averageDraftPosition": 95.67,
                   "averageDraftPositionPercentChange": 0.64,
-                  "date": 1788345014561,
+                  "date": 1788348619800,
                   "leagueType": 0,
                   "percentChange": 0.25,
-                  "percentOwned": 88.14,
-                  "percentStarted": 26.07
+                  "percentOwned": 88.15,
+                  "percentStarted": 26.09
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -98260,16 +98260,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 24,
-                      "rankSourceId": 10,
+                      "rank": 26,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 26,
-                      "rankSourceId": 6,
+                      "rank": 24,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -99293,10 +99293,10 @@
                   "auctionValueAverageChange": 0.08,
                   "averageDraftPosition": 140.36,
                   "averageDraftPositionPercentChange": 1.09,
-                  "date": 1788345015027,
+                  "date": 1788348619811,
                   "leagueType": 0,
                   "percentChange": 1.65,
-                  "percentOwned": 58.28,
+                  "percentOwned": 58.29,
                   "percentStarted": 1.54
                 },
                 "proTeamId": 25,
@@ -99671,11 +99671,11 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 91.98,
                   "averageDraftPositionPercentChange": -0.91,
-                  "date": 1788345014263,
+                  "date": 1788348619988,
                   "leagueType": 0,
                   "percentChange": 0.06,
                   "percentOwned": 92.98,
-                  "percentStarted": 53.06
+                  "percentStarted": 53.07
                 },
                 "proTeamId": 14,
                 "rankings": {
@@ -99775,16 +99775,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 14,
-                      "rankSourceId": 11,
+                      "rank": 7,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 7,
-                      "rankSourceId": 6,
+                      "rank": 14,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -100874,11 +100874,11 @@
                   "auctionValueAverageChange": 0.05,
                   "averageDraftPosition": 167.53,
                   "averageDraftPositionPercentChange": 0.91,
-                  "date": 1788345015024,
+                  "date": 1788348619319,
                   "leagueType": 0,
-                  "percentChange": 1.93,
+                  "percentChange": 1.92,
                   "percentOwned": 19.24,
-                  "percentStarted": 0.29
+                  "percentStarted": 0.3
                 },
                 "proTeamId": 7,
                 "rankings": {
@@ -100946,7 +100946,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 60,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -100954,7 +100954,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 60,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -102074,9 +102074,9 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 167.81,
                   "averageDraftPositionPercentChange": -0.07,
-                  "date": 1788345014882,
+                  "date": 1788348619986,
                   "leagueType": 0,
-                  "percentChange": 0.2,
+                  "percentChange": 0.19,
                   "percentOwned": 32.38,
                   "percentStarted": 28.22
                 },
@@ -102578,11 +102578,11 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 154.84,
                   "averageDraftPositionPercentChange": -0.21,
-                  "date": 1788345014176,
+                  "date": 1788348620196,
                   "leagueType": 0,
                   "percentChange": 0.4,
                   "percentOwned": 70.83,
-                  "percentStarted": 61.82
+                  "percentStarted": 61.83
                 },
                 "proTeamId": 8,
                 "rankings": {
@@ -103403,11 +103403,11 @@
                   "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 8.35,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788341413916,
+                  "date": 1788348619298,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.92,
-                  "percentStarted": 99.66
+                  "percentStarted": 99.67
                 },
                 "proTeamId": 8,
                 "rankings": {
@@ -105649,11 +105649,11 @@
                   "auctionValueAverageChange": 0.15,
                   "averageDraftPosition": 79.47,
                   "averageDraftPositionPercentChange": 0.71,
-                  "date": 1788345014887,
+                  "date": 1788348620164,
                   "leagueType": 0,
                   "percentChange": 0.29,
                   "percentOwned": 89.63,
-                  "percentStarted": 27.5
+                  "percentStarted": 27.49
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -105769,16 +105769,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 32,
-                      "rankSourceId": 10,
+                      "rank": 30,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 30,
-                      "rankSourceId": 6,
+                      "rank": 32,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -106235,11 +106235,11 @@
                   "auctionValueAverageChange": 0.2,
                   "averageDraftPosition": 90.07,
                   "averageDraftPositionPercentChange": 1.55,
-                  "date": 1788334212383,
+                  "date": 1788348619330,
                   "leagueType": 0,
                   "percentChange": 0.28,
                   "percentOwned": 88.55,
-                  "percentStarted": 25.49
+                  "percentStarted": 25.5
                 },
                 "proTeamId": 10,
                 "rankings": {
@@ -106355,16 +106355,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 30,
-                      "rankSourceId": 10,
+                      "rank": 23,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 23,
-                      "rankSourceId": 6,
+                      "rank": 30,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -108962,10 +108962,10 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 162.74,
                   "averageDraftPositionPercentChange": 0.09,
-                  "date": 1788345014715,
+                  "date": 1788348620305,
                   "leagueType": 0,
                   "percentChange": 0.83,
-                  "percentOwned": 33.96,
+                  "percentOwned": 33.97,
                   "percentStarted": 0.73
                 },
                 "proTeamId": 22,
@@ -109082,16 +109082,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 47,
-                      "rankSourceId": 10,
+                      "rank": 39,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 39,
-                      "rankSourceId": 6,
+                      "rank": 47,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -109524,10 +109524,10 @@
                   "auctionValueAverageChange": 0.05,
                   "averageDraftPosition": 152.69,
                   "averageDraftPositionPercentChange": 0.25,
-                  "date": 1788337817804,
+                  "date": 1788348619421,
                   "leagueType": 0,
                   "percentChange": 0.33,
-                  "percentOwned": 46.71,
+                  "percentOwned": 46.7,
                   "percentStarted": 4.13
                 },
                 "proTeamId": 18,
@@ -109628,16 +109628,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 21,
-                      "rankSourceId": 11,
+                      "rank": 22,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 22,
-                      "rankSourceId": 6,
+                      "rank": 21,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -110161,9 +110161,9 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 170.34,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788341413872,
+                  "date": 1788348619419,
                   "leagueType": 0,
-                  "percentChange": -0.53,
+                  "percentChange": -0.52,
                   "percentOwned": 9.82,
                   "percentStarted": 0.3
                 },
@@ -110240,7 +110240,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 69,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -110248,7 +110248,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 69,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -111189,11 +111189,11 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 165.68,
                   "averageDraftPositionPercentChange": -0.04,
-                  "date": 1788345014157,
+                  "date": 1788348620221,
                   "leagueType": 0,
-                  "percentChange": 0.96,
-                  "percentOwned": 52.98,
-                  "percentStarted": 46.8
+                  "percentChange": 0.95,
+                  "percentOwned": 53,
+                  "percentStarted": 46.82
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -113155,11 +113155,11 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 34.68,
                   "averageDraftPositionPercentChange": -0.12,
-                  "date": 1788337818358,
+                  "date": 1788348619788,
                   "leagueType": 0,
                   "percentChange": 0.03,
                   "percentOwned": 99.01,
-                  "percentStarted": 85.92
+                  "percentStarted": 85.91
                 },
                 "proTeamId": 19,
                 "rankings": {
@@ -113699,11 +113699,11 @@
                   "auctionValueAverageChange": 0.11,
                   "averageDraftPosition": 75.64,
                   "averageDraftPositionPercentChange": 0.29,
-                  "date": 1788334212127,
+                  "date": 1788348619231,
                   "leagueType": 0,
                   "percentChange": 0.13,
                   "percentOwned": 92.27,
-                  "percentStarted": 36.18
+                  "percentStarted": 36.17
                 },
                 "proTeamId": 3,
                 "rankings": {
@@ -114256,11 +114256,11 @@
                   "auctionValueAverageChange": 0.42,
                   "averageDraftPosition": 68.33,
                   "averageDraftPositionPercentChange": 1.01,
-                  "date": 1788345014963,
+                  "date": 1788348619292,
                   "leagueType": 0,
                   "percentChange": 0.24,
                   "percentOwned": 93,
-                  "percentStarted": 54.93
+                  "percentStarted": 54.94
                 },
                 "proTeamId": 26,
                 "rankings": {
@@ -114376,16 +114376,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 18,
-                      "rankSourceId": 10,
+                      "rank": 20,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 20,
-                      "rankSourceId": 6,
+                      "rank": 18,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -115714,11 +115714,11 @@
                   "auctionValueAverageChange": 0.08,
                   "averageDraftPosition": 138.36,
                   "averageDraftPositionPercentChange": 0.96,
-                  "date": 1788334212492,
+                  "date": 1788348619381,
                   "leagueType": 0,
                   "percentChange": 0.84,
-                  "percentOwned": 64.47,
-                  "percentStarted": 10.85
+                  "percentOwned": 64.48,
+                  "percentStarted": 10.86
                 },
                 "proTeamId": 16,
                 "rankings": {
@@ -115818,16 +115818,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 16,
-                      "rankSourceId": 11,
+                      "rank": 12,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 12,
-                      "rankSourceId": 6,
+                      "rank": 16,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -116336,9 +116336,9 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 169.44,
                   "averageDraftPositionPercentChange": -0.05,
-                  "date": 1788334213410,
+                  "date": 1788348619819,
                   "leagueType": 0,
-                  "percentChange": 0.07,
+                  "percentChange": 0.08,
                   "percentOwned": 19.69,
                   "percentStarted": 0.33
                 },
@@ -116456,16 +116456,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 49,
-                      "rankSourceId": 10,
+                      "rank": 40,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 40,
-                      "rankSourceId": 6,
+                      "rank": 49,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -117972,9 +117972,9 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 137.92,
                   "averageDraftPositionPercentChange": -0.2,
-                  "date": 1788341413520,
+                  "date": 1788348620219,
                   "leagueType": 0,
-                  "percentChange": 0.11,
+                  "percentChange": 0.12,
                   "percentOwned": 87.93,
                   "percentStarted": 78.74
                 },
@@ -119246,10 +119246,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 169.22,
                   "averageDraftPositionPercentChange": -0.08,
-                  "date": 1788341413948,
+                  "date": 1788348619653,
                   "leagueType": 0,
-                  "percentChange": 0.64,
-                  "percentOwned": 25.51,
+                  "percentChange": 0.63,
+                  "percentOwned": 25.52,
                   "percentStarted": 0.99
                 },
                 "proTeamId": 13,
@@ -122075,11 +122075,11 @@
                   "auctionValueAverageChange": 0.12,
                   "averageDraftPosition": 45.17,
                   "averageDraftPositionPercentChange": 0.23,
-                  "date": 1788334213787,
+                  "date": 1788348620055,
                   "leagueType": 0,
                   "percentChange": 0.05,
                   "percentOwned": 97.89,
-                  "percentStarted": 81.52
+                  "percentStarted": 81.51
                 },
                 "proTeamId": 27,
                 "rankings": {
@@ -122639,11 +122639,11 @@
                   "auctionValueAverageChange": 0.16,
                   "averageDraftPosition": 87.96,
                   "averageDraftPositionPercentChange": 1.25,
-                  "date": 1788341413791,
+                  "date": 1788348619805,
                   "leagueType": 0,
                   "percentChange": 0.32,
                   "percentOwned": 90.86,
-                  "percentStarted": 56.1
+                  "percentStarted": 56.12
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -122743,16 +122743,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 5,
-                      "rankSourceId": 11,
+                      "rank": 2,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 2,
-                      "rankSourceId": 6,
+                      "rank": 5,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -123282,11 +123282,11 @@
                   "auctionValueAverageChange": 0.13,
                   "averageDraftPosition": 85.3,
                   "averageDraftPositionPercentChange": 0.84,
-                  "date": 1788337817327,
+                  "date": 1788348619334,
                   "leagueType": 0,
                   "percentChange": 0.2,
-                  "percentOwned": 89.82,
-                  "percentStarted": 22.38
+                  "percentOwned": 89.81,
+                  "percentStarted": 22.37
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -123771,11 +123771,11 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 138.44,
                   "averageDraftPositionPercentChange": -0.57,
-                  "date": 1788341413896,
+                  "date": 1788348619537,
                   "leagueType": 0,
                   "percentChange": 0.33,
                   "percentOwned": 71.67,
-                  "percentStarted": 3.64
+                  "percentStarted": 3.65
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -124345,9 +124345,9 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 124.11,
                   "averageDraftPositionPercentChange": 0.2,
-                  "date": 1788345014944,
+                  "date": 1788348619626,
                   "leagueType": 0,
-                  "percentChange": 0.19,
+                  "percentChange": 0.2,
                   "percentOwned": 78.2,
                   "percentStarted": 5.63
                 },
@@ -124465,16 +124465,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 34,
-                      "rankSourceId": 10,
+                      "rank": 35,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 35,
-                      "rankSourceId": 6,
+                      "rank": 34,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -124915,11 +124915,11 @@
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 126.21,
                   "averageDraftPositionPercentChange": -0.38,
-                  "date": 1788341413679,
+                  "date": 1788348619497,
                   "leagueType": 0,
                   "percentChange": 0.19,
-                  "percentOwned": 81.61,
-                  "percentStarted": 27.31
+                  "percentOwned": 81.62,
+                  "percentStarted": 27.33
                 },
                 "proTeamId": 33,
                 "rankings": {
@@ -125035,16 +125035,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 12,
-                      "rankSourceId": 12,
+                      "rank": 13,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 13,
-                      "rankSourceId": 6,
+                      "rank": 12,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -125468,11 +125468,11 @@
                   "auctionValueAverageChange": -0.09,
                   "averageDraftPosition": 92.12,
                   "averageDraftPositionPercentChange": -0.55,
-                  "date": 1788345014132,
+                  "date": 1788348620229,
                   "leagueType": 0,
                   "percentChange": -0.01,
                   "percentOwned": 98.91,
-                  "percentStarted": 86.87
+                  "percentStarted": 86.85
                 },
                 "proTeamId": 34,
                 "rankings": {
@@ -126132,10 +126132,10 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 169.2,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788334212545,
+                  "date": 1788348619416,
                   "leagueType": 0,
                   "percentChange": 0.3,
-                  "percentOwned": 17.09,
+                  "percentOwned": 17.08,
                   "percentStarted": 0.36
                 },
                 "proTeamId": 5,
@@ -126243,16 +126243,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 53,
-                      "rankSourceId": 10,
+                      "rank": 54,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 54,
-                      "rankSourceId": 6,
+                      "rank": 53,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -127351,9 +127351,9 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170.74,
                   "averageDraftPositionPercentChange": -0.07,
-                  "date": 1788345015048,
+                  "date": 1788348619509,
                   "leagueType": 0,
-                  "percentChange": 0.25,
+                  "percentChange": 0.26,
                   "percentOwned": 14.61,
                   "percentStarted": 0.22
                 },
@@ -131131,11 +131131,11 @@
                   "auctionValueAverageChange": 0.05,
                   "averageDraftPosition": 52.91,
                   "averageDraftPositionPercentChange": -0.21,
-                  "date": 1788345014747,
+                  "date": 1788348619432,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 98.94,
-                  "percentStarted": 82.54
+                  "percentStarted": 82.53
                 },
                 "proTeamId": 28,
                 "rankings": {
@@ -131235,16 +131235,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 11,
-                      "rankSourceId": 11,
+                      "rank": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 10,
-                      "rankSourceId": 6,
+                      "rank": 11,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -132309,11 +132309,11 @@
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 91.43,
                   "averageDraftPositionPercentChange": -0.32,
-                  "date": 1788345014922,
+                  "date": 1788348619379,
                   "leagueType": 0,
                   "percentChange": 0.1,
                   "percentOwned": 90.46,
-                  "percentStarted": 60.12
+                  "percentStarted": 60.11
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -132429,16 +132429,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 15,
-                      "rankSourceId": 12,
+                      "rank": 12,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 12,
-                      "rankSourceId": 6,
+                      "rank": 15,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -133822,10 +133822,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 164.34,
                   "averageDraftPositionPercentChange": -0.08,
-                  "date": 1788345014983,
+                  "date": 1788348619367,
                   "leagueType": 0,
                   "percentChange": 0.58,
-                  "percentOwned": 37.37,
+                  "percentOwned": 37.38,
                   "percentStarted": 1.03
                 },
                 "proTeamId": 13,
@@ -133917,16 +133917,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 46,
-                      "rankSourceId": 10,
+                      "rank": 37,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 37,
-                      "rankSourceId": 6,
+                      "rank": 46,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -134218,11 +134218,11 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 129.83,
                   "averageDraftPositionPercentChange": -0.52,
-                  "date": 1788323419121,
+                  "date": 1788348620075,
                   "leagueType": 0,
-                  "percentChange": 0.22,
+                  "percentChange": 0.23,
                   "percentOwned": 76.22,
-                  "percentStarted": 4.26
+                  "percentStarted": 4.27
                 },
                 "proTeamId": 12,
                 "rankings": {
@@ -134294,18 +134294,18 @@
                     },
                     {
                       "auctionValue": 0,
+                      "averageRank": 49.75,
                       "published": true,
-                      "rank": 55,
-                      "rankSourceId": 11,
+                      "rank": 0,
+                      "rankSourceId": 0,
                       "rankType": "PPR",
                       "slotId": 4
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 49.75,
                       "published": true,
-                      "rank": 0,
-                      "rankSourceId": 0,
+                      "rank": 55,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 4
                     },
@@ -136300,11 +136300,11 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170.24,
                   "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788345014160,
+                  "date": 1788348620217,
                   "leagueType": 0,
                   "percentChange": 0.22,
                   "percentOwned": 3.06,
-                  "percentStarted": 2.24
+                  "percentStarted": 2.25
                 },
                 "proTeamId": 20,
                 "rankings": {
@@ -137710,11 +137710,11 @@
                   "auctionValueAverageChange": -0.27,
                   "averageDraftPosition": 25.97,
                   "averageDraftPositionPercentChange": -0.16,
-                  "date": 1788337818528,
+                  "date": 1788348619620,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 99.37,
-                  "percentStarted": 92.81
+                  "percentStarted": 92.8
                 },
                 "proTeamId": 22,
                 "rankings": {
@@ -137831,7 +137831,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 15,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -137839,7 +137839,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 15,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -138626,11 +138626,11 @@
                   "auctionValueAverageChange": 0.17,
                   "averageDraftPosition": 89.86,
                   "averageDraftPositionPercentChange": 0.59,
-                  "date": 1788334213013,
+                  "date": 1788348619646,
                   "leagueType": 0,
                   "percentChange": 0.25,
                   "percentOwned": 88.57,
-                  "percentStarted": 20.15
+                  "percentStarted": 20.16
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -139748,11 +139748,11 @@
                   "auctionValueAverageChange": 0.72,
                   "averageDraftPosition": 128.69,
                   "averageDraftPositionPercentChange": 6.75,
-                  "date": 1788345014798,
+                  "date": 1788348619698,
                   "leagueType": 0,
-                  "percentChange": 4.96,
-                  "percentOwned": 69.11,
-                  "percentStarted": 18.52
+                  "percentChange": 4.92,
+                  "percentOwned": 69.17,
+                  "percentStarted": 18.57
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -139868,16 +139868,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 25,
-                      "rankSourceId": 10,
+                      "rank": 22,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 22,
-                      "rankSourceId": 6,
+                      "rank": 25,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -141483,11 +141483,11 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 109.96,
                   "averageDraftPositionPercentChange": -0.62,
-                  "date": 1788341413887,
+                  "date": 1788348619506,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 84.77,
-                  "percentStarted": 22.91
+                  "percentStarted": 22.9
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -141587,16 +141587,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 15,
-                      "rankSourceId": 11,
+                      "rank": 18,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 18,
-                      "rankSourceId": 6,
+                      "rank": 15,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -142596,10 +142596,10 @@
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 168.01,
                   "averageDraftPositionPercentChange": 0.02,
-                  "date": 1788345015078,
+                  "date": 1788348620155,
                   "leagueType": 0,
                   "percentChange": -0.37,
-                  "percentOwned": 41.98,
+                  "percentOwned": 41.99,
                   "percentStarted": 1.09
                 },
                 "proTeamId": 18,
@@ -143235,10 +143235,10 @@
                   "auctionValueAverageChange": -0.05,
                   "averageDraftPosition": 162.64,
                   "averageDraftPositionPercentChange": -1.15,
-                  "date": 1788345015094,
+                  "date": 1788348619563,
                   "leagueType": 0,
                   "percentChange": -1.27,
-                  "percentOwned": 50.04,
+                  "percentOwned": 50.03,
                   "percentStarted": 4.26
                 },
                 "proTeamId": 20,
@@ -143355,16 +143355,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 34,
-                      "rankSourceId": 12,
+                      "rank": 35,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 35,
-                      "rankSourceId": 6,
+                      "rank": 34,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -143614,11 +143614,11 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 164.65,
                   "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788345014296,
+                  "date": 1788348619370,
                   "leagueType": 0,
-                  "percentChange": 0.17,
-                  "percentOwned": 38.66,
-                  "percentStarted": 33.63
+                  "percentChange": 0.16,
+                  "percentOwned": 38.67,
+                  "percentStarted": 33.64
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -144121,11 +144121,11 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 166.09,
                   "averageDraftPositionPercentChange": -0.18,
-                  "date": 1788345014170,
+                  "date": 1788348620204,
                   "leagueType": 0,
                   "percentChange": -0.16,
-                  "percentOwned": 37.48,
-                  "percentStarted": 29.41
+                  "percentOwned": 37.47,
+                  "percentStarted": 29.4
                 },
                 "proTeamId": 12,
                 "rankings": {
@@ -148227,11 +148227,11 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 83.01,
                   "averageDraftPositionPercentChange": -0.57,
-                  "date": 1788334212692,
+                  "date": 1788348619477,
                   "leagueType": 0,
                   "percentChange": 0.06,
                   "percentOwned": 93.89,
-                  "percentStarted": 66.8
+                  "percentStarted": 66.81
                 },
                 "proTeamId": 19,
                 "rankings": {
@@ -148331,16 +148331,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 7,
-                      "rankSourceId": 11,
+                      "rank": 3,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 3,
-                      "rankSourceId": 6,
+                      "rank": 7,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -149418,11 +149418,11 @@
                   "auctionValueAverageChange": 0.05,
                   "averageDraftPosition": 115.2,
                   "averageDraftPositionPercentChange": 1.2,
-                  "date": 1788334213608,
+                  "date": 1788348619970,
                   "leagueType": 0,
                   "percentChange": 0.35,
                   "percentOwned": 80.73,
-                  "percentStarted": 8.54
+                  "percentStarted": 8.55
                 },
                 "proTeamId": 16,
                 "rankings": {
@@ -149538,16 +149538,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 33,
-                      "rankSourceId": 10,
+                      "rank": 34,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 34,
-                      "rankSourceId": 6,
+                      "rank": 33,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -149988,9 +149988,9 @@
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 122.99,
                   "averageDraftPositionPercentChange": 0.25,
-                  "date": 1788341413875,
+                  "date": 1788348619463,
                   "leagueType": 0,
-                  "percentChange": 0.25,
+                  "percentChange": 0.24,
                   "percentOwned": 80.66,
                   "percentStarted": 25.82
                 },
@@ -150108,16 +150108,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 11,
-                      "rankSourceId": 12,
+                      "rank": 8,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 8,
-                      "rankSourceId": 6,
+                      "rank": 11,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -150472,11 +150472,11 @@
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 99.33,
                   "averageDraftPositionPercentChange": -0.2,
-                  "date": 1788345014182,
+                  "date": 1788348620194,
                   "leagueType": 0,
                   "percentChange": -0.02,
                   "percentOwned": 98.6,
-                  "percentStarted": 87.85
+                  "percentStarted": 87.84
                 },
                 "proTeamId": 7,
                 "rankings": {
@@ -153279,9 +153279,9 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 171.81,
                   "averageDraftPositionPercentChange": 0.02,
-                  "date": 1788337818352,
+                  "date": 1788348620301,
                   "leagueType": 0,
-                  "percentChange": 0.5,
+                  "percentChange": 0.49,
                   "percentOwned": 9.22,
                   "percentStarted": 0.19
                 },
@@ -155147,11 +155147,11 @@
                   "auctionValueAverageChange": 0.26,
                   "averageDraftPosition": 33.15,
                   "averageDraftPositionPercentChange": 0.27,
-                  "date": 1788334212716,
+                  "date": 1788348619488,
                   "leagueType": 0,
                   "percentChange": 0.06,
                   "percentOwned": 98.81,
-                  "percentStarted": 90.55
+                  "percentStarted": 90.56
                 },
                 "proTeamId": 6,
                 "rankings": {
@@ -155268,7 +155268,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 13,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -155276,7 +155276,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 13,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -156282,11 +156282,11 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 54.46,
                   "averageDraftPositionPercentChange": -0.33,
-                  "date": 1788334213558,
+                  "date": 1788348619946,
                   "leagueType": 0,
                   "percentChange": 0.04,
                   "percentOwned": 98.28,
-                  "percentStarted": 91.49
+                  "percentStarted": 91.5
                 },
                 "proTeamId": 21,
                 "rankings": {
@@ -156386,16 +156386,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 2,
-                      "rankSourceId": 11,
+                      "rank": 4,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 4,
-                      "rankSourceId": 6,
+                      "rank": 2,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -158477,9 +158477,9 @@
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 122.35,
                   "averageDraftPositionPercentChange": -0.23,
-                  "date": 1788345014459,
+                  "date": 1788348619357,
                   "leagueType": 0,
-                  "percentChange": 0.12,
+                  "percentChange": 0.11,
                   "percentOwned": 80.1,
                   "percentStarted": 5.22
                 },
@@ -160200,10 +160200,10 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 158.46,
                   "averageDraftPositionPercentChange": 0.38,
-                  "date": 1788345014488,
+                  "date": 1788348620119,
                   "leagueType": 0,
-                  "percentChange": 1.05,
-                  "percentOwned": 40.33,
+                  "percentChange": 1.04,
+                  "percentOwned": 40.34,
                   "percentStarted": 6.88
                 },
                 "proTeamId": 18,
@@ -160320,16 +160320,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 10,
-                      "rankSourceId": 12,
+                      "rank": 14,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 14,
-                      "rankSourceId": 6,
+                      "rank": 10,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -160694,10 +160694,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 168.74,
                   "averageDraftPositionPercentChange": -0.07,
-                  "date": 1788334212980,
+                  "date": 1788348619628,
                   "leagueType": 0,
                   "percentChange": 0.22,
-                  "percentOwned": 17.95,
+                  "percentOwned": 17.96,
                   "percentStarted": 0.55
                 },
                 "proTeamId": 33,
@@ -160989,10 +160989,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 159.69,
                   "averageDraftPositionPercentChange": -0.18,
-                  "date": 1788345014471,
+                  "date": 1788348619386,
                   "leagueType": 0,
-                  "percentChange": 0.05,
-                  "percentOwned": 36.73,
+                  "percentChange": 0.06,
+                  "percentOwned": 36.72,
                   "percentStarted": 2.65
                 },
                 "proTeamId": 11,
@@ -161093,16 +161093,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 19,
-                      "rankSourceId": 11,
+                      "rank": 24,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 24,
-                      "rankSourceId": 6,
+                      "rank": 19,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -166464,11 +166464,11 @@
                   "auctionValueAverageChange": 0.43,
                   "averageDraftPosition": 17.38,
                   "averageDraftPositionPercentChange": 0.24,
-                  "date": 1788334212834,
+                  "date": 1788348619535,
                   "leagueType": 0,
                   "percentChange": 0.03,
                   "percentOwned": 99.47,
-                  "percentStarted": 95.48
+                  "percentStarted": 95.49
                 },
                 "proTeamId": 4,
                 "rankings": {
@@ -166584,16 +166584,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 7,
-                      "rankSourceId": 10,
+                      "rank": 9,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 9,
-                      "rankSourceId": 6,
+                      "rank": 7,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -167536,11 +167536,11 @@
                   "auctionValueAverageChange": 0.23,
                   "averageDraftPosition": 46.33,
                   "averageDraftPositionPercentChange": 0.31,
-                  "date": 1788334213418,
+                  "date": 1788348619821,
                   "leagueType": 0,
                   "percentChange": 0.09,
                   "percentOwned": 97.34,
-                  "percentStarted": 79.93
+                  "percentStarted": 79.94
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -168618,11 +168618,11 @@
                   "auctionValueAverageChange": 0.16,
                   "averageDraftPosition": 88.44,
                   "averageDraftPositionPercentChange": 1.11,
-                  "date": 1788345014899,
+                  "date": 1788348620293,
                   "leagueType": 0,
                   "percentChange": 0.28,
                   "percentOwned": 89.24,
-                  "percentStarted": 32.51
+                  "percentStarted": 32.52
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -168738,16 +168738,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 23,
-                      "rankSourceId": 10,
+                      "rank": 29,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 29,
-                      "rankSourceId": 6,
+                      "rank": 23,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -169864,11 +169864,11 @@
                   "auctionValueAverageChange": 0.14,
                   "averageDraftPosition": 75.86,
                   "averageDraftPositionPercentChange": 1.41,
-                  "date": 1788345014318,
+                  "date": 1788348619912,
                   "leagueType": 0,
                   "percentChange": 0.29,
                   "percentOwned": 92.62,
-                  "percentStarted": 40.72
+                  "percentStarted": 40.69
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -169984,16 +169984,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 19,
-                      "rankSourceId": 12,
+                      "rank": 18,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 18,
-                      "rankSourceId": 6,
+                      "rank": 19,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -170353,11 +170353,11 @@
                   "auctionValueAverageChange": 0.05,
                   "averageDraftPosition": 130.42,
                   "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788334213082,
+                  "date": 1788348619696,
                   "leagueType": 0,
                   "percentChange": 0.32,
                   "percentOwned": 74.75,
-                  "percentStarted": 5.31
+                  "percentStarted": 5.32
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -170891,10 +170891,10 @@
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 152.97,
                   "averageDraftPositionPercentChange": 0.2,
-                  "date": 1788334212617,
+                  "date": 1788348619451,
                   "leagueType": 0,
                   "percentChange": 0.13,
-                  "percentOwned": 56.07,
+                  "percentOwned": 56.06,
                   "percentStarted": 0.5
                 },
                 "proTeamId": 26,
@@ -171359,11 +171359,11 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 125.55,
                   "averageDraftPositionPercentChange": 0.48,
-                  "date": 1788334213181,
+                  "date": 1788348619719,
                   "leagueType": 0,
                   "percentChange": 0.2,
                   "percentOwned": 94.57,
-                  "percentStarted": 90.07
+                  "percentStarted": 90.08
                 },
                 "proTeamId": 34,
                 "rankings": {
@@ -172821,10 +172821,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 170.36,
                   "averageDraftPositionPercentChange": 0.05,
-                  "date": 1788345015004,
+                  "date": 1788348619941,
                   "leagueType": 0,
                   "percentChange": 0.76,
-                  "percentOwned": 8.58,
+                  "percentOwned": 8.59,
                   "percentStarted": 0.13
                 },
                 "proTeamId": 25,
@@ -172850,7 +172850,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 63,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -172858,7 +172858,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 63,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -173139,11 +173139,11 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 167.92,
                   "averageDraftPositionPercentChange": 0.03,
-                  "date": 1788345014143,
+                  "date": 1788348620224,
                   "leagueType": 0,
-                  "percentChange": 1.86,
-                  "percentOwned": 54.44,
-                  "percentStarted": 49.43
+                  "percentChange": 1.83,
+                  "percentOwned": 54.49,
+                  "percentStarted": 49.49
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -174455,10 +174455,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 169.92,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788337818509,
+                  "date": 1788348619289,
                   "leagueType": 0,
-                  "percentChange": 0.44,
-                  "percentOwned": 5.01,
+                  "percentChange": 0.43,
+                  "percentOwned": 5.02,
                   "percentStarted": 0.16
                 },
                 "proTeamId": 12,
@@ -174502,7 +174502,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 66,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -174510,7 +174510,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 66,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -176135,11 +176135,11 @@
                   "auctionValueAverageChange": -0.12,
                   "averageDraftPosition": 42.01,
                   "averageDraftPositionPercentChange": -0.14,
-                  "date": 1788334212241,
+                  "date": 1788348619280,
                   "leagueType": 0,
                   "percentChange": 0.04,
                   "percentOwned": 98.59,
-                  "percentStarted": 87.13
+                  "percentStarted": 87.14
                 },
                 "proTeamId": 29,
                 "rankings": {
@@ -177136,9 +177136,9 @@
                   "auctionValueAverageChange": 0.19,
                   "averageDraftPosition": 73.06,
                   "averageDraftPositionPercentChange": 0.75,
-                  "date": 1788334213030,
+                  "date": 1788348619650,
                   "leagueType": 0,
-                  "percentChange": 0.19,
+                  "percentChange": 0.2,
                   "percentOwned": 92.88,
                   "percentStarted": 65.4
                 },
@@ -177240,16 +177240,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 6,
-                      "rankSourceId": 11,
+                      "rank": 9,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 9,
-                      "rankSourceId": 6,
+                      "rank": 6,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -178265,11 +178265,11 @@
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 108.87,
                   "averageDraftPositionPercentChange": 0.41,
-                  "date": 1788341413836,
+                  "date": 1788348620150,
                   "leagueType": 0,
                   "percentChange": 0.17,
                   "percentOwned": 84,
-                  "percentStarted": 11.57
+                  "percentStarted": 11.58
                 },
                 "proTeamId": 29,
                 "rankings": {
@@ -178386,7 +178386,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 31,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -178394,7 +178394,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 31,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -178856,9 +178856,9 @@
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 135.81,
                   "averageDraftPositionPercentChange": 0,
-                  "date": 1788334212845,
+                  "date": 1788348619542,
                   "leagueType": 0,
-                  "percentChange": 0.23,
+                  "percentChange": 0.24,
                   "percentOwned": 71.51,
                   "percentStarted": 2.58
                 },
@@ -178976,16 +178976,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 42,
-                      "rankSourceId": 10,
+                      "rank": 43,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 43,
-                      "rankSourceId": 6,
+                      "rank": 42,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -179427,11 +179427,11 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 103.83,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788345014369,
+                  "date": 1788348619798,
                   "leagueType": 0,
                   "percentChange": 0.2,
-                  "percentOwned": 89.69,
-                  "percentStarted": 55.84
+                  "percentOwned": 89.7,
+                  "percentStarted": 55.85
                 },
                 "proTeamId": 21,
                 "rankings": {
@@ -179547,16 +179547,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 7,
-                      "rankSourceId": 12,
+                      "rank": 9,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 9,
-                      "rankSourceId": 6,
+                      "rank": 7,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -179934,10 +179934,10 @@
                   "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 136.3,
                   "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788337817389,
+                  "date": 1788348620320,
                   "leagueType": 0,
                   "percentChange": 0.27,
-                  "percentOwned": 68.79,
+                  "percentOwned": 68.8,
                   "percentStarted": 12.17
                 },
                 "proTeamId": 8,
@@ -180038,16 +180038,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 12,
-                      "rankSourceId": 11,
+                      "rank": 15,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 15,
-                      "rankSourceId": 6,
+                      "rank": 12,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -180551,11 +180551,11 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 134.01,
                   "averageDraftPositionPercentChange": -0.14,
-                  "date": 1788345014139,
+                  "date": 1788348620226,
                   "leagueType": 0,
-                  "percentChange": 0.12,
+                  "percentChange": 0.13,
                   "percentOwned": 89.71,
-                  "percentStarted": 80.62
+                  "percentStarted": 80.61
                 },
                 "proTeamId": 33,
                 "rankings": {
@@ -181667,10 +181667,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 168.26,
                   "averageDraftPositionPercentChange": 0.05,
-                  "date": 1788334213499,
+                  "date": 1788348619924,
                   "leagueType": 0,
-                  "percentChange": 0.21,
-                  "percentOwned": 25.44,
+                  "percentChange": 0.22,
+                  "percentOwned": 25.43,
                   "percentStarted": 0.46
                 },
                 "proTeamId": 10,
@@ -182206,10 +182206,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 167.55,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788334213225,
+                  "date": 1788348619740,
                   "leagueType": 0,
                   "percentChange": 0.34,
-                  "percentOwned": 24.43,
+                  "percentOwned": 24.44,
                   "percentStarted": 2.88
                 },
                 "proTeamId": 30,
@@ -182326,16 +182326,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 21,
-                      "rankSourceId": 12,
+                      "rank": 25,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 25,
-                      "rankSourceId": 6,
+                      "rank": 21,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -182693,10 +182693,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 171.64,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788345014892,
+                  "date": 1788348620187,
                   "leagueType": 0,
-                  "percentChange": 0.67,
-                  "percentOwned": 9.7,
+                  "percentChange": 0.68,
+                  "percentOwned": 9.71,
                   "percentStarted": 0.47
                 },
                 "proTeamId": 18,
@@ -185538,11 +185538,11 @@
                   "auctionValueAverageChange": 0.09,
                   "averageDraftPosition": 78.46,
                   "averageDraftPositionPercentChange": 0.67,
-                  "date": 1788345014856,
+                  "date": 1788348619909,
                   "leagueType": 0,
                   "percentChange": 0.11,
                   "percentOwned": 92.09,
-                  "percentStarted": 33.75
+                  "percentStarted": 33.73
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -185658,16 +185658,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 35,
-                      "rankSourceId": 10,
+                      "rank": 36,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 36,
-                      "rankSourceId": 6,
+                      "rank": 35,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -188243,11 +188243,11 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 118.99,
                   "averageDraftPositionPercentChange": 0.07,
-                  "date": 1788341414052,
+                  "date": 1788348619255,
                   "leagueType": 0,
                   "percentChange": -0.11,
-                  "percentOwned": 73.97,
-                  "percentStarted": 6.19
+                  "percentOwned": 73.96,
+                  "percentStarted": 6.18
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -188939,10 +188939,10 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 139.6,
                   "averageDraftPositionPercentChange": -0.29,
-                  "date": 1788337818047,
+                  "date": 1788348620315,
                   "leagueType": 0,
                   "percentChange": 0.07,
-                  "percentOwned": 70.8,
+                  "percentOwned": 70.79,
                   "percentStarted": 2.46
                 },
                 "proTeamId": 2,
@@ -189497,10 +189497,10 @@
                   "auctionValueAverageChange": -0.03,
                   "averageDraftPosition": 163.66,
                   "averageDraftPositionPercentChange": -0.73,
-                  "date": 1788334213322,
+                  "date": 1788348619780,
                   "leagueType": 0,
                   "percentChange": -0.18,
-                  "percentOwned": 34.43,
+                  "percentOwned": 34.42,
                   "percentStarted": 0.31
                 },
                 "proTeamId": 34,
@@ -189729,11 +189729,11 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 157.98,
                   "averageDraftPositionPercentChange": -0.22,
-                  "date": 1788345014188,
+                  "date": 1788348620192,
                   "leagueType": 0,
-                  "percentChange": -0.37,
-                  "percentOwned": 59.35,
-                  "percentStarted": 51.71
+                  "percentChange": -0.36,
+                  "percentOwned": 59.33,
+                  "percentStarted": 51.69
                 },
                 "proTeamId": 5,
                 "rankings": {
@@ -193225,11 +193225,11 @@
                   "auctionValueAverageChange": 0.19,
                   "averageDraftPosition": 61.37,
                   "averageDraftPositionPercentChange": 0.51,
-                  "date": 1788334212232,
+                  "date": 1788348619275,
                   "leagueType": 0,
                   "percentChange": 0.17,
                   "percentOwned": 94.9,
-                  "percentStarted": 55
+                  "percentStarted": 54.99
                 },
                 "proTeamId": 2,
                 "rankings": {
@@ -194856,11 +194856,11 @@
                   "auctionValueAverageChange": -0.04,
                   "averageDraftPosition": 68.33,
                   "averageDraftPositionPercentChange": -0.36,
-                  "date": 1788330613449,
+                  "date": 1788348619396,
                   "leagueType": 0,
                   "percentChange": 0.04,
                   "percentOwned": 96.47,
-                  "percentStarted": 83.99
+                  "percentStarted": 83.98
                 },
                 "proTeamId": 1,
                 "rankings": {
@@ -194976,16 +194976,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 8,
-                      "rankSourceId": 12,
+                      "rank": 5,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 5,
-                      "rankSourceId": 6,
+                      "rank": 8,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -195932,11 +195932,11 @@
                   "auctionValueAverageChange": 0.12,
                   "averageDraftPosition": 104.16,
                   "averageDraftPositionPercentChange": 0.84,
-                  "date": 1788337817122,
+                  "date": 1788348620207,
                   "leagueType": 0,
                   "percentChange": 0.13,
                   "percentOwned": 96.99,
-                  "percentStarted": 88.55
+                  "percentStarted": 88.54
                 },
                 "proTeamId": 14,
                 "rankings": {
@@ -197213,11 +197213,11 @@
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 146.14,
                   "averageDraftPositionPercentChange": -0.07,
-                  "date": 1788337817402,
+                  "date": 1788348619656,
                   "leagueType": 0,
                   "percentChange": 0.42,
                   "percentOwned": 56.44,
-                  "percentStarted": 9.37
+                  "percentStarted": 9.38
                 },
                 "proTeamId": 27,
                 "rankings": {
@@ -197317,16 +197317,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 10,
-                      "rankSourceId": 11,
+                      "rank": 13,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 13,
-                      "rankSourceId": 6,
+                      "rank": 10,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -197843,9 +197843,9 @@
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 164.48,
                   "averageDraftPositionPercentChange": 0.39,
-                  "date": 1788345014821,
+                  "date": 1788348619757,
                   "leagueType": 0,
-                  "percentChange": 0.71,
+                  "percentChange": 0.72,
                   "percentOwned": 28.38,
                   "percentStarted": 0.36
                 },
@@ -198381,11 +198381,11 @@
                   "auctionValueAverageChange": -0.03,
                   "averageDraftPosition": 159,
                   "averageDraftPositionPercentChange": -0.7,
-                  "date": 1788345014684,
+                  "date": 1788348619494,
                   "leagueType": 0,
-                  "percentChange": -1.57,
-                  "percentOwned": 42.37,
-                  "percentStarted": 1.46
+                  "percentChange": -1.58,
+                  "percentOwned": 42.36,
+                  "percentStarted": 1.45
                 },
                 "proTeamId": 8,
                 "rankings": {
@@ -198501,16 +198501,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 51,
-                      "rankSourceId": 10,
+                      "rank": 52,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 52,
-                      "rankSourceId": 6,
+                      "rank": 51,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -198941,10 +198941,10 @@
                   "auctionValueAverageChange": -0.04,
                   "averageDraftPosition": 150.07,
                   "averageDraftPositionPercentChange": -1.49,
-                  "date": 1788334213146,
+                  "date": 1788348619711,
                   "leagueType": 0,
                   "percentChange": -0.62,
-                  "percentOwned": 65.01,
+                  "percentOwned": 65.02,
                   "percentStarted": 11.11
                 },
                 "proTeamId": 16,
@@ -199061,16 +199061,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 14,
-                      "rankSourceId": 12,
+                      "rank": 19,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 6
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 19,
-                      "rankSourceId": 6,
+                      "rank": 14,
+                      "rankSourceId": 12,
                       "rankType": "PPR",
                       "slotId": 6
                     },
@@ -201172,11 +201172,11 @@
                   "auctionValueAverageChange": 0.34,
                   "averageDraftPosition": 41.5,
                   "averageDraftPositionPercentChange": 0.5,
-                  "date": 1788330613798,
+                  "date": 1788348620052,
                   "leagueType": 0,
                   "percentChange": 0.1,
                   "percentOwned": 97.82,
-                  "percentStarted": 85.47
+                  "percentStarted": 85.48
                 },
                 "proTeamId": 18,
                 "rankings": {
@@ -201293,7 +201293,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 14,
-                      "rankSourceId": 10,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -201301,7 +201301,7 @@
                       "auctionValue": 0,
                       "published": false,
                       "rank": 14,
-                      "rankSourceId": 6,
+                      "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 2
                     },
@@ -201750,11 +201750,11 @@
                   "auctionValueAverageChange": 0.07,
                   "averageDraftPosition": 47.36,
                   "averageDraftPositionPercentChange": 0.02,
-                  "date": 1788345014838,
+                  "date": 1788348619775,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 99.33,
-                  "percentStarted": 80.52
+                  "percentStarted": 80.51
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -201854,16 +201854,16 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 8,
-                      "rankSourceId": 11,
+                      "rank": 14,
+                      "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 0
                     },
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 14,
-                      "rankSourceId": 6,
+                      "rank": 8,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 0
                     },
@@ -202398,11 +202398,11 @@
                   "auctionValueAverageChange": -0.11,
                   "averageDraftPosition": 77.11,
                   "averageDraftPositionPercentChange": -0.29,
-                  "date": 1788345015067,
+                  "date": 1788348619634,
                   "leagueType": 0,
                   "percentChange": 0.03,
                   "percentOwned": 92.97,
-                  "percentStarted": 38.4
+                  "percentStarted": 38.39
                 },
                 "proTeamId": 10,
                 "rankings": {
@@ -202779,11 +202779,11 @@
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 108.54,
                   "averageDraftPositionPercentChange": -0.39,
-                  "date": 1788337817800,
+                  "date": 1788348619384,
                   "leagueType": 0,
                   "percentChange": 0.07,
                   "percentOwned": 85.41,
-                  "percentStarted": 8.21
+                  "percentStarted": 8.2
                 },
                 "proTeamId": 11,
                 "rankings": {
@@ -204349,11 +204349,11 @@
                   "auctionValueAverageChange": -2.47,
                   "averageDraftPosition": 64.05,
                   "averageDraftPositionPercentChange": -6.27,
-                  "date": 1788345014603,
+                  "date": 1788348619344,
                   "leagueType": 0,
-                  "percentChange": -0.77,
+                  "percentChange": -0.76,
                   "percentOwned": 94.77,
-                  "percentStarted": 36.65
+                  "percentStarted": 36.59
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -204829,10 +204829,10 @@
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 160.87,
                   "averageDraftPositionPercentChange": -0.29,
-                  "date": 1788341413662,
+                  "date": 1788348619770,
                   "leagueType": 0,
-                  "percentChange": -0.57,
-                  "percentOwned": 40.87,
+                  "percentChange": -0.56,
+                  "percentOwned": 40.86,
                   "percentStarted": 0.8
                 },
                 "proTeamId": 18,
@@ -205299,11 +205299,11 @@
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 147.81,
                   "averageDraftPositionPercentChange": 0.3,
-                  "date": 1788334212695,
+                  "date": 1788348619480,
                   "leagueType": 0,
                   "percentChange": 0.27,
                   "percentOwned": 61.18,
-                  "percentStarted": 1.69
+                  "percentStarted": 1.7
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -207006,10 +207006,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 170.56,
                   "averageDraftPositionPercentChange": 0.02,
-                  "date": 1788345014794,
+                  "date": 1788348619691,
                   "leagueType": 0,
-                  "percentChange": 1.31,
-                  "percentOwned": 11.49,
+                  "percentChange": 1.3,
+                  "percentOwned": 11.5,
                   "percentStarted": 0.36
                 },
                 "proTeamId": 34,

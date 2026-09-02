@@ -885,6 +885,44 @@ p {
   margin-top: 16px;
 }
 
+.roster-move-controls {
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.move-date-group {
+  padding: 0;
+  overflow: hidden;
+}
+
+.move-date-summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 18px;
+}
+
+.move-date-summary::-webkit-details-marker {
+  display: none;
+}
+
+.move-date-summary h2 {
+  margin-bottom: 8px;
+}
+
+.move-date-group table {
+  margin: 0;
+}
+
+.move-date-group tbody tr:last-child td {
+  border-bottom: 0;
+}
+
 .subsection {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -1110,6 +1148,15 @@ p {
 
   .schedule-matchup {
     grid-template-columns: 1fr;
+  }
+
+  .roster-move-controls,
+  .move-date-summary {
+    display: block;
+  }
+
+  .roster-move-controls .select-field + .select-field {
+    margin-top: 12px;
   }
 
   .schedule-matchup > div,

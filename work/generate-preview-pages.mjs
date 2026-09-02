@@ -12,6 +12,7 @@ const tradeMessageTypeId = 244;
 const addDropMessageTypeIds = new Set([178, 179, 180, 181, 239]);
 const positionById = { 0: "QB", 1: "QB", 2: "RB", 3: "RB/WR", 4: "WR", 5: "WR/TE", 6: "TE", 16: "D/ST", 17: "K" };
 const lineupSlotById = { 0: "QB", 2: "RB", 4: "WR", 6: "TE", 16: "D/ST", 17: "K", 20: "Bench", 21: "IR", 23: "Flex" };
+const espnPlayerNameOverrides = new Map([[3122840, "Deshaun Watson"], [4870612, "Zachariah Branch"], [-16016, "Vikings D/ST"]]);
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 const fmt = (value) => Number(value ?? 0).toLocaleString(undefined, { maximumFractionDigits: 2 });
@@ -216,6 +217,7 @@ function playerLookupForYear(year) {
   };
   arr(raw.players).forEach((entry) => addPlayer(obj(entry)));
   for (const team of arr(raw.teams)) for (const entry of arr(obj(team.roster).entries)) addPlayer(obj(obj(entry).playerPoolEntry));
+  for (const pick of arr(obj(raw.draftDetail).picks)) addPlayer(obj(obj(pick).playerPoolEntry));
   return players;
 }
 
@@ -232,9 +234,14 @@ function loadRosterMoves(year) {
     const tradeMessages = messages.filter((message) => message.messageTypeId === tradeMessageTypeId);
     const addDropMessages = messages.filter((message) => addDropMessageTypeIds.has(message.messageTypeId));
     if (!tradeMessages.length && !addDropMessages.length) return [];
-    const date = topic.date ? new Date(topic.date).toLocaleDateString() : "Unknown date";
+    const timestamp = topic.date ? new Date(topic.date).getTime() : undefined;
+    const date = timestamp ? new Date(timestamp).toLocaleDateString() : "Unknown date";
     const week = num(topic.scoringPeriodId) ?? num(topic.matchupPeriodId) ?? num(topic.proScoringPeriodId);
     const activities = [];
+    const playerName = (playerId, message) => {
+      const draftName = season.draftPicks.find((pick) => pick.playerId === playerId)?.playerName;
+      return players.get(playerId) || message.playerName || message.targetName || message.fullName || espnPlayerNameOverrides.get(playerId) || (draftName && draftName !== "TBD" && !draftName.startsWith("Player ") ? draftName : undefined) || `Player ${message.targetId ?? "Unknown"}`;
+    };
     if (tradeMessages.length) {
       const moves = tradeMessages.map((message) => {
         const fromTeamId = num(message.from);
@@ -242,11 +249,11 @@ function loadRosterMoves(year) {
         const playerId = num(message.targetId);
         const fromManagerId = teamToManager.get(fromTeamId);
         const toManagerId = teamToManager.get(toTeamId);
-        const player = players.get(playerId) || `Player ${message.targetId ?? "Unknown"}`;
+        const player = playerName(playerId, message);
         return { kind: "trade", action: "traded", fromManager: managerName(fromManagerId), toManager: managerName(toManagerId), fromManagerId, toManagerId, playerId, player };
       });
       const managersInvolved = [...new Set(moves.flatMap((move) => [move.fromManager, move.toManager]).filter(Boolean))];
-      activities.push({ id: `${year}-${topic.id ?? index}-trade`, kind: "trade", season: year, week, date, managersInvolved, moves });
+      activities.push({ id: `${year}-${topic.id ?? index}-trade`, kind: "trade", season: year, week, timestamp, date, managersInvolved, moves });
     }
     if (addDropMessages.length) {
       const moves = addDropMessages.map((message) => {
@@ -254,13 +261,14 @@ function loadRosterMoves(year) {
         const teamId = typeId === 239 ? num(message.for) : num(message.to);
         const managerId = teamToManager.get(teamId);
         const manager = managerName(managerId);
-        const player = players.get(num(message.targetId)) || `Player ${message.targetId ?? "Unknown"}`;
+        const playerId = num(message.targetId);
+        const player = playerName(playerId, message);
         const action = typeId === 178 || typeId === 180 ? "Added" : "Dropped";
         const bidAmount = typeId === 180 ? num(message.from) : undefined;
-        return { kind: "add-drop", action, managerId, manager, playerId: num(message.targetId), player, bidAmount };
+        return { kind: "add-drop", action, managerId, manager, playerId, player, bidAmount };
       });
       const managersInvolved = [...new Set(moves.map((move) => move.manager).filter(Boolean))];
-      activities.push({ id: `${year}-${topic.id ?? index}-add-drop`, kind: "add-drop", season: year, week, date, managersInvolved, moves });
+      activities.push({ id: `${year}-${topic.id ?? index}-add-drop`, kind: "add-drop", season: year, week, timestamp, date, managersInvolved, moves });
     }
     return activities;
   });
@@ -829,10 +837,47 @@ function writeTrades() {
   }];
   const sampleTradeNote = realTrades.length ? "" : `<section class="card"><span class="tag gold">Sample data</span><h2>Example trade</h2><p>This is only here to show what information the page will include. It will be replaced when ESPN returns real roster moves.</p></section>`;
   const sampleAddDropNote = realAddDrops.length ? "" : `<section class="card"><span class="tag gold">Sample data</span><h2>Example add/drop</h2><p>This is only here to show what information the page will include. It will be replaced when ESPN returns real roster moves.</p></section>`;
-  const tradeContent = `<section class="nested-sections">${sampleTradeNote}${trades.map((trade) => `<article class="card"><div class="top"><div><h2>${esc(trade.date)}</h2><span class="tag green">${esc(trade.managersInvolved.join(" / "))}</span></div><span class="tag">${trade.moves.length} player moves</span></div><table><thead><tr><th>Player</th><th>From</th><th>To</th><th>Weeks Since</th><th>Points Since</th></tr></thead><tbody>${trade.moves.map((move, index) => { const impact = impactFor(trade.id, index); return `<tr><td><strong>${esc(move.player)}</strong>${projectionNote(impact)}</td><td>${esc(move.fromManager)}</td><td>${esc(move.toManager)}</td><td>${impact?.weeksTracked || "-"}</td><td>${impactCell(impact)}</td></tr>`; }).join("")}</tbody></table></article>`).join("")}</section>`;
-  const addDropContent = `<section class="nested-sections">${sampleAddDropNote}${addDrops.map((activity) => `<article class="card"><div class="top"><div><h2>${esc(activity.date)}</h2><span class="tag green">${esc(activity.managersInvolved.join(" / "))}</span></div><span class="tag">${activity.moves.length} player moves</span></div><table><thead><tr><th>Player</th><th>Move</th><th>Manager</th><th>FAAB</th><th>Weeks Since</th><th>Points Since</th></tr></thead><tbody>${activity.moves.map((move, index) => { const impact = impactFor(activity.id, index); return `<tr><td><strong>${esc(move.player)}</strong>${projectionNote(impact)}</td><td>${esc(move.action)}</td><td>${esc(move.manager)}</td><td>${move.bidAmount !== undefined ? `$${esc(move.bidAmount)}` : "-"}</td><td>${impact?.weeksTracked || "-"}</td><td>${move.action === "Added" ? impactCell(impact) : "-"}</td></tr>`; }).join("")}</tbody></table></article>`).join("")}</section>`;
-  const script = `<script>document.querySelectorAll('[data-roster-tab]').forEach(btn=>btn.addEventListener('click',()=>{const tab=btn.dataset.rosterTab;document.querySelectorAll('[data-roster-tab]').forEach(b=>b.classList.toggle('active',b===btn));document.querySelectorAll('[data-roster-panel]').forEach(panel=>panel.style.display=panel.dataset.rosterPanel===tab?'block':'none');}));</script>`;
-  write("trades.html", shell("Moggate 2026 Roster Moves", "trades", `<h1>2026 Roster Moves</h1><div class="seg"><button class="active" data-roster-tab="trades" type="button">Trades</button><button data-roster-tab="add-drop" type="button">Add/Drop</button></div><div data-roster-panel="trades">${tradeContent}</div><div data-roster-panel="add-drop" style="display:none">${addDropContent}</div>${script}`));
+  const dateKey = (activity) => activity.timestamp ? new Date(activity.timestamp).toISOString().slice(0, 10) : activity.date;
+  const managerIdsForMove = (move) => [move.fromManagerId, move.toManagerId, move.managerId].filter(Boolean);
+  const teamSortName = (move) => [move.fromManager, move.toManager, move.manager].filter(Boolean).sort((a, b) => a.localeCompare(b))[0] || "-";
+  const managerOptions = (activities) => {
+    const options = new Map();
+    for (const activity of activities) for (const move of activity.moves) {
+      if (move.fromManagerId) options.set(move.fromManagerId, move.fromManager);
+      if (move.toManagerId) options.set(move.toManagerId, move.toManager);
+      if (move.managerId) options.set(move.managerId, move.manager);
+      if (!move.fromManagerId && move.fromManager) options.set(move.fromManager, move.fromManager);
+      if (!move.toManagerId && move.toManager) options.set(move.toManager, move.toManager);
+      if (!move.managerId && move.manager) options.set(move.manager, move.manager);
+    }
+    return [...options.entries()].sort((a, b) => String(a[1]).localeCompare(String(b[1])));
+  };
+  const groupedRows = (activities) => {
+    const groups = new Map();
+    for (const activity of activities) {
+      activity.moves.forEach((move, index) => {
+        const key = dateKey(activity);
+        const group = groups.get(key) ?? { key, label: activity.date, timestamp: activity.timestamp ?? 0, rows: [] };
+        group.timestamp = Math.max(group.timestamp, activity.timestamp ?? 0);
+        group.rows.push({ activity, move, index });
+        groups.set(key, group);
+      });
+    }
+    return [...groups.values()].sort((a, b) => b.timestamp - a.timestamp || String(a.label).localeCompare(String(b.label)));
+  };
+  const controls = (kind, activities) => {
+    const managerLabel = kind === "trades" ? "Team / Manager" : "Manager";
+    const managerSelect = `<label class="select-field"><span>${managerLabel}</span><select data-roster-manager-filter><option value="all">All teams</option>${managerOptions(activities).map(([id, name]) => `<option value="${esc(id)}">${esc(name)}</option>`).join("")}</select></label>`;
+    const sortSelect = kind === "trades" ? `<label class="select-field"><span>Sort</span><select data-roster-sort><option value="date">Date</option><option value="team">Team</option></select></label>` : "";
+    return `<section class="card roster-move-controls">${managerSelect}${sortSelect}</section>`;
+  };
+  const renderTrades = (activities) => groupedRows(activities).map((group, groupIndex) => `<details class="card move-date-group" data-date-group ${groupIndex === 0 ? "open" : ""}><summary class="move-date-summary"><div><h2>${esc(group.label)}</h2><span class="tag green">${currentYear}</span></div><span class="tag" data-group-count>${group.rows.length} player moves</span></summary><table><thead><tr><th>Player</th><th>From</th><th>To</th><th>Weeks Since</th><th>Points Since</th></tr></thead><tbody>${group.rows.map(({ activity, move, index }) => { const impact = impactFor(activity.id, index); const managers = managerIdsForMove(move).join("|"); return `<tr data-move-row data-row-order="${index}" data-managers="${esc(managers)}" data-team-sort="${esc(teamSortName(move))}"><td><strong>${esc(move.player)}</strong>${projectionNote(impact)}</td><td>${esc(move.fromManager)}</td><td>${esc(move.toManager)}</td><td>${impact?.weeksTracked || "-"}</td><td>${impactCell(impact)}</td></tr>`; }).join("")}</tbody></table></details>`).join("");
+  const renderAddDrops = (activities) => groupedRows(activities).map((group, groupIndex) => `<details class="card move-date-group" data-date-group ${groupIndex === 0 ? "open" : ""}><summary class="move-date-summary"><div><h2>${esc(group.label)}</h2><span class="tag green">${currentYear}</span></div><span class="tag" data-group-count>${group.rows.length} player moves</span></summary><table><thead><tr><th>Player</th><th>Move</th><th>Manager</th><th>FAAB</th><th>Weeks Since</th><th>Points Since</th></tr></thead><tbody>${group.rows.map(({ activity, move, index }) => { const impact = impactFor(activity.id, index); const managers = managerIdsForMove(move).join("|"); return `<tr data-move-row data-row-order="${index}" data-managers="${esc(managers)}" data-team-sort="${esc(teamSortName(move))}"><td><strong>${esc(move.player)}</strong>${projectionNote(impact)}</td><td>${esc(move.action)}</td><td>${esc(move.manager)}</td><td>${move.bidAmount !== undefined ? `$${esc(move.bidAmount)}` : "-"}</td><td>${impact?.weeksTracked || "-"}</td><td>${move.action === "Added" ? impactCell(impact) : "-"}</td></tr>`; }).join("")}</tbody></table></details>`).join("");
+  const tradeContent = `<section class="nested-sections">${sampleTradeNote}${controls("trades", trades)}${renderTrades(trades)}<section class="card" data-roster-empty style="display:none"><h2>No moves match that manager</h2><p>Switch back to all teams to see every transaction.</p></section></section>`;
+  const addDropContent = `<section class="nested-sections">${sampleAddDropNote}${controls("add-drop", addDrops)}${renderAddDrops(addDrops)}<section class="card" data-roster-empty style="display:none"><h2>No moves match that manager</h2><p>Switch back to all teams to see every transaction.</p></section></section>`;
+  const style = `<style>.roster-move-controls{align-items:end;display:flex;flex-wrap:wrap;gap:14px}.move-date-group{padding:0;overflow:hidden}.move-date-summary{align-items:center;cursor:pointer;display:flex;gap:14px;justify-content:space-between;list-style:none;padding:18px}.move-date-summary::-webkit-details-marker{display:none}.move-date-summary h2{margin-bottom:8px}.move-date-group table{margin:0}.move-date-group tbody tr:last-child td{border-bottom:0}@media(max-width:900px){.roster-move-controls,.move-date-summary{display:block}.roster-move-controls .select-field+.select-field{margin-top:12px}}</style>`;
+  const script = `<script>function applyRosterPanel(panel){const filter=panel.querySelector('[data-roster-manager-filter]')?.value||'all';const sort=panel.querySelector('[data-roster-sort]')?.value||'date';let any=false;panel.querySelectorAll('[data-date-group]').forEach(group=>{const rows=[...group.querySelectorAll('[data-move-row]')];rows.forEach(row=>row.style.display=filter==='all'||row.dataset.managers.split('|').includes(filter)?'':'none');const visible=rows.filter(row=>row.style.display!=='none');if(sort==='team'){visible.sort((a,b)=>a.dataset.teamSort.localeCompare(b.dataset.teamSort)||a.textContent.localeCompare(b.textContent)).forEach(row=>row.parentElement.appendChild(row));}else{visible.sort((a,b)=>(+a.dataset.rowOrder)-(+b.dataset.rowOrder)).forEach(row=>row.parentElement.appendChild(row));}group.style.display=visible.length?'block':'none';const count=group.querySelector('[data-group-count]');if(count)count.textContent=visible.length+' player move'+(visible.length===1?'':'s');any=any||visible.length>0;});const empty=panel.querySelector('[data-roster-empty]');if(empty)empty.style.display=any?'none':'block';}document.querySelectorAll('[data-roster-panel]').forEach(panel=>{panel.querySelectorAll('select').forEach(select=>select.addEventListener('change',()=>applyRosterPanel(panel)));applyRosterPanel(panel);});document.querySelectorAll('[data-roster-tab]').forEach(btn=>btn.addEventListener('click',()=>{const tab=btn.dataset.rosterTab;document.querySelectorAll('[data-roster-tab]').forEach(b=>b.classList.toggle('active',b===btn));document.querySelectorAll('[data-roster-panel]').forEach(panel=>{const active=panel.dataset.rosterPanel===tab;panel.style.display=active?'block':'none';if(active)applyRosterPanel(panel);});}));</script>`;
+  write("trades.html", shell("Moggate 2026 Roster Moves", "trades", `${style}<h1>2026 Roster Moves</h1><div class="seg"><button class="active" data-roster-tab="trades" type="button">Trades</button><button data-roster-tab="add-drop" type="button">Add/Drop</button></div><div data-roster-panel="trades">${tradeContent}</div><div data-roster-panel="add-drop" style="display:none">${addDropContent}</div>${script}`));
 }
 
 function writeManagers() {

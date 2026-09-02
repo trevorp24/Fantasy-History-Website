@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import type { RosterMoveActivity, TradeImpact } from "@/lib/domain/types";
+import { useMemo, useState } from "react";
+import type { RosterMove, RosterMoveActivity, TradeImpact } from "@/lib/domain/types";
 
 type Props = {
   trades: RosterMoveActivity[];
@@ -27,8 +27,100 @@ function impactPoints(impact?: TradeImpact) {
   return impact.pointsAfterMove.toLocaleString(undefined, { maximumFractionDigits: 2 });
 }
 
+type MoveRow = {
+  activity: RosterMoveActivity;
+  move: RosterMove;
+  moveIndex: number;
+  managerIds: string[];
+  sortName: string;
+};
+
+type MoveGroup = {
+  key: string;
+  label: string;
+  timestamp: number;
+  rows: MoveRow[];
+};
+
+function activityTimestamp(activity: RosterMoveActivity) {
+  return activity.timestamp ?? (activity.date ? new Date(activity.date).getTime() : 0);
+}
+
+function dateKey(activity: RosterMoveActivity) {
+  if (!activity.date) return "unknown";
+  const parsed = new Date(activity.date);
+  return Number.isNaN(parsed.getTime()) ? activity.date : parsed.toISOString().slice(0, 10);
+}
+
+function moveManagerIds(move: RosterMove) {
+  return [move.fromManagerId, move.toManagerId, move.managerId].filter((value): value is string => Boolean(value));
+}
+
+function tradeSortName(managerNames: Record<string, string>, move: RosterMove) {
+  return [managerName(managerNames, move.fromManagerId), managerName(managerNames, move.toManagerId)]
+    .filter((value) => value !== "-")
+    .sort((a, b) => a.localeCompare(b))[0] ?? "-";
+}
+
+function groupedRows(
+  activities: RosterMoveActivity[],
+  managerNames: Record<string, string>,
+  managerFilter: string,
+  sortMode: "date" | "team"
+): MoveGroup[] {
+  const groups = new Map<string, MoveGroup>();
+  for (const activity of activities) {
+    activity.moves.forEach((move, moveIndex) => {
+      const managerIds = moveManagerIds(move);
+      if (managerFilter !== "all" && !managerIds.includes(managerFilter)) return;
+      const key = dateKey(activity);
+      const group = groups.get(key) ?? {
+        key,
+        label: dateLabel(activity.date),
+        timestamp: activityTimestamp(activity),
+        rows: []
+      };
+      group.timestamp = Math.max(group.timestamp, activityTimestamp(activity));
+      group.rows.push({
+        activity,
+        move,
+        moveIndex,
+        managerIds,
+        sortName: activity.kind === "trade" ? tradeSortName(managerNames, move) : managerName(managerNames, move.managerId)
+      });
+      groups.set(key, group);
+    });
+  }
+  return Array.from(groups.values())
+    .map((group) => ({
+      ...group,
+      rows: group.rows.sort((a, b) => {
+        if (sortMode === "team") {
+          return a.sortName.localeCompare(b.sortName) || a.move.playerName.localeCompare(b.move.playerName);
+        }
+        return activityTimestamp(b.activity) - activityTimestamp(a.activity) || a.move.playerName.localeCompare(b.move.playerName);
+      })
+    }))
+    .sort((a, b) => b.timestamp - a.timestamp || a.label.localeCompare(b.label));
+}
+
+function managerOptions(activities: RosterMoveActivity[], managerNames: Record<string, string>) {
+  const ids = new Set<string>();
+  for (const activity of activities) {
+    for (const move of activity.moves) {
+      moveManagerIds(move).forEach((id) => ids.add(id));
+    }
+  }
+  return Array.from(ids)
+    .map((id) => ({ id, label: managerName(managerNames, id) }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+}
+
 export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }: Props) {
   const [tab, setTab] = useState<"trades" | "add-drop">("trades");
+  const [tradeManagerFilter, setTradeManagerFilter] = useState("all");
+  const [addDropManagerFilter, setAddDropManagerFilter] = useState("all");
+  const [tradeSortMode, setTradeSortMode] = useState<"date" | "team">("date");
   const demoTrades: RosterMoveActivity[] = [{
     id: "demo-trade",
     season: 2026,
@@ -51,6 +143,13 @@ export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }
   }];
   const hasRealMoves = tab === "trades" ? trades.length > 0 : addDrops.length > 0;
   const activeMoves = hasRealMoves ? (tab === "trades" ? trades : addDrops) : (tab === "trades" ? demoTrades : demoAddDrops);
+  const activeManagerFilter = tab === "trades" ? tradeManagerFilter : addDropManagerFilter;
+  const sortMode = tab === "trades" ? tradeSortMode : "date";
+  const groups = useMemo(
+    () => groupedRows(activeMoves, managerNames, activeManagerFilter, sortMode),
+    [activeMoves, activeManagerFilter, managerNames, sortMode]
+  );
+  const options = useMemo(() => managerOptions(activeMoves, managerNames), [activeMoves, managerNames]);
 
   return (
     <>
@@ -72,15 +171,36 @@ export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }
               <p>This is only here to show what information the page will include. It will be replaced when ESPN returns real roster moves.</p>
             </section>
           )}
-          {activeMoves.map((activity) => (
-            <article className="card" key={activity.id}>
-              <div className="top">
+          <section className="card roster-move-controls">
+            <label className="select-field">
+              <span>{tab === "trades" ? "Team / Manager" : "Manager"}</span>
+              <select
+                value={activeManagerFilter}
+                onChange={(event) => tab === "trades" ? setTradeManagerFilter(event.target.value) : setAddDropManagerFilter(event.target.value)}
+              >
+                <option value="all">All teams</option>
+                {options.map((option) => <option key={option.id} value={option.id}>{option.label}</option>)}
+              </select>
+            </label>
+            {tab === "trades" && (
+              <label className="select-field">
+                <span>Sort</span>
+                <select value={tradeSortMode} onChange={(event) => setTradeSortMode(event.target.value as "date" | "team")}>
+                  <option value="date">Date</option>
+                  <option value="team">Team</option>
+                </select>
+              </label>
+            )}
+          </section>
+          {groups.length ? groups.map((group, groupIndex) => (
+            <details className="card move-date-group" key={group.key} open={groupIndex === 0}>
+              <summary className="move-date-summary">
                 <div>
-                  <h2>{dateLabel(activity.date)}</h2>
-                  <span className="tag green">{activity.season}</span>
+                  <h2>{group.label}</h2>
+                  <span className="tag green">{group.rows[0]?.activity.season}</span>
                 </div>
-                <span className="tag">{activity.moves.length} player moves</span>
-              </div>
+                <span className="tag">{group.rows.length} player moves</span>
+              </summary>
               {tab === "trades" ? (
                 <table>
                   <thead>
@@ -93,10 +213,10 @@ export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }
                     </tr>
                   </thead>
                   <tbody>
-                    {activity.moves.map((move, index) => {
-                      const impact = impactFor(tradeImpacts, activity.id, index);
+                    {group.rows.map(({ activity, move, moveIndex }) => {
+                      const impact = impactFor(tradeImpacts, activity.id, moveIndex);
                       return (
-                        <tr key={`${activity.id}-${index}`}>
+                        <tr key={`${activity.id}-${moveIndex}`}>
                           <td>
                             <strong>{move.playerName}</strong>
                             {impact?.projectedOnly && <span className="cell-note">Projected until games are final</span>}
@@ -123,10 +243,10 @@ export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }
                     </tr>
                   </thead>
                   <tbody>
-                    {activity.moves.map((move, index) => {
-                      const impact = impactFor(tradeImpacts, activity.id, index);
+                    {group.rows.map(({ activity, move, moveIndex }) => {
+                      const impact = impactFor(tradeImpacts, activity.id, moveIndex);
                       return (
-                        <tr key={`${activity.id}-${index}`}>
+                        <tr key={`${activity.id}-${moveIndex}`}>
                           <td>
                             <strong>{move.playerName}</strong>
                             {impact?.projectedOnly && <span className="cell-note">Projected until games are final</span>}
@@ -142,8 +262,13 @@ export function RosterMovesTabs({ trades, addDrops, tradeImpacts, managerNames }
                   </tbody>
                 </table>
               )}
-            </article>
-          ))}
+            </details>
+          )) : (
+            <section className="card">
+              <h2>No moves match that manager</h2>
+              <p>Switch back to all teams to see every transaction.</p>
+            </section>
+          )}
         </section>
       ) : (
         <section className="card">
