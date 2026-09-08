@@ -553,6 +553,7 @@ p {
   background: color-mix(in srgb, var(--panel) 90%, transparent);
   border: 1px solid color-mix(in srgb, var(--line) 82%, transparent);
   border-radius: 8px;
+  overflow-x: auto;
   padding: 15px;
   box-shadow: var(--shadow);
 }
@@ -1271,14 +1272,20 @@ p {
   }
 
   nav {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     display: grid;
     align-items: stretch;
   }
 
+  nav a {
+    font-size: 13px;
+    gap: 7px;
+    padding: 10px 8px;
+  }
+
   .nav-group-label {
     grid-column: 1 / -1;
-    padding: 8px 4px 2px;
+    padding: 10px 4px 2px;
   }
 
   .nav-divider {
@@ -1294,9 +1301,54 @@ p {
     padding: 24px 18px 58px;
   }
 
+  .history-accent {
+    margin-bottom: 18px;
+    padding: 18px;
+  }
+
+  .history-accent h1 {
+    font-size: clamp(30px, 10vw, 44px);
+  }
+
   .champion-banners {
     margin: -6px 0 22px;
-    padding-inline: 16px;
+    gap: 12px;
+    padding: 8px 0 14px;
+  }
+
+  .champion-banner {
+    border-width: 3px;
+    min-width: 104px;
+    width: 104px;
+    height: 146px;
+    padding: 18px 8px 34px;
+  }
+
+  .champion-banner.latest {
+    min-width: 118px;
+    width: 118px;
+    height: 164px;
+  }
+
+  .champion-banner span,
+  .champion-banner small {
+    font-size: 10px;
+  }
+
+  .champion-banner strong {
+    font-size: 13px;
+  }
+
+  .champion-banner.latest strong {
+    font-size: 14px;
+  }
+
+  .champion-banner .banner-year {
+    font-size: 25px;
+  }
+
+  .champion-banner.latest .banner-year {
+    font-size: 29px;
   }
 
   .page-header,
@@ -1344,14 +1396,41 @@ p {
   .countdown-card {
     margin-top: 18px;
   }
+
+  .countdown-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .table,
+  table {
+    min-width: 680px;
+  }
 }
 
 @media (max-width: 560px) {
   nav {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   h1 {
-    font-size: 36px;
+    font-size: 34px;
+  }
+
+  .brand strong {
+    font-size: 23px;
+  }
+
+  .brand small {
+    font-size: 10px;
+  }
+
+  .home-hero {
+    margin-top: 8px;
+  }
+
+  .site-version {
+    left: 10px;
+    right: auto;
+    text-align: left;
   }
 }
