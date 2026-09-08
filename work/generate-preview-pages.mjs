@@ -14,6 +14,8 @@ const addDropMessageTypeIds = new Set([178, 179, 180, 181, 239]);
 const positionById = { 0: "QB", 1: "QB", 2: "RB", 3: "RB/WR", 4: "WR", 5: "WR/TE", 6: "TE", 16: "D/ST", 17: "K" };
 const lineupSlotById = { 0: "QB", 2: "RB", 4: "WR", 6: "TE", 16: "D/ST", 17: "K", 20: "Bench", 21: "IR", 23: "Flex" };
 const espnPlayerbase = new Map(Object.entries(playerbaseFile.players ?? {}).map(([id, player]) => [Number(id), player]));
+const starterLineupSlots = new Set([0, 2, 4, 6, 16, 17, 23]);
+const beerMarker = "🍺";
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 const fmt = (value) => Number(value ?? 0).toLocaleString(undefined, { maximumFractionDigits: 2 });
@@ -43,9 +45,11 @@ function loadSeason(year) {
     managers.set(id, { id, displayName: full || member.displayName || id });
   }
   const teams = arr(raw.teams).map((team) => {
+    const faabBudget = num(obj(obj(raw.settings).acquisitionSettings).acquisitionBudget);
     const ownerId = arr(team.owners).find(Boolean) || team.primaryOwner || team.ownerId || `team-${team.id ?? "unknown"}`;
     if (!managers.has(ownerId)) managers.set(ownerId, { id: ownerId, displayName: teamName(team) });
     const overall = obj(obj(team.record).overall);
+    const faabSpent = num(obj(team.transactionCounter).acquisitionBudgetSpent);
     return {
       season: year,
       teamId: team.id ?? 0,
@@ -56,6 +60,9 @@ function loadSeason(year) {
       ties: num(overall.ties) ?? 0,
       pointsFor: num(overall.pointsFor) ?? 0,
       pointsAgainst: num(overall.pointsAgainst) ?? 0,
+      faabBudget,
+      faabSpent,
+      faabRemaining: faabBudget !== undefined ? faabBudget - (faabSpent ?? 0) : undefined,
       playoffSeed: num(team.playoffSeed),
       finalPlacement: num(team.rankCalculatedFinal)
     };
@@ -507,6 +514,23 @@ function standingsThroughWeek(season, week) {
   return sortStandings([...rows.values()]);
 }
 
+function lowScorerCounts(season) {
+  const counts = new Map();
+  const weeks = new Map();
+  for (const score of arr(season.weeklyPlayerScores)) {
+    if (score.projected) continue;
+    if (score.lineupSlotId !== undefined && !starterLineupSlots.has(score.lineupSlotId)) continue;
+    const rows = weeks.get(score.week) ?? [];
+    rows.push(score);
+    weeks.set(score.week, rows);
+  }
+  for (const rows of weeks.values()) {
+    const lowest = Math.min(...rows.map((score) => score.points));
+    rows.filter((score) => score.points === lowest).forEach((score) => counts.set(score.playerId, (counts.get(score.playerId) ?? 0) + 1));
+  }
+  return counts;
+}
+
 function movementHtml(movement) {
   if (movement > 0) return `<span class="movement up">↑ ${movement}</span>`;
   if (movement < 0) return `<span class="movement down">↓ ${Math.abs(movement)}</span>`;
@@ -524,20 +548,24 @@ function writeCurrentSeason() {
     const previousRank = previousRanks.get(team.managerId);
     return { ...team, rank, movement: previousRank ? previousRank - rank : 0 };
   });
+  const playerLowScoreCounts = lowScorerCounts(season);
   const currentStyle = `<style>.row-toggle{align-items:center;background:transparent;border:0;color:var(--ink);cursor:pointer;display:inline-flex;font:inherit;font-weight:900;gap:8px;padding:0;text-align:left}.row-toggle span{color:var(--muted);display:inline-block;transition:transform 160ms ease}.row-toggle.open span{transform:rotate(180deg)}.manager-detail-row td{background:var(--bg);padding:16px}</style>`;
   const rows = standings.map((team) => {
     const roster = arr(season.finalRosters).filter((player) => player.teamId === team.teamId);
     const rosterHtml = roster.length
-      ? `<div class="roster-grid">${roster.map((player) => `<div class="roster-player"><strong>${esc(player.playerName)}</strong><span>${esc(currentRosterPosition(player))}</span></div>`).join("")}</div>`
+      ? `<div class="roster-grid">${roster.map((player) => {
+        const markers = player.playerId ? beerMarker.repeat(playerLowScoreCounts.get(player.playerId) ?? 0) : "";
+        return `<div class="roster-player"><strong>${esc(player.playerName)}${markers ? ` ${markers}` : ""}</strong><span>${esc(currentRosterPosition(player))}</span></div>`;
+      }).join("")}</div>`
       : `<p class="muted">No live roster snapshot found in this ESPN export.</p>`;
     const teamCell = roster.length
       ? `<button class="row-toggle" type="button" data-current-roster="${team.teamId}" aria-expanded="false"><span>▾</span><strong>${esc(team.teamName)}</strong></button>`
       : `<strong>${esc(team.teamName)}</strong>`;
-    const detailRow = roster.length ? `<tr class="manager-detail-row" data-current-roster-panel="${team.teamId}" style="display:none"><td colspan="6">${rosterHtml}</td></tr>` : "";
-    return `<tr class="${team.rank === 9 ? "playoff-cutoff" : ""}"><td>${team.rank}</td><td>${movementHtml(team.movement)}</td><td>${teamCell}<span class="cell-note">${esc(managerName(team.managerId))}</span></td><td>${team.wins}-${team.losses}${team.ties ? `-${team.ties}` : ""}</td><td>${fmt(team.pointsFor)}</td><td>${fmt(team.pointsAgainst)}</td></tr>${detailRow}`;
+    const detailRow = roster.length ? `<tr class="manager-detail-row" data-current-roster-panel="${team.teamId}" style="display:none"><td colspan="7">${rosterHtml}</td></tr>` : "";
+    return `<tr class="${team.rank === 9 ? "playoff-cutoff" : ""}"><td>${team.rank}</td><td>${movementHtml(team.movement)}</td><td>${teamCell}<span class="cell-note">${esc(managerName(team.managerId))}</span></td><td>${team.wins}-${team.losses}${team.ties ? `-${team.ties}` : ""}</td><td>${fmt(team.pointsFor)}</td><td>${fmt(team.pointsAgainst)}</td><td>${team.faabRemaining !== undefined ? `$${fmt(team.faabRemaining)}` : "-"}</td></tr>${detailRow}`;
   }).join("");
   const rosterScript = `<script>document.querySelectorAll('[data-current-roster]').forEach(btn=>btn.addEventListener('click',()=>{const id=btn.dataset.currentRoster;const panel=document.querySelector('[data-current-roster-panel="'+id+'"]');const open=panel&&panel.style.display!=='none';document.querySelectorAll('[data-current-roster-panel]').forEach(row=>row.style.display='none');document.querySelectorAll('[data-current-roster]').forEach(item=>{item.classList.remove('open');item.setAttribute('aria-expanded','false')});if(panel&&!open){panel.style.display='table-row';btn.classList.add('open');btn.setAttribute('aria-expanded','true')}}));</script>`;
-  write("current-season.html", shell("Moggate Current Season", "current-season", `${currentStyle}<header class="top"><div><span class="tag green">2026</span><h1>Current Season</h1></div><span class="tag gold">${latestCompletedWeek ? `Through Week ${latestCompletedWeek}` : "Preseason"}</span></header><section class="card"><table class="current-standings"><thead><tr><th>Rank</th><th>Weekly Move</th><th>Team</th><th>Record</th><th>PF (Tiebreaker)</th><th>PA</th></tr></thead><tbody>${rows}</tbody></table></section>${rosterScript}`));
+  write("current-season.html", shell("Moggate Current Season", "current-season", `${currentStyle}<header class="top"><div><span class="tag green">2026</span><h1>Current Season</h1></div><span class="tag gold">${latestCompletedWeek ? `Through Week ${latestCompletedWeek}` : "Preseason"}</span></header><section class="card"><table class="current-standings"><thead><tr><th>Rank</th><th>Weekly Move</th><th>Team</th><th>Record</th><th>PF (Tiebreaker)</th><th>PA</th><th>FAAB</th></tr></thead><tbody>${rows}</tbody></table></section>${rosterScript}`));
 }
 
 function writeHome() {

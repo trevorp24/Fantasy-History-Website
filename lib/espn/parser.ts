@@ -79,10 +79,14 @@ function managerForTeam(team: JsonObject, members: Map<string, Manager>): string
 }
 
 function extractTeams(raw: JsonObject, year: number, members: Map<string, Manager>): TeamSeason[] {
+  const acquisitionSettings = asObject(asObject(raw.settings).acquisitionSettings);
+  const faabBudget = asNumber(acquisitionSettings.acquisitionBudget);
   const teams = asArray(raw.teams).map((item) => {
     const team = asObject(item);
     const record = recordFromTeam(team);
     const managerId = managerForTeam(team, members);
+    const transactionCounter = asObject(team.transactionCounter);
+    const faabSpent = asNumber(transactionCounter.acquisitionBudgetSpent);
     if (!members.has(managerId)) {
       members.set(managerId, { id: managerId, displayName: teamName(team) });
     }
@@ -93,6 +97,9 @@ function extractTeams(raw: JsonObject, year: number, members: Map<string, Manage
       teamName: teamName(team),
       abbreviation: asString(team.abbrev),
       ...record,
+      faabBudget,
+      faabSpent,
+      faabRemaining: faabBudget !== undefined ? faabBudget - (faabSpent ?? 0) : undefined,
       playoffSeed: asNumber(team.playoffSeed),
       finalPlacement: asNumber(team.rankCalculatedFinal)
     };

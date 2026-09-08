@@ -4,6 +4,10 @@ import { Fragment, useState } from "react";
 import { LINEUP_SLOT_BY_ID } from "@/lib/espn/constants";
 import type { RosterPlayer } from "@/lib/domain/types";
 
+type CurrentRosterPlayer = RosterPlayer & {
+  lowScoreMarker?: string;
+};
+
 type CurrentSeasonRow = {
   teamId: number;
   teamName: string;
@@ -15,7 +19,8 @@ type CurrentSeasonRow = {
   ties: number;
   pointsFor: string;
   pointsAgainst: string;
-  roster: RosterPlayer[];
+  faabRemaining?: number;
+  roster: CurrentRosterPlayer[];
 };
 
 type Props = {
@@ -45,6 +50,7 @@ export function CurrentSeasonStandings({ standings }: Props) {
           <th>Record</th>
           <th>PF (Tiebreaker)</th>
           <th>PA</th>
+          <th>FAAB</th>
         </tr>
       </thead>
       <tbody>
@@ -70,15 +76,16 @@ export function CurrentSeasonStandings({ standings }: Props) {
                 <td>{team.wins}-{team.losses}{team.ties ? `-${team.ties}` : ""}</td>
                 <td>{team.pointsFor}</td>
                 <td>{team.pointsAgainst}</td>
+                <td>{team.faabRemaining !== undefined ? `$${team.faabRemaining}` : "-"}</td>
               </tr>
               {hasRoster && isOpen && (
                 <tr className="manager-detail-row">
-                  <td colSpan={6}>
+                  <td colSpan={7}>
                     {team.roster.length ? (
                       <div className="roster-grid">
                         {team.roster.map((player) => (
                           <div className="roster-player" key={`${player.playerId ?? player.playerName}-${player.lineupSlotId ?? "slot"}`}>
-                            <strong>{player.playerName}</strong>
+                            <strong>{player.playerName}{player.lowScoreMarker ? ` ${player.lowScoreMarker}` : ""}</strong>
                             <span>{formatPosition(player)}</span>
                           </div>
                         ))}

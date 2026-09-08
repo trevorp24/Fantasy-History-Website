@@ -18,6 +18,9 @@ export type TeamSeason = {
   ties: number;
   pointsFor: number;
   pointsAgainst: number;
+  faabBudget?: number;
+  faabSpent?: number;
+  faabRemaining?: number;
   playoffSeed?: number;
   finalPlacement?: number;
 };

@@ -2,6 +2,9 @@ import { CurrentSeasonStandings } from "@/app/current-season/CurrentSeasonStandi
 import { loadLeagueData, formatPoints } from "@/lib/data/loadLeague";
 import type { Matchup, Season, TeamSeason } from "@/lib/domain/types";
 
+const STARTER_LINEUP_SLOTS = new Set([0, 2, 4, 6, 16, 17, 23]);
+const BEER_MARKER = "🍺";
+
 type StandingRow = TeamSeason & {
   ownerName: string;
   rank: number;
@@ -48,6 +51,28 @@ function standingsThroughWeek(season: Season, week: number) {
   return sortStandings(Array.from(rows.values()));
 }
 
+function lowScorerCounts(season: Season) {
+  const counts = new Map<number, number>();
+  const weeks = new Map<number, typeof season.weeklyPlayerScores>();
+
+  for (const score of season.weeklyPlayerScores) {
+    if (score.projected) continue;
+    if (score.lineupSlotId !== undefined && !STARTER_LINEUP_SLOTS.has(score.lineupSlotId)) continue;
+    const rows = weeks.get(score.week) ?? [];
+    rows.push(score);
+    weeks.set(score.week, rows);
+  }
+
+  for (const rows of weeks.values()) {
+    const lowest = Math.min(...rows.map((score) => score.points));
+    for (const score of rows.filter((row) => row.points === lowest)) {
+      counts.set(score.playerId, (counts.get(score.playerId) ?? 0) + 1);
+    }
+  }
+
+  return counts;
+}
+
 export default function CurrentSeasonPage() {
   const data = loadLeagueData();
   const season = data.seasons.find((item) => item.year === 2026);
@@ -68,11 +93,15 @@ export default function CurrentSeasonPage() {
       movement: previousRank ? previousRank - rank : 0
     };
   });
+  const playerLowScoreCounts = lowScorerCounts(season);
   const rows = standings.map((team) => ({
     ...team,
     pointsFor: formatPoints(team.pointsFor),
     pointsAgainst: formatPoints(team.pointsAgainst),
-    roster: season.finalRosters.filter((player) => player.teamId === team.teamId)
+    roster: season.finalRosters.filter((player) => player.teamId === team.teamId).map((player) => ({
+      ...player,
+      lowScoreMarker: player.playerId ? BEER_MARKER.repeat(playerLowScoreCounts.get(player.playerId) ?? 0) : ""
+    }))
   }));
 
   return (
