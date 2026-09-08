@@ -2,8 +2,6 @@ import Link from "next/link";
 import { DraftCountdown } from "@/app/components/DraftCountdown";
 import { loadLeagueData, formatPoints } from "@/lib/data/loadLeague";
 
-const STARTER_LINEUP_SLOTS = new Set([0, 2, 4, 6, 16, 17, 23]);
-
 export default function HomePage() {
   const data = loadLeagueData();
   const completedSeasons = data.seasons.filter((season) => season.status === "complete");
@@ -38,22 +36,28 @@ export default function HomePage() {
   const weeklyMatchups = upcomingSeason?.matchups
     .filter((matchup) => matchup.week === currentWeek && matchup.homeTeamId && matchup.awayTeamId)
     .sort((a, b) => (a.id).localeCompare(b.id)) ?? [];
-  const recapWeek = upcomingSeason ? Math.max(0, ...upcomingSeason.weeklyPlayerScores.map((score) => score.week)) : 0;
+  const recapWeek = upcomingSeason ? Math.max(0, ...upcomingSeason.matchups.filter((matchup) =>
+    matchup.completed || matchup.homeProjectedScore !== undefined || matchup.awayProjectedScore !== undefined
+  ).map((matchup) => matchup.week)) : 0;
   const weeklyTotals = recapWeek && upcomingSeason
-    ? upcomingSeason.teams
-      .map((team) => {
-        const rows = upcomingSeason.weeklyPlayerScores.filter((score) =>
-          score.week === recapWeek &&
-          score.managerId === team.managerId &&
-          (score.lineupSlotId === undefined || STARTER_LINEUP_SLOTS.has(score.lineupSlotId))
-        );
-        return {
-          team,
-          total: rows.reduce((sum, score) => sum + score.points, 0),
-          projected: rows.length > 0 && rows.every((score) => score.projected)
-        };
+    ? upcomingSeason.matchups
+      .filter((matchup) => matchup.week === recapWeek)
+      .flatMap((matchup) => {
+        const useFinal = matchup.completed;
+        return [
+          {
+            team: matchup.homeTeamId ? teamById.get(matchup.homeTeamId) : undefined,
+            total: useFinal ? matchup.homeScore : matchup.homeProjectedScore,
+            projected: !useFinal
+          },
+          {
+            team: matchup.awayTeamId ? teamById.get(matchup.awayTeamId) : undefined,
+            total: useFinal ? matchup.awayScore : matchup.awayProjectedScore,
+            projected: !useFinal
+          }
+        ];
       })
-      .filter((row) => row.total > 0)
+      .filter((row): row is { team: NonNullable<typeof row.team>; total: number; projected: boolean } => Boolean(row.team) && row.total !== undefined)
       .sort((a, b) => b.total - a.total)
     : [];
   const highestScorer = weeklyTotals[0];

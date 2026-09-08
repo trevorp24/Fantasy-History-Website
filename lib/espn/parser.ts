@@ -121,6 +121,8 @@ function extractMatchups(raw: JsonObject, year: number, teams: TeamSeason[]): Ma
     const awayTeamId = asNumber(away.teamId);
     const homeScore = asNumber(home.totalPoints);
     const awayScore = asNumber(away.totalPoints);
+    const homeProjectedScore = asNumber(home.totalProjectedPoints);
+    const awayProjectedScore = asNumber(away.totalProjectedPoints);
     const homeManagerId = homeTeamId ? teamToManager.get(homeTeamId) : undefined;
     const awayManagerId = awayTeamId ? teamToManager.get(awayTeamId) : undefined;
     const completed = homeScore !== undefined && awayScore !== undefined && (homeScore > 0 || awayScore > 0);
@@ -145,6 +147,8 @@ function extractMatchups(raw: JsonObject, year: number, teams: TeamSeason[]): Ma
       awayManagerId,
       homeScore,
       awayScore,
+      homeProjectedScore,
+      awayProjectedScore,
       winnerManagerId,
       loserManagerId,
       margin,

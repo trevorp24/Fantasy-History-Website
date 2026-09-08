@@ -28,7 +28,6 @@ const managerOverrides = {
   andresPalacio: "{E99193C6-A234-4A24-9193-C6A234BA2477}",
   alexKlang: "{900D53E0-6C85-4D02-8D53-E06C85ED0253}"
 };
-const starterLineupSlots = new Set([0, 2, 4, 6, 16, 17, 23]);
 
 function teamName(team) {
   return team.name || [team.location, team.nickname].filter(Boolean).join(" ") || `Team ${team.id ?? "Unknown"}`;
@@ -70,6 +69,8 @@ function loadSeason(year) {
     const awayTeamId = num(away.teamId);
     const homeScore = num(home.totalPoints);
     const awayScore = num(away.totalPoints);
+    const homeProjectedScore = num(home.totalProjectedPoints);
+    const awayProjectedScore = num(away.totalProjectedPoints);
     const completed = homeScore !== undefined && awayScore !== undefined && (homeScore > 0 || awayScore > 0);
     const homeManagerId = homeTeamId ? teamToManager.get(homeTeamId) : undefined;
     const awayManagerId = awayTeamId ? teamToManager.get(awayTeamId) : undefined;
@@ -84,6 +85,8 @@ function loadSeason(year) {
       awayManagerId,
       homeScore,
       awayScore,
+      homeProjectedScore,
+      awayProjectedScore,
       winnerManagerId,
       loserManagerId: winnerManagerId === homeManagerId ? awayManagerId : winnerManagerId === awayManagerId ? homeManagerId : undefined,
       margin: completed ? Math.abs((homeScore ?? 0) - (awayScore ?? 0)) : undefined,
@@ -573,12 +576,15 @@ function writeHome() {
     const away = teamById.get(matchup.awayTeamId);
     return `<div class="schedule-matchup"><div><strong>${esc(home?.teamName ?? "Home Team")}</strong><span>${esc(managerName(home?.managerId))}</span></div><div class="matchup-score"><b>${fmt(matchup.homeScore ?? 0)} - ${fmt(matchup.awayScore ?? 0)}</b><span>Rivalry: ${esc(rivalryRecord(home?.managerId, away?.managerId))}</span></div><div><strong>${esc(away?.teamName ?? "Away Team")}</strong><span>${esc(managerName(away?.managerId))}</span></div></div>`;
   }).join("");
-  const recapWeek = Math.max(0, ...arr(currentSeason?.weeklyPlayerScores).map((score) => score.week));
+  const recapWeek = Math.max(0, ...arr(currentSeason?.matchups).filter((matchup) => matchup.completed || matchup.homeProjectedScore !== undefined || matchup.awayProjectedScore !== undefined).map((matchup) => matchup.week));
   const weeklyTotals = recapWeek
-    ? active.map((team) => {
-      const rows = arr(currentSeason?.weeklyPlayerScores).filter((score) => score.week === recapWeek && score.managerId === team.managerId && (score.lineupSlotId === undefined || starterLineupSlots.has(score.lineupSlotId)));
-      return { team, total: rows.reduce((sum, score) => sum + score.points, 0), projected: rows.length > 0 && rows.every((score) => score.projected) };
-    }).filter((row) => row.total > 0).sort((a, b) => b.total - a.total)
+    ? arr(currentSeason?.matchups).filter((matchup) => matchup.week === recapWeek).flatMap((matchup) => {
+      const useFinal = matchup.completed;
+      return [
+        { team: teamById.get(matchup.homeTeamId), total: useFinal ? matchup.homeScore : matchup.homeProjectedScore, projected: !useFinal },
+        { team: teamById.get(matchup.awayTeamId), total: useFinal ? matchup.awayScore : matchup.awayProjectedScore, projected: !useFinal }
+      ];
+    }).filter((row) => row.team && row.total !== undefined).sort((a, b) => b.total - a.total)
     : [];
   const highestScorer = weeklyTotals[0];
   const lowestScorer = weeklyTotals[weeklyTotals.length - 1];

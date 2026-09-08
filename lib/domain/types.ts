@@ -32,6 +32,8 @@ export type Matchup = {
   awayManagerId?: string;
   homeScore?: number;
   awayScore?: number;
+  homeProjectedScore?: number;
+  awayProjectedScore?: number;
   winnerManagerId?: string;
   loserManagerId?: string;
   margin?: number;

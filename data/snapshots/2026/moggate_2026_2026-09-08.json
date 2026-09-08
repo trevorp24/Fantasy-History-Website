@@ -17400,7 +17400,8 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {}
+            "stats": {},
+            "variance": {}
           },
           {
             "appliedAverage": 0.36,
@@ -17471,7 +17472,8 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {}
+            "stats": {},
+            "variance": {}
           }
         ],
         "universeId": 0
@@ -19039,7 +19041,8 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {}
+            "stats": {},
+            "variance": {}
           },
           {
             "appliedAverage": 2.75,
@@ -19121,7 +19124,8 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {}
+            "stats": {},
+            "variance": {}
           }
         ],
         "universeId": 0
@@ -27041,7 +27045,8 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {}
+                      "stats": {},
+                      "variance": {}
                     }
                   ],
                   "universeId": 1
@@ -207418,7 +207423,8 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {}
+                    "stats": {},
+                    "variance": {}
                   },
                   {
                     "appliedAverage": 0,
@@ -207472,7 +207478,8 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {}
+                    "stats": {},
+                    "variance": {}
                   }
                 ],
                 "universeId": 1
