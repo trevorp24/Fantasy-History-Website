@@ -130,7 +130,7 @@ export function ManagersTable({ rows }: ManagersTableProps) {
 
 function PlacementChart({ placements }: { placements: PlacementPoint[] }) {
   const validPlacements = placements.filter((placement) => placement.placement);
-  const maxPlacement = Math.max(...validPlacements.map((placement) => placement.placement ?? 0), 1);
+  const maxPlacement = Math.max(14, ...validPlacements.map((placement) => placement.placement ?? 0), 1);
   const width = Math.max(430, placements.length * 76);
   const height = 155;
   const paddingX = 28;
