@@ -2,10 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-const DRAFT_TIME = new Date("2026-08-31T19:00:00-04:00");
+const TRADE_DEADLINE = new Date("2026-12-02T12:00:00-05:00");
 
 function getParts(now: Date) {
-  const remaining = Math.max(0, DRAFT_TIME.getTime() - now.getTime());
+  const remaining = Math.max(0, TRADE_DEADLINE.getTime() - now.getTime());
   const totalSeconds = Math.floor(remaining / 1000);
   return {
     days: Math.floor(totalSeconds / 86400),
@@ -27,9 +27,9 @@ export function DraftCountdown() {
 
   return (
     <div className="countdown-card">
-      <span className="eyebrow">Draft clock</span>
-      <strong>{parts.isLive ? "Draft time" : "August 31, 2026 - 7:00 PM ET"}</strong>
-      <div className="countdown-grid" aria-label="Countdown to draft day">
+      <span className="eyebrow">Trade deadline</span>
+      <strong>{parts.isLive ? "Trade deadline passed" : "December 2, 2026 - 12:00 PM EST"}</strong>
+      <div className="countdown-grid" aria-label="Countdown to the trade deadline">
         <span><b>{parts.days}</b><small>Days</small></span>
         <span><b>{parts.hours}</b><small>Hours</small></span>
         <span><b>{parts.minutes}</b><small>Minutes</small></span>

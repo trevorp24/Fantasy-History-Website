@@ -6,6 +6,18 @@ import { loadLeagueData } from "@/lib/data/loadLeague";
 import packageJson from "@/package.json";
 import "./globals.css";
 
+function lastUpdatedLabel() {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    timeZoneName: "short"
+  }).format(new Date());
+}
+
 export const metadata: Metadata = {
   title: "Moggate League Archive",
   description: "Fantasy football history, records, rivalries, manager profiles, and draft archive for Moggate."
@@ -27,6 +39,7 @@ const nav = [
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const data = loadLeagueData();
+  const lastUpdated = lastUpdatedLabel();
   const managerById = new Map(data.managers.map((manager) => [manager.id, manager.displayName]));
   const championBanners = data.seasons
     .filter((season) => season.status === "complete")
@@ -88,7 +101,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             {children}
           </main>
         </div>
-        <span className="site-version">v{packageJson.version}</span>
+        <span className="site-version">
+          <span>v{packageJson.version}</span>
+          <small>Updated {lastUpdated}</small>
+        </span>
       </body>
     </html>
   );

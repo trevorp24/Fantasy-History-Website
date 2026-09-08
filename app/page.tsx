@@ -2,6 +2,8 @@ import Link from "next/link";
 import { DraftCountdown } from "@/app/components/DraftCountdown";
 import { loadLeagueData, formatPoints } from "@/lib/data/loadLeague";
 
+const STARTER_LINEUP_SLOTS = new Set([0, 2, 4, 6, 16, 17, 23]);
+
 export default function HomePage() {
   const data = loadLeagueData();
   const completedSeasons = data.seasons.filter((season) => season.status === "complete");
@@ -36,6 +38,27 @@ export default function HomePage() {
   const weeklyMatchups = upcomingSeason?.matchups
     .filter((matchup) => matchup.week === currentWeek && matchup.homeTeamId && matchup.awayTeamId)
     .sort((a, b) => (a.id).localeCompare(b.id)) ?? [];
+  const recapWeek = upcomingSeason ? Math.max(0, ...upcomingSeason.weeklyPlayerScores.map((score) => score.week)) : 0;
+  const weeklyTotals = recapWeek && upcomingSeason
+    ? upcomingSeason.teams
+      .map((team) => {
+        const rows = upcomingSeason.weeklyPlayerScores.filter((score) =>
+          score.week === recapWeek &&
+          score.managerId === team.managerId &&
+          (score.lineupSlotId === undefined || STARTER_LINEUP_SLOTS.has(score.lineupSlotId))
+        );
+        return {
+          team,
+          total: rows.reduce((sum, score) => sum + score.points, 0),
+          projected: rows.length > 0 && rows.every((score) => score.projected)
+        };
+      })
+      .filter((row) => row.total > 0)
+      .sort((a, b) => b.total - a.total)
+    : [];
+  const highestScorer = weeklyTotals[0];
+  const lowestScorer = weeklyTotals[weeklyTotals.length - 1];
+  const recapIsProjected = weeklyTotals.length > 0 && weeklyTotals.every((row) => row.projected);
   const rivalryRecord = (homeManagerId?: string, awayManagerId?: string) => {
     if (!homeManagerId || !awayManagerId) return "No history";
     const record = data.headToHead.find((item) =>
@@ -85,11 +108,21 @@ export default function HomePage() {
         </div>
 
         <div className="card">
-          <h2>Archive Status</h2>
-          <div className="mini-stats">
-            <span><b>{completedSeasons.length}</b><small>Completed seasons</small></span>
-            <span><b>{data.backfillYears.length}</b><small>Backfill years</small></span>
-            <span><b>{data.seasons.flatMap((season) => season.matchups).filter((game) => game.completed).length}</b><small>Scored matchups</small></span>
+          <span className={recapIsProjected ? "tag gold" : "tag green"}>{recapWeek ? `Week ${recapWeek}${recapIsProjected ? " projected" : ""}` : "2026"}</span>
+          <h2>Weekly Recap</h2>
+          <div className="weekly-recap-grid">
+            <span>
+              <small>Highest scorer</small>
+              <b>{highestScorer ? formatPoints(highestScorer.total) : "-"}</b>
+              <strong>{highestScorer ? managerById.get(highestScorer.team.managerId)?.displayName ?? "Owner unavailable" : "No scores yet"}</strong>
+              <em>{highestScorer?.team.teamName ?? "Scores appear when ESPN updates."}</em>
+            </span>
+            <span>
+              <small>Lowest scorer</small>
+              <b>{lowestScorer ? formatPoints(lowestScorer.total) : "-"}</b>
+              <strong>{lowestScorer ? managerById.get(lowestScorer.team.managerId)?.displayName ?? "Owner unavailable" : "No scores yet"}</strong>
+              <em>{lowestScorer?.team.teamName ?? "Scores appear when ESPN updates."}</em>
+            </span>
           </div>
         </div>
       </section>

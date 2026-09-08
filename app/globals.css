@@ -218,10 +218,18 @@ nav a:hover {
   border-radius: 999px;
   background: color-mix(in srgb, var(--panel) 88%, transparent);
   color: var(--muted);
+  display: grid;
+  gap: 3px;
   font-size: 11px;
   font-weight: 900;
   line-height: 1;
   padding: 6px 8px;
+  text-align: right;
+}
+
+.site-version small {
+  font-size: 10px;
+  font-weight: 800;
 }
 
 main {
@@ -516,6 +524,36 @@ p {
 
 .mini-stats b {
   color: var(--ink);
+}
+
+.weekly-recap-grid {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.weekly-recap-grid span {
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 5px;
+  padding-top: 12px;
+}
+
+.weekly-recap-grid small,
+.weekly-recap-grid em {
+  color: var(--muted);
+  font-size: 12px;
+  font-style: normal;
+}
+
+.weekly-recap-grid b {
+  color: var(--ink);
+  font-size: 28px;
+  line-height: 1;
+}
+
+.weekly-recap-grid strong {
+  font-size: 15px;
 }
 
 .table {

@@ -1,17 +1,18 @@
 import { DraftPick, Manager, Matchup, RosterMoveActivity, RosterPlayer, Season, SeasonStatus, TeamSeason, WeeklyPlayerScore } from "@/lib/domain/types";
 import { LINEUP_SLOT_BY_ID, POSITION_BY_ID } from "@/lib/espn/constants";
+import espnPlayerbase from "@/data/playerbase/espn-players.json";
 
 type JsonObject = Record<string, unknown>;
+type PlayerLookupEntry = { name: string; position?: string; proTeam?: string };
+type PlayerbaseFile = { players: Record<string, PlayerLookupEntry> };
 
 const MANAGER_OVERRIDES = {
   andresPalacio: "{E99193C6-A234-4A24-9193-C6A234BA2477}",
   alexKlang: "{900D53E0-6C85-4D02-8D53-E06C85ED0253}"
 } as const;
-const ESPN_PLAYER_NAME_OVERRIDES = new Map<number, string>([
-  [3122840, "Deshaun Watson"],
-  [4870612, "Zachariah Branch"],
-  [-16016, "Vikings D/ST"]
-]);
+const ESPN_PLAYERBASE = new Map<number, PlayerLookupEntry>(
+  Object.entries((espnPlayerbase as PlayerbaseFile).players).map(([id, player]) => [Number(id), player])
+);
 
 const asObject = (value: unknown): JsonObject => (value && typeof value === "object" && !Array.isArray(value) ? value as JsonObject : {});
 const asArray = (value: unknown): unknown[] => Array.isArray(value) ? value : [];
@@ -154,8 +155,8 @@ function extractMatchups(raw: JsonObject, year: number, teams: TeamSeason[]): Ma
   });
 }
 
-function extractPlayerLookup(raw: JsonObject): Map<number, { name: string; position?: string; proTeam?: string }> {
-  const players = new Map<number, { name: string; position?: string; proTeam?: string }>();
+function extractPlayerLookup(raw: JsonObject): Map<number, PlayerLookupEntry> {
+  const players = new Map<number, PlayerLookupEntry>();
   const addPlayer = (entry: JsonObject) => {
     const player = asObject(entry.player);
     const id = asNumber(player.id) ?? asNumber(entry.id) ?? asNumber(entry.playerId);
@@ -179,11 +180,15 @@ function extractPlayerLookup(raw: JsonObject): Map<number, { name: string; posit
   for (const pick of asArray(asObject(raw.draftDetail).picks).map(asObject)) {
     addPlayer(asObject(pick.playerPoolEntry));
   }
+  for (const [id, player] of ESPN_PLAYERBASE) {
+    const existing = players.get(id);
+    if (!existing || existing.name.startsWith("Player ")) players.set(id, player);
+  }
   return players;
 }
 
 function activityPlayerName(
-  players: Map<number, { name: string; position?: string; proTeam?: string }>,
+  players: Map<number, PlayerLookupEntry>,
   season: Season,
   message: JsonObject,
   playerId?: number
@@ -197,8 +202,8 @@ function activityPlayerName(
     asString(asObject(message.player).fullName) ??
     asString(asObject(message.player).name);
   if (directName) return directName;
-  const overrideName = playerId ? ESPN_PLAYER_NAME_OVERRIDES.get(playerId) : undefined;
-  if (overrideName) return overrideName;
+  const playerbaseName = playerId ? ESPN_PLAYERBASE.get(playerId)?.name : undefined;
+  if (playerbaseName) return playerbaseName;
   const draftedName = season.draftPicks.find((pick) => pick.playerId === playerId)?.playerName;
   if (draftedName && draftedName !== "TBD" && !draftedName.startsWith("Player ")) return draftedName;
   return playerId ? `Player ${playerId}` : "Player Unknown";
