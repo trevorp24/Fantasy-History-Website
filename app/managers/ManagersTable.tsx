@@ -131,11 +131,11 @@ export function ManagersTable({ rows }: ManagersTableProps) {
 function PlacementChart({ placements }: { placements: PlacementPoint[] }) {
   const validPlacements = placements.filter((placement) => placement.placement);
   const maxPlacement = Math.max(14, ...validPlacements.map((placement) => placement.placement ?? 0), 1);
-  const width = Math.max(430, placements.length * 76);
-  const height = 155;
+  const width = Math.max(360, placements.length * 58);
+  const height = 122;
   const paddingX = 28;
-  const chartTop = 28;
-  const chartBottom = 112;
+  const chartTop = 22;
+  const chartBottom = 86;
   const usableWidth = width - paddingX * 2;
   const step = placements.length > 1 ? usableWidth / (placements.length - 1) : usableWidth;
   const points = placements.map((placement, index) => {
@@ -160,11 +160,11 @@ function PlacementChart({ placements }: { placements: PlacementPoint[] }) {
           <g key={point.year}>
             {point.y !== undefined && (
               <>
-                <circle className={point.placement === 1 ? "placement-dot champion" : "placement-dot"} cx={point.x} cy={point.y} r="7" />
-                <text className="placement-value" x={point.x} y={point.y - 13} textAnchor="middle">{point.placement}</text>
+                <circle className={point.placement === 1 ? "placement-dot champion" : "placement-dot"} cx={point.x} cy={point.y} r="4" />
+                <text className="placement-value" x={point.x} y={point.y - 8} textAnchor="middle">{point.placement}</text>
               </>
             )}
-            <text className="placement-year" x={point.x} y="138" textAnchor="middle">{point.year}</text>
+            <text className="placement-year" x={point.x} y="108" textAnchor="middle">{point.year}</text>
           </g>
         ))}
       </svg>

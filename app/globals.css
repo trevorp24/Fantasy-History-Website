@@ -654,13 +654,14 @@ p {
 }
 
 .placement-line-chart {
+  max-width: 680px;
   overflow-x: auto;
   padding: 4px 0 0;
 }
 
 .placement-line-chart svg {
   display: block;
-  min-width: 430px;
+  min-width: 360px;
   width: 100%;
 }
 
@@ -674,13 +675,13 @@ p {
   stroke: var(--green);
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-width: 3;
+  stroke-width: 1.5;
 }
 
 .placement-dot {
   fill: var(--panel);
   stroke: var(--green);
-  stroke-width: 3;
+  stroke-width: 2;
 }
 
 .placement-dot.champion {
