@@ -6,11 +6,8 @@ export default function DraftsPage() {
   const seasonsWithDrafts = data.seasons.filter((season) => season.draftPicks.length);
   return (
     <>
-      <header className="page-header">
-        <div>
-          <div className="eyebrow">Draft archive</div>
-          <h1>Drafts</h1>
-        </div>
+      <header className="page-header history-accent">
+        <h1>Drafts</h1>
       </header>
       <DraftExplorer seasons={seasonsWithDrafts} managers={data.managers} />
     </>

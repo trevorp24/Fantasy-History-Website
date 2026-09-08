@@ -19,16 +19,18 @@ function lastUpdatedLabel() {
 }
 
 export const metadata: Metadata = {
-  title: "Moggate League Archive",
-  description: "Fantasy football history, records, rivalries, manager profiles, and draft archive for Moggate."
+  title: "Chudgate League Archive",
+  description: "Fantasy football history, records, rivalries, manager profiles, and draft archive for Chudgate."
 };
 
 const nav = [
+  { group: "2026 Season" },
   { href: "/", label: "Home", icon: Home },
   { href: "/current-season", label: "Current Season", icon: BarChart3 },
-  { href: "/schedule", label: "2026 Schedule", icon: CalendarDays },
-  { href: "/trades", label: "2026 Roster Moves", icon: ArrowLeftRight },
+  { href: "/schedule", label: "Schedule", icon: CalendarDays },
+  { href: "/trades", label: "Roster Moves", icon: ArrowLeftRight },
   { divider: true },
+  { group: "League Archive" },
   { href: "/history", label: "League History", icon: BookOpen },
   { href: "/managers", label: "Manager Stats", icon: Users },
   { href: "/records", label: "Awards", icon: Trophy },
@@ -55,10 +57,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <div className="shell">
           <aside className="sidebar">
             <Link className="brand" href="/">
-              <span className="brand-mark">M</span>
+              <span className="brand-mark">C</span>
               <span>
-                <strong>Moggate</strong>
-                <small>League Archive</small>
+                <strong>Chudgate</strong>
+                <small>Fantasy Football League</small>
               </span>
             </Link>
             <details className="nav-menu" open>
@@ -69,6 +71,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <nav aria-label="Primary">
                 {nav.map((item, index) => {
                   if ("divider" in item) return <span className="nav-divider" aria-hidden="true" key={`divider-${index}`} />;
+                  if ("group" in item) return <span className="nav-group-label" key={`group-${item.group}`}>{item.group}</span>;
                   const Icon = item.icon;
                   return (
                     <Link key={item.href} href={item.href}>
@@ -90,7 +93,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     style={{ animationDelay: `${index * -0.45}s` }}
                     key={season}
                   >
-                    <span>Moggate</span>
+                    <span>Chudgate</span>
                     <span className="banner-year">{season}</span>
                     <strong>{managerById.get(winner.managerId) ?? "Owner unavailable"}</strong>
                     <small>{winner.wins}-{winner.losses}{winner.ties ? `-${winner.ties}` : ""}</small>

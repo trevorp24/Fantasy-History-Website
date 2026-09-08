@@ -79,8 +79,8 @@ export default function HomePage() {
   return (
     <>
       <header className="home-hero">
-        <div>
-          <h1>Moggate 2026</h1>
+        <div className="history-accent">
+          <h1>Chudgate 2026</h1>
         </div>
         <DraftCountdown />
       </header>

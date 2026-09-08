@@ -6,7 +6,7 @@ export default function SchedulePage() {
   const season = data.seasons.find((item) => item.year === 2026);
   const managerNames = Object.fromEntries(data.managers.map((manager) => [manager.id, manager.displayName]));
 
-  if (!season) return <h1>2026 Schedule</h1>;
+  if (!season) return <header className="page-header history-accent"><h1>Schedule</h1></header>;
 
   const weeks = [...new Set(season.matchups.map((matchup) => matchup.week).filter((week) => week > 0))].sort((a, b) => a - b);
 
@@ -23,12 +23,8 @@ export default function SchedulePage() {
 
   return (
     <>
-      <header className="page-header">
-        <div>
-          <div className="eyebrow">2026</div>
-          <h1>Schedule</h1>
-        </div>
-        <span className="status-pill">{weeks.length} weeks</span>
+      <header className="page-header history-accent">
+        <h1>Schedule</h1>
       </header>
 
       <ScheduleExplorer

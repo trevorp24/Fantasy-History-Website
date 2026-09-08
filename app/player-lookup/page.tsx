@@ -7,11 +7,8 @@ export default function PlayerLookupPage() {
 
   return (
     <>
-      <header className="page-header">
-        <div>
-          <div className="eyebrow">Draft History</div>
-          <h1>Player Lookup</h1>
-        </div>
+      <header className="page-header history-accent">
+        <h1>Player Lookup</h1>
       </header>
       <PlayerLookupExplorer seasons={seasonsWithDrafts} managers={data.managers} />
     </>

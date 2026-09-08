@@ -5,11 +5,8 @@ export default function HistoryPage() {
   const data = loadLeagueData();
   return (
     <>
-      <header className="page-header">
-        <div>
-          <div className="eyebrow">Seasons</div>
-          <h1>League History</h1>
-        </div>
+      <header className="page-header history-accent">
+        <h1>League History</h1>
       </header>
       <HistoryExplorer seasons={data.seasons} managers={data.managers} />
     </>

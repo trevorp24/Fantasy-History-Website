@@ -77,7 +77,7 @@ export default function CurrentSeasonPage() {
   const data = loadLeagueData();
   const season = data.seasons.find((item) => item.year === 2026);
   const managerById = new Map(data.managers.map((manager) => [manager.id, manager.displayName]));
-  if (!season) return <h1>Current Season</h1>;
+  if (!season) return <header className="page-header history-accent"><h1>Current Season</h1></header>;
 
   const latestCompletedWeek = Math.max(0, ...season.matchups.filter((matchup) => matchup.completed).map((matchup) => matchup.week));
   const previousRanks = latestCompletedWeek > 1
@@ -106,12 +106,8 @@ export default function CurrentSeasonPage() {
 
   return (
     <>
-      <header className="page-header">
-        <div>
-          <div className="eyebrow">2026</div>
-          <h1>Current Season</h1>
-        </div>
-        <span className="status-pill">{latestCompletedWeek ? `Through Week ${latestCompletedWeek}` : "Preseason"}</span>
+      <header className="page-header history-accent">
+        <h1>Current Season</h1>
       </header>
 
       <section className="card">

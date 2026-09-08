@@ -4,11 +4,8 @@ export default function RecordsPage() {
   const data = loadLeagueData();
   return (
     <>
-      <header className="page-header">
-        <div>
-          <div className="eyebrow">Record book</div>
-          <h1>Awards</h1>
-        </div>
+      <header className="page-header history-accent">
+        <h1>Awards</h1>
       </header>
       <section className="grid cols-3">
         {data.recordBook.map((entry) => (

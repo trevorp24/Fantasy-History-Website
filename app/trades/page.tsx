@@ -12,7 +12,9 @@ export default function RosterMovesPage() {
 
   return (
     <>
-      <h1>2026 Roster Moves</h1>
+      <header className="page-header history-accent">
+        <h1>Roster Moves</h1>
+      </header>
       <RosterMovesTabs trades={trades} addDrops={addDrops} tradeImpacts={data.tradeImpacts} managerNames={managerNames} />
     </>
   );

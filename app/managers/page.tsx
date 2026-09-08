@@ -30,12 +30,8 @@ export default function ManagersPage() {
 
   return (
     <>
-      <header className="page-header">
-        <div>
-          <div className="eyebrow">Identity continuity</div>
-          <h1>Manager Stats</h1>
-          <p>Managers are connected across seasons by ESPN member ID first, with team ID fallback only when ESPN omits owner data.</p>
-        </div>
+      <header className="page-header history-accent">
+        <h1>Manager Stats</h1>
       </header>
       <section className="card">
         <ManagersTable rows={managerRows} />

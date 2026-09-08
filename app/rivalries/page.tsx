@@ -53,11 +53,8 @@ export default function RivalriesPage() {
 
   return (
     <>
-      <header className="page-header">
-        <div>
-          <div className="eyebrow">Head to head</div>
-          <h1>Rivalries</h1>
-        </div>
+      <header className="page-header history-accent">
+        <h1>Rivalries</h1>
       </header>
       <RivalryExplorer sections={rivalrySections} />
     </>
