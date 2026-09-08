@@ -5301,11 +5301,11 @@
         "lastVideoDate": 1786750109000,
         "ownership": {
           "activityLevel": null,
-          "auctionValueAverage": 47.57,
+          "auctionValueAverage": 47.56,
           "auctionValueAverageChange": -0.08,
           "averageDraftPosition": 13.27,
           "averageDraftPositionPercentChange": -0.16,
-          "date": 1788885022904,
+          "date": 1788888617661,
           "leagueType": 0,
           "percentChange": 0,
           "percentOwned": 99.87,
@@ -5925,15 +5925,15 @@
         "lastVideoDate": 1787669350000,
         "ownership": {
           "activityLevel": null,
-          "auctionValueAverage": 17.41,
+          "auctionValueAverage": 17.4,
           "auctionValueAverageChange": 0.06,
           "averageDraftPosition": 46.01,
-          "averageDraftPositionPercentChange": -0.07,
-          "date": 1788885021440,
+          "averageDraftPositionPercentChange": -0.06,
+          "date": 1788888616463,
           "leagueType": 0,
-          "percentChange": 0.02,
+          "percentChange": 0.03,
           "percentOwned": 98.72,
-          "percentStarted": 85.07
+          "percentStarted": 85.08
         },
         "proTeamId": 14,
         "rankings": {
@@ -6460,12 +6460,12 @@
           "auctionValueAverage": 2,
           "auctionValueAverageChange": -0.03,
           "averageDraftPosition": 124.78,
-          "averageDraftPositionPercentChange": -0.93,
-          "date": 1788885022911,
+          "averageDraftPositionPercentChange": -0.87,
+          "date": 1788888617671,
           "leagueType": 0,
-          "percentChange": -0.34,
+          "percentChange": -0.31,
           "percentOwned": 80.45,
-          "percentStarted": 5.8
+          "percentStarted": 5.81
         },
         "proTeamId": 16,
         "rankings": {
@@ -9652,10 +9652,10 @@
           "auctionValueAverageChange": 0,
           "averageDraftPosition": 169.95,
           "averageDraftPositionPercentChange": 0,
-          "date": 1788870615944,
+          "date": 1788888618185,
           "leagueType": 0,
           "percentChange": -0.01,
-          "percentOwned": 0.27,
+          "percentOwned": 0.28,
           "percentStarted": 0.02
         },
         "proTeamId": 23,
@@ -10008,9 +10008,9 @@
           "auctionValueAverageChange": 0,
           "averageDraftPosition": 171.03,
           "averageDraftPositionPercentChange": 0,
-          "date": 1788885023268,
+          "date": 1788888618029,
           "leagueType": 0,
-          "percentChange": 0.14,
+          "percentChange": 0.15,
           "percentOwned": 13.09,
           "percentStarted": 0.23
         },
@@ -10797,12 +10797,12 @@
           "activityLevel": null,
           "auctionValueAverage": 0.09,
           "auctionValueAverageChange": 0,
-          "averageDraftPosition": 169.86,
+          "averageDraftPosition": 169.87,
           "averageDraftPositionPercentChange": -0.02,
-          "date": 1788870616119,
+          "date": 1788888618297,
           "leagueType": 0,
           "percentChange": -0.17,
-          "percentOwned": 4.45,
+          "percentOwned": 4.44,
           "percentStarted": 0.06
         },
         "proTeamId": 12,
@@ -11417,15 +11417,15 @@
         "lastVideoDate": 1788878299000,
         "ownership": {
           "activityLevel": null,
-          "auctionValueAverage": 39.33,
+          "auctionValueAverage": 39.3,
           "auctionValueAverageChange": 0.32,
           "averageDraftPosition": 18.97,
-          "averageDraftPositionPercentChange": 0.1,
-          "date": 1788885021938,
+          "averageDraftPositionPercentChange": 0.09,
+          "date": 1788888616906,
           "leagueType": 0,
           "percentChange": 0,
           "percentOwned": 99.92,
-          "percentStarted": 97.65
+          "percentStarted": 97.64
         },
         "proTeamId": 2,
         "rankings": {
@@ -12431,11 +12431,11 @@
           "activityLevel": null,
           "auctionValueAverage": 0.38,
           "auctionValueAverageChange": 0.01,
-          "averageDraftPosition": 165.71,
+          "averageDraftPosition": 165.72,
           "averageDraftPositionPercentChange": -0.1,
-          "date": 1788885021416,
+          "date": 1788888616440,
           "leagueType": 0,
-          "percentChange": 0.49,
+          "percentChange": 0.5,
           "percentOwned": 29.91,
           "percentStarted": 0.57
         },
@@ -13829,12 +13829,12 @@
           "auctionValueAverage": 0.62,
           "auctionValueAverageChange": 0.01,
           "averageDraftPosition": 164,
-          "averageDraftPositionPercentChange": -0.14,
-          "date": 1788885022462,
+          "averageDraftPositionPercentChange": -0.13,
+          "date": 1788888617475,
           "leagueType": 0,
-          "percentChange": 0.27,
+          "percentChange": 0.29,
           "percentOwned": 36.32,
-          "percentStarted": 0.84
+          "percentStarted": 0.85
         },
         "proTeamId": 22,
         "rankings": {
@@ -14431,14 +14431,14 @@
         "ownership": {
           "activityLevel": null,
           "auctionValueAverage": 1.49,
-          "auctionValueAverageChange": 0,
+          "auctionValueAverageChange": 0.01,
           "averageDraftPosition": 126.37,
-          "averageDraftPositionPercentChange": -0.06,
-          "date": 1788885021588,
+          "averageDraftPositionPercentChange": -0.03,
+          "date": 1788888616628,
           "leagueType": 0,
-          "percentChange": -0.17,
-          "percentOwned": 81.71,
-          "percentStarted": 28.18
+          "percentChange": -0.14,
+          "percentOwned": 81.72,
+          "percentStarted": 28.23
         },
         "proTeamId": 33,
         "rankings": {
@@ -15967,11 +15967,11 @@
         "lastNewsDate": 1787974371000,
         "ownership": {
           "activityLevel": null,
-          "auctionValueAverage": 4.97,
-          "auctionValueAverageChange": -0.01,
-          "averageDraftPosition": 80.53,
-          "averageDraftPositionPercentChange": 0.77,
-          "date": 1788885021983,
+          "auctionValueAverage": 4.99,
+          "auctionValueAverageChange": 0.01,
+          "averageDraftPosition": 80.56,
+          "averageDraftPositionPercentChange": 0.71,
+          "date": 1788888616956,
           "leagueType": 0,
           "percentChange": 0,
           "percentOwned": 99.85,
@@ -19208,11 +19208,11 @@
         "lastVideoDate": 1788563410000,
         "ownership": {
           "activityLevel": null,
-          "auctionValueAverage": 48.05,
-          "auctionValueAverageChange": 0.3,
+          "auctionValueAverage": 48.03,
+          "auctionValueAverageChange": 0.31,
           "averageDraftPosition": 14.1,
           "averageDraftPositionPercentChange": -0.02,
-          "date": 1788885021964,
+          "date": 1788888616929,
           "leagueType": 0,
           "percentChange": 0.01,
           "percentOwned": 99.88,
@@ -19835,9 +19835,9 @@
           "auctionValueAverageChange": 0,
           "averageDraftPosition": 169.71,
           "averageDraftPositionPercentChange": 0.02,
-          "date": 1788877814595,
+          "date": 1788888617926,
           "leagueType": 0,
-          "percentChange": -0.08,
+          "percentChange": -0.07,
           "percentOwned": 6.76,
           "percentStarted": 0.84
         },
@@ -21027,9 +21027,9 @@
           "auctionValueAverageChange": -0.01,
           "averageDraftPosition": 171.41,
           "averageDraftPositionPercentChange": 0.02,
-          "date": 1788885022347,
+          "date": 1788888617327,
           "leagueType": 0,
-          "percentChange": -0.05,
+          "percentChange": -0.04,
           "percentOwned": 9.28,
           "percentStarted": 0.26
         },
@@ -21665,13 +21665,13 @@
           "activityLevel": null,
           "auctionValueAverage": 1.02,
           "auctionValueAverageChange": 0.02,
-          "averageDraftPosition": 156.33,
-          "averageDraftPositionPercentChange": 0.17,
-          "date": 1788885023345,
+          "averageDraftPosition": 156.34,
+          "averageDraftPositionPercentChange": 0.15,
+          "date": 1788888618138,
           "leagueType": 0,
-          "percentChange": -0.08,
-          "percentOwned": 72.46,
-          "percentStarted": 65.75
+          "percentChange": -0.06,
+          "percentOwned": 72.47,
+          "percentStarted": 65.76
         },
         "proTeamId": 8,
         "rankings": {
@@ -24676,7 +24676,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 4,
+                        "rank": 3,
                         "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 6
@@ -24708,7 +24708,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 3.125,
+                        "averageRank": 3,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -42152,7 +42152,7 @@
                   "injured": false,
                   "injuryStatus": "QUESTIONABLE",
                   "lastName": "Mahomes",
-                  "lastNewsDate": 1788023289000,
+                  "lastNewsDate": 1788887699000,
                   "lastVideoDate": 1786113136000,
                   "proTeamId": 12,
                   "rankings": {
@@ -70627,7 +70627,7 @@
                   "injured": false,
                   "injuryStatus": "QUESTIONABLE",
                   "lastName": "Flowers",
-                  "lastNewsDate": 1788452932000,
+                  "lastNewsDate": 1788887572000,
                   "lastVideoDate": 1787755677000,
                   "proTeamId": 33,
                   "rankings": {
@@ -80990,7 +80990,7 @@
                   "injured": false,
                   "injuryStatus": "QUESTIONABLE",
                   "lastName": "Odunze",
-                  "lastNewsDate": 1788806929000,
+                  "lastNewsDate": 1788887835000,
                   "lastVideoDate": 1787446286000,
                   "proTeamId": 3,
                   "rankings": {
@@ -86611,7 +86611,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 3,
+                        "rank": 4,
                         "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 6
@@ -86643,7 +86643,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 3.875,
+                        "averageRank": 4,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -92729,7 +92729,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 10,
+                        "rank": 11,
                         "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 6
@@ -92761,7 +92761,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 10.25,
+                        "averageRank": 10.375,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -93948,7 +93948,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 11,
+                        "rank": 10,
                         "rankSourceId": 10,
                         "rankType": "PPR",
                         "slotId": 6
@@ -93980,7 +93980,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 13,
+                        "averageRank": 12.875,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -97744,11 +97744,11 @@
                 "lastVideoDate": 1786121475000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 51.09,
-                  "auctionValueAverageChange": 0.28,
+                  "auctionValueAverage": 51.08,
+                  "auctionValueAverageChange": 0.29,
                   "averageDraftPosition": 12.32,
                   "averageDraftPositionPercentChange": 0.05,
-                  "date": 1788885022302,
+                  "date": 1788888617292,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.9,
@@ -98323,11 +98323,11 @@
                 "lastVideoDate": 1787074115000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 43.47,
-                  "auctionValueAverageChange": 0.24,
+                  "auctionValueAverage": 43.46,
+                  "auctionValueAverageChange": 0.25,
                   "averageDraftPosition": 16.47,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885021516,
+                  "date": 1788888616548,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.84,
@@ -98952,15 +98952,15 @@
                 "lastVideoDate": 1786977918000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 16.45,
+                  "auctionValueAverage": 16.44,
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 53.03,
-                  "averageDraftPositionPercentChange": -0.45,
-                  "date": 1788885022291,
+                  "averageDraftPositionPercentChange": -0.41,
+                  "date": 1788888617278,
                   "leagueType": 0,
-                  "percentChange": 0.14,
+                  "percentChange": 0.15,
                   "percentOwned": 95.86,
-                  "percentStarted": 68.06
+                  "percentStarted": 68.03
                 },
                 "proTeamId": 3,
                 "rankings": {
@@ -99584,12 +99584,12 @@
                   "auctionValueAverage": 13.5,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 62.26,
-                  "averageDraftPositionPercentChange": -0.58,
-                  "date": 1788885023479,
+                  "averageDraftPositionPercentChange": -0.53,
+                  "date": 1788888618287,
                   "leagueType": 0,
-                  "percentChange": 0.12,
-                  "percentOwned": 93.89,
-                  "percentStarted": 56.84
+                  "percentChange": 0.13,
+                  "percentOwned": 93.88,
+                  "percentStarted": 56.82
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -100221,15 +100221,15 @@
                 "lastVideoDate": 1786459654000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 6.79,
+                  "auctionValueAverage": 6.78,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 79.4,
-                  "averageDraftPositionPercentChange": -0.11,
-                  "date": 1788885023011,
+                  "averageDraftPositionPercentChange": -0.06,
+                  "date": 1788888617803,
                   "leagueType": 0,
-                  "percentChange": 0.13,
+                  "percentChange": 0.14,
                   "percentOwned": 92.33,
-                  "percentStarted": 32.51
+                  "percentStarted": 32.5
                 },
                 "proTeamId": 22,
                 "rankings": {
@@ -100690,7 +100690,9 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 20,
-            "pendingTransactionIds": null,
+            "pendingTransactionIds": [
+              "e896c802-b362-4365-a935-be3b109767d8"
+            ],
             "playerId": 4047650,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -100758,15 +100760,15 @@
                 "lastNewsDate": 1788203592000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 5.21,
-                  "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 86.02,
-                  "averageDraftPositionPercentChange": -0.32,
-                  "date": 1788885022123,
+                  "auctionValueAverage": 5.2,
+                  "auctionValueAverageChange": 0,
+                  "averageDraftPosition": 86.01,
+                  "averageDraftPositionPercentChange": -0.28,
+                  "date": 1788888617098,
                   "leagueType": 0,
-                  "percentChange": 0.01,
+                  "percentChange": 0.03,
                   "percentOwned": 92.09,
-                  "percentStarted": 31.04
+                  "percentStarted": 31.05
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -101311,12 +101313,12 @@
                   "auctionValueAverage": 6.05,
                   "auctionValueAverageChange": 0.18,
                   "averageDraftPosition": 103.57,
-                  "averageDraftPositionPercentChange": 0.17,
-                  "date": 1788885022322,
+                  "averageDraftPositionPercentChange": 0.2,
+                  "date": 1788888617307,
                   "leagueType": 0,
-                  "percentChange": -0.15,
+                  "percentChange": -0.13,
                   "percentOwned": 88.64,
-                  "percentStarted": 45.76
+                  "percentStarted": 45.77
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -101904,7 +101906,9 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 20,
-            "pendingTransactionIds": null,
+            "pendingTransactionIds": [
+              "e896c802-b362-4365-a935-be3b109767d8"
+            ],
             "playerId": 4870795,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -101977,12 +101981,12 @@
                   "auctionValueAverage": 1.47,
                   "auctionValueAverageChange": -0.04,
                   "averageDraftPosition": 135.77,
-                  "averageDraftPositionPercentChange": -0.89,
-                  "date": 1788885023435,
+                  "averageDraftPositionPercentChange": -0.84,
+                  "date": 1788888618248,
                   "leagueType": 0,
-                  "percentChange": -0.48,
-                  "percentOwned": 74.11,
-                  "percentStarted": 2.93
+                  "percentChange": -0.46,
+                  "percentOwned": 74.1,
+                  "percentStarted": 2.94
                 },
                 "proTeamId": 21,
                 "rankings": {
@@ -102432,13 +102436,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.85,
                   "auctionValueAverageChange": -0.01,
-                  "averageDraftPosition": 151.37,
-                  "averageDraftPositionPercentChange": -0.21,
-                  "date": 1788885022862,
+                  "averageDraftPosition": 151.36,
+                  "averageDraftPositionPercentChange": -0.18,
+                  "date": 1788888617613,
                   "leagueType": 0,
-                  "percentChange": 0.55,
-                  "percentOwned": 55.92,
-                  "percentStarted": 2.12
+                  "percentChange": 0.58,
+                  "percentOwned": 55.93,
+                  "percentStarted": 2.13
                 },
                 "proTeamId": 10,
                 "rankings": {
@@ -103050,14 +103054,14 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 1.8,
-                  "auctionValueAverageChange": -0.02,
+                  "auctionValueAverageChange": -0.03,
                   "averageDraftPosition": 114.84,
-                  "averageDraftPositionPercentChange": -0.4,
-                  "date": 1788885022221,
+                  "averageDraftPositionPercentChange": -0.37,
+                  "date": 1788888617203,
                   "leagueType": 0,
-                  "percentChange": -0.24,
-                  "percentOwned": 86,
-                  "percentStarted": 38.59
+                  "percentChange": -0.22,
+                  "percentOwned": 85.99,
+                  "percentStarted": 38.6
                 },
                 "proTeamId": 6,
                 "rankings": {
@@ -103592,14 +103596,14 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 1.12,
-                  "auctionValueAverageChange": 0.04,
-                  "averageDraftPosition": 142.45,
-                  "averageDraftPositionPercentChange": 0.68,
-                  "date": 1788885021997,
+                  "auctionValueAverageChange": 0.03,
+                  "averageDraftPosition": 142.47,
+                  "averageDraftPositionPercentChange": 0.65,
+                  "date": 1788888616971,
                   "leagueType": 0,
-                  "percentChange": 0.08,
-                  "percentOwned": 85.39,
-                  "percentStarted": 79.26
+                  "percentChange": 0.09,
+                  "percentOwned": 85.38,
+                  "percentStarted": 79.25
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -104094,14 +104098,14 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 0.09,
-                  "auctionValueAverageChange": 0.01,
+                  "auctionValueAverageChange": 0,
                   "averageDraftPosition": 171.01,
                   "averageDraftPositionPercentChange": 0.02,
-                  "date": 1788885023236,
+                  "date": 1788888617997,
                   "leagueType": 0,
-                  "percentChange": 0.91,
-                  "percentOwned": 6.13,
-                  "percentStarted": 0.14
+                  "percentChange": 0.96,
+                  "percentOwned": 6.18,
+                  "percentStarted": 0.15
                 },
                 "proTeamId": 19,
                 "rankings": {
@@ -104417,10 +104421,10 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170.49,
                   "averageDraftPositionPercentChange": 0.02,
-                  "date": 1788885022162,
+                  "date": 1788888617138,
                   "leagueType": 0,
                   "percentChange": 0.13,
-                  "percentOwned": 3.07,
+                  "percentOwned": 3.08,
                   "percentStarted": 0.15
                 },
                 "proTeamId": 6,
@@ -104905,13 +104909,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1,
                   "auctionValueAverageChange": -0.01,
-                  "averageDraftPosition": 154.07,
+                  "averageDraftPosition": 154.06,
                   "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788885021098,
+                  "date": 1788888616187,
                   "leagueType": 0,
-                  "percentChange": -0.69,
-                  "percentOwned": 68.99,
-                  "percentStarted": 56.33
+                  "percentChange": -0.7,
+                  "percentOwned": 68.93,
+                  "percentStarted": 56.24
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -105546,7 +105550,9 @@
             "acquisitionType": "ADD",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 20,
-            "pendingTransactionIds": [],
+            "pendingTransactionIds": [
+              "e896c802-b362-4365-a935-be3b109767d8"
+            ],
             "playerId": 3912547,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -105614,11 +105620,11 @@
                   "auctionValueAverage": 1.15,
                   "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 162.58,
-                  "averageDraftPositionPercentChange": 0.07,
-                  "date": 1788885021867,
+                  "averageDraftPositionPercentChange": 0.06,
+                  "date": 1788888616835,
                   "leagueType": 0,
-                  "percentChange": 0.11,
-                  "percentOwned": 26.89,
+                  "percentChange": 0.13,
+                  "percentOwned": 26.9,
                   "percentStarted": 3
                 },
                 "proTeamId": 26,
@@ -106419,11 +106425,11 @@
                 "lastNewsDate": 1787963211000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 54.4,
-                  "auctionValueAverageChange": 0.18,
+                  "auctionValueAverage": 54.38,
+                  "auctionValueAverageChange": 0.17,
                   "averageDraftPosition": 10.11,
                   "averageDraftPositionPercentChange": -0.03,
-                  "date": 1788885022475,
+                  "date": 1788888617491,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.91,
@@ -107051,11 +107057,11 @@
                 "lastVideoDate": 1787078803000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 33.75,
-                  "auctionValueAverageChange": 0.05,
+                  "auctionValueAverage": 33.73,
+                  "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 23.92,
                   "averageDraftPositionPercentChange": 0,
-                  "date": 1788885023005,
+                  "date": 1788888617800,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.89,
@@ -107647,15 +107653,15 @@
                 "lastNewsDate": 1788456959000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 15.53,
+                  "auctionValueAverage": 15.52,
                   "auctionValueAverageChange": -0.08,
                   "averageDraftPosition": 53.4,
-                  "averageDraftPositionPercentChange": -0.4,
-                  "date": 1788885022448,
+                  "averageDraftPositionPercentChange": -0.37,
+                  "date": 1788888617466,
                   "leagueType": 0,
-                  "percentChange": 0.06,
+                  "percentChange": 0.07,
                   "percentOwned": 97.02,
-                  "percentStarted": 70.4
+                  "percentStarted": 70.39
                 },
                 "proTeamId": 7,
                 "rankings": {
@@ -108261,15 +108267,15 @@
                 "lastVideoDate": 1788447018000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 16.41,
+                  "auctionValueAverage": 16.4,
                   "auctionValueAverageChange": 0.08,
                   "averageDraftPosition": 53.04,
-                  "averageDraftPositionPercentChange": -0.39,
-                  "date": 1788885022146,
+                  "averageDraftPositionPercentChange": -0.36,
+                  "date": 1788888617113,
                   "leagueType": 0,
-                  "percentChange": 0,
+                  "percentChange": 0.01,
                   "percentOwned": 97.3,
-                  "percentStarted": 73.99
+                  "percentStarted": 73.97
                 },
                 "proTeamId": 4,
                 "rankings": {
@@ -108805,12 +108811,12 @@
                   "auctionValueAverage": 11.26,
                   "auctionValueAverageChange": 0.05,
                   "averageDraftPosition": 60.93,
-                  "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788885021771,
+                  "averageDraftPositionPercentChange": -0.07,
+                  "date": 1788888616658,
                   "leagueType": 0,
                   "percentChange": 0.04,
                   "percentOwned": 96.13,
-                  "percentStarted": 64.13
+                  "percentStarted": 64.1
                 },
                 "proTeamId": 28,
                 "rankings": {
@@ -109361,13 +109367,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 4.11,
                   "auctionValueAverageChange": 0.05,
-                  "averageDraftPosition": 97.12,
-                  "averageDraftPositionPercentChange": -0.47,
-                  "date": 1788885022056,
+                  "averageDraftPosition": 97.13,
+                  "averageDraftPositionPercentChange": -0.41,
+                  "date": 1788888617029,
                   "leagueType": 0,
-                  "percentChange": 0.06,
+                  "percentChange": 0.08,
                   "percentOwned": 89.11,
-                  "percentStarted": 28.7
+                  "percentStarted": 28.75
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -109990,14 +109996,14 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 2.27,
-                  "auctionValueAverageChange": 0.06,
+                  "auctionValueAverageChange": 0.05,
                   "averageDraftPosition": 140.49,
-                  "averageDraftPositionPercentChange": -0.24,
-                  "date": 1788885022332,
+                  "averageDraftPositionPercentChange": -0.2,
+                  "date": 1788888617314,
                   "leagueType": 0,
-                  "percentChange": 0.16,
-                  "percentOwned": 68.54,
-                  "percentStarted": 3.36
+                  "percentChange": 0.19,
+                  "percentOwned": 68.55,
+                  "percentStarted": 3.38
                 },
                 "proTeamId": 16,
                 "rankings": {
@@ -110615,12 +110621,12 @@
                   "auctionValueAverage": 2.25,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 137.85,
-                  "averageDraftPositionPercentChange": -0.34,
-                  "date": 1788885023388,
+                  "averageDraftPositionPercentChange": -0.29,
+                  "date": 1788888618182,
                   "leagueType": 0,
-                  "percentChange": 0.8,
-                  "percentOwned": 65.19,
-                  "percentStarted": 1.88
+                  "percentChange": 0.82,
+                  "percentOwned": 65.21,
+                  "percentStarted": 1.89
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -111040,15 +111046,15 @@
                 "lastVideoDate": 1786373523000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 6.35,
+                  "auctionValueAverage": 6.34,
                   "auctionValueAverageChange": 0.13,
                   "averageDraftPosition": 93.21,
-                  "averageDraftPositionPercentChange": -0.11,
-                  "date": 1788885021383,
+                  "averageDraftPositionPercentChange": -0.1,
+                  "date": 1788888616411,
                   "leagueType": 0,
-                  "percentChange": -0.11,
+                  "percentChange": -0.09,
                   "percentOwned": 92.77,
-                  "percentStarted": 52.45
+                  "percentStarted": 52.48
                 },
                 "proTeamId": 14,
                 "rankings": {
@@ -111694,13 +111700,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.01,
                   "auctionValueAverageChange": 0.02,
-                  "averageDraftPosition": 152.35,
-                  "averageDraftPositionPercentChange": -0.16,
-                  "date": 1788885022898,
+                  "averageDraftPosition": 152.34,
+                  "averageDraftPositionPercentChange": -0.12,
+                  "date": 1788888617648,
                   "leagueType": 0,
-                  "percentChange": -0.25,
+                  "percentChange": -0.22,
                   "percentOwned": 59.83,
-                  "percentStarted": 1.91
+                  "percentStarted": 1.92
                 },
                 "proTeamId": 34,
                 "rankings": {
@@ -112330,11 +112336,11 @@
                   "auctionValueAverage": 0.67,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 162.85,
-                  "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788885023382,
+                  "averageDraftPositionPercentChange": -0.01,
+                  "date": 1788888618180,
                   "leagueType": 0,
                   "percentChange": 1.71,
-                  "percentOwned": 29.47,
+                  "percentOwned": 29.5,
                   "percentStarted": 0.47
                 },
                 "proTeamId": 7,
@@ -112731,12 +112737,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.09,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 169.86,
+                  "averageDraftPosition": 169.87,
                   "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788870616119,
+                  "date": 1788888618297,
                   "leagueType": 0,
                   "percentChange": -0.17,
-                  "percentOwned": 4.45,
+                  "percentOwned": 4.44,
                   "percentStarted": 0.06
                 },
                 "proTeamId": 12,
@@ -113040,10 +113046,10 @@
                   "auctionValueAverage": 0.15,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170.92,
-                  "averageDraftPositionPercentChange": 0.04,
-                  "date": 1788881420304,
+                  "averageDraftPositionPercentChange": 0.03,
+                  "date": 1788888617674,
                   "leagueType": 0,
-                  "percentChange": -0.08,
+                  "percentChange": -0.07,
                   "percentOwned": 9.97,
                   "percentStarted": 0.32
                 },
@@ -113618,12 +113624,12 @@
                   "auctionValueAverage": 0.53,
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 167.72,
-                  "averageDraftPositionPercentChange": 0.16,
-                  "date": 1788885023044,
+                  "averageDraftPositionPercentChange": 0.15,
+                  "date": 1788888617838,
                   "leagueType": 0,
-                  "percentChange": 0.04,
+                  "percentChange": 0.06,
                   "percentOwned": 32.78,
-                  "percentStarted": 28.49
+                  "percentStarted": 28.5
                 },
                 "proTeamId": 16,
                 "rankings": {
@@ -114164,12 +114170,12 @@
                   "auctionValueAverage": 0.9,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 155.26,
-                  "averageDraftPositionPercentChange": 0.19,
-                  "date": 1788885021120,
+                  "averageDraftPositionPercentChange": 0.18,
+                  "date": 1788888616208,
                   "leagueType": 0,
-                  "percentChange": 0.11,
-                  "percentOwned": 71.72,
-                  "percentStarted": 62.94
+                  "percentChange": 0.14,
+                  "percentOwned": 71.74,
+                  "percentStarted": 62.98
                 },
                 "proTeamId": 8,
                 "rankings": {
@@ -114959,7 +114965,9 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 4,
-            "pendingTransactionIds": null,
+            "pendingTransactionIds": [
+              "e896c802-b362-4365-a935-be3b109767d8"
+            ],
             "playerId": 4374302,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -115028,11 +115036,11 @@
                 "lastVideoDate": 1787928383000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 57.47,
-                  "auctionValueAverageChange": 0.22,
+                  "auctionValueAverage": 57.45,
+                  "auctionValueAverageChange": 0.21,
                   "averageDraftPosition": 8.48,
                   "averageDraftPositionPercentChange": -0.03,
-                  "date": 1788885022470,
+                  "date": 1788888617486,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.93,
@@ -115571,7 +115579,9 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 4,
-            "pendingTransactionIds": null,
+            "pendingTransactionIds": [
+              "e896c802-b362-4365-a935-be3b109767d8"
+            ],
             "playerId": 4258173,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -115640,14 +115650,14 @@
                 "lastVideoDate": 1786718836000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 33.28,
-                  "auctionValueAverageChange": 0.2,
+                  "auctionValueAverage": 33.26,
+                  "auctionValueAverageChange": 0.19,
                   "averageDraftPosition": 25.9,
                   "averageDraftPositionPercentChange": -0.03,
-                  "date": 1788885022280,
+                  "date": 1788888617269,
                   "leagueType": 0,
                   "percentChange": 0.01,
-                  "percentOwned": 99.72,
+                  "percentOwned": 99.71,
                   "percentStarted": 96.7
                 },
                 "proTeamId": 34,
@@ -116232,11 +116242,11 @@
                 "lastNewsDate": 1788560473000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 29.54,
-                  "auctionValueAverageChange": 0.08,
+                  "auctionValueAverage": 29.52,
+                  "auctionValueAverageChange": 0.09,
                   "averageDraftPosition": 29.76,
-                  "averageDraftPositionPercentChange": -0.12,
-                  "date": 1788885022362,
+                  "averageDraftPositionPercentChange": -0.11,
+                  "date": 1788888617343,
                   "leagueType": 0,
                   "percentChange": 0.03,
                   "percentOwned": 99.39,
@@ -116784,14 +116794,14 @@
                 "lastVideoDate": 1786112597000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 25.42,
+                  "auctionValueAverage": 25.4,
                   "auctionValueAverageChange": 0.58,
                   "averageDraftPosition": 33.18,
-                  "averageDraftPositionPercentChange": 0.38,
-                  "date": 1788885021901,
+                  "averageDraftPositionPercentChange": 0.37,
+                  "date": 1788888616870,
                   "leagueType": 0,
                   "percentChange": 0.01,
-                  "percentOwned": 99.84,
+                  "percentOwned": 99.83,
                   "percentStarted": 95.3
                 },
                 "proTeamId": 33,
@@ -117460,13 +117470,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 7.1,
                   "auctionValueAverageChange": 0.25,
-                  "averageDraftPosition": 76.75,
-                  "averageDraftPositionPercentChange": 0.09,
-                  "date": 1788885023126,
+                  "averageDraftPosition": 76.74,
+                  "averageDraftPositionPercentChange": 0.14,
+                  "date": 1788888617862,
                   "leagueType": 0,
-                  "percentChange": 0.42,
-                  "percentOwned": 91.61,
-                  "percentStarted": 37.23
+                  "percentChange": 0.44,
+                  "percentOwned": 91.62,
+                  "percentStarted": 37.56
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -118097,15 +118107,15 @@
                 "lastVideoDate": 1787539038000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 5.47,
+                  "auctionValueAverage": 5.46,
                   "auctionValueAverageChange": 0.07,
                   "averageDraftPosition": 86.03,
-                  "averageDraftPositionPercentChange": -0.21,
-                  "date": 1788885021896,
+                  "averageDraftPositionPercentChange": -0.16,
+                  "date": 1788888616864,
                   "leagueType": 0,
-                  "percentChange": 0.19,
+                  "percentChange": 0.2,
                   "percentOwned": 90.12,
-                  "percentStarted": 29.12
+                  "percentStarted": 29.15
                 },
                 "proTeamId": 10,
                 "rankings": {
@@ -118725,11 +118735,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 5.5,
                   "auctionValueAverageChange": -0.02,
-                  "averageDraftPosition": 70.61,
-                  "averageDraftPositionPercentChange": 0.08,
-                  "date": 1788885023498,
+                  "averageDraftPosition": 70.6,
+                  "averageDraftPositionPercentChange": 0.1,
+                  "date": 1788888618335,
                   "leagueType": 0,
-                  "percentChange": 0.11,
+                  "percentChange": 0.12,
                   "percentOwned": 95.59,
                   "percentStarted": 84.15
                 },
@@ -119309,13 +119319,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.43,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 129.31,
-                  "averageDraftPositionPercentChange": -0.47,
-                  "date": 1788885023373,
+                  "averageDraftPosition": 129.3,
+                  "averageDraftPositionPercentChange": -0.42,
+                  "date": 1788888618171,
                   "leagueType": 0,
-                  "percentChange": -0.19,
+                  "percentChange": -0.17,
                   "percentOwned": 74.7,
-                  "percentStarted": 3.1
+                  "percentStarted": 3.11
                 },
                 "proTeamId": 28,
                 "rankings": {
@@ -119926,11 +119936,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.29,
                   "auctionValueAverageChange": -0.02,
-                  "averageDraftPosition": 138.07,
-                  "averageDraftPositionPercentChange": -0.69,
-                  "date": 1788885023338,
+                  "averageDraftPosition": 138.06,
+                  "averageDraftPositionPercentChange": -0.64,
+                  "date": 1788888618124,
                   "leagueType": 0,
-                  "percentChange": -0.56,
+                  "percentChange": -0.53,
                   "percentOwned": 70.81,
                   "percentStarted": 2.06
                 },
@@ -120518,12 +120528,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.82,
                   "auctionValueAverageChange": -0.01,
-                  "averageDraftPosition": 154.75,
-                  "averageDraftPositionPercentChange": -0.32,
-                  "date": 1788885023356,
+                  "averageDraftPosition": 154.74,
+                  "averageDraftPositionPercentChange": -0.29,
+                  "date": 1788888618149,
                   "leagueType": 0,
-                  "percentChange": 0.48,
-                  "percentOwned": 51.08,
+                  "percentChange": 0.5,
+                  "percentOwned": 51.09,
                   "percentStarted": 1.13
                 },
                 "proTeamId": 29,
@@ -121060,12 +121070,12 @@
                   "auctionValueAverage": 0.62,
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 164,
-                  "averageDraftPositionPercentChange": -0.14,
-                  "date": 1788885022462,
+                  "averageDraftPositionPercentChange": -0.13,
+                  "date": 1788888617475,
                   "leagueType": 0,
-                  "percentChange": 0.27,
+                  "percentChange": 0.29,
                   "percentOwned": 36.32,
-                  "percentStarted": 0.84
+                  "percentStarted": 0.85
                 },
                 "proTeamId": 22,
                 "rankings": {
@@ -121671,12 +121681,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.92,
                   "auctionValueAverageChange": 0.06,
-                  "averageDraftPosition": 152.76,
-                  "averageDraftPositionPercentChange": -0.16,
-                  "date": 1788885022339,
+                  "averageDraftPosition": 152.75,
+                  "averageDraftPositionPercentChange": -0.14,
+                  "date": 1788888617319,
                   "leagueType": 0,
-                  "percentChange": 0.06,
-                  "percentOwned": 48.76,
+                  "percentChange": 0.07,
+                  "percentOwned": 48.75,
                   "percentStarted": 4.29
                 },
                 "proTeamId": 18,
@@ -122335,10 +122345,10 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 170.32,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788885022329,
+                  "date": 1788888617312,
                   "leagueType": 0,
-                  "percentChange": -0.57,
-                  "percentOwned": 6.86,
+                  "percentChange": -0.56,
+                  "percentOwned": 6.85,
                   "percentStarted": 0.19
                 },
                 "proTeamId": 19,
@@ -122891,10 +122901,10 @@
                   "auctionValueAverage": 0.72,
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 165.45,
-                  "averageDraftPositionPercentChange": 0.26,
-                  "date": 1788885023368,
+                  "averageDraftPositionPercentChange": 0.25,
+                  "date": 1788888618165,
                   "leagueType": 0,
-                  "percentChange": -0.06,
+                  "percentChange": -0.04,
                   "percentOwned": 52.44,
                   "percentStarted": 45.98
                 },
@@ -123437,11 +123447,11 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 165.04,
                   "averageDraftPositionPercentChange": 0.14,
-                  "date": 1788885021085,
+                  "date": 1788888616173,
                   "leagueType": 0,
-                  "percentChange": 0.43,
-                  "percentOwned": 54.99,
-                  "percentStarted": 49.14
+                  "percentChange": 0.51,
+                  "percentOwned": 55.06,
+                  "percentStarted": 49.22
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -124291,15 +124301,15 @@
                 "lastVideoDate": 1788880419000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 62.87,
+                  "auctionValueAverage": 62.85,
                   "auctionValueAverageChange": 0.24,
                   "averageDraftPosition": 4.23,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885022427,
+                  "date": 1788888617437,
                   "leagueType": 0,
                   "percentChange": 0,
-                  "percentOwned": 99.93,
-                  "percentStarted": 99.18
+                  "percentOwned": 99.92,
+                  "percentStarted": 99.17
                 },
                 "proTeamId": 4,
                 "rankings": {
@@ -124899,15 +124909,15 @@
                 "lastVideoDate": 1786028868000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 25.58,
-                  "auctionValueAverageChange": 0.18,
+                  "auctionValueAverage": 25.57,
+                  "auctionValueAverageChange": 0.17,
                   "averageDraftPosition": 35.73,
-                  "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885022829,
+                  "averageDraftPositionPercentChange": 0.01,
+                  "date": 1788888617582,
                   "leagueType": 0,
                   "percentChange": 0.02,
-                  "percentOwned": 98.84,
-                  "percentStarted": 90.47
+                  "percentOwned": 98.83,
+                  "percentStarted": 90.46
                 },
                 "proTeamId": 20,
                 "rankings": {
@@ -125541,15 +125551,15 @@
                 "lastVideoDate": 1786459670000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 26.49,
-                  "auctionValueAverageChange": -0.01,
+                  "auctionValueAverage": 26.48,
+                  "auctionValueAverageChange": 0,
                   "averageDraftPosition": 35.83,
-                  "averageDraftPositionPercentChange": -0.18,
-                  "date": 1788885023200,
+                  "averageDraftPositionPercentChange": -0.17,
+                  "date": 1788888617942,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.13,
-                  "percentStarted": 86.16
+                  "percentStarted": 86.13
                 },
                 "proTeamId": 19,
                 "rankings": {
@@ -126135,15 +126145,15 @@
                 "lastVideoDate": 1788878497000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 9.01,
+                  "auctionValueAverage": 9,
                   "auctionValueAverageChange": 0.07,
                   "averageDraftPosition": 74.7,
-                  "averageDraftPositionPercentChange": -0.2,
-                  "date": 1788885023277,
+                  "averageDraftPositionPercentChange": -0.15,
+                  "date": 1788888618040,
                   "leagueType": 0,
-                  "percentChange": 0.03,
+                  "percentChange": 0.05,
                   "percentOwned": 92.95,
-                  "percentStarted": 37.82
+                  "percentStarted": 37.8
                 },
                 "proTeamId": 3,
                 "rankings": {
@@ -126673,7 +126683,7 @@
             "acquisitionType": "DRAFT",
             "injuryStatus": "NORMAL",
             "lineupSlotId": 2,
-            "pendingTransactionIds": null,
+            "pendingTransactionIds": [],
             "playerId": 4685512,
             "playerPoolEntry": {
               "appliedStatTotal": 0,
@@ -126742,15 +126752,15 @@
                 "lastVideoDate": 1788533064000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 13.57,
-                  "auctionValueAverageChange": 0.12,
+                  "auctionValueAverage": 13.56,
+                  "auctionValueAverageChange": 0.11,
                   "averageDraftPosition": 66,
-                  "averageDraftPositionPercentChange": -0.33,
-                  "date": 1788885023300,
+                  "averageDraftPositionPercentChange": -0.28,
+                  "date": 1788888618066,
                   "leagueType": 0,
-                  "percentChange": 0.15,
+                  "percentChange": 0.16,
                   "percentOwned": 94.14,
-                  "percentStarted": 59.26
+                  "percentStarted": 59.29
                 },
                 "proTeamId": 26,
                 "rankings": {
@@ -127219,12 +127229,12 @@
                   "auctionValueAverage": 5.65,
                   "auctionValueAverageChange": 0.07,
                   "averageDraftPosition": 74.96,
-                  "averageDraftPositionPercentChange": 0.13,
-                  "date": 1788885022932,
+                  "averageDraftPositionPercentChange": 0.15,
+                  "date": 1788888617695,
                   "leagueType": 0,
-                  "percentChange": 0,
+                  "percentChange": 0.01,
                   "percentOwned": 95.76,
-                  "percentStarted": 78.57
+                  "percentStarted": 78.55
                 },
                 "proTeamId": 8,
                 "rankings": {
@@ -127751,12 +127761,12 @@
                   "auctionValueAverage": 2.24,
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 115.34,
-                  "averageDraftPositionPercentChange": -0.59,
-                  "date": 1788885023379,
+                  "averageDraftPositionPercentChange": -0.54,
+                  "date": 1788888618177,
                   "leagueType": 0,
-                  "percentChange": -0.19,
+                  "percentChange": -0.16,
                   "percentOwned": 85,
-                  "percentStarted": 11.19
+                  "percentStarted": 11.21
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -128345,12 +128355,12 @@
                   "auctionValueAverage": 3.05,
                   "auctionValueAverageChange": 0.09,
                   "averageDraftPosition": 137.04,
-                  "averageDraftPositionPercentChange": -0.36,
-                  "date": 1788885021925,
+                  "averageDraftPositionPercentChange": -0.34,
+                  "date": 1788888616891,
                   "leagueType": 0,
-                  "percentChange": 0.41,
+                  "percentChange": 0.43,
                   "percentOwned": 68.04,
-                  "percentStarted": 12.15
+                  "percentStarted": 12.17
                 },
                 "proTeamId": 16,
                 "rankings": {
@@ -129000,11 +129010,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.41,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 169.33,
+                  "averageDraftPosition": 169.32,
                   "averageDraftPositionPercentChange": 0.1,
-                  "date": 1788881420562,
+                  "date": 1788888617947,
                   "leagueType": 0,
-                  "percentChange": 0.44,
+                  "percentChange": 0.46,
                   "percentOwned": 21.9,
                   "percentStarted": 0.32
                 },
@@ -129631,11 +129641,11 @@
                   "auctionValueAverage": 0.6,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 164.59,
-                  "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788881420036,
+                  "averageDraftPositionPercentChange": 0,
+                  "date": 1788888617435,
                   "leagueType": 0,
-                  "percentChange": 0.49,
-                  "percentOwned": 31.69,
+                  "percentChange": 0.52,
+                  "percentOwned": 31.7,
                   "percentStarted": 0.5
                 },
                 "proTeamId": 30,
@@ -130220,15 +130230,15 @@
                 "lastNewsDate": 1787897704000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 2.14,
+                  "auctionValueAverage": 2.13,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 109.04,
-                  "averageDraftPositionPercentChange": 0.85,
-                  "date": 1788885022400,
+                  "averageDraftPosition": 109.07,
+                  "averageDraftPositionPercentChange": 0.77,
+                  "date": 1788888617411,
                   "leagueType": 0,
                   "percentChange": -0.05,
-                  "percentOwned": 98.73,
-                  "percentStarted": 95.81
+                  "percentOwned": 98.72,
+                  "percentStarted": 95.8
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -130770,12 +130780,12 @@
                   "auctionValueAverage": 1.37,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 137.53,
-                  "averageDraftPositionPercentChange": 0.34,
-                  "date": 1788885021091,
+                  "averageDraftPositionPercentChange": 0.32,
+                  "date": 1788888616180,
                   "leagueType": 0,
-                  "percentChange": 0.02,
-                  "percentOwned": 88.81,
-                  "percentStarted": 79.81
+                  "percentChange": 0.04,
+                  "percentOwned": 88.8,
+                  "percentStarted": 79.79
                 },
                 "proTeamId": 21,
                 "rankings": {
@@ -131471,13 +131481,13 @@
                 "lastNewsDate": 1788544206000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 0.85,
+                  "auctionValueAverage": 0.84,
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 167.42,
                   "averageDraftPositionPercentChange": 0.07,
-                  "date": 1788885022226,
+                  "date": 1788888617205,
                   "leagueType": 0,
-                  "percentChange": 0.15,
+                  "percentChange": 0.16,
                   "percentOwned": 21.35,
                   "percentStarted": 1.99
                 },
@@ -132121,11 +132131,11 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 169.49,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885022872,
+                  "date": 1788888617623,
                   "leagueType": 0,
-                  "percentChange": 0.2,
-                  "percentOwned": 26.72,
-                  "percentStarted": 1.08
+                  "percentChange": 0.24,
+                  "percentOwned": 26.74,
+                  "percentStarted": 1.09
                 },
                 "proTeamId": 13,
                 "rankings": {
@@ -132751,10 +132761,10 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170.33,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788885022930,
+                  "date": 1788888617690,
                   "leagueType": 0,
-                  "percentChange": 0,
-                  "percentOwned": 3.65,
+                  "percentChange": 0.01,
+                  "percentOwned": 3.67,
                   "percentStarted": 0.26
                 },
                 "proTeamId": 26,
@@ -133488,11 +133498,11 @@
                 "lastVideoDate": 1788563410000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 48.05,
-                  "auctionValueAverageChange": 0.3,
+                  "auctionValueAverage": 48.03,
+                  "auctionValueAverageChange": 0.31,
                   "averageDraftPosition": 14.1,
                   "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788885021964,
+                  "date": 1788888616929,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.88,
@@ -134121,11 +134131,11 @@
                 "lastVideoDate": 1786573807000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 44,
+                  "auctionValueAverage": 43.99,
                   "auctionValueAverageChange": 0.26,
                   "averageDraftPosition": 17.76,
                   "averageDraftPositionPercentChange": -0.09,
-                  "date": 1788885023287,
+                  "date": 1788888618046,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 99.6,
@@ -134754,11 +134764,11 @@
                 "lastVideoDate": 1787669359000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 22.86,
+                  "auctionValueAverage": 22.85,
                   "auctionValueAverageChange": -0.07,
                   "averageDraftPosition": 37.07,
                   "averageDraftPositionPercentChange": -0.07,
-                  "date": 1788885023142,
+                  "date": 1788888617879,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 99.04,
@@ -135351,15 +135361,15 @@
                 "lastVideoDate": 1788275337000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 20.06,
+                  "auctionValueAverage": 20.05,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 45.4,
-                  "averageDraftPositionPercentChange": -0.23,
-                  "date": 1788885023113,
+                  "averageDraftPositionPercentChange": -0.22,
+                  "date": 1788888617848,
                   "leagueType": 0,
-                  "percentChange": 0.01,
+                  "percentChange": 0.02,
                   "percentOwned": 98.13,
-                  "percentStarted": 82.21
+                  "percentStarted": 82.2
                 },
                 "proTeamId": 27,
                 "rankings": {
@@ -135965,15 +135975,15 @@
                 "lastVideoDate": 1788534404000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 7.29,
-                  "auctionValueAverageChange": 0.17,
-                  "averageDraftPosition": 85.46,
-                  "averageDraftPositionPercentChange": -0.05,
-                  "date": 1788885022060,
+                  "auctionValueAverage": 7.28,
+                  "auctionValueAverageChange": 0.18,
+                  "averageDraftPosition": 85.45,
+                  "averageDraftPositionPercentChange": -0.02,
+                  "date": 1788888617035,
                   "leagueType": 0,
-                  "percentChange": 0.23,
+                  "percentChange": 0.25,
                   "percentOwned": 92.5,
-                  "percentStarted": 62.7
+                  "percentStarted": 62.77
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -136645,12 +136655,12 @@
                   "auctionValueAverage": 6.22,
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 83.78,
-                  "averageDraftPositionPercentChange": -0.46,
-                  "date": 1788885021438,
+                  "averageDraftPositionPercentChange": -0.4,
+                  "date": 1788888616461,
                   "leagueType": 0,
-                  "percentChange": 0.09,
+                  "percentChange": 0.1,
                   "percentOwned": 90.95,
-                  "percentStarted": 23.68
+                  "percentStarted": 23.66
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -137183,13 +137193,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.3,
                   "auctionValueAverageChange": -0.02,
-                  "averageDraftPosition": 139.86,
-                  "averageDraftPositionPercentChange": -0.41,
-                  "date": 1788885022416,
+                  "averageDraftPosition": 139.85,
+                  "averageDraftPositionPercentChange": -0.37,
+                  "date": 1788888617423,
                   "leagueType": 0,
-                  "percentChange": -0.33,
+                  "percentChange": -0.3,
                   "percentOwned": 71.63,
-                  "percentStarted": 4.13
+                  "percentStarted": 4.15
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -137807,13 +137817,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 2.01,
                   "auctionValueAverageChange": 0.03,
-                  "averageDraftPosition": 125.18,
-                  "averageDraftPositionPercentChange": -0.27,
-                  "date": 1788885023221,
+                  "averageDraftPosition": 125.17,
+                  "averageDraftPositionPercentChange": -0.22,
+                  "date": 1788888617981,
                   "leagueType": 0,
-                  "percentChange": -0.15,
+                  "percentChange": -0.12,
                   "percentOwned": 78.79,
-                  "percentStarted": 5.51
+                  "percentStarted": 5.53
                 },
                 "proTeamId": 3,
                 "rankings": {
@@ -138426,14 +138436,14 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 1.49,
-                  "auctionValueAverageChange": 0,
+                  "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 126.37,
-                  "averageDraftPositionPercentChange": -0.06,
-                  "date": 1788885021588,
+                  "averageDraftPositionPercentChange": -0.03,
+                  "date": 1788888616628,
                   "leagueType": 0,
-                  "percentChange": -0.17,
-                  "percentOwned": 81.71,
-                  "percentStarted": 28.18
+                  "percentChange": -0.14,
+                  "percentOwned": 81.72,
+                  "percentStarted": 28.23
                 },
                 "proTeamId": 33,
                 "rankings": {
@@ -139023,12 +139033,12 @@
                   "auctionValueAverage": 3.78,
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 92.32,
-                  "averageDraftPositionPercentChange": 0.47,
-                  "date": 1788885021052,
+                  "averageDraftPositionPercentChange": 0.42,
+                  "date": 1788888616146,
                   "leagueType": 0,
-                  "percentChange": -0.02,
-                  "percentOwned": 98.94,
-                  "percentStarted": 86.63
+                  "percentChange": -0.03,
+                  "percentOwned": 98.93,
+                  "percentStarted": 86.56
                 },
                 "proTeamId": 34,
                 "rankings": {
@@ -139730,9 +139740,9 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 169.75,
                   "averageDraftPositionPercentChange": 0.05,
-                  "date": 1788885023491,
+                  "date": 1788888618324,
                   "leagueType": 0,
-                  "percentChange": 0.35,
+                  "percentChange": 0.36,
                   "percentOwned": 19.64,
                   "percentStarted": 0.38
                 },
@@ -140337,19 +140347,19 @@
                 "injuryStatus": "QUESTIONABLE",
                 "jersey": "15",
                 "lastName": "Mahomes",
-                "lastNewsDate": 1788023289000,
+                "lastNewsDate": 1788887699000,
                 "lastVideoDate": 1786113136000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 5.51,
+                  "auctionValueAverage": 5.5,
                   "auctionValueAverageChange": 0.14,
                   "averageDraftPosition": 109.34,
-                  "averageDraftPositionPercentChange": -0.05,
-                  "date": 1788885021835,
+                  "averageDraftPositionPercentChange": -0.03,
+                  "date": 1788888616803,
                   "leagueType": 0,
-                  "percentChange": -0.12,
+                  "percentChange": -0.1,
                   "percentOwned": 86.57,
-                  "percentStarted": 20.43
+                  "percentStarted": 20.4
                 },
                 "proTeamId": 12,
                 "rankings": {
@@ -141020,13 +141030,13 @@
                 "lastVideoDate": 1786750328000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 0.23,
+                  "auctionValueAverage": 0.22,
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 170.89,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885023423,
+                  "date": 1788888618229,
                   "leagueType": 0,
-                  "percentChange": 0.09,
+                  "percentChange": 0.1,
                   "percentOwned": 16.03,
                   "percentStarted": 0.21
                 },
@@ -141348,13 +141358,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.02,
                   "auctionValueAverageChange": 0.02,
-                  "averageDraftPosition": 156.33,
-                  "averageDraftPositionPercentChange": 0.17,
-                  "date": 1788885023345,
+                  "averageDraftPosition": 156.34,
+                  "averageDraftPositionPercentChange": 0.15,
+                  "date": 1788888618138,
                   "leagueType": 0,
-                  "percentChange": -0.08,
-                  "percentOwned": 72.46,
-                  "percentStarted": 65.75
+                  "percentChange": -0.06,
+                  "percentOwned": 72.47,
+                  "percentStarted": 65.76
                 },
                 "proTeamId": 8,
                 "rankings": {
@@ -141904,10 +141914,10 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788881419144,
+                  "date": 1788888616559,
                   "leagueType": 0,
                   "percentChange": -0.08,
-                  "percentOwned": 2.67,
+                  "percentOwned": 2.68,
                   "percentStarted": 0.07
                 },
                 "proTeamId": 22,
@@ -142224,10 +142234,10 @@
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 170.77,
                   "averageDraftPositionPercentChange": 0.09,
-                  "date": 1788885021590,
+                  "date": 1788888616630,
                   "leagueType": 0,
                   "percentChange": 1.23,
-                  "percentOwned": 11.9,
+                  "percentOwned": 11.91,
                   "percentStarted": 0.3
                 },
                 "proTeamId": 4,
@@ -142996,11 +143006,11 @@
                 "lastVideoDate": 1782882713000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 51.56,
+                  "auctionValueAverage": 51.54,
                   "auctionValueAverageChange": 0.33,
                   "averageDraftPosition": 11.55,
                   "averageDraftPositionPercentChange": 0.04,
-                  "date": 1788885022175,
+                  "date": 1788888617158,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.92,
@@ -143596,15 +143606,15 @@
                 "lastVideoDate": 1787845821000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 36.38,
-                  "auctionValueAverageChange": 0.29,
+                  "auctionValueAverage": 36.36,
+                  "auctionValueAverageChange": 0.28,
                   "averageDraftPosition": 24.29,
-                  "averageDraftPositionPercentChange": 0.07,
-                  "date": 1788885023036,
+                  "averageDraftPositionPercentChange": 0.08,
+                  "date": 1788888617829,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 99.6,
-                  "percentStarted": 93.8
+                  "percentStarted": 93.79
                 },
                 "proTeamId": 12,
                 "rankings": {
@@ -144216,19 +144226,19 @@
                 "injuryStatus": "QUESTIONABLE",
                 "jersey": "4",
                 "lastName": "Flowers",
-                "lastNewsDate": 1788452932000,
+                "lastNewsDate": 1788887572000,
                 "lastVideoDate": 1787755677000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 20.39,
+                  "auctionValueAverage": 20.38,
                   "auctionValueAverageChange": 0.15,
                   "averageDraftPosition": 43.79,
-                  "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885022921,
+                  "averageDraftPositionPercentChange": 0,
+                  "date": 1788888617682,
                   "leagueType": 0,
                   "percentChange": 0.01,
-                  "percentOwned": 98.6,
-                  "percentStarted": 85.03
+                  "percentOwned": 98.59,
+                  "percentStarted": 85.02
                 },
                 "proTeamId": 33,
                 "rankings": {
@@ -144841,15 +144851,15 @@
                 "lastVideoDate": 1788364658000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 12.2,
-                  "auctionValueAverageChange": -0.03,
+                  "auctionValueAverage": 12.19,
+                  "auctionValueAverageChange": -0.04,
                   "averageDraftPosition": 62.03,
-                  "averageDraftPositionPercentChange": -0.52,
-                  "date": 1788885022016,
+                  "averageDraftPositionPercentChange": -0.48,
+                  "date": 1788888616991,
                   "leagueType": 0,
-                  "percentChange": 0.13,
+                  "percentChange": 0.14,
                   "percentOwned": 94.93,
-                  "percentStarted": 61.49
+                  "percentStarted": 61.51
                 },
                 "proTeamId": 34,
                 "rankings": {
@@ -145475,15 +145485,15 @@
                 "lastVideoDate": 1786112693000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 14.86,
+                  "auctionValueAverage": 14.85,
                   "auctionValueAverageChange": 0.27,
                   "averageDraftPosition": 52.49,
-                  "averageDraftPositionPercentChange": 0.27,
-                  "date": 1788885022509,
+                  "averageDraftPositionPercentChange": 0.26,
+                  "date": 1788888617521,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.02,
-                  "percentStarted": 82.07
+                  "percentStarted": 82.01
                 },
                 "proTeamId": 28,
                 "rankings": {
@@ -146140,12 +146150,12 @@
                   "auctionValueAverage": 2.76,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 113.29,
-                  "averageDraftPositionPercentChange": -0.17,
-                  "date": 1788885023018,
+                  "averageDraftPositionPercentChange": -0.12,
+                  "date": 1788888617811,
                   "leagueType": 0,
-                  "percentChange": -0.14,
+                  "percentChange": -0.11,
                   "percentOwned": 84.48,
-                  "percentStarted": 8.72
+                  "percentStarted": 8.74
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -146740,12 +146750,12 @@
                   "auctionValueAverage": 4.48,
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 90.82,
-                  "averageDraftPositionPercentChange": 0.2,
-                  "date": 1788885023169,
+                  "averageDraftPositionPercentChange": 0.23,
+                  "date": 1788888617909,
                   "leagueType": 0,
-                  "percentChange": 0.03,
+                  "percentChange": 0.04,
                   "percentOwned": 91.1,
-                  "percentStarted": 58.7
+                  "percentStarted": 58.64
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -147309,12 +147319,12 @@
                   "auctionValueAverage": 2,
                   "auctionValueAverageChange": -0.03,
                   "averageDraftPosition": 124.78,
-                  "averageDraftPositionPercentChange": -0.93,
-                  "date": 1788885022911,
+                  "averageDraftPositionPercentChange": -0.87,
+                  "date": 1788888617671,
                   "leagueType": 0,
-                  "percentChange": -0.34,
+                  "percentChange": -0.31,
                   "percentOwned": 80.45,
-                  "percentStarted": 5.8
+                  "percentStarted": 5.81
                 },
                 "proTeamId": 16,
                 "rankings": {
@@ -147915,10 +147925,10 @@
                   "auctionValueAverage": 1.27,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 148.7,
-                  "averageDraftPositionPercentChange": -0.49,
-                  "date": 1788885023430,
+                  "averageDraftPositionPercentChange": -0.46,
+                  "date": 1788888618242,
                   "leagueType": 0,
-                  "percentChange": -0.4,
+                  "percentChange": -0.37,
                   "percentOwned": 65.04,
                   "percentStarted": 1.88
                 },
@@ -148394,12 +148404,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.84,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 162.71,
-                  "averageDraftPositionPercentChange": 0.04,
-                  "date": 1788885023325,
+                  "averageDraftPosition": 162.72,
+                  "averageDraftPositionPercentChange": 0.05,
+                  "date": 1788888618107,
                   "leagueType": 0,
-                  "percentChange": 0.17,
-                  "percentOwned": 40.23,
+                  "percentChange": 0.2,
+                  "percentOwned": 40.24,
                   "percentStarted": 1.06
                 },
                 "proTeamId": 13,
@@ -148850,10 +148860,10 @@
                   "auctionValueAverage": 1.48,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 133.24,
-                  "averageDraftPositionPercentChange": -0.57,
-                  "date": 1788885023248,
+                  "averageDraftPositionPercentChange": -0.52,
+                  "date": 1788888618011,
                   "leagueType": 0,
-                  "percentChange": -0.24,
+                  "percentChange": -0.21,
                   "percentOwned": 76.27,
                   "percentStarted": 4.58
                 },
@@ -149458,9 +149468,9 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 171.03,
                   "averageDraftPositionPercentChange": 0,
-                  "date": 1788885023268,
+                  "date": 1788888618029,
                   "leagueType": 0,
-                  "percentChange": 0.14,
+                  "percentChange": 0.15,
                   "percentOwned": 13.09,
                   "percentStarted": 0.23
                 },
@@ -150020,13 +150030,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.21,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 143.81,
-                  "averageDraftPositionPercentChange": 0.32,
-                  "date": 1788885021566,
+                  "averageDraftPosition": 143.82,
+                  "averageDraftPositionPercentChange": 0.3,
+                  "date": 1788888616604,
                   "leagueType": 0,
-                  "percentChange": 0.01,
+                  "percentChange": 0.03,
                   "percentOwned": 81.81,
-                  "percentStarted": 73.71
+                  "percentStarted": 73.7
                 },
                 "proTeamId": 12,
                 "rankings": {
@@ -150568,11 +150578,11 @@
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 170.31,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788885021094,
+                  "date": 1788888616184,
                   "leagueType": 0,
-                  "percentChange": 0.16,
-                  "percentOwned": 4.02,
-                  "percentStarted": 3.07
+                  "percentChange": 0.17,
+                  "percentOwned": 4.03,
+                  "percentStarted": 3.09
                 },
                 "proTeamId": 20,
                 "rankings": {
@@ -151276,12 +151286,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.39,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 167.84,
+                  "averageDraftPosition": 167.83,
                   "averageDraftPositionPercentChange": 0.16,
-                  "date": 1788885023154,
+                  "date": 1788888617889,
                   "leagueType": 0,
-                  "percentChange": 0.39,
-                  "percentOwned": 26.46,
+                  "percentChange": 0.41,
+                  "percentOwned": 26.47,
                   "percentStarted": 2.18
                 },
                 "proTeamId": 14,
@@ -151962,15 +151972,15 @@
                 "lastVideoDate": 1787063255000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 56.25,
+                  "auctionValueAverage": 56.23,
                   "auctionValueAverageChange": 0.13,
                   "averageDraftPosition": 7.74,
                   "averageDraftPositionPercentChange": -0.03,
-                  "date": 1788885021749,
+                  "date": 1788888616641,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.91,
-                  "percentStarted": 98.98
+                  "percentStarted": 98.97
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -152594,15 +152604,15 @@
                 "lastVideoDate": 1788190216000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 33.96,
+                  "auctionValueAverage": 33.95,
                   "auctionValueAverageChange": 0.21,
-                  "averageDraftPosition": 25.23,
-                  "averageDraftPositionPercentChange": 0.11,
-                  "date": 1788885023440,
+                  "averageDraftPosition": 25.22,
+                  "averageDraftPositionPercentChange": 0.12,
+                  "date": 1788888618253,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.42,
-                  "percentStarted": 91.26
+                  "percentStarted": 91.21
                 },
                 "proTeamId": 22,
                 "rankings": {
@@ -153071,11 +153081,11 @@
                 "lastVideoDate": 1786457927000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 23.81,
-                  "auctionValueAverageChange": 0.14,
+                  "auctionValueAverage": 23.8,
+                  "auctionValueAverageChange": 0.13,
                   "averageDraftPosition": 36.15,
-                  "averageDraftPositionPercentChange": -0.03,
-                  "date": 1788885022193,
+                  "averageDraftPositionPercentChange": -0.02,
+                  "date": 1788888617175,
                   "leagueType": 0,
                   "percentChange": 0.03,
                   "percentOwned": 99.31,
@@ -153613,12 +153623,12 @@
                   "auctionValueAverage": 5.85,
                   "auctionValueAverageChange": 0.08,
                   "averageDraftPosition": 88.7,
-                  "averageDraftPositionPercentChange": -0.3,
-                  "date": 1788885022262,
+                  "averageDraftPositionPercentChange": -0.24,
+                  "date": 1788888617245,
                   "leagueType": 0,
-                  "percentChange": 0.11,
+                  "percentChange": 0.12,
                   "percentOwned": 89.87,
-                  "percentStarted": 23.18
+                  "percentStarted": 23.19
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -154211,15 +154221,15 @@
                 "lastVideoDate": 1788879257000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 6.03,
+                  "auctionValueAverage": 6.02,
                   "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 90.37,
-                  "averageDraftPositionPercentChange": -0.42,
-                  "date": 1788885023003,
+                  "averageDraftPositionPercentChange": -0.36,
+                  "date": 1788888617797,
                   "leagueType": 0,
-                  "percentChange": 0.11,
+                  "percentChange": 0.12,
                   "percentOwned": 89.29,
-                  "percentStarted": 19.96
+                  "percentStarted": 19.99
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -154835,12 +154845,12 @@
                   "auctionValueAverage": 5.25,
                   "auctionValueAverageChange": -0.13,
                   "averageDraftPosition": 103.6,
-                  "averageDraftPositionPercentChange": -1.45,
-                  "date": 1788885022892,
+                  "averageDraftPositionPercentChange": -1.38,
+                  "date": 1788888617642,
                   "leagueType": 0,
-                  "percentChange": 1.36,
-                  "percentOwned": 81,
-                  "percentStarted": 24.99
+                  "percentChange": 1.37,
+                  "percentOwned": 81.05,
+                  "percentStarted": 25.05
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -155409,13 +155419,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 2.75,
                   "auctionValueAverageChange": 0.04,
-                  "averageDraftPosition": 127.34,
-                  "averageDraftPositionPercentChange": -0.37,
-                  "date": 1788885022901,
+                  "averageDraftPosition": 127.33,
+                  "averageDraftPositionPercentChange": -0.32,
+                  "date": 1788888617656,
                   "leagueType": 0,
-                  "percentChange": 0,
+                  "percentChange": 0.03,
                   "percentOwned": 77.72,
-                  "percentStarted": 4.42
+                  "percentStarted": 4.44
                 },
                 "proTeamId": 14,
                 "rankings": {
@@ -156033,15 +156043,15 @@
                 "lastNewsDate": 1787373698000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 6.09,
+                  "auctionValueAverage": 6.08,
                   "auctionValueAverageChange": 0.13,
                   "averageDraftPosition": 104.08,
-                  "averageDraftPositionPercentChange": 0.12,
-                  "date": 1788885022504,
+                  "averageDraftPositionPercentChange": 0.14,
+                  "date": 1788888617515,
                   "leagueType": 0,
-                  "percentChange": -0.17,
+                  "percentChange": -0.15,
                   "percentOwned": 88.83,
-                  "percentStarted": 34.93
+                  "percentStarted": 34.91
                 },
                 "proTeamId": 7,
                 "rankings": {
@@ -156705,12 +156715,12 @@
                   "auctionValueAverage": 4.73,
                   "auctionValueAverageChange": 0.15,
                   "averageDraftPosition": 108.89,
-                  "averageDraftPositionPercentChange": 0.3,
-                  "date": 1788885022386,
+                  "averageDraftPositionPercentChange": 0.32,
+                  "date": 1788888617394,
                   "leagueType": 0,
-                  "percentChange": -0.07,
-                  "percentOwned": 85.25,
-                  "percentStarted": 22.38
+                  "percentChange": -0.06,
+                  "percentOwned": 85.24,
+                  "percentStarted": 22.36
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -157359,11 +157369,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.48,
                   "auctionValueAverageChange": -0.03,
-                  "averageDraftPosition": 131.97,
-                  "averageDraftPositionPercentChange": -0.36,
-                  "date": 1788885022496,
+                  "averageDraftPosition": 131.96,
+                  "averageDraftPositionPercentChange": -0.32,
+                  "date": 1788888617509,
                   "leagueType": 0,
-                  "percentChange": -0.02,
+                  "percentChange": 0,
                   "percentOwned": 75.62,
                   "percentStarted": 17.78
                 },
@@ -157895,11 +157905,11 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 168.05,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788885023476,
+                  "date": 1788888618284,
                   "leagueType": 0,
-                  "percentChange": -0.83,
+                  "percentChange": -0.78,
                   "percentOwned": 37.22,
-                  "percentStarted": 0.55
+                  "percentStarted": 0.54
                 },
                 "proTeamId": 18,
                 "rankings": {
@@ -158152,8 +158162,8 @@
                   "auctionValueAverage": 0.05,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 171.04,
-                  "averageDraftPositionPercentChange": 0.04,
-                  "date": 1788885023393,
+                  "averageDraftPositionPercentChange": 0.03,
+                  "date": 1788888618192,
                   "leagueType": 0,
                   "percentChange": -0.3,
                   "percentOwned": 5.63,
@@ -158566,11 +158576,11 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 166.95,
                   "averageDraftPositionPercentChange": -0.33,
-                  "date": 1788885023501,
+                  "date": 1788888618338,
                   "leagueType": 0,
-                  "percentChange": -2.13,
-                  "percentOwned": 39.28,
-                  "percentStarted": 2.52
+                  "percentChange": -2.1,
+                  "percentOwned": 39.24,
+                  "percentStarted": 2.51
                 },
                 "proTeamId": 20,
                 "rankings": {
@@ -158968,12 +158978,12 @@
                   "auctionValueAverage": 0.37,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 164.8,
-                  "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788885021445,
+                  "averageDraftPositionPercentChange": 0,
+                  "date": 1788888616468,
                   "leagueType": 0,
-                  "percentChange": -0.33,
-                  "percentOwned": 38.04,
-                  "percentStarted": 33.15
+                  "percentChange": -0.3,
+                  "percentOwned": 38.06,
+                  "percentStarted": 33.17
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -159524,10 +159534,10 @@
                   "auctionValueAverage": 0.05,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170.96,
-                  "averageDraftPositionPercentChange": 0.02,
-                  "date": 1788870614661,
+                  "averageDraftPositionPercentChange": 0.01,
+                  "date": 1788888618341,
                   "leagueType": 0,
-                  "percentChange": -0.07,
+                  "percentChange": -0.06,
                   "percentOwned": 4.09,
                   "percentStarted": 0.17
                 },
@@ -160061,12 +160071,12 @@
                   "auctionValueAverage": 0.07,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 169.43,
-                  "averageDraftPositionPercentChange": 0.04,
-                  "date": 1788885021131,
+                  "averageDraftPositionPercentChange": 0.03,
+                  "date": 1788888616220,
                   "leagueType": 0,
-                  "percentChange": -0.36,
-                  "percentOwned": 9,
-                  "percentStarted": 6.55
+                  "percentChange": -0.35,
+                  "percentOwned": 9.01,
+                  "percentStarted": 6.56
                 },
                 "proTeamId": 3,
                 "rankings": {
@@ -160917,11 +160927,11 @@
                 "lastVideoDate": 1788880419000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 59.73,
+                  "auctionValueAverage": 59.72,
                   "auctionValueAverageChange": 0.2,
                   "averageDraftPosition": 6.37,
                   "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788885022956,
+                  "date": 1788888617726,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.93,
@@ -161530,15 +161540,15 @@
                 "lastVideoDate": 1787583756000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 37.83,
-                  "auctionValueAverageChange": 0.23,
+                  "auctionValueAverage": 37.82,
+                  "auctionValueAverageChange": 0.22,
                   "averageDraftPosition": 21.58,
-                  "averageDraftPositionPercentChange": 0,
-                  "date": 1788885023483,
+                  "averageDraftPositionPercentChange": 0.01,
+                  "date": 1788888618291,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.67,
-                  "percentStarted": 95.83
+                  "percentStarted": 95.82
                 },
                 "proTeamId": 13,
                 "rankings": {
@@ -162172,15 +162182,15 @@
                 "lastVideoDate": 1787149451000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 18.36,
+                  "auctionValueAverage": 18.35,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 45.29,
-                  "averageDraftPositionPercentChange": -0.32,
-                  "date": 1788885023366,
+                  "averageDraftPositionPercentChange": -0.3,
+                  "date": 1788888618160,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 98.68,
-                  "percentStarted": 84.4
+                  "percentStarted": 84.39
                 },
                 "proTeamId": 19,
                 "rankings": {
@@ -162800,15 +162810,15 @@
                 "lastVideoDate": 1787669350000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 17.41,
+                  "auctionValueAverage": 17.4,
                   "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 46.01,
-                  "averageDraftPositionPercentChange": -0.07,
-                  "date": 1788885021440,
+                  "averageDraftPositionPercentChange": -0.06,
+                  "date": 1788888616463,
                   "leagueType": 0,
-                  "percentChange": 0.02,
+                  "percentChange": 0.03,
                   "percentOwned": 98.72,
-                  "percentStarted": 85.07
+                  "percentStarted": 85.08
                 },
                 "proTeamId": 14,
                 "rankings": {
@@ -163340,15 +163350,15 @@
                 "lastNewsDate": 1788272768000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 12.47,
+                  "auctionValueAverage": 12.46,
                   "auctionValueAverageChange": 0.07,
                   "averageDraftPosition": 51.42,
                   "averageDraftPositionPercentChange": 0.13,
-                  "date": 1788885022986,
+                  "date": 1788888617753,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.09,
-                  "percentStarted": 94.23
+                  "percentStarted": 94.22
                 },
                 "proTeamId": 11,
                 "rankings": {
@@ -163496,7 +163506,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 3,
+                      "rank": 4,
                       "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 6
@@ -163528,7 +163538,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 3.875,
+                      "averageRank": 4,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -163937,15 +163947,15 @@
                 "lastVideoDate": 1788275324000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 7.39,
+                  "auctionValueAverage": 7.38,
                   "auctionValueAverageChange": 0.2,
-                  "averageDraftPosition": 81.94,
-                  "averageDraftPositionPercentChange": 0.29,
-                  "date": 1788885023343,
+                  "averageDraftPosition": 81.93,
+                  "averageDraftPositionPercentChange": 0.31,
+                  "date": 1788888618130,
                   "leagueType": 0,
-                  "percentChange": 0,
-                  "percentOwned": 94.26,
-                  "percentStarted": 65.56
+                  "percentChange": 0.01,
+                  "percentOwned": 94.25,
+                  "percentStarted": 65.58
                 },
                 "proTeamId": 19,
                 "rankings": {
@@ -164613,12 +164623,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 2.23,
                   "auctionValueAverageChange": -0.03,
-                  "averageDraftPosition": 111.66,
-                  "averageDraftPositionPercentChange": -0.8,
-                  "date": 1788885023136,
+                  "averageDraftPosition": 111.64,
+                  "averageDraftPositionPercentChange": -0.75,
+                  "date": 1788888617876,
                   "leagueType": 0,
-                  "percentChange": -0.12,
-                  "percentOwned": 82.41,
+                  "percentChange": -0.1,
+                  "percentOwned": 82.4,
                   "percentStarted": 6.7
                 },
                 "proTeamId": 10,
@@ -165213,15 +165223,15 @@
                 "lastNewsDate": 1788396500000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 1.9,
+                  "auctionValueAverage": 1.89,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 117.24,
-                  "averageDraftPositionPercentChange": -0.64,
-                  "date": 1788885021513,
+                  "averageDraftPositionPercentChange": -0.58,
+                  "date": 1788888616546,
                   "leagueType": 0,
-                  "percentChange": 0.05,
-                  "percentOwned": 81.93,
-                  "percentStarted": 8.97
+                  "percentChange": 0.07,
+                  "percentOwned": 81.94,
+                  "percentStarted": 9
                 },
                 "proTeamId": 16,
                 "rankings": {
@@ -165833,15 +165843,15 @@
                 "lastNewsDate": 1788445229000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 2.04,
+                  "auctionValueAverage": 2.03,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 122.48,
-                  "averageDraftPositionPercentChange": -0.25,
-                  "date": 1788885022349,
+                  "averageDraftPosition": 122.49,
+                  "averageDraftPositionPercentChange": -0.22,
+                  "date": 1788888617332,
                   "leagueType": 0,
-                  "percentChange": -0.04,
-                  "percentOwned": 81.54,
-                  "percentStarted": 28.2
+                  "percentChange": -0.01,
+                  "percentOwned": 81.55,
+                  "percentStarted": 28.22
                 },
                 "proTeamId": 19,
                 "rankings": {
@@ -166362,12 +166372,12 @@
                   "auctionValueAverage": 3,
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 98.04,
-                  "averageDraftPositionPercentChange": 0.51,
-                  "date": 1788885021123,
+                  "averageDraftPositionPercentChange": 0.45,
+                  "date": 1788888616210,
                   "leagueType": 0,
                   "percentChange": -0.02,
-                  "percentOwned": 98.65,
-                  "percentStarted": 88.12
+                  "percentOwned": 98.64,
+                  "percentStarted": 88.06
                 },
                 "proTeamId": 7,
                 "rankings": {
@@ -167066,11 +167076,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.38,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 165.71,
+                  "averageDraftPosition": 165.72,
                   "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788885021416,
+                  "date": 1788888616440,
                   "leagueType": 0,
-                  "percentChange": 0.49,
+                  "percentChange": 0.5,
                   "percentOwned": 29.91,
                   "percentStarted": 0.57
                 },
@@ -167553,14 +167563,14 @@
                 "lastVideoDate": 1788448511000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 1.93,
+                  "auctionValueAverage": 1.92,
                   "auctionValueAverageChange": 0.09,
                   "averageDraftPosition": 155.37,
-                  "averageDraftPositionPercentChange": 0.06,
-                  "date": 1788885022045,
+                  "averageDraftPositionPercentChange": 0.07,
+                  "date": 1788888617016,
                   "leagueType": 0,
-                  "percentChange": 0.42,
-                  "percentOwned": 42.57,
+                  "percentChange": 0.43,
+                  "percentOwned": 42.56,
                   "percentStarted": 5.95
                 },
                 "proTeamId": 9,
@@ -168207,13 +168217,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.43,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 140.5,
-                  "averageDraftPositionPercentChange": 0.32,
-                  "date": 1788885023321,
+                  "averageDraftPosition": 140.52,
+                  "averageDraftPositionPercentChange": 0.28,
+                  "date": 1788888618099,
                   "leagueType": 0,
-                  "percentChange": -0.06,
+                  "percentChange": -0.05,
                   "percentOwned": 88.74,
-                  "percentStarted": 82.75
+                  "percentStarted": 82.76
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -168763,10 +168773,10 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 170.14,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885022053,
+                  "date": 1788888617027,
                   "leagueType": 0,
-                  "percentChange": 0.01,
-                  "percentOwned": 18.34,
+                  "percentChange": 0.03,
+                  "percentOwned": 18.35,
                   "percentStarted": 0.63
                 },
                 "proTeamId": 33,
@@ -169378,12 +169388,12 @@
                   "auctionValueAverage": 0.08,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 171.54,
-                  "averageDraftPositionPercentChange": 0.06,
-                  "date": 1788885023192,
+                  "averageDraftPositionPercentChange": 0.05,
+                  "date": 1788888617931,
                   "leagueType": 0,
-                  "percentChange": -0.21,
+                  "percentChange": -0.2,
                   "percentOwned": 8.25,
-                  "percentStarted": 0.24
+                  "percentStarted": 0.25
                 },
                 "proTeamId": 34,
                 "rankings": {
@@ -170137,11 +170147,11 @@
                 "lastVideoDate": 1787614482000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 70.91,
-                  "auctionValueAverageChange": 0.2,
+                  "auctionValueAverage": 70.89,
+                  "auctionValueAverageChange": 0.21,
                   "averageDraftPosition": 1.32,
                   "averageDraftPositionPercentChange": 0,
-                  "date": 1788885022924,
+                  "date": 1788888617685,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.94,
@@ -170775,15 +170785,15 @@
                 "lastVideoDate": 1787237479000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 29.31,
-                  "auctionValueAverageChange": 0.2,
+                  "auctionValueAverage": 29.3,
+                  "auctionValueAverageChange": 0.19,
                   "averageDraftPosition": 29.23,
-                  "averageDraftPositionPercentChange": 0.06,
-                  "date": 1788885022851,
+                  "averageDraftPositionPercentChange": 0.07,
+                  "date": 1788888617597,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.55,
-                  "percentStarted": 94.15
+                  "percentStarted": 94.13
                 },
                 "proTeamId": 12,
                 "rankings": {
@@ -171384,15 +171394,15 @@
                 "lastVideoDate": 1767195881000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 28.26,
+                  "auctionValueAverage": 28.25,
                   "auctionValueAverageChange": 0.3,
                   "averageDraftPosition": 32.42,
-                  "averageDraftPositionPercentChange": -0.06,
-                  "date": 1788885022379,
+                  "averageDraftPositionPercentChange": -0.05,
+                  "date": 1788888617388,
                   "leagueType": 0,
                   "percentChange": 0.05,
                   "percentOwned": 99.09,
-                  "percentStarted": 91.88
+                  "percentStarted": 91.89
                 },
                 "proTeamId": 6,
                 "rankings": {
@@ -172015,13 +172025,13 @@
                 "lastVideoDate": 1786719475000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 10.68,
+                  "auctionValueAverage": 10.67,
                   "auctionValueAverageChange": 0.12,
-                  "averageDraftPosition": 64.35,
-                  "averageDraftPositionPercentChange": 0,
-                  "date": 1788885022527,
+                  "averageDraftPosition": 64.34,
+                  "averageDraftPositionPercentChange": 0.03,
+                  "date": 1788888617538,
                   "leagueType": 0,
-                  "percentChange": 0.05,
+                  "percentChange": 0.06,
                   "percentOwned": 95.6,
                   "percentStarted": 57.91
                 },
@@ -172619,15 +172629,15 @@
                 "lastVideoDate": 1787928268000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 13.76,
+                  "auctionValueAverage": 13.74,
                   "auctionValueAverageChange": 0.34,
                   "averageDraftPosition": 53.91,
                   "averageDraftPositionPercentChange": 0.53,
-                  "date": 1788885022092,
+                  "date": 1788888617065,
                   "leagueType": 0,
-                  "percentChange": 0.05,
+                  "percentChange": 0.06,
                   "percentOwned": 98.51,
-                  "percentStarted": 92.04
+                  "percentStarted": 92.05
                 },
                 "proTeamId": 21,
                 "rankings": {
@@ -173286,12 +173296,12 @@
                   "auctionValueAverage": 3.24,
                   "auctionValueAverageChange": 0.08,
                   "averageDraftPosition": 111.44,
-                  "averageDraftPositionPercentChange": -0.17,
-                  "date": 1788885022203,
+                  "averageDraftPositionPercentChange": -0.11,
+                  "date": 1788888617184,
                   "leagueType": 0,
-                  "percentChange": 0.06,
+                  "percentChange": 0.09,
                   "percentOwned": 84.52,
-                  "percentStarted": 10.69
+                  "percentStarted": 10.71
                 },
                 "proTeamId": 7,
                 "rankings": {
@@ -173895,13 +173905,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 2.2,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 125.16,
-                  "averageDraftPositionPercentChange": -1.01,
-                  "date": 1788885021582,
+                  "averageDraftPosition": 125.15,
+                  "averageDraftPositionPercentChange": -0.95,
+                  "date": 1788888616622,
                   "leagueType": 0,
-                  "percentChange": 0.05,
-                  "percentOwned": 76.79,
-                  "percentStarted": 5.81
+                  "percentChange": 0.07,
+                  "percentOwned": 76.8,
+                  "percentStarted": 5.83
                 },
                 "proTeamId": 27,
                 "rankings": {
@@ -174451,10 +174461,10 @@
                   "auctionValueAverage": 2.95,
                   "auctionValueAverageChange": -0.05,
                   "averageDraftPosition": 93.79,
-                  "averageDraftPositionPercentChange": 0.14,
-                  "date": 1788885021418,
+                  "averageDraftPositionPercentChange": 0.17,
+                  "date": 1788888616443,
                   "leagueType": 0,
-                  "percentChange": 0.1,
+                  "percentChange": 0.11,
                   "percentOwned": 91.24,
                   "percentStarted": 53.66
                 },
@@ -174604,7 +174614,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 10,
+                      "rank": 11,
                       "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 6
@@ -174636,7 +174646,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 10.25,
+                      "averageRank": 10.375,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -174992,13 +175002,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.56,
                   "auctionValueAverageChange": -0.01,
-                  "averageDraftPosition": 121.35,
-                  "averageDraftPositionPercentChange": -0.33,
-                  "date": 1788885021906,
+                  "averageDraftPosition": 121.34,
+                  "averageDraftPositionPercentChange": -0.28,
+                  "date": 1788888616875,
                   "leagueType": 0,
-                  "percentChange": -0.19,
+                  "percentChange": -0.16,
                   "percentOwned": 80.41,
-                  "percentStarted": 5.12
+                  "percentStarted": 5.13
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -175591,13 +175601,13 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 1.83,
-                  "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 112.27,
-                  "averageDraftPositionPercentChange": 0.81,
-                  "date": 1788885021450,
+                  "auctionValueAverageChange": -0.01,
+                  "averageDraftPosition": 112.3,
+                  "averageDraftPositionPercentChange": 0.74,
+                  "date": 1788888616476,
                   "leagueType": 0,
-                  "percentChange": 0.03,
-                  "percentOwned": 98.41,
+                  "percentChange": 0.04,
+                  "percentOwned": 98.4,
                   "percentStarted": 94.47
                 },
                 "proTeamId": 26,
@@ -176138,14 +176148,14 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 2.47,
-                  "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 112.83,
-                  "averageDraftPositionPercentChange": 0.49,
-                  "date": 1788885021079,
+                  "auctionValueAverageChange": 0.01,
+                  "averageDraftPosition": 112.84,
+                  "averageDraftPositionPercentChange": 0.44,
+                  "date": 1788888616167,
                   "leagueType": 0,
                   "percentChange": -0.01,
                   "percentOwned": 98.11,
-                  "percentStarted": 91.65
+                  "percentStarted": 91.64
                 },
                 "proTeamId": 26,
                 "rankings": {
@@ -176849,13 +176859,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.65,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 157.17,
-                  "averageDraftPositionPercentChange": 0.08,
-                  "date": 1788885021966,
+                  "averageDraftPosition": 157.16,
+                  "averageDraftPositionPercentChange": 0.1,
+                  "date": 1788888616932,
                   "leagueType": 0,
-                  "percentChange": 0.99,
-                  "percentOwned": 46.09,
-                  "percentStarted": 8.42
+                  "percentChange": 1.01,
+                  "percentOwned": 46.12,
+                  "percentStarted": 8.45
                 },
                 "proTeamId": 18,
                 "rankings": {
@@ -177003,7 +177013,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 11,
+                      "rank": 10,
                       "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 6
@@ -177035,7 +177045,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 13,
+                      "averageRank": 12.875,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -177386,10 +177396,10 @@
                   "auctionValueAverage": 0.26,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 169.15,
-                  "averageDraftPositionPercentChange": -0.07,
-                  "date": 1788885023442,
+                  "averageDraftPositionPercentChange": -0.08,
+                  "date": 1788888618255,
                   "leagueType": 0,
-                  "percentChange": -0.15,
+                  "percentChange": -0.13,
                   "percentOwned": 17.78,
                   "percentStarted": 0.49
                 },
@@ -177713,11 +177723,11 @@
                   "auctionValueAverage": 1.21,
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 161.08,
-                  "averageDraftPositionPercentChange": -0.03,
-                  "date": 1788885021933,
+                  "averageDraftPositionPercentChange": -0.02,
+                  "date": 1788888616900,
                   "leagueType": 0,
-                  "percentChange": -0.15,
-                  "percentOwned": 36.77,
+                  "percentChange": -0.13,
+                  "percentOwned": 36.75,
                   "percentStarted": 2.79
                 },
                 "proTeamId": 11,
@@ -178381,12 +178391,12 @@
                   "auctionValueAverage": 0.22,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 171.26,
-                  "averageDraftPositionPercentChange": 0.03,
-                  "date": 1788881420572,
+                  "averageDraftPositionPercentChange": 0.02,
+                  "date": 1788888617958,
                   "leagueType": 0,
-                  "percentChange": 0.12,
+                  "percentChange": 0.13,
                   "percentOwned": 16.1,
-                  "percentStarted": 0.27
+                  "percentStarted": 0.28
                 },
                 "proTeamId": 20,
                 "rankings": {
@@ -183269,11 +183279,11 @@
                 "lastVideoDate": 1788275329000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 43.74,
+                  "auctionValueAverage": 43.72,
                   "auctionValueAverageChange": 0.18,
                   "averageDraftPosition": 17.81,
-                  "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788885022411,
+                  "averageDraftPositionPercentChange": -0.09,
+                  "date": 1788888617419,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 99.61,
@@ -183900,11 +183910,11 @@
                 "lastVideoDate": 1788446511000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 36.96,
+                  "auctionValueAverage": 36.94,
                   "auctionValueAverageChange": 0.13,
                   "averageDraftPosition": 21.45,
                   "averageDraftPositionPercentChange": -0.09,
-                  "date": 1788885022120,
+                  "date": 1788888617095,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 99.74,
@@ -184441,15 +184451,15 @@
                 "lastVideoDate": 1788275357000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 20.33,
+                  "auctionValueAverage": 20.32,
                   "auctionValueAverageChange": 0.12,
                   "averageDraftPosition": 46.29,
-                  "averageDraftPositionPercentChange": -0.2,
-                  "date": 1788885023226,
+                  "averageDraftPositionPercentChange": -0.17,
+                  "date": 1788888617986,
                   "leagueType": 0,
                   "percentChange": 0.07,
                   "percentOwned": 97.83,
-                  "percentStarted": 82
+                  "percentStarted": 82.01
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -184995,15 +185005,15 @@
                 "lastVideoDate": 1787259742000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 14.25,
-                  "auctionValueAverageChange": 0.11,
+                  "auctionValueAverage": 14.24,
+                  "auctionValueAverageChange": 0.1,
                   "averageDraftPosition": 56.36,
-                  "averageDraftPositionPercentChange": -0.15,
-                  "date": 1788885023202,
+                  "averageDraftPositionPercentChange": -0.12,
+                  "date": 1788888617952,
                   "leagueType": 0,
-                  "percentChange": 0.03,
+                  "percentChange": 0.04,
                   "percentOwned": 96.57,
-                  "percentStarted": 70.6
+                  "percentStarted": 70.58
                 },
                 "proTeamId": 27,
                 "rankings": {
@@ -185626,12 +185636,12 @@
                   "auctionValueAverage": 5.22,
                   "auctionValueAverageChange": 0.08,
                   "averageDraftPosition": 85.31,
-                  "averageDraftPositionPercentChange": -0.17,
-                  "date": 1788885023149,
+                  "averageDraftPositionPercentChange": -0.11,
+                  "date": 1788888617885,
                   "leagueType": 0,
-                  "percentChange": 0.2,
+                  "percentChange": 0.21,
                   "percentOwned": 90.8,
-                  "percentStarted": 36.22
+                  "percentStarted": 36.27
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -186266,14 +186276,14 @@
                 "lastVideoDate": 1787928253000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 7.89,
+                  "auctionValueAverage": 7.88,
                   "auctionValueAverageChange": 0.23,
-                  "averageDraftPosition": 85.03,
-                  "averageDraftPositionPercentChange": 0.1,
-                  "date": 1788885022995,
+                  "averageDraftPosition": 85.04,
+                  "averageDraftPositionPercentChange": 0.12,
+                  "date": 1788888617783,
                   "leagueType": 0,
-                  "percentChange": 0.12,
-                  "percentOwned": 91.77,
+                  "percentChange": 0.13,
+                  "percentOwned": 91.76,
                   "percentStarted": 54.16
                 },
                 "proTeamId": 3,
@@ -186953,15 +186963,15 @@
                 "lastVideoDate": 1786123329000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 5.86,
+                  "auctionValueAverage": 5.85,
                   "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 69,
-                  "averageDraftPositionPercentChange": 0.3,
-                  "date": 1788885021507,
+                  "averageDraftPositionPercentChange": 0.31,
+                  "date": 1788888616538,
                   "leagueType": 0,
-                  "percentChange": 0.32,
+                  "percentChange": 0.33,
                   "percentOwned": 94.5,
-                  "percentStarted": 50.01
+                  "percentStarted": 49.93
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -187494,13 +187504,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.89,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 135.15,
-                  "averageDraftPositionPercentChange": -0.53,
-                  "date": 1788885022895,
+                  "averageDraftPosition": 135.14,
+                  "averageDraftPositionPercentChange": -0.48,
+                  "date": 1788888617645,
                   "leagueType": 0,
-                  "percentChange": -0.28,
+                  "percentChange": -0.24,
                   "percentOwned": 75.01,
-                  "percentStarted": 6.19
+                  "percentStarted": 6.23
                 },
                 "proTeamId": 24,
                 "rankings": {
@@ -188083,12 +188093,12 @@
                   "auctionValueAverage": 1.1,
                   "auctionValueAverageChange": 0.03,
                   "averageDraftPosition": 155.92,
-                  "averageDraftPositionPercentChange": -0.12,
-                  "date": 1788885022522,
+                  "averageDraftPositionPercentChange": -0.1,
+                  "date": 1788888617533,
                   "leagueType": 0,
-                  "percentChange": -0.18,
+                  "percentChange": -0.14,
                   "percentOwned": 55.12,
-                  "percentStarted": 0.38
+                  "percentStarted": 0.37
                 },
                 "proTeamId": 26,
                 "rankings": {
@@ -188550,9 +188560,9 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.69,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 122.48,
-                  "averageDraftPositionPercentChange": 0.58,
-                  "date": 1788885021485,
+                  "averageDraftPosition": 122.52,
+                  "averageDraftPositionPercentChange": 0.52,
+                  "date": 1788888616510,
                   "leagueType": 0,
                   "percentChange": 0.15,
                   "percentOwned": 95.64,
@@ -189097,13 +189107,13 @@
                 "lastNewsDate": 1788450187000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 0.35,
+                  "auctionValueAverage": 0.34,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 169.73,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885022888,
+                  "date": 1788888617638,
                   "leagueType": 0,
-                  "percentChange": 0.05,
+                  "percentChange": 0.07,
                   "percentOwned": 19.39,
                   "percentStarted": 0.45
                 },
@@ -189694,11 +189704,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.34,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 168.96,
-                  "averageDraftPositionPercentChange": 0.04,
-                  "date": 1788885023407,
+                  "averageDraftPosition": 168.95,
+                  "averageDraftPositionPercentChange": 0.05,
+                  "date": 1788888618211,
                   "leagueType": 0,
-                  "percentChange": 0.23,
+                  "percentChange": 0.25,
                   "percentOwned": 26.19,
                   "percentStarted": 0.42
                 },
@@ -190128,11 +190138,11 @@
                   "auctionValueAverage": 0.29,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 169.93,
-                  "averageDraftPositionPercentChange": 0.11,
-                  "date": 1788885023359,
+                  "averageDraftPositionPercentChange": 0.1,
+                  "date": 1788888618152,
                   "leagueType": 0,
-                  "percentChange": 1.28,
-                  "percentOwned": 13.46,
+                  "percentChange": 1.31,
+                  "percentOwned": 13.53,
                   "percentStarted": 0.17
                 },
                 "proTeamId": 25,
@@ -190477,13 +190487,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.48,
                   "auctionValueAverageChange": 0.02,
-                  "averageDraftPosition": 167.24,
-                  "averageDraftPositionPercentChange": 0.26,
-                  "date": 1788885021068,
+                  "averageDraftPosition": 167.23,
+                  "averageDraftPositionPercentChange": 0.25,
+                  "date": 1788888616155,
                   "leagueType": 0,
-                  "percentChange": 0.97,
-                  "percentOwned": 56.02,
-                  "percentStarted": 51.7
+                  "percentChange": 1.11,
+                  "percentOwned": 56.16,
+                  "percentStarted": 51.88
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -191179,12 +191189,12 @@
                   "auctionValueAverage": 0.15,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170.54,
-                  "averageDraftPositionPercentChange": 0.04,
-                  "date": 1788885021075,
+                  "averageDraftPositionPercentChange": 0.03,
+                  "date": 1788888616164,
                   "leagueType": 0,
                   "percentChange": -0.02,
-                  "percentOwned": 14.15,
-                  "percentStarted": 9.3
+                  "percentOwned": 14.14,
+                  "percentStarted": 9.29
                 },
                 "proTeamId": 27,
                 "rankings": {
@@ -191880,10 +191890,10 @@
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 170.56,
                   "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788881420831,
+                  "date": 1788888618231,
                   "leagueType": 0,
                   "percentChange": 0.16,
-                  "percentOwned": 3.67,
+                  "percentOwned": 3.68,
                   "percentStarted": 0.06
                 },
                 "proTeamId": 15,
@@ -192355,11 +192365,11 @@
                 "lastVideoDate": 1786025845000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 58.57,
+                  "auctionValueAverage": 58.55,
                   "auctionValueAverageChange": 0.26,
                   "averageDraftPosition": 6.19,
                   "averageDraftPositionPercentChange": 0,
-                  "date": 1788885022218,
+                  "date": 1788888617200,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.9,
@@ -192993,15 +193003,15 @@
                 "lastVideoDate": 1787260036000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 27.14,
+                  "auctionValueAverage": 27.13,
                   "auctionValueAverageChange": 0.14,
                   "averageDraftPosition": 34.61,
-                  "averageDraftPositionPercentChange": -0.16,
-                  "date": 1788885022944,
+                  "averageDraftPositionPercentChange": -0.15,
+                  "date": 1788888617710,
                   "leagueType": 0,
                   "percentChange": 0.06,
                   "percentOwned": 98.82,
-                  "percentStarted": 88.39
+                  "percentStarted": 88.38
                 },
                 "proTeamId": 14,
                 "rankings": {
@@ -193633,15 +193643,15 @@
                 "lastVideoDate": 1787155720000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 19.59,
+                  "auctionValueAverage": 19.58,
                   "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 43.02,
-                  "averageDraftPositionPercentChange": -0.11,
-                  "date": 1788885023296,
+                  "averageDraftPositionPercentChange": -0.1,
+                  "date": 1788888618060,
                   "leagueType": 0,
                   "percentChange": 0.02,
-                  "percentOwned": 98.75,
-                  "percentStarted": 87.97
+                  "percentOwned": 98.74,
+                  "percentStarted": 87.98
                 },
                 "proTeamId": 29,
                 "rankings": {
@@ -194177,19 +194187,19 @@
                 "injuryStatus": "QUESTIONABLE",
                 "jersey": "15",
                 "lastName": "Odunze",
-                "lastNewsDate": 1788806929000,
+                "lastNewsDate": 1788887835000,
                 "lastVideoDate": 1787446286000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 9.87,
+                  "auctionValueAverage": 9.86,
                   "auctionValueAverageChange": -0.1,
-                  "averageDraftPosition": 67.81,
-                  "averageDraftPositionPercentChange": -0.59,
-                  "date": 1788885022973,
+                  "averageDraftPosition": 67.82,
+                  "averageDraftPositionPercentChange": -0.55,
+                  "date": 1788888617741,
                   "leagueType": 0,
-                  "percentChange": -0.01,
-                  "percentOwned": 94.92,
-                  "percentStarted": 53.84
+                  "percentChange": 0,
+                  "percentOwned": 94.91,
+                  "percentStarted": 53.75
                 },
                 "proTeamId": 3,
                 "rankings": {
@@ -194734,13 +194744,13 @@
                 "lastNewsDate": 1788394037000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 9.06,
+                  "auctionValueAverage": 9.05,
                   "auctionValueAverageChange": 0.23,
-                  "averageDraftPosition": 71.86,
-                  "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788885021464,
+                  "averageDraftPosition": 71.85,
+                  "averageDraftPositionPercentChange": -0.01,
+                  "date": 1788888616492,
                   "leagueType": 0,
-                  "percentChange": 0.17,
+                  "percentChange": 0.18,
                   "percentOwned": 94.11,
                   "percentStarted": 69.24
                 },
@@ -195402,14 +195412,14 @@
                 "lastVideoDate": 1786751054000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 5.28,
+                  "auctionValueAverage": 5.27,
                   "auctionValueAverageChange": -0.04,
-                  "averageDraftPosition": 82.04,
-                  "averageDraftPositionPercentChange": -0.24,
-                  "date": 1788885021809,
+                  "averageDraftPosition": 82.05,
+                  "averageDraftPositionPercentChange": -0.2,
+                  "date": 1788888616701,
                   "leagueType": 0,
-                  "percentChange": 0.06,
-                  "percentOwned": 92.56,
+                  "percentChange": 0.08,
+                  "percentOwned": 92.55,
                   "percentStarted": 35.7
                 },
                 "proTeamId": 7,
@@ -195947,15 +195957,15 @@
                 "lastVideoDate": 1787618073000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 2.5,
+                  "auctionValueAverage": 2.49,
                   "auctionValueAverageChange": 0.06,
-                  "averageDraftPosition": 111.8,
-                  "averageDraftPositionPercentChange": -0.28,
-                  "date": 1788885022181,
+                  "averageDraftPosition": 111.79,
+                  "averageDraftPositionPercentChange": -0.23,
+                  "date": 1788888617164,
                   "leagueType": 0,
-                  "percentChange": -0.01,
+                  "percentChange": 0.02,
                   "percentOwned": 84.9,
-                  "percentStarted": 12.03
+                  "percentStarted": 12.06
                 },
                 "proTeamId": 29,
                 "rankings": {
@@ -196591,12 +196601,12 @@
                   "auctionValueAverage": 1.87,
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 137.57,
-                  "averageDraftPositionPercentChange": -0.51,
-                  "date": 1788885023176,
+                  "averageDraftPositionPercentChange": -0.46,
+                  "date": 1788888617917,
                   "leagueType": 0,
-                  "percentChange": -0.27,
+                  "percentChange": -0.25,
                   "percentOwned": 71.65,
-                  "percentStarted": 2.54
+                  "percentStarted": 2.55
                 },
                 "proTeamId": 28,
                 "rankings": {
@@ -197211,13 +197221,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 2.22,
                   "auctionValueAverageChange": -0.03,
-                  "averageDraftPosition": 101.24,
-                  "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788885021766,
+                  "averageDraftPosition": 101.23,
+                  "averageDraftPositionPercentChange": 0.01,
+                  "date": 1788888616655,
                   "leagueType": 0,
-                  "percentChange": 0.04,
+                  "percentChange": 0.06,
                   "percentOwned": 90.37,
-                  "percentStarted": 56.48
+                  "percentStarted": 56.52
                 },
                 "proTeamId": 21,
                 "rankings": {
@@ -197761,12 +197771,12 @@
                   "auctionValueAverage": 2.9,
                   "auctionValueAverageChange": 0.08,
                   "averageDraftPosition": 137.62,
-                  "averageDraftPositionPercentChange": -0.13,
-                  "date": 1788885021538,
+                  "averageDraftPositionPercentChange": -0.11,
+                  "date": 1788888616578,
                   "leagueType": 0,
-                  "percentChange": -0.02,
+                  "percentChange": 0,
                   "percentOwned": 69.79,
-                  "percentStarted": 13.32
+                  "percentStarted": 13.35
                 },
                 "proTeamId": 8,
                 "rankings": {
@@ -198412,12 +198422,12 @@
                   "auctionValueAverage": 1.39,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 133.79,
-                  "averageDraftPositionPercentChange": 0.35,
-                  "date": 1788885021061,
+                  "averageDraftPositionPercentChange": 0.33,
+                  "date": 1788888616152,
                   "leagueType": 0,
                   "percentChange": 0.11,
                   "percentOwned": 90.76,
-                  "percentStarted": 81.9
+                  "percentStarted": 81.89
                 },
                 "proTeamId": 33,
                 "rankings": {
@@ -199114,13 +199124,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.36,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 129.08,
-                  "averageDraftPositionPercentChange": 0.71,
-                  "date": 1788885023174,
+                  "averageDraftPosition": 129.09,
+                  "averageDraftPositionPercentChange": 0.67,
+                  "date": 1788888617912,
                   "leagueType": 0,
-                  "percentChange": 0.13,
+                  "percentChange": 0.14,
                   "percentOwned": 93.34,
-                  "percentStarted": 88.48
+                  "percentStarted": 88.49
                 },
                 "proTeamId": 14,
                 "rankings": {
@@ -199612,11 +199622,11 @@
                   "auctionValueAverage": 0.27,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 170.18,
-                  "averageDraftPositionPercentChange": -0.27,
-                  "date": 1788885021955,
+                  "averageDraftPositionPercentChange": -0.26,
+                  "date": 1788888616924,
                   "leagueType": 0,
-                  "percentChange": -0.36,
-                  "percentOwned": 24.22,
+                  "percentChange": -0.35,
+                  "percentOwned": 24.21,
                   "percentStarted": 0.42
                 },
                 "proTeamId": 10,
@@ -200193,9 +200203,9 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 168.73,
                   "averageDraftPositionPercentChange": -0.16,
-                  "date": 1788885022941,
+                  "date": 1788888617707,
                   "leagueType": 0,
-                  "percentChange": -0.33,
+                  "percentChange": -0.31,
                   "percentOwned": 23.21,
                   "percentStarted": 2.55
                 },
@@ -200722,10 +200732,10 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 171.52,
                   "averageDraftPositionPercentChange": 0.03,
-                  "date": 1788885023134,
+                  "date": 1788888617870,
                   "leagueType": 0,
-                  "percentChange": 0.18,
-                  "percentOwned": 10.92,
+                  "percentChange": 0.22,
+                  "percentOwned": 10.96,
                   "percentStarted": 0.52
                 },
                 "proTeamId": 18,
@@ -201388,11 +201398,11 @@
                 "lastVideoDate": 1788880419000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 59.92,
+                  "auctionValueAverage": 59.9,
                   "auctionValueAverageChange": 0.13,
                   "averageDraftPosition": 5.35,
                   "averageDraftPositionPercentChange": -0.02,
-                  "date": 1788881420186,
+                  "date": 1788888617561,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.92,
@@ -202010,15 +202020,15 @@
                 "lastVideoDate": 1788878299000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 39.33,
+                  "auctionValueAverage": 39.3,
                   "auctionValueAverageChange": 0.32,
                   "averageDraftPosition": 18.97,
-                  "averageDraftPositionPercentChange": 0.1,
-                  "date": 1788885021938,
+                  "averageDraftPositionPercentChange": 0.09,
+                  "date": 1788888616906,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.92,
-                  "percentStarted": 97.65
+                  "percentStarted": 97.64
                 },
                 "proTeamId": 2,
                 "rankings": {
@@ -202684,11 +202694,11 @@
                 "lastNewsDate": 1788373097000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 30.41,
+                  "auctionValueAverage": 30.39,
                   "auctionValueAverageChange": 0.11,
                   "averageDraftPosition": 28.28,
-                  "averageDraftPositionPercentChange": -0.08,
-                  "date": 1788885022517,
+                  "averageDraftPositionPercentChange": -0.07,
+                  "date": 1788888617527,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.74,
@@ -203250,12 +203260,12 @@
                   "auctionValueAverage": 18.53,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 42.22,
-                  "averageDraftPositionPercentChange": 0.09,
-                  "date": 1788881420786,
+                  "averageDraftPositionPercentChange": 0.08,
+                  "date": 1788888618189,
                   "leagueType": 0,
                   "percentChange": 0.02,
                   "percentOwned": 99.63,
-                  "percentStarted": 97.22
+                  "percentStarted": 97.21
                 },
                 "proTeamId": 3,
                 "rankings": {
@@ -203403,7 +203413,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 4,
+                      "rank": 3,
                       "rankSourceId": 10,
                       "rankType": "PPR",
                       "slotId": 6
@@ -203435,7 +203445,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 3.125,
+                      "averageRank": 3,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -203789,15 +203799,15 @@
                 "lastVideoDate": 1786978114000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 7.3,
+                  "auctionValueAverage": 7.29,
                   "auctionValueAverageChange": -0.11,
                   "averageDraftPosition": 77.7,
-                  "averageDraftPositionPercentChange": -0.89,
-                  "date": 1788885023013,
+                  "averageDraftPositionPercentChange": -0.84,
+                  "date": 1788888617805,
                   "leagueType": 0,
-                  "percentChange": -0.15,
-                  "percentOwned": 92.42,
-                  "percentStarted": 24.59
+                  "percentChange": -0.14,
+                  "percentOwned": 92.41,
+                  "percentStarted": 24.19
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -204358,12 +204368,12 @@
                   "auctionValueAverage": 2.99,
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 100.03,
-                  "averageDraftPositionPercentChange": -0.37,
-                  "date": 1788885022443,
+                  "averageDraftPositionPercentChange": -0.32,
+                  "date": 1788888617458,
                   "leagueType": 0,
-                  "percentChange": 0.2,
+                  "percentChange": 0.22,
                   "percentOwned": 86.33,
-                  "percentStarted": 14.46
+                  "percentStarted": 14.49
                 },
                 "proTeamId": 27,
                 "rankings": {
@@ -204998,12 +205008,12 @@
                   "auctionValueAverage": 3.05,
                   "auctionValueAverageChange": 0.04,
                   "averageDraftPosition": 105.21,
-                  "averageDraftPositionPercentChange": -0.49,
-                  "date": 1788885022341,
+                  "averageDraftPositionPercentChange": -0.43,
+                  "date": 1788888617322,
                   "leagueType": 0,
-                  "percentChange": -0.08,
+                  "percentChange": -0.06,
                   "percentOwned": 86.4,
-                  "percentStarted": 11.9
+                  "percentStarted": 11.92
                 },
                 "proTeamId": 22,
                 "rankings": {
@@ -205532,11 +205542,11 @@
                 "lastNewsDate": 1787974371000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 4.97,
-                  "auctionValueAverageChange": -0.01,
-                  "averageDraftPosition": 80.53,
-                  "averageDraftPositionPercentChange": 0.77,
-                  "date": 1788885021983,
+                  "auctionValueAverage": 4.99,
+                  "auctionValueAverageChange": 0.01,
+                  "averageDraftPosition": 80.56,
+                  "averageDraftPositionPercentChange": 0.71,
+                  "date": 1788888616956,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.85,
@@ -206098,13 +206108,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 2.69,
                   "auctionValueAverageChange": -0.04,
-                  "averageDraftPosition": 104.23,
-                  "averageDraftPositionPercentChange": -0.56,
-                  "date": 1788885021492,
+                  "averageDraftPosition": 104.22,
+                  "averageDraftPositionPercentChange": -0.51,
+                  "date": 1788888616521,
                   "leagueType": 0,
-                  "percentChange": 0.46,
-                  "percentOwned": 83.75,
-                  "percentStarted": 10.77
+                  "percentChange": 0.47,
+                  "percentOwned": 83.76,
+                  "percentStarted": 10.78
                 },
                 "proTeamId": 28,
                 "rankings": {
@@ -206656,15 +206666,15 @@
                 "lastNewsDate": 1788558816000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 1.65,
+                  "auctionValueAverage": 1.64,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 118.89,
-                  "averageDraftPositionPercentChange": -0.53,
-                  "date": 1788885023291,
+                  "averageDraftPosition": 118.99,
+                  "averageDraftPositionPercentChange": -0.62,
+                  "date": 1788888618052,
                   "leagueType": 0,
-                  "percentChange": -0.24,
-                  "percentOwned": 74.43,
-                  "percentStarted": 6.35
+                  "percentChange": -0.29,
+                  "percentOwned": 74.35,
+                  "percentStarted": 6.33
                 },
                 "proTeamId": 30,
                 "rankings": {
@@ -207420,12 +207430,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.12,
                   "auctionValueAverageChange": -0.02,
-                  "averageDraftPosition": 138.55,
-                  "averageDraftPositionPercentChange": -0.62,
-                  "date": 1788885022465,
+                  "averageDraftPosition": 138.54,
+                  "averageDraftPositionPercentChange": -0.58,
+                  "date": 1788888617478,
                   "leagueType": 0,
-                  "percentChange": -0.41,
-                  "percentOwned": 70.45,
+                  "percentChange": -0.39,
+                  "percentOwned": 70.44,
                   "percentStarted": 2.22
                 },
                 "proTeamId": 2,
@@ -208028,12 +208038,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.43,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 165.03,
-                  "averageDraftPositionPercentChange": 0.01,
-                  "date": 1788885022438,
+                  "averageDraftPosition": 165.02,
+                  "averageDraftPositionPercentChange": 0.02,
+                  "date": 1788888617446,
                   "leagueType": 0,
-                  "percentChange": -0.25,
-                  "percentOwned": 34.25,
+                  "percentChange": -0.22,
+                  "percentOwned": 34.24,
                   "percentStarted": 0.17
                 },
                 "proTeamId": 34,
@@ -208263,12 +208273,12 @@
                   "auctionValueAverage": 0.83,
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 158.36,
-                  "averageDraftPositionPercentChange": 0.09,
-                  "date": 1788885021128,
+                  "averageDraftPositionPercentChange": 0.08,
+                  "date": 1788888616216,
                   "leagueType": 0,
-                  "percentChange": -0.45,
-                  "percentOwned": 59.63,
-                  "percentStarted": 51.98
+                  "percentChange": -0.49,
+                  "percentOwned": 59.56,
+                  "percentStarted": 51.91
                 },
                 "proTeamId": 5,
                 "rankings": {
@@ -210221,11 +210231,11 @@
                 "lastVideoDate": 1786750109000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 47.57,
+                  "auctionValueAverage": 47.56,
                   "auctionValueAverageChange": -0.08,
                   "averageDraftPosition": 13.27,
                   "averageDraftPositionPercentChange": -0.16,
-                  "date": 1788885022904,
+                  "date": 1788888617661,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.87,
@@ -210854,15 +210864,15 @@
                 "lastVideoDate": 1787237462000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 36.26,
+                  "auctionValueAverage": 36.25,
                   "auctionValueAverageChange": -0.04,
                   "averageDraftPosition": 20.78,
                   "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788885022547,
+                  "date": 1788888617556,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.78,
-                  "percentStarted": 97.82
+                  "percentStarted": 97.81
                 },
                 "proTeamId": 1,
                 "rankings": {
@@ -211402,15 +211412,15 @@
                 "lastVideoDate": 1786373553000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 18.57,
+                  "auctionValueAverage": 18.56,
                   "auctionValueAverageChange": 0.15,
                   "averageDraftPosition": 47.71,
-                  "averageDraftPositionPercentChange": -0.12,
-                  "date": 1788885023308,
+                  "averageDraftPositionPercentChange": -0.1,
+                  "date": 1788888618079,
                   "leagueType": 0,
-                  "percentChange": 0.09,
+                  "percentChange": 0.1,
                   "percentOwned": 97.06,
-                  "percentStarted": 78.53
+                  "percentStarted": 78.52
                 },
                 "proTeamId": 5,
                 "rankings": {
@@ -212024,12 +212034,12 @@
                   "auctionValueAverage": 13.46,
                   "auctionValueAverageChange": 0.15,
                   "averageDraftPosition": 58.33,
-                  "averageDraftPositionPercentChange": -0.14,
-                  "date": 1788885021885,
+                  "averageDraftPositionPercentChange": -0.11,
+                  "date": 1788888616851,
                   "leagueType": 0,
-                  "percentChange": 0.13,
+                  "percentChange": 0.14,
                   "percentOwned": 95.87,
-                  "percentStarted": 58.43
+                  "percentStarted": 58.39
                 },
                 "proTeamId": 2,
                 "rankings": {
@@ -212643,11 +212653,11 @@
                 "lastVideoDate": 1787618744000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 14.55,
+                  "auctionValueAverage": 14.53,
                   "auctionValueAverageChange": 0.33,
                   "averageDraftPosition": 52.81,
-                  "averageDraftPositionPercentChange": 0.31,
-                  "date": 1788885021891,
+                  "averageDraftPositionPercentChange": 0.3,
+                  "date": 1788888616854,
                   "leagueType": 0,
                   "percentChange": 0.09,
                   "percentOwned": 98.19,
@@ -213287,11 +213297,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 3.75,
                   "auctionValueAverageChange": -0.02,
-                  "averageDraftPosition": 105.03,
-                  "averageDraftPositionPercentChange": -0.71,
-                  "date": 1788885023232,
+                  "averageDraftPosition": 105.02,
+                  "averageDraftPositionPercentChange": -0.65,
+                  "date": 1788888617992,
                   "leagueType": 0,
-                  "percentChange": 0.14,
+                  "percentChange": 0.16,
                   "percentOwned": 84.59,
                   "percentStarted": 10.51
                 },
@@ -213789,12 +213799,12 @@
                   "auctionValueAverage": 6.28,
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 68.74,
-                  "averageDraftPositionPercentChange": 0.04,
-                  "date": 1788885022314,
+                  "averageDraftPositionPercentChange": 0.05,
+                  "date": 1788888617302,
                   "leagueType": 0,
                   "percentChange": 0.03,
-                  "percentOwned": 96.74,
-                  "percentStarted": 83.79
+                  "percentOwned": 96.73,
+                  "percentStarted": 83.78
                 },
                 "proTeamId": 1,
                 "rankings": {
@@ -214321,13 +214331,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.8,
                   "auctionValueAverageChange": 0,
-                  "averageDraftPosition": 128.77,
-                  "averageDraftPositionPercentChange": -0.65,
-                  "date": 1788885023121,
+                  "averageDraftPosition": 128.76,
+                  "averageDraftPositionPercentChange": -0.59,
+                  "date": 1788888617859,
                   "leagueType": 0,
-                  "percentChange": -0.21,
-                  "percentOwned": 76.43,
-                  "percentStarted": 4.25
+                  "percentChange": -0.18,
+                  "percentOwned": 76.42,
+                  "percentStarted": 4.27
                 },
                 "proTeamId": 7,
                 "rankings": {
@@ -214956,13 +214966,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 4.57,
                   "auctionValueAverageChange": -0.02,
-                  "averageDraftPosition": 97.68,
-                  "averageDraftPositionPercentChange": -0.2,
-                  "date": 1788885021105,
+                  "averageDraftPosition": 97.69,
+                  "averageDraftPositionPercentChange": -0.24,
+                  "date": 1788888616192,
                   "leagueType": 0,
                   "percentChange": 0.1,
                   "percentOwned": 97.66,
-                  "percentStarted": 90.34
+                  "percentStarted": 90.32
                 },
                 "proTeamId": 14,
                 "rankings": {
@@ -215662,14 +215672,14 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 0.67,
-                  "auctionValueAverageChange": 0.01,
+                  "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 160.42,
-                  "averageDraftPositionPercentChange": 0,
-                  "date": 1788885021988,
+                  "averageDraftPositionPercentChange": 0.02,
+                  "date": 1788888616962,
                   "leagueType": 0,
-                  "percentChange": -0.05,
+                  "percentChange": -0.03,
                   "percentOwned": 44.27,
-                  "percentStarted": 2.52
+                  "percentStarted": 2.53
                 },
                 "proTeamId": 26,
                 "rankings": {
@@ -216329,13 +216339,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 2.18,
                   "auctionValueAverageChange": 0.08,
-                  "averageDraftPosition": 147.75,
-                  "averageDraftPositionPercentChange": -0.16,
-                  "date": 1788885021553,
+                  "averageDraftPosition": 147.76,
+                  "averageDraftPositionPercentChange": -0.15,
+                  "date": 1788888616596,
                   "leagueType": 0,
-                  "percentChange": 0.12,
-                  "percentOwned": 58.03,
-                  "percentStarted": 10
+                  "percentChange": 0.15,
+                  "percentOwned": 58.04,
+                  "percentStarted": 10.03
                 },
                 "proTeamId": 27,
                 "rankings": {
@@ -216993,12 +217003,12 @@
                   "activityLevel": null,
                   "auctionValueAverage": 0.58,
                   "auctionValueAverageChange": 0.01,
-                  "averageDraftPosition": 163.45,
-                  "averageDraftPositionPercentChange": -0.05,
-                  "date": 1788885022954,
+                  "averageDraftPosition": 163.44,
+                  "averageDraftPositionPercentChange": -0.03,
+                  "date": 1788888617718,
                   "leagueType": 0,
-                  "percentChange": 0.69,
-                  "percentOwned": 32.98,
+                  "percentChange": 0.7,
+                  "percentOwned": 32.99,
                   "percentStarted": 0.34
                 },
                 "proTeamId": 27,
@@ -217564,11 +217574,11 @@
                   "auctionValueAverage": 0.34,
                   "auctionValueAverageChange": -0.02,
                   "averageDraftPosition": 166.85,
-                  "averageDraftPositionPercentChange": -0.56,
-                  "date": 1788885022376,
+                  "averageDraftPositionPercentChange": -0.55,
+                  "date": 1788888617358,
                   "leagueType": 0,
-                  "percentChange": -1.24,
-                  "percentOwned": 36.07,
+                  "percentChange": -1.2,
+                  "percentOwned": 36.05,
                   "percentStarted": 0.72
                 },
                 "proTeamId": 8,
@@ -218071,15 +218081,15 @@
                 "lastNewsDate": 1788447327000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 0.67,
+                  "auctionValueAverage": 0.66,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 154.3,
-                  "averageDraftPositionPercentChange": -0.14,
-                  "date": 1788885022037,
+                  "averageDraftPositionPercentChange": -0.13,
+                  "date": 1788888617007,
                   "leagueType": 0,
-                  "percentChange": -0.98,
-                  "percentOwned": 60.47,
-                  "percentStarted": 9.96
+                  "percentChange": -0.94,
+                  "percentOwned": 60.46,
+                  "percentStarted": 9.97
                 },
                 "proTeamId": 16,
                 "rankings": {
@@ -218600,10 +218610,10 @@
                   "auctionValueAverage": 0.4,
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 168.76,
-                  "averageDraftPositionPercentChange": 0.15,
-                  "date": 1788885021448,
+                  "averageDraftPositionPercentChange": 0.14,
+                  "date": 1788888616471,
                   "leagueType": 0,
-                  "percentChange": -0.08,
+                  "percentChange": -0.07,
                   "percentOwned": 34.28,
                   "percentStarted": 29.15
                 },
@@ -219150,10 +219160,10 @@
                   "auctionValueAverageChange": 0,
                   "averageDraftPosition": 170.32,
                   "averageDraftPositionPercentChange": 0,
-                  "date": 1788885022491,
+                  "date": 1788888617504,
                   "leagueType": 0,
-                  "percentChange": 0.15,
-                  "percentOwned": 2.51,
+                  "percentChange": 0.14,
+                  "percentOwned": 2.52,
                   "percentStarted": 0.18
                 },
                 "proTeamId": 8,
@@ -219771,11 +219781,11 @@
                 "lastVideoDate": 1787614482000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 68.03,
-                  "auctionValueAverageChange": 0.22,
+                  "auctionValueAverage": 68.01,
+                  "auctionValueAverageChange": 0.23,
                   "averageDraftPosition": 2.41,
                   "averageDraftPositionPercentChange": -0.01,
-                  "date": 1788885022949,
+                  "date": 1788888617713,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.92,
@@ -220411,11 +220421,11 @@
                 "lastVideoDate": 1787845820000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 33.4,
+                  "auctionValueAverage": 33.39,
                   "auctionValueAverageChange": -0.06,
                   "averageDraftPosition": 23.5,
                   "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788885022354,
+                  "date": 1788888617335,
                   "leagueType": 0,
                   "percentChange": 0,
                   "percentOwned": 99.89,
@@ -220943,15 +220953,15 @@
                 "lastNewsDate": 1788444137000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 22.52,
+                  "auctionValueAverage": 22.51,
                   "auctionValueAverageChange": 0.22,
                   "averageDraftPosition": 39.3,
-                  "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788885022151,
+                  "averageDraftPositionPercentChange": -0.08,
+                  "date": 1788888617118,
                   "leagueType": 0,
                   "percentChange": 0.08,
                   "percentOwned": 98.34,
-                  "percentStarted": 87.78
+                  "percentStarted": 87.8
                 },
                 "proTeamId": 18,
                 "rankings": {
@@ -221571,15 +221581,15 @@
                 "lastVideoDate": 1788446511000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 16.51,
-                  "auctionValueAverageChange": 0.3,
+                  "auctionValueAverage": 16.49,
+                  "auctionValueAverageChange": 0.29,
                   "averageDraftPosition": 46.54,
-                  "averageDraftPositionPercentChange": 0.13,
-                  "date": 1788885022984,
+                  "averageDraftPositionPercentChange": 0.12,
+                  "date": 1788888617750,
                   "leagueType": 0,
                   "percentChange": 0.01,
                   "percentOwned": 99.42,
-                  "percentStarted": 80.61
+                  "percentStarted": 80.55
                 },
                 "proTeamId": 17,
                 "rankings": {
@@ -222254,14 +222264,14 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 6.06,
-                  "auctionValueAverageChange": -0.08,
+                  "auctionValueAverageChange": -0.09,
                   "averageDraftPosition": 81.11,
-                  "averageDraftPositionPercentChange": -0.69,
-                  "date": 1788885023445,
+                  "averageDraftPositionPercentChange": -0.64,
+                  "date": 1788888618260,
                   "leagueType": 0,
-                  "percentChange": -0.12,
+                  "percentChange": -0.11,
                   "percentOwned": 92.87,
-                  "percentStarted": 34.01
+                  "percentStarted": 33.95
                 },
                 "proTeamId": 10,
                 "rankings": {
@@ -222687,12 +222697,12 @@
                   "auctionValueAverage": 3.39,
                   "auctionValueAverageChange": 0.12,
                   "averageDraftPosition": 104.75,
-                  "averageDraftPositionPercentChange": 0.41,
-                  "date": 1788885022309,
+                  "averageDraftPositionPercentChange": 0.46,
+                  "date": 1788888617297,
                   "leagueType": 0,
-                  "percentChange": 0.03,
+                  "percentChange": 0.05,
                   "percentOwned": 86.37,
-                  "percentStarted": 9.34
+                  "percentStarted": 9.33
                 },
                 "proTeamId": 11,
                 "rankings": {
@@ -223230,11 +223240,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 4.17,
                   "auctionValueAverageChange": -0.03,
-                  "averageDraftPosition": 90.55,
-                  "averageDraftPositionPercentChange": -0.45,
-                  "date": 1788885022024,
+                  "averageDraftPosition": 90.54,
+                  "averageDraftPositionPercentChange": -0.39,
+                  "date": 1788888617002,
                   "leagueType": 0,
-                  "percentChange": -0.01,
+                  "percentChange": 0.01,
                   "percentOwned": 90.32,
                   "percentStarted": 24.44
                 },
@@ -223772,13 +223782,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1.06,
                   "auctionValueAverageChange": -0.01,
-                  "averageDraftPosition": 145.08,
-                  "averageDraftPositionPercentChange": -0.47,
-                  "date": 1788885021802,
+                  "averageDraftPosition": 145.07,
+                  "averageDraftPositionPercentChange": -0.43,
+                  "date": 1788888616693,
                   "leagueType": 0,
-                  "percentChange": -0.47,
-                  "percentOwned": 68.61,
-                  "percentStarted": 3.94
+                  "percentChange": -0.43,
+                  "percentOwned": 68.6,
+                  "percentStarted": 3.95
                 },
                 "proTeamId": 25,
                 "rankings": {
@@ -224406,13 +224416,13 @@
                   "activityLevel": null,
                   "auctionValueAverage": 4.45,
                   "auctionValueAverageChange": 0.03,
-                  "averageDraftPosition": 100.93,
-                  "averageDraftPositionPercentChange": -0.53,
-                  "date": 1788885022117,
+                  "averageDraftPosition": 100.92,
+                  "averageDraftPositionPercentChange": -0.48,
+                  "date": 1788888617093,
                   "leagueType": 0,
-                  "percentChange": -0.75,
-                  "percentOwned": 91.25,
-                  "percentStarted": 16.79
+                  "percentChange": -0.72,
+                  "percentOwned": 91.24,
+                  "percentStarted": 16.66
                 },
                 "proTeamId": 9,
                 "rankings": {
@@ -224884,14 +224894,14 @@
                 "lastNewsDate": 1788460693000,
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 0.49,
+                  "auctionValueAverage": 0.48,
                   "auctionValueAverageChange": 0.02,
                   "averageDraftPosition": 163.64,
-                  "averageDraftPositionPercentChange": -0.18,
-                  "date": 1788885021561,
+                  "averageDraftPositionPercentChange": -0.17,
+                  "date": 1788888616599,
                   "leagueType": 0,
-                  "percentChange": -0.7,
-                  "percentOwned": 38.52,
+                  "percentChange": -0.68,
+                  "percentOwned": 38.49,
                   "percentStarted": 0.6
                 },
                 "proTeamId": 18,
@@ -225356,11 +225366,11 @@
                   "activityLevel": null,
                   "auctionValueAverage": 1,
                   "auctionValueAverageChange": -0.02,
-                  "averageDraftPosition": 148.76,
-                  "averageDraftPositionPercentChange": -0.46,
-                  "date": 1788885022372,
+                  "averageDraftPosition": 148.74,
+                  "averageDraftPositionPercentChange": -0.42,
+                  "date": 1788888617353,
                   "leagueType": 0,
-                  "percentChange": -0.17,
+                  "percentChange": -0.15,
                   "percentOwned": 61.87,
                   "percentStarted": 1.68
                 },
@@ -225879,15 +225889,15 @@
                 "lastName": "D/ST",
                 "ownership": {
                   "activityLevel": null,
-                  "auctionValueAverage": 1.52,
+                  "auctionValueAverage": 1.51,
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 121.49,
-                  "averageDraftPositionPercentChange": 0.75,
-                  "date": 1788885021088,
+                  "averageDraftPositionPercentChange": 0.7,
+                  "date": 1788888616177,
                   "leagueType": 0,
                   "percentChange": 0.07,
                   "percentOwned": 96.63,
-                  "percentStarted": 91.36
+                  "percentStarted": 91.37
                 },
                 "proTeamId": 23,
                 "rankings": {
@@ -226587,13 +226597,13 @@
                 "ownership": {
                   "activityLevel": null,
                   "auctionValueAverage": 1.55,
-                  "auctionValueAverageChange": 0.07,
+                  "auctionValueAverageChange": 0.06,
                   "averageDraftPosition": 168.01,
-                  "averageDraftPositionPercentChange": -0.1,
-                  "date": 1788885022191,
+                  "averageDraftPositionPercentChange": -0.09,
+                  "date": 1788888617172,
                   "leagueType": 0,
-                  "percentChange": 0.03,
-                  "percentOwned": 27.22,
+                  "percentChange": 0.04,
+                  "percentOwned": 27.21,
                   "percentStarted": 0.84
                 },
                 "proTeamId": 1,
@@ -227180,11 +227190,11 @@
                   "auctionValueAverageChange": -0.01,
                   "averageDraftPosition": 170.56,
                   "averageDraftPositionPercentChange": -0.04,
-                  "date": 1788885022890,
+                  "date": 1788888617640,
                   "leagueType": 0,
-                  "percentChange": 0.4,
-                  "percentOwned": 14.7,
-                  "percentStarted": 0.48
+                  "percentChange": 0.43,
+                  "percentOwned": 14.73,
+                  "percentStarted": 0.49
                 },
                 "proTeamId": 34,
                 "rankings": {
@@ -227697,8 +227707,8 @@
                   "auctionValueAverage": 0.14,
                   "auctionValueAverageChange": 0.01,
                   "averageDraftPosition": 170.2,
-                  "averageDraftPositionPercentChange": 0.05,
-                  "date": 1788885021841,
+                  "averageDraftPositionPercentChange": 0.04,
+                  "date": 1788888616809,
                   "leagueType": 0,
                   "percentChange": -0.07,
                   "percentOwned": 16.35,
