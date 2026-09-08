@@ -62,7 +62,8 @@ export default function HomePage() {
     .filter((row): row is typeof row & { margin: number; homeScore: number; awayScore: number } => row.margin !== undefined && row.homeScore !== undefined && row.awayScore !== undefined) ?? [];
   const biggestEdge = [...recapMatchups].sort((a, b) => b.margin - a.margin)[0];
   const closestMatchup = [...recapMatchups].sort((a, b) => a.margin - b.margin)[0];
-  const matchupLabel = (row?: typeof biggestEdge) => row ? `${row.home?.teamName ?? "Home"} ${formatPoints(row.homeScore)} - ${formatPoints(row.awayScore)} ${row.away?.teamName ?? "Away"}` : "No matchup yet";
+  const managerLabel = (managerId?: string, fallback = "Owner unavailable") => managerId ? managerById.get(managerId)?.displayName ?? fallback : fallback;
+  const matchupLabel = (row?: typeof biggestEdge) => row ? `${managerLabel(row.home?.managerId, "Home")} ${formatPoints(row.homeScore)} - ${formatPoints(row.awayScore)} ${managerLabel(row.away?.managerId, "Away")}` : "No matchup yet";
   const rivalryRecord = (homeManagerId?: string, awayManagerId?: string) => {
     if (!homeManagerId || !awayManagerId) return "No history";
     const record = data.headToHead.find((item) =>
@@ -118,26 +119,26 @@ export default function HomePage() {
             <span>
               <small>Highest scorer</small>
               <b>{highestScorer ? formatPoints(highestScorer.total) : "-"}</b>
-              <strong>{highestScorer ? managerById.get(highestScorer.team.managerId)?.displayName ?? "Owner unavailable" : "No scores yet"}</strong>
-              <em>{highestScorer?.team.teamName ?? "Scores appear when ESPN updates."}</em>
+              <strong>{highestScorer ? managerLabel(highestScorer.team.managerId) : "No scores yet"}</strong>
+              <em>{highestScorer ? "Manager total" : "Scores appear when ESPN updates."}</em>
             </span>
             <span>
               <small>Lowest scorer</small>
               <b>{lowestScorer ? formatPoints(lowestScorer.total) : "-"}</b>
-              <strong>{lowestScorer ? managerById.get(lowestScorer.team.managerId)?.displayName ?? "Owner unavailable" : "No scores yet"}</strong>
-              <em>{lowestScorer?.team.teamName ?? "Scores appear when ESPN updates."}</em>
+              <strong>{lowestScorer ? managerLabel(lowestScorer.team.managerId) : "No scores yet"}</strong>
+              <em>{lowestScorer ? "Manager total" : "Scores appear when ESPN updates."}</em>
             </span>
             <span>
               <small>{recapIsProjected ? "Biggest projected edge" : "Biggest blowout"}</small>
               <b>{biggestEdge ? formatPoints(biggestEdge.margin) : "-"}</b>
               <strong>{matchupLabel(biggestEdge)}</strong>
-              <em>{biggestEdge ? `${managerById.get(biggestEdge.home?.managerId ?? "")?.displayName ?? "Home"} vs ${managerById.get(biggestEdge.away?.managerId ?? "")?.displayName ?? "Away"}` : "Scores appear when ESPN updates."}</em>
+              <em>{biggestEdge ? "Manager matchup" : "Scores appear when ESPN updates."}</em>
             </span>
             <span>
               <small>Closest matchup</small>
               <b>{closestMatchup ? formatPoints(closestMatchup.margin) : "-"}</b>
               <strong>{matchupLabel(closestMatchup)}</strong>
-              <em>{closestMatchup ? `${managerById.get(closestMatchup.home?.managerId ?? "")?.displayName ?? "Home"} vs ${managerById.get(closestMatchup.away?.managerId ?? "")?.displayName ?? "Away"}` : "Scores appear when ESPN updates."}</em>
+              <em>{closestMatchup ? "Manager matchup" : "Scores appear when ESPN updates."}</em>
             </span>
           </div>
         </div>
