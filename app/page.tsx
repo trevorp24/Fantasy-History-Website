@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DraftCountdown } from "@/app/components/DraftCountdown";
+import { scheduleWeek } from "@/lib/stats/schedule-week.mjs";
 import { loadLeagueData, formatPoints } from "@/lib/data/loadLeague";
 
 export default function HomePage() {
@@ -15,10 +16,7 @@ export default function HomePage() {
   const upcomingSeason = data.seasons.find((season) => season.year === 2026);
   const managerById = new Map(data.managers.map((manager) => [manager.id, manager]));
   const teamById = new Map(upcomingSeason?.teams.map((team) => [team.teamId, team]) ?? []);
-  const latestCompletedWeek = upcomingSeason ? Math.max(0, ...upcomingSeason.matchups.filter((matchup) => matchup.completed).map((matchup) => matchup.week)) : 0;
-  const currentWeek = latestCompletedWeek > 0
-    ? latestCompletedWeek
-    : Math.min(...(upcomingSeason?.matchups.map((matchup) => matchup.week).filter((week) => week > 0) ?? [1]));
+  const currentWeek = scheduleWeek(upcomingSeason);
   const weeklyMatchups = upcomingSeason?.matchups
     .filter((matchup) => matchup.week === currentWeek && matchup.homeTeamId && matchup.awayTeamId)
     .sort((a, b) => (a.id).localeCompare(b.id)) ?? [];

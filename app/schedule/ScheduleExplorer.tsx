@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import type { Matchup, TeamSeason } from "@/lib/domain/types";
 
 type ScheduleExplorerProps = {
+  currentWeek: number;
   weeks: number[];
   matchups: Matchup[];
   teams: TeamSeason[];
@@ -13,8 +14,8 @@ type ScheduleExplorerProps = {
 
 const fmt = (value?: number) => value === undefined ? "0" : value.toLocaleString(undefined, { maximumFractionDigits: 2 });
 
-export function ScheduleExplorer({ weeks, matchups, teams, managerNames, rivalryRecords }: ScheduleExplorerProps) {
-  const [selectedWeek, setSelectedWeek] = useState(weeks[0] ?? 1);
+export function ScheduleExplorer({ currentWeek, weeks, matchups, teams, managerNames, rivalryRecords }: ScheduleExplorerProps) {
+  const [selectedWeek, setSelectedWeek] = useState(currentWeek);
   const [selectedTeamId, setSelectedTeamId] = useState(teams[0]?.teamId ?? 0);
   const teamById = useMemo(() => new Map(teams.map((team) => [team.teamId, team])), [teams]);
   const selectedTeam = teamById.get(selectedTeamId);

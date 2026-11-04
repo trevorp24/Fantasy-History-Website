@@ -471,6 +471,7 @@ export function parseEspnSeason(raw: unknown, year: number, sourceFile: string):
       sourceFile,
       leagueId: asNumber(data.id),
       leagueName: asString(settings.name) ?? asString(data.name),
+      currentMatchupPeriod: asNumber(asObject(data.status).currentMatchupPeriod),
       playoffTeamCount: asNumber(scheduleSettings.playoffTeamCount),
       teams,
       matchups,

@@ -7405,8 +7405,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 12.620020424470587,
@@ -7485,8 +7484,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 2,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -7500,8 +7498,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 2
@@ -12273,8 +12270,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -12302,8 +12298,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 2,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -12317,8 +12312,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 1
@@ -13129,8 +13123,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -13144,8 +13137,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 1
@@ -18535,8 +18527,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -18550,8 +18541,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 2,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -18565,8 +18555,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 1
@@ -20040,8 +20029,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0.1111436935882353,
@@ -20145,8 +20133,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 1
@@ -22486,7 +22473,7 @@
             {
               "auctionValue": 0,
               "published": true,
-              "rank": 41,
+              "rank": 28,
               "rankSourceId": 6,
               "rankType": "PPR",
               "slotId": 2
@@ -22542,7 +22529,7 @@
             },
             {
               "auctionValue": 0,
-              "averageRank": 33.375,
+              "averageRank": 31.75,
               "published": true,
               "rank": 0,
               "rankSourceId": 0,
@@ -25456,8 +25443,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 5.437351097,
@@ -25534,8 +25520,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 2,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -25549,8 +25534,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 2
@@ -27996,8 +27980,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 5.174015603764706,
@@ -28083,8 +28066,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 2
@@ -28260,8 +28242,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -28289,8 +28270,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 0
@@ -29567,8 +29547,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -29596,8 +29575,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 0
@@ -30757,8 +30735,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 1.1030786046176473,
@@ -30859,8 +30836,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 2,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -30874,8 +30850,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 1
@@ -31857,8 +31832,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0.1463164425647059,
@@ -31962,8 +31936,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 2
@@ -32340,8 +32313,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -32369,8 +32341,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 0
@@ -35610,8 +35581,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0.22703133844117646,
@@ -35685,8 +35655,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 2
@@ -79440,7 +79409,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 33,
+                        "rank": 32,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -79496,7 +79465,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 35.25,
+                        "averageRank": 35.125,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -81734,7 +81703,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 37,
+                        "rank": 38,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -81790,7 +81759,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 33.375,
+                        "averageRank": 33.5,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -87963,8 +87932,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -94419,7 +94387,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 52,
+                        "rank": 51,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 4
@@ -94459,18 +94427,18 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 42.5,
                         "published": true,
-                        "rank": 0,
-                        "rankSourceId": 0,
+                        "rank": 45,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 4
                       },
                       {
                         "auctionValue": 0,
+                        "averageRank": 42.375,
                         "published": true,
-                        "rank": 45,
-                        "rankSourceId": 11,
+                        "rank": 0,
+                        "rankSourceId": 0,
                         "rankType": "PPR",
                         "slotId": 4
                       },
@@ -96620,7 +96588,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 54,
+                        "rank": 55,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 4
@@ -96660,18 +96628,18 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 52.125,
                         "published": true,
-                        "rank": 0,
-                        "rankSourceId": 0,
+                        "rank": 52,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 4
                       },
                       {
                         "auctionValue": 0,
+                        "averageRank": 52.25,
                         "published": true,
-                        "rank": 52,
-                        "rankSourceId": 11,
+                        "rank": 0,
+                        "rankSourceId": 0,
                         "rankType": "PPR",
                         "slotId": 4
                       },
@@ -98471,8 +98439,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -112059,7 +112026,7 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 64,
+                        "rank": 63,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 4
@@ -118480,7 +118447,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 41,
+                        "rank": 28,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -118536,7 +118503,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 33.375,
+                        "averageRank": 31.75,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -128081,8 +128048,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -129045,7 +129011,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 39,
+                        "rank": 40,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -129101,7 +129067,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 40.375,
+                        "averageRank": 40.5,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -130092,8 +130058,8 @@
                       },
                       {
                         "auctionValue": 0,
-                        "published": false,
-                        "rank": 61,
+                        "published": true,
+                        "rank": 60,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 4
@@ -130124,18 +130090,18 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 56,
                         "published": true,
-                        "rank": 0,
-                        "rankSourceId": 0,
+                        "rank": 54,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 4
                       },
                       {
                         "auctionValue": 0,
+                        "averageRank": 55.875,
                         "published": true,
-                        "rank": 54,
-                        "rankSourceId": 11,
+                        "rank": 0,
+                        "rankSourceId": 0,
                         "rankType": "PPR",
                         "slotId": 4
                       },
@@ -135260,7 +135226,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 48,
+                        "rank": 47,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -135316,7 +135282,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 46.5,
+                        "averageRank": 46.375,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -136403,8 +136369,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -141612,8 +141577,8 @@
                     "9": [
                       {
                         "auctionValue": 0,
-                        "published": true,
-                        "rank": 29,
+                        "published": false,
+                        "rank": 90,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -141644,7 +141609,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 43,
+                        "averageRank": 45.75,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -152135,7 +152100,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 28,
+                        "rank": 29,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -152191,7 +152156,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 33.75,
+                        "averageRank": 33.875,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -156992,7 +156957,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 22,
+                        "rank": 21,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -157048,7 +157013,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 17,
+                        "averageRank": 16.875,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -168515,6 +168480,14 @@
                       },
                       {
                         "auctionValue": 0,
+                        "published": true,
+                        "rank": 34,
+                        "rankSourceId": 6,
+                        "rankType": "PPR",
+                        "slotId": 2
+                      },
+                      {
+                        "auctionValue": 0,
                         "published": false,
                         "rank": 99,
                         "rankSourceId": 11,
@@ -168532,7 +168505,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 48.75,
+                        "averageRank": 46.625,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -172598,7 +172571,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 53,
+                        "rank": 54,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 4
@@ -172638,18 +172611,18 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 59,
                         "published": true,
-                        "rank": 0,
-                        "rankSourceId": 0,
+                        "rank": 60,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 4
                       },
                       {
                         "auctionValue": 0,
+                        "averageRank": 59.125,
                         "published": true,
-                        "rank": 60,
-                        "rankSourceId": 11,
+                        "rank": 0,
+                        "rankSourceId": 0,
                         "rankType": "PPR",
                         "slotId": 4
                       },
@@ -178296,7 +178269,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 40,
+                        "rank": 37,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -178352,7 +178325,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 32.75,
+                        "averageRank": 32.375,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -181300,8 +181273,8 @@
                       },
                       {
                         "auctionValue": 0,
-                        "published": true,
-                        "rank": 57,
+                        "published": false,
+                        "rank": 68,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 4
@@ -181332,18 +181305,18 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 60.375,
-                        "published": true,
-                        "rank": 0,
-                        "rankSourceId": 0,
+                        "published": false,
+                        "rank": 61,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 4
                       },
                       {
                         "auctionValue": 0,
-                        "published": false,
-                        "rank": 61,
-                        "rankSourceId": 11,
+                        "averageRank": 60.875,
+                        "published": true,
+                        "rank": 0,
+                        "rankSourceId": 0,
                         "rankType": "PPR",
                         "slotId": 4
                       }
@@ -181361,8 +181334,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -188784,8 +188756,8 @@
                     "9": [
                       {
                         "auctionValue": 0,
-                        "published": true,
-                        "rank": 21,
+                        "published": false,
+                        "rank": 89,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -188824,7 +188796,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 30.5,
+                        "averageRank": 34.25,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -193305,7 +193277,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 32,
+                        "rank": 23,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -193361,7 +193333,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 33.5,
+                        "averageRank": 32.375,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -194209,8 +194181,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 1
@@ -201588,7 +201559,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 44,
+                        "rank": 43,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -201644,7 +201615,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 36.125,
+                        "averageRank": 36,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -201787,7 +201758,7 @@
                   "injured": false,
                   "injuryStatus": "QUESTIONABLE",
                   "lastName": "Wilson",
-                  "lastNewsDate": 1793571052000,
+                  "lastNewsDate": 1793813115000,
                   "lastVideoDate": 1792610669000,
                   "proTeamId": 20,
                   "rankings": {
@@ -210880,7 +210851,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 55,
+                        "rank": 56,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 4
@@ -210920,18 +210891,18 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 52.625,
                         "published": true,
-                        "rank": 0,
-                        "rankSourceId": 0,
+                        "rank": 55,
+                        "rankSourceId": 11,
                         "rankType": "PPR",
                         "slotId": 4
                       },
                       {
                         "auctionValue": 0,
+                        "averageRank": 52.75,
                         "published": true,
-                        "rank": 55,
-                        "rankSourceId": 11,
+                        "rank": 0,
+                        "rankSourceId": 0,
                         "rankType": "PPR",
                         "slotId": 4
                       },
@@ -212694,8 +212665,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 1
@@ -214939,7 +214909,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 34,
+                        "rank": 33,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -214995,7 +214965,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 37.5,
+                        "averageRank": 37.375,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -223502,7 +223472,7 @@
                   "injured": false,
                   "injuryStatus": "QUESTIONABLE",
                   "lastName": "Egbuka",
-                  "lastNewsDate": 1793377946000,
+                  "lastNewsDate": 1793812652000,
                   "lastVideoDate": 1792768253000,
                   "proTeamId": 27,
                   "rankings": {
@@ -231513,8 +231483,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 1
@@ -237507,7 +237476,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 47,
+                        "rank": 46,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -237563,7 +237532,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 43.875,
+                        "averageRank": 43.75,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -245866,8 +245835,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -248341,8 +248309,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 1
@@ -250298,7 +250265,7 @@
                       {
                         "auctionValue": 0,
                         "published": false,
-                        "rank": 62,
+                        "rank": 61,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 4
@@ -256545,7 +256512,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 38,
+                        "rank": 39,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -256601,7 +256568,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 37.5,
+                        "averageRank": 37.625,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -258527,8 +258494,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -262132,7 +262098,7 @@
                   "injured": false,
                   "injuryStatus": "QUESTIONABLE",
                   "lastName": "Hall",
-                  "lastNewsDate": 1793633720000,
+                  "lastNewsDate": 1793813802000,
                   "lastVideoDate": 1789343761000,
                   "proTeamId": 20,
                   "rankings": {
@@ -262731,7 +262697,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 23,
+                        "rank": 22,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -262787,7 +262753,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 25.75,
+                        "averageRank": 25.625,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -274339,7 +274305,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 42,
+                        "rank": 41,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -274395,7 +274361,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 42.125,
+                        "averageRank": 42,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -276990,8 +276956,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -277233,8 +277198,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -285749,7 +285713,7 @@
                       {
                         "auctionValue": 0,
                         "published": true,
-                        "rank": 46,
+                        "rank": 45,
                         "rankSourceId": 6,
                         "rankType": "PPR",
                         "slotId": 2
@@ -285805,7 +285769,7 @@
                       },
                       {
                         "auctionValue": 0,
-                        "averageRank": 43.5,
+                        "averageRank": 43.375,
                         "published": true,
                         "rank": 0,
                         "rankSourceId": 0,
@@ -297290,7 +297254,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 53,
+                      "rank": 54,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 4
@@ -297330,18 +297294,18 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 59,
                       "published": true,
-                      "rank": 0,
-                      "rankSourceId": 0,
+                      "rank": 60,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 4
                     },
                     {
                       "auctionValue": 0,
+                      "averageRank": 59.125,
                       "published": true,
-                      "rank": 60,
-                      "rankSourceId": 11,
+                      "rank": 0,
+                      "rankSourceId": 0,
                       "rankType": "PPR",
                       "slotId": 4
                     },
@@ -305617,7 +305581,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 40,
+                      "rank": 37,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -305673,7 +305637,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 32.75,
+                      "averageRank": 32.375,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -309964,8 +309928,8 @@
                     },
                     {
                       "auctionValue": 0,
-                      "published": true,
-                      "rank": 57,
+                      "published": false,
+                      "rank": 68,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 4
@@ -309996,18 +309960,18 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 60.375,
-                      "published": true,
-                      "rank": 0,
-                      "rankSourceId": 0,
+                      "published": false,
+                      "rank": 61,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 4
                     },
                     {
                       "auctionValue": 0,
-                      "published": false,
-                      "rank": 61,
-                      "rankSourceId": 11,
+                      "averageRank": 60.875,
+                      "published": true,
+                      "rank": 0,
+                      "rankSourceId": 0,
                       "rankType": "PPR",
                       "slotId": 4
                     }
@@ -310096,8 +310060,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -310155,8 +310118,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -310233,8 +310195,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -324766,7 +324727,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 47,
+                      "rank": 46,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -324822,7 +324783,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 43.875,
+                      "averageRank": 43.75,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -337745,8 +337706,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 0,
@@ -337774,8 +337734,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -337802,8 +337761,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -348798,7 +348756,7 @@
                 "injuryStatus": "QUESTIONABLE",
                 "jersey": "2",
                 "lastName": "Egbuka",
-                "lastNewsDate": 1793377946000,
+                "lastNewsDate": 1793812652000,
                 "lastVideoDate": 1792768253000,
                 "outlooks": {
                   "outlooksByWeek": {
@@ -360805,8 +360763,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 13.9892271495,
@@ -360917,8 +360874,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -360945,8 +360901,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 1
@@ -361203,7 +361158,7 @@
                 "injuryStatus": "QUESTIONABLE",
                 "jersey": "20",
                 "lastName": "Hall",
-                "lastNewsDate": 1793633720000,
+                "lastNewsDate": 1793813802000,
                 "lastVideoDate": 1789343761000,
                 "outlooks": {
                   "outlooksByWeek": {
@@ -361826,7 +361781,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 23,
+                      "rank": 22,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -361882,7 +361837,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 25.75,
+                      "averageRank": 25.625,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -379565,7 +379520,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 42,
+                      "rank": 41,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -379621,7 +379576,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 42.125,
+                      "averageRank": 42,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -383972,8 +383927,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -384062,8 +384016,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -384090,8 +384043,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -384412,8 +384364,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 0,
@@ -384427,8 +384378,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -384455,8 +384405,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -385594,7 +385543,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 44,
+                      "rank": 43,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -385650,7 +385599,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 36.125,
+                      "averageRank": 36,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -386346,7 +386295,7 @@
                 "injuryStatus": "QUESTIONABLE",
                 "jersey": "5",
                 "lastName": "Wilson",
-                "lastNewsDate": 1793571052000,
+                "lastNewsDate": 1793813115000,
                 "lastVideoDate": 1792610669000,
                 "outlooks": {
                   "outlooksByWeek": {
@@ -399311,7 +399260,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 55,
+                      "rank": 56,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 4
@@ -399351,18 +399300,18 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 52.625,
                       "published": true,
-                      "rank": 0,
-                      "rankSourceId": 0,
+                      "rank": 55,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 4
                     },
                     {
                       "auctionValue": 0,
+                      "averageRank": 52.75,
                       "published": true,
-                      "rank": 55,
-                      "rankSourceId": 11,
+                      "rank": 0,
+                      "rankSourceId": 0,
                       "rankType": "PPR",
                       "slotId": 4
                     },
@@ -402292,8 +402241,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 21.399776247882354,
@@ -402407,8 +402355,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -402519,8 +402466,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 1
@@ -405716,7 +405662,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 34,
+                      "rank": 33,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -405772,7 +405718,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 37.5,
+                      "averageRank": 37.375,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -415234,7 +415180,7 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 64,
+                      "rank": 63,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 4
@@ -424589,7 +424535,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 41,
+                      "rank": 28,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -424645,7 +424591,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 33.375,
+                      "averageRank": 31.75,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -434251,8 +434197,8 @@
                   "9": [
                     {
                       "auctionValue": 0,
-                      "published": true,
-                      "rank": 29,
+                      "published": false,
+                      "rank": 90,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -434283,7 +434229,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 43,
+                      "averageRank": 45.75,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -450614,7 +450560,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 28,
+                      "rank": 29,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -450670,7 +450616,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 33.75,
+                      "averageRank": 33.875,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -457018,7 +456964,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 22,
+                      "rank": 21,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -457074,7 +457020,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 17,
+                      "averageRank": 16.875,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -474203,6 +474149,14 @@
                     },
                     {
                       "auctionValue": 0,
+                      "published": true,
+                      "rank": 34,
+                      "rankSourceId": 6,
+                      "rankType": "PPR",
+                      "slotId": 2
+                    },
+                    {
+                      "auctionValue": 0,
                       "published": false,
                       "rank": 99,
                       "rankSourceId": 11,
@@ -474220,7 +474174,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 48.75,
+                      "averageRank": 46.625,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -474527,7 +474481,8 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {}
+                    "stats": {},
+                    "variance": {}
                   },
                   {
                     "appliedStats": {},
@@ -484385,8 +484340,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 21.499407601176472,
@@ -484497,8 +484451,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -484525,8 +484478,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -485558,7 +485510,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 39,
+                      "rank": 40,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -485614,7 +485566,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 40.375,
+                      "averageRank": 40.5,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -487145,8 +487097,8 @@
                     },
                     {
                       "auctionValue": 0,
-                      "published": false,
-                      "rank": 61,
+                      "published": true,
+                      "rank": 60,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 4
@@ -487177,18 +487129,18 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 56,
                       "published": true,
-                      "rank": 0,
-                      "rankSourceId": 0,
+                      "rank": 54,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 4
                     },
                     {
                       "auctionValue": 0,
+                      "averageRank": 55.875,
                       "published": true,
-                      "rank": 54,
-                      "rankSourceId": 11,
+                      "rank": 0,
+                      "rankSourceId": 0,
                       "rankType": "PPR",
                       "slotId": 4
                     },
@@ -495008,7 +494960,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 48,
+                      "rank": 47,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -495064,7 +495016,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 46.5,
+                      "averageRank": 46.375,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -496737,8 +496689,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -496883,8 +496834,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -496989,8 +496939,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -517209,7 +517158,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 46,
+                      "rank": 45,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -517265,7 +517214,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 43.5,
+                      "averageRank": 43.375,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -534697,7 +534646,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 52,
+                      "rank": 51,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 4
@@ -534737,18 +534686,18 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 42.5,
                       "published": true,
-                      "rank": 0,
-                      "rankSourceId": 0,
+                      "rank": 45,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 4
                     },
                     {
                       "auctionValue": 0,
+                      "averageRank": 42.375,
                       "published": true,
-                      "rank": 45,
-                      "rankSourceId": 11,
+                      "rank": 0,
+                      "rankSourceId": 0,
                       "rankType": "PPR",
                       "slotId": 4
                     },
@@ -538009,7 +537958,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 54,
+                      "rank": 55,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 4
@@ -538049,18 +537998,18 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 52.125,
                       "published": true,
-                      "rank": 0,
-                      "rankSourceId": 0,
+                      "rank": 52,
+                      "rankSourceId": 11,
                       "rankType": "PPR",
                       "slotId": 4
                     },
                     {
                       "auctionValue": 0,
+                      "averageRank": 52.25,
                       "published": true,
-                      "rank": 52,
-                      "rankSourceId": 11,
+                      "rank": 0,
+                      "rankSourceId": 0,
                       "rankType": "PPR",
                       "slotId": 4
                     },
@@ -541023,8 +540972,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 8.89815959747059,
@@ -541126,8 +541074,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -541154,8 +541101,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -559338,7 +559284,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 33,
+                      "rank": 32,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -559394,7 +559340,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 35.25,
+                      "averageRank": 35.125,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -563006,7 +562952,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 37,
+                      "rank": 38,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -563062,7 +563008,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 33.375,
+                      "averageRank": 33.5,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -572613,8 +572559,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 1.7207964545294117,
@@ -572715,8 +572660,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -572811,8 +572755,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -578097,8 +578040,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -578212,8 +578154,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -578240,8 +578181,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 1
@@ -580990,7 +580930,7 @@
                     {
                       "auctionValue": 0,
                       "published": false,
-                      "rank": 62,
+                      "rank": 61,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 4
@@ -590512,7 +590452,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 38,
+                      "rank": 39,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -590568,7 +590508,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 37.5,
+                      "averageRank": 37.625,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -593680,8 +593620,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -593772,8 +593711,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -593800,8 +593738,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -602248,8 +602185,8 @@
                   "9": [
                     {
                       "auctionValue": 0,
-                      "published": true,
-                      "rank": 21,
+                      "published": false,
+                      "rank": 89,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -602288,7 +602225,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 30.5,
+                      "averageRank": 34.25,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -609674,7 +609611,7 @@
                     {
                       "auctionValue": 0,
                       "published": true,
-                      "rank": 32,
+                      "rank": 23,
                       "rankSourceId": 6,
                       "rankType": "PPR",
                       "slotId": 2
@@ -609730,7 +609667,7 @@
                     },
                     {
                       "auctionValue": 0,
-                      "averageRank": 33.5,
+                      "averageRank": 32.375,
                       "published": true,
                       "rank": 0,
                       "rankSourceId": 0,
@@ -611158,8 +611095,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 6.0692052452352945,
@@ -611238,8 +611174,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -611266,8 +611201,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 1

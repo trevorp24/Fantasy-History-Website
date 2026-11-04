@@ -72,6 +72,7 @@ $ProjectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $RawDataFolder = Join-Path $ProjectRoot "data\raw"
 $OutputFolder = Join-Path $ProjectRoot "outputs\moggate-preview-pages"
 $DocsFolder = Join-Path $ProjectRoot "docs"
+. (Join-Path $ProjectRoot "scripts\copy-website-files.ps1")
 $Node = Find-Node
 $Git = Find-Git
 Clear-LocalProxyForGit
@@ -120,23 +121,36 @@ try {
     throw "Build output folder was not created: $OutputFolder"
   }
 
-  Copy-Item -Path (Join-Path $OutputFolder "*") -Destination $DocsFolder -Recurse -Force
-
   Write-Step "Checking season data"
   & $Node "scripts\validate-data.mjs"
   if ($LASTEXITCODE -ne 0) {
     throw "Data validation failed."
   }
 
+  Write-Step "Updating website files"
+  Copy-WebsiteFiles -SourceFolder $OutputFolder -DestinationFolder $DocsFolder
+
   Write-Step "Checking Git changes"
   $Status = & $Git status --short
+  if ($LASTEXITCODE -ne 0) {
+    throw "Could not check Git status. Review the Git error above."
+  }
   if (-not $Status) {
     Write-Host "No changes to commit."
   } else {
     & $Git add docs app lib scripts data README.md work\generate-preview-pages.mjs update-moggate-site.ps1 update-moggate-site.cmd export-moggate-json.ps1 export-moggate-json.cmd export-and-update-moggate-site.cmd reset-espn-cookies-and-export.cmd connect-github-repo.ps1 connect-github-repo.cmd package.json pnpm-lock.yaml tsconfig.json next.config.ts next-env.d.ts .gitignore
+    if ($LASTEXITCODE -ne 0) {
+      throw "Could not stage the website files. Review the Git error above."
+    }
     $Staged = & $Git diff --cached --name-only
+    if ($LASTEXITCODE -ne 0) {
+      throw "Could not check staged website files. Review the Git error above."
+    }
     if ($Staged) {
       & $Git commit -m "Update Moggate league site"
+      if ($LASTEXITCODE -ne 0) {
+        throw "Could not commit the website update. Review the Git error above."
+      }
     } else {
       Write-Host "No tracked website changes to commit."
     }
@@ -150,6 +164,9 @@ try {
           & $Git -c http.sslBackend=openssl push
         } else {
           & $Git -c http.sslBackend=openssl push --set-upstream origin main
+        }
+        if ($LASTEXITCODE -ne 0) {
+          throw "The GitHub push failed. Your local commit is saved; review the Git error above."
         }
       } else {
         Write-Host "Local commit created, but no GitHub remote is connected for this folder." -ForegroundColor DarkYellow

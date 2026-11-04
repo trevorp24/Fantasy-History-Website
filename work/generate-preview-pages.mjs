@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { scheduleWeek } from "../lib/stats/schedule-week.mjs";
 
 const root = process.cwd();
 const rawDir = path.join(root, "data", "raw");
@@ -218,7 +219,7 @@ function loadSeason(year) {
       }
     }
   }
-  return { year, playoffTeamCount: num(obj(obj(raw.settings).scheduleSettings).playoffTeamCount), teams, matchups, draftPicks, finalRosters, weeklyPlayerScores, managers: [...managers.values()], status: teams.some((team) => team.pointsFor || team.finalPlacement) ? "complete" : "preseason" };
+  return { year, currentMatchupPeriod: num(obj(raw.status).currentMatchupPeriod), playoffTeamCount: num(obj(obj(raw.settings).scheduleSettings).playoffTeamCount), teams, matchups, draftPicks, finalRosters, weeklyPlayerScores, managers: [...managers.values()], status: teams.some((team) => team.pointsFor || team.finalPlacement) ? "complete" : "preseason" };
 }
 
 function playerLookupForYear(year) {
@@ -629,8 +630,7 @@ function writeHome() {
   const currentSeason = seasons.find((season) => season.year === currentYear);
   const active = currentSeason?.teams ?? [];
   const teamById = new Map(active.map((team) => [team.teamId, team]));
-  const latestCompletedWeek = Math.max(0, ...arr(currentSeason?.matchups).filter((matchup) => matchup.completed).map((matchup) => matchup.week));
-  const currentWeek = latestCompletedWeek || Math.min(...arr(currentSeason?.matchups).map((matchup) => matchup.week).filter((week) => week > 0));
+  const currentWeek = scheduleWeek(currentSeason);
   const weeklyMatchups = arr(currentSeason?.matchups).filter((matchup) => matchup.week === currentWeek && matchup.homeTeamId && matchup.awayTeamId);
   const rivalryRecord = (homeManagerId, awayManagerId) => {
     if (!homeManagerId || !awayManagerId) return "No history";
@@ -706,7 +706,8 @@ function writeSchedule() {
       rivalry: matchupRivalry(teamById.get(teamId)?.managerId, opponent?.managerId)
     };
   };
-  const weekOptions = weeks.map((week) => `<option value="week-${week}">Week ${week}</option>`).join("");
+  const currentWeek = scheduleWeek(season);
+  const weekOptions = weeks.map((week) => `<option value="week-${week}"${week === currentWeek ? " selected" : ""}>Week ${week}</option>`).join("");
   const panels = weeks.map((week, index) => {
     const matchups = season.matchups.filter((matchup) => matchup.week === week && matchup.homeTeamId && matchup.awayTeamId).sort((a, b) => a.id.localeCompare(b.id));
     const rows = matchups.map((matchup) => {
@@ -714,7 +715,7 @@ function writeSchedule() {
       const away = teamById.get(matchup.awayTeamId);
       return `<div class="schedule-matchup"><div><strong>${esc(home?.teamName ?? "Home Team")}</strong><span>${esc(managerName(home?.managerId))}</span></div><div class="matchup-score"><b>${fmt(matchup.homeScore ?? 0)} - ${fmt(matchup.awayScore ?? 0)}</b><span>Rivalry: ${esc(matchupRivalry(home?.managerId, away?.managerId))}</span></div><div><strong>${esc(away?.teamName ?? "Away Team")}</strong><span>${esc(managerName(away?.managerId))}</span></div></div>`;
     }).join("");
-    return `<article class="card panel" data-panel="week-${week}" style="display:${index === 0 ? "block" : "none"}"><div class="row-between"><h2>Week ${week} Matchups</h2><span class="tag">${matchups.length} games</span></div><div class="schedule-list">${rows || `<p class="muted">No matchups found for this week.</p>`}</div></article>`;
+    return `<article class="card panel" data-panel="week-${week}" style="display:${week === currentWeek ? "block" : "none"}"><div class="row-between"><h2>Week ${week} Matchups</h2><span class="tag">${matchups.length} games</span></div><div class="schedule-list">${rows || `<p class="muted">No matchups found for this week.</p>`}</div></article>`;
   }).join("");
   const scheduleOptions = season.teams
     .slice()

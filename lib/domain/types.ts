@@ -130,6 +130,7 @@ export type TradeImpact = {
 
 export type Season = {
   year: number;
+  currentMatchupPeriod?: number;
   status: SeasonStatus;
   sourceFile?: string;
   leagueId?: number;

@@ -1,5 +1,6 @@
 import { ScheduleExplorer } from "@/app/schedule/ScheduleExplorer";
 import { loadLeagueData } from "@/lib/data/loadLeague";
+import { scheduleWeek } from "@/lib/stats/schedule-week.mjs";
 
 export default function SchedulePage() {
   const data = loadLeagueData();
@@ -28,6 +29,7 @@ export default function SchedulePage() {
       </header>
 
       <ScheduleExplorer
+        currentWeek={scheduleWeek(season)}
         weeks={weeks}
         matchups={season.matchups}
         teams={season.teams}
