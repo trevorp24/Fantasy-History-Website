@@ -13129,8 +13129,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -13144,8 +13143,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 1
@@ -20040,8 +20038,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0.1111436935882353,
@@ -20145,8 +20142,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 1
@@ -25456,8 +25452,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 5.437351097,
@@ -25534,8 +25529,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 2,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -25549,8 +25543,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 2
@@ -30757,8 +30750,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 1.1030786046176473,
@@ -30859,8 +30851,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 2,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -30874,8 +30865,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 1
@@ -32340,8 +32330,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0,
@@ -32369,8 +32358,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 0
@@ -35610,8 +35598,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 1,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           },
           {
             "appliedAverage": 0.22703133844117646,
@@ -35685,8 +35672,7 @@
             "seasonId": 2026,
             "statSourceId": 1,
             "statSplitTypeId": 0,
-            "stats": {},
-            "variance": {}
+            "stats": {}
           }
         ],
         "universeId": 2
@@ -87963,8 +87949,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -98471,8 +98456,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -136403,8 +136387,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -181361,8 +181344,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -194209,8 +194191,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 1
@@ -212694,8 +212675,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 1
@@ -245866,8 +245846,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -248341,8 +248320,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 1
@@ -277233,8 +277211,7 @@
                       "seasonId": 2026,
                       "statSourceId": 1,
                       "statSplitTypeId": 1,
-                      "stats": {},
-                      "variance": {}
+                      "stats": {}
                     }
                   ],
                   "universeId": 2
@@ -302008,38 +301985,6 @@
                   },
                   {
                     "appliedStats": {
-                      "42": 5.7,
-                      "53": 3
-                    },
-                    "appliedTotal": 8.7,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 21,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 6,
-                      "42": 57,
-                      "47": 11,
-                      "48": 5,
-                      "49": 2,
-                      "50": 2,
-                      "51": 1,
-                      "53": 6,
-                      "54": 1,
-                      "58": 9,
-                      "59": 10,
-                      "60": 9.5,
-                      "61": 57,
-                      "156": 1,
-                      "210": 1,
-                      "213": 2
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "42": 5.080991771000001,
                       "43": 0.23429281200000002,
                       "44": 0.00368943,
@@ -302100,6 +302045,38 @@
                       "63": 0.001,
                       "68": 0.037512689,
                       "72": 0.416863579
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 5.7,
+                      "53": 3
+                    },
+                    "appliedTotal": 8.7,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 21,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 6,
+                      "42": 57,
+                      "47": 11,
+                      "48": 5,
+                      "49": 2,
+                      "50": 2,
+                      "51": 1,
+                      "53": 6,
+                      "54": 1,
+                      "58": 9,
+                      "59": 10,
+                      "60": 9.5,
+                      "61": 57,
+                      "156": 1,
+                      "210": 1,
+                      "213": 2
                     }
                   },
                   {
@@ -307410,47 +307387,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "42": 14.100000000000001,
-                      "43": 6,
-                      "53": 5.5
-                    },
-                    "appliedTotal": 25.6,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 4,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 11,
-                      "42": 141,
-                      "43": 1,
-                      "47": 28,
-                      "48": 14,
-                      "49": 7,
-                      "50": 5,
-                      "51": 2,
-                      "52": 1,
-                      "53": 11,
-                      "54": 2,
-                      "55": 1,
-                      "56": 1,
-                      "58": 16,
-                      "59": 50,
-                      "60": 12.818,
-                      "61": 141,
-                      "108": 1,
-                      "109": 1,
-                      "155": 1,
-                      "158": 6,
-                      "186": 1,
-                      "210": 1,
-                      "213": 7
-                    }
-                  },
-                  {
                     "appliedAverage": 16.5237980334375,
                     "appliedStats": {
                       "24": 2.046147731,
@@ -307532,6 +307468,47 @@
                       "63": 0.0055,
                       "68": 1.424973956,
                       "72": 1.178308443
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 14.100000000000001,
+                      "43": 6,
+                      "53": 5.5
+                    },
+                    "appliedTotal": 25.6,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 4,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 11,
+                      "42": 141,
+                      "43": 1,
+                      "47": 28,
+                      "48": 14,
+                      "49": 7,
+                      "50": 5,
+                      "51": 2,
+                      "52": 1,
+                      "53": 11,
+                      "54": 2,
+                      "55": 1,
+                      "56": 1,
+                      "58": 16,
+                      "59": 50,
+                      "60": 12.818,
+                      "61": 141,
+                      "108": 1,
+                      "109": 1,
+                      "155": 1,
+                      "158": 6,
+                      "186": 1,
+                      "210": 1,
+                      "213": 7
                     }
                   },
                   {
@@ -310096,8 +310073,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -310155,8 +310131,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -310233,8 +310208,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -312678,45 +312652,6 @@
                 },
                 "stats": [
                   {
-                    "appliedStats": {
-                      "86": 5,
-                      "198": 5
-                    },
-                    "appliedTotal": 10,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 13,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "74": 1,
-                      "75": 1,
-                      "83": 1,
-                      "84": 1,
-                      "86": 5,
-                      "87": 5,
-                      "155": 1,
-                      "158": 8,
-                      "198": 1,
-                      "199": 1,
-                      "210": 1,
-                      "214": 53,
-                      "216": 53,
-                      "217": 10,
-                      "218": 5,
-                      "219": 2,
-                      "220": 2,
-                      "221": 1,
-                      "229": 10,
-                      "230": 5,
-                      "231": 2,
-                      "232": 2,
-                      "233": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 7.083333333333333,
                     "appliedStats": {
                       "77": 24,
@@ -312775,6 +312710,45 @@
                       "232": 36,
                       "233": 16,
                       "234": 5
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "86": 5,
+                      "198": 5
+                    },
+                    "appliedTotal": 10,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 13,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "74": 1,
+                      "75": 1,
+                      "83": 1,
+                      "84": 1,
+                      "86": 5,
+                      "87": 5,
+                      "155": 1,
+                      "158": 8,
+                      "198": 1,
+                      "199": 1,
+                      "210": 1,
+                      "214": 53,
+                      "216": 53,
+                      "217": 10,
+                      "218": 5,
+                      "219": 2,
+                      "220": 2,
+                      "221": 1,
+                      "229": 10,
+                      "230": 5,
+                      "231": 2,
+                      "232": 2,
+                      "233": 1
                     }
                   },
                   {
@@ -319222,43 +319196,6 @@
                 "seasonOutlook": "Bowers entered 2025 with high expectations and appeared well on his way to another productive season with 103 yards in Week 1, but a late-game injury limited him for three weeks and led to five full missed games. Bowers remained productive when healthy, finishing second among tight ends in fantasy PPG. Incredibly, he tied for fifth in the NFL with 13 end zone targets despite all the missed action. Bowers, who posted a 112-1,194-5 receiving line as a rookie in 2024, will be the top target for No. 1 pick Fernando Mendoza. The 23-year-old is well positioned for a highly productive season and should be on your radar in the second or third round.",
                 "stats": [
                   {
-                    "appliedStats": {
-                      "42": 9.200000000000001,
-                      "43": 12,
-                      "53": 3.5
-                    },
-                    "appliedTotal": 24.7,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 13,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 7,
-                      "42": 92,
-                      "43": 2,
-                      "47": 18,
-                      "48": 9,
-                      "49": 4,
-                      "50": 3,
-                      "51": 1,
-                      "53": 7,
-                      "54": 1,
-                      "58": 10,
-                      "59": 40,
-                      "60": 13.143,
-                      "61": 92,
-                      "155": 1,
-                      "158": 12,
-                      "183": 1,
-                      "184": 1,
-                      "210": 1,
-                      "213": 5
-                    }
-                  },
-                  {
                     "appliedAverage": 12.016666666666666,
                     "appliedStats": {
                       "24": 0.2,
@@ -319309,6 +319246,43 @@
                       "185": 1,
                       "210": 12,
                       "213": 36
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 9.200000000000001,
+                      "43": 12,
+                      "53": 3.5
+                    },
+                    "appliedTotal": 24.7,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 13,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 7,
+                      "42": 92,
+                      "43": 2,
+                      "47": 18,
+                      "48": 9,
+                      "49": 4,
+                      "50": 3,
+                      "51": 1,
+                      "53": 7,
+                      "54": 1,
+                      "58": 10,
+                      "59": 40,
+                      "60": 13.143,
+                      "61": 92,
+                      "155": 1,
+                      "158": 12,
+                      "183": 1,
+                      "184": 1,
+                      "210": 1,
+                      "213": 5
                     }
                   },
                   {
@@ -322615,45 +322589,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "42": 15.5,
-                      "43": 12,
-                      "53": 5
-                    },
-                    "appliedTotal": 32.5,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 4,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 10,
-                      "42": 155,
-                      "43": 2,
-                      "47": 31,
-                      "48": 15,
-                      "49": 7,
-                      "50": 6,
-                      "51": 3,
-                      "52": 1,
-                      "53": 10,
-                      "54": 2,
-                      "55": 1,
-                      "56": 1,
-                      "58": 11,
-                      "59": 37,
-                      "60": 15.5,
-                      "61": 155,
-                      "155": 1,
-                      "158": 12,
-                      "184": 2,
-                      "210": 1,
-                      "213": 9
-                    }
-                  },
-                  {
                     "appliedAverage": 10.93301917225,
                     "appliedStats": {
                       "42": 92.45385555000001,
@@ -322716,6 +322651,45 @@
                       "63": 0.0055,
                       "68": 0.892057042,
                       "72": 0.892057042
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 15.5,
+                      "43": 12,
+                      "53": 5
+                    },
+                    "appliedTotal": 32.5,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 4,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 10,
+                      "42": 155,
+                      "43": 2,
+                      "47": 31,
+                      "48": 15,
+                      "49": 7,
+                      "50": 6,
+                      "51": 3,
+                      "52": 1,
+                      "53": 10,
+                      "54": 2,
+                      "55": 1,
+                      "56": 1,
+                      "58": 11,
+                      "59": 37,
+                      "60": 15.5,
+                      "61": 155,
+                      "155": 1,
+                      "158": 12,
+                      "184": 2,
+                      "210": 1,
+                      "213": 9
                     }
                   },
                   {
@@ -325020,32 +324994,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "24": 2
-                    },
-                    "appliedTotal": 2,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 16,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 8,
-                      "24": 20,
-                      "27": 4,
-                      "28": 2,
-                      "29": 1,
-                      "33": 1,
-                      "39": 2.5,
-                      "40": 20,
-                      "156": 1,
-                      "210": 1,
-                      "212": 2
-                    }
-                  },
-                  {
                     "appliedAverage": 7.4340006938235295,
                     "appliedStats": {
                       "24": 82.31753776000001,
@@ -325131,6 +325079,32 @@
                       "63": 0.005335784,
                       "68": 0.855508074,
                       "72": 0.635085321
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 2
+                    },
+                    "appliedTotal": 2,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 16,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 8,
+                      "24": 20,
+                      "27": 4,
+                      "28": 2,
+                      "29": 1,
+                      "33": 1,
+                      "39": 2.5,
+                      "40": 20,
+                      "156": 1,
+                      "210": 1,
+                      "212": 2
                     }
                   },
                   {
@@ -329933,45 +329907,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "85": -1,
-                      "86": 1
-                    },
-                    "appliedTotal": 0,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 16,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "75": 1,
-                      "76": 1,
-                      "84": 1,
-                      "85": 1,
-                      "86": 1,
-                      "87": 1,
-                      "156": 1,
-                      "158": 1,
-                      "199": 1,
-                      "200": 1,
-                      "210": 1,
-                      "215": 57,
-                      "216": 57,
-                      "223": 11,
-                      "224": 5,
-                      "225": 2,
-                      "226": 2,
-                      "227": 1,
-                      "229": 11,
-                      "230": 5,
-                      "231": 2,
-                      "232": 2,
-                      "233": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 7.748379484941175,
                     "appliedStats": {
                       "77": 28.731942424,
@@ -330033,6 +329968,45 @@
                       "198": 2.084956078,
                       "199": 2.642340342,
                       "200": 1.593638146
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "85": -1,
+                      "86": 1
+                    },
+                    "appliedTotal": 0,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 16,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "75": 1,
+                      "76": 1,
+                      "84": 1,
+                      "85": 1,
+                      "86": 1,
+                      "87": 1,
+                      "156": 1,
+                      "158": 1,
+                      "199": 1,
+                      "200": 1,
+                      "210": 1,
+                      "215": 57,
+                      "216": 57,
+                      "223": 11,
+                      "224": 5,
+                      "225": 2,
+                      "226": 2,
+                      "227": 1,
+                      "229": 11,
+                      "230": 5,
+                      "231": 2,
+                      "232": 2,
+                      "233": 1
                     }
                   },
                   {
@@ -333413,40 +333387,6 @@
                   },
                   {
                     "appliedStats": {
-                      "42": 3.8000000000000003,
-                      "43": 6,
-                      "53": 1.5
-                    },
-                    "appliedTotal": 11.3,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 28,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 3,
-                      "42": 38,
-                      "43": 1,
-                      "47": 7,
-                      "48": 3,
-                      "49": 1,
-                      "50": 1,
-                      "53": 3,
-                      "58": 6,
-                      "59": 21,
-                      "60": 12.667,
-                      "61": 38,
-                      "155": 1,
-                      "158": 6,
-                      "183": 1,
-                      "210": 1,
-                      "213": 3
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "42": 5.190405352,
                       "43": 2.3579513579999998,
                       "44": 0.050729634,
@@ -333507,6 +333447,40 @@
                       "63": 0.001,
                       "68": 0.238023512,
                       "72": 0.109108945
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 3.8000000000000003,
+                      "43": 6,
+                      "53": 1.5
+                    },
+                    "appliedTotal": 11.3,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 28,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 3,
+                      "42": 38,
+                      "43": 1,
+                      "47": 7,
+                      "48": 3,
+                      "49": 1,
+                      "50": 1,
+                      "53": 3,
+                      "58": 6,
+                      "59": 21,
+                      "60": 12.667,
+                      "61": 38,
+                      "155": 1,
+                      "158": 6,
+                      "183": 1,
+                      "210": 1,
+                      "213": 3
                     }
                   },
                   {
@@ -337745,8 +337719,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 0,
@@ -337774,8 +337747,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -337802,8 +337774,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -339343,45 +339314,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "24": 1,
-                      "42": 4.6000000000000005,
-                      "53": 3.5
-                    },
-                    "appliedTotal": 9.1,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 8,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 1,
-                      "24": 10,
-                      "27": 2,
-                      "28": 1,
-                      "39": 10,
-                      "40": 10,
-                      "41": 7,
-                      "42": 46,
-                      "47": 9,
-                      "48": 4,
-                      "49": 2,
-                      "50": 1,
-                      "53": 7,
-                      "54": 1,
-                      "58": 8,
-                      "59": 34,
-                      "60": 6.571,
-                      "61": 46,
-                      "155": 1,
-                      "210": 1,
-                      "212": 1,
-                      "213": 3
-                    }
-                  },
-                  {
                     "appliedAverage": 13.663067728176472,
                     "appliedStats": {
                       "24": 3.089312061,
@@ -339470,6 +339402,45 @@
                       "72": 0.732926265,
                       "102": 0.032516584,
                       "115": 3.901990121
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 1,
+                      "42": 4.6000000000000005,
+                      "53": 3.5
+                    },
+                    "appliedTotal": 9.1,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 8,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 1,
+                      "24": 10,
+                      "27": 2,
+                      "28": 1,
+                      "39": 10,
+                      "40": 10,
+                      "41": 7,
+                      "42": 46,
+                      "47": 9,
+                      "48": 4,
+                      "49": 2,
+                      "50": 1,
+                      "53": 7,
+                      "54": 1,
+                      "58": 8,
+                      "59": 34,
+                      "60": 6.571,
+                      "61": 46,
+                      "155": 1,
+                      "210": 1,
+                      "212": 1,
+                      "213": 3
                     }
                   },
                   {
@@ -342212,50 +342183,6 @@
                   },
                   {
                     "appliedStats": {
-                      "24": 5.5,
-                      "25": 6,
-                      "42": 0.5,
-                      "53": 1
-                    },
-                    "appliedTotal": 13,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 28,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 11,
-                      "24": 55,
-                      "25": 1,
-                      "27": 11,
-                      "28": 5,
-                      "29": 2,
-                      "30": 2,
-                      "31": 1,
-                      "33": 2,
-                      "34": 1,
-                      "39": 5,
-                      "40": 55,
-                      "41": 2,
-                      "42": 5,
-                      "47": 1,
-                      "53": 2,
-                      "58": 3,
-                      "59": 11,
-                      "60": 2.5,
-                      "61": 5,
-                      "155": 1,
-                      "158": 6,
-                      "179": 1,
-                      "210": 1,
-                      "212": 2,
-                      "213": 1
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "24": 4.624927067000001,
                       "25": 1.649926062,
                       "26": 0.0466,
@@ -342342,6 +342269,50 @@
                       "72": 0.322500884,
                       "101": 0.096847137,
                       "114": 15.73765971
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 5.5,
+                      "25": 6,
+                      "42": 0.5,
+                      "53": 1
+                    },
+                    "appliedTotal": 13,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 28,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 11,
+                      "24": 55,
+                      "25": 1,
+                      "27": 11,
+                      "28": 5,
+                      "29": 2,
+                      "30": 2,
+                      "31": 1,
+                      "33": 2,
+                      "34": 1,
+                      "39": 5,
+                      "40": 55,
+                      "41": 2,
+                      "42": 5,
+                      "47": 1,
+                      "53": 2,
+                      "58": 3,
+                      "59": 11,
+                      "60": 2.5,
+                      "61": 5,
+                      "155": 1,
+                      "158": 6,
+                      "179": 1,
+                      "210": 1,
+                      "212": 2,
+                      "213": 1
                     }
                   },
                   {
@@ -345631,60 +345602,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "24": 5.5,
-                      "42": 4.6000000000000005,
-                      "53": 4,
-                      "72": -2
-                    },
-                    "appliedTotal": 12.1,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 4,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 12,
-                      "24": 55,
-                      "27": 11,
-                      "28": 5,
-                      "29": 2,
-                      "30": 2,
-                      "31": 1,
-                      "33": 2,
-                      "34": 1,
-                      "39": 4.583,
-                      "40": 55,
-                      "41": 8,
-                      "42": 46,
-                      "47": 9,
-                      "48": 4,
-                      "49": 2,
-                      "50": 1,
-                      "53": 8,
-                      "54": 1,
-                      "58": 9,
-                      "59": 52,
-                      "60": 5.75,
-                      "61": 46,
-                      "65": 1,
-                      "66": 1,
-                      "68": 1,
-                      "69": 1,
-                      "70": 1,
-                      "72": 1,
-                      "73": 1,
-                      "108": 1,
-                      "109": 1,
-                      "155": 1,
-                      "210": 1,
-                      "212": 1,
-                      "213": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 14.993247210125002,
                     "appliedStats": {
                       "24": 105.45589760000001,
@@ -345770,6 +345687,60 @@
                       "63": 0.0055,
                       "68": 1.862786356,
                       "72": 0.880704846
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 5.5,
+                      "42": 4.6000000000000005,
+                      "53": 4,
+                      "72": -2
+                    },
+                    "appliedTotal": 12.1,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 4,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 12,
+                      "24": 55,
+                      "27": 11,
+                      "28": 5,
+                      "29": 2,
+                      "30": 2,
+                      "31": 1,
+                      "33": 2,
+                      "34": 1,
+                      "39": 4.583,
+                      "40": 55,
+                      "41": 8,
+                      "42": 46,
+                      "47": 9,
+                      "48": 4,
+                      "49": 2,
+                      "50": 1,
+                      "53": 8,
+                      "54": 1,
+                      "58": 9,
+                      "59": 52,
+                      "60": 5.75,
+                      "61": 46,
+                      "65": 1,
+                      "66": 1,
+                      "68": 1,
+                      "69": 1,
+                      "70": 1,
+                      "72": 1,
+                      "73": 1,
+                      "108": 1,
+                      "109": 1,
+                      "155": 1,
+                      "210": 1,
+                      "212": 1,
+                      "213": 1
                     }
                   },
                   {
@@ -352805,51 +352776,6 @@
                   },
                   {
                     "appliedStats": {
-                      "24": 3,
-                      "25": 6,
-                      "42": 2.4000000000000004,
-                      "53": 0.5
-                    },
-                    "appliedTotal": 11.9,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 21,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 13,
-                      "24": 30,
-                      "25": 1,
-                      "27": 6,
-                      "28": 3,
-                      "29": 1,
-                      "30": 1,
-                      "33": 2,
-                      "34": 1,
-                      "39": 2.308,
-                      "40": 30,
-                      "41": 1,
-                      "42": 24,
-                      "47": 4,
-                      "48": 2,
-                      "49": 1,
-                      "53": 1,
-                      "58": 1,
-                      "59": 6,
-                      "60": 24,
-                      "61": 24,
-                      "156": 1,
-                      "158": 6,
-                      "179": 1,
-                      "210": 1,
-                      "212": 1,
-                      "213": 1
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "24": 6.497360295,
                       "25": 3.755754606,
                       "26": 0.0234,
@@ -352929,6 +352855,51 @@
                       "63": 0.001,
                       "68": 0.300205691,
                       "72": 0.242161052
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 3,
+                      "25": 6,
+                      "42": 2.4000000000000004,
+                      "53": 0.5
+                    },
+                    "appliedTotal": 11.9,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 21,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 13,
+                      "24": 30,
+                      "25": 1,
+                      "27": 6,
+                      "28": 3,
+                      "29": 1,
+                      "30": 1,
+                      "33": 2,
+                      "34": 1,
+                      "39": 2.308,
+                      "40": 30,
+                      "41": 1,
+                      "42": 24,
+                      "47": 4,
+                      "48": 2,
+                      "49": 1,
+                      "53": 1,
+                      "58": 1,
+                      "59": 6,
+                      "60": 24,
+                      "61": 24,
+                      "156": 1,
+                      "158": 6,
+                      "179": 1,
+                      "210": 1,
+                      "212": 1,
+                      "213": 1
                     }
                   },
                   {
@@ -354407,53 +354378,6 @@
                 "seasonOutlook": "Smith was traded to the Jets following an unsuccessful one-year stint in Las Vegas. Smith, who began his career as a second-round pick with the Jets in 2013, is in line to start, though he's a long shot for consistent fantasy production. Smith peaked with a ninth-place finish in fantasy points per game with Seattle in 2022, but he has finished no better than 16th over the past three seasons. He paced the NFL in both interceptions and sacks in 2025 after finishing third in both categories in 2024 and is no longer much of a factor with his legs. The 35-year-old might bring some stability to the fantasy outlook of the team's pass catchers, but we shouldn't expect much more than that. Consider Smith only in superflex formats.",
                 "stats": [
                   {
-                    "appliedStats": {
-                      "3": 11.6,
-                      "4": 8,
-                      "20": -2,
-                      "24": 0.4
-                    },
-                    "appliedTotal": 18,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 20,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "0": 32,
-                      "1": 20,
-                      "2": 12,
-                      "3": 290,
-                      "4": 2,
-                      "5": 58,
-                      "6": 29,
-                      "7": 14,
-                      "8": 11,
-                      "9": 5,
-                      "10": 2,
-                      "11": 4,
-                      "12": 2,
-                      "13": 2,
-                      "14": 1,
-                      "20": 1,
-                      "21": 62.5,
-                      "22": 290,
-                      "23": 1,
-                      "24": 4,
-                      "39": 4,
-                      "40": 4,
-                      "64": 2,
-                      "73": 1,
-                      "156": 1,
-                      "158": 12,
-                      "176": 2,
-                      "210": 1,
-                      "211": 15
-                    }
-                  },
-                  {
                     "appliedAverage": 11.593333333333334,
                     "appliedStats": {
                       "3": 121,
@@ -354518,6 +354442,53 @@
                       "210": 15,
                       "211": 148,
                       "212": 13
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "3": 11.6,
+                      "4": 8,
+                      "20": -2,
+                      "24": 0.4
+                    },
+                    "appliedTotal": 18,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 20,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "0": 32,
+                      "1": 20,
+                      "2": 12,
+                      "3": 290,
+                      "4": 2,
+                      "5": 58,
+                      "6": 29,
+                      "7": 14,
+                      "8": 11,
+                      "9": 5,
+                      "10": 2,
+                      "11": 4,
+                      "12": 2,
+                      "13": 2,
+                      "14": 1,
+                      "20": 1,
+                      "21": 62.5,
+                      "22": 290,
+                      "23": 1,
+                      "24": 4,
+                      "39": 4,
+                      "40": 4,
+                      "64": 2,
+                      "73": 1,
+                      "156": 1,
+                      "158": 12,
+                      "176": 2,
+                      "210": 1,
+                      "211": 15
                     }
                   },
                   {
@@ -359311,44 +359282,6 @@
                 "seasonOutlook": "Mitchell is entering his first full campaign with the Jets, having been acquired in the Sauce Gardner trade during the 2025 season. After playing sparingly during his first 25 NFL games (all with the Colts), the 2024 second-round pick handled a hefty 24.4% target share in eight games with New York last season. The usage led to two fantasy outings with 17-plus points, but he was otherwise a nonfactor (4.0 PPG). Efficiency remains an issue, as Mitchell's 44% catch rate ranks last, and his 6.0 yards per target is fourth worst among 77 receivers with 100-plus targets since he entered the league. The vertical threat will compete with rookie Omar Cooper Jr. for No. 2 duties opposite a now-healthy Garrett Wilson in the Jets' Geno Smith-led offense. Mitchell, 23, is not worth much more than late-round consideration.",
                 "stats": [
                   {
-                    "appliedStats": {
-                      "42": 14.200000000000001,
-                      "43": 6,
-                      "53": 3.5
-                    },
-                    "appliedTotal": 23.7,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 20,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 7,
-                      "42": 142,
-                      "43": 1,
-                      "47": 28,
-                      "48": 14,
-                      "49": 7,
-                      "50": 5,
-                      "51": 2,
-                      "52": 1,
-                      "53": 7,
-                      "54": 1,
-                      "56": 1,
-                      "58": 9,
-                      "59": 1,
-                      "60": 20.286,
-                      "61": 142,
-                      "156": 1,
-                      "158": 6,
-                      "184": 1,
-                      "210": 1,
-                      "213": 6
-                    }
-                  },
-                  {
                     "appliedAverage": 4.4625,
                     "appliedStats": {
                       "24": -0.4,
@@ -359401,6 +359334,44 @@
                       "183": 1,
                       "210": 16,
                       "213": 15
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 14.200000000000001,
+                      "43": 6,
+                      "53": 3.5
+                    },
+                    "appliedTotal": 23.7,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 20,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 7,
+                      "42": 142,
+                      "43": 1,
+                      "47": 28,
+                      "48": 14,
+                      "49": 7,
+                      "50": 5,
+                      "51": 2,
+                      "52": 1,
+                      "53": 7,
+                      "54": 1,
+                      "56": 1,
+                      "58": 9,
+                      "59": 1,
+                      "60": 20.286,
+                      "61": 142,
+                      "156": 1,
+                      "158": 6,
+                      "184": 1,
+                      "210": 1,
+                      "213": 6
                     }
                   },
                   {
@@ -361902,18 +361873,6 @@
                 "seasonOutlook": "Hall received the franchise tag during the offseason and will return for his fifth season with the Jets. Having worked in the Jets' underwhelming offenses the past two years, Hall has struggled to finishes of 17th and 21st in fantasy points per game among RBs, which is a far cry from top-eight finishes during his first two seasons. Hall has remained busy, however, producing 266-plus touches each of the past three seasons. The 2022 second-round pick saw a dip in receiving work in 2025 (career-low 10% target share) but finished fourth in that category in both 2023 and 2024, so a rebound is possible with pocket QB Geno Smith now under center. Though the Jets' offense might continue to limit Hall's upside, the 25-year-old's combination of workload and talent positions him as a solid RB2.",
                 "stats": [
                   {
-                    "appliedStats": {},
-                    "appliedTotal": 0,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 20,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {}
-                  },
-                  {
                     "appliedAverage": 11.85375,
                     "appliedStats": {
                       "3": 0.16,
@@ -361989,6 +361948,18 @@
                       "212": 57,
                       "213": 13
                     }
+                  },
+                  {
+                    "appliedStats": {},
+                    "appliedTotal": 0,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 20,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 12.5,
@@ -365219,42 +365190,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "24": 0.2,
-                      "42": 3.3000000000000003,
-                      "53": 1.5
-                    },
-                    "appliedTotal": 5,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 8,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 1,
-                      "24": 2,
-                      "39": 2,
-                      "40": 2,
-                      "41": 3,
-                      "42": 33,
-                      "47": 6,
-                      "48": 3,
-                      "49": 1,
-                      "50": 1,
-                      "53": 3,
-                      "58": 5,
-                      "59": 24,
-                      "60": 11,
-                      "61": 33,
-                      "155": 1,
-                      "210": 1,
-                      "212": 1,
-                      "213": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 9.086256890411766,
                     "appliedStats": {
                       "42": 77.75203169000001,
@@ -365315,6 +365250,42 @@
                       "63": 0.005335784,
                       "68": 0.19762162,
                       "72": 2.290286456
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 0.2,
+                      "42": 3.3000000000000003,
+                      "53": 1.5
+                    },
+                    "appliedTotal": 5,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 8,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 1,
+                      "24": 2,
+                      "39": 2,
+                      "40": 2,
+                      "41": 3,
+                      "42": 33,
+                      "47": 6,
+                      "48": 3,
+                      "49": 1,
+                      "50": 1,
+                      "53": 3,
+                      "58": 5,
+                      "59": 24,
+                      "60": 11,
+                      "61": 33,
+                      "155": 1,
+                      "210": 1,
+                      "212": 1,
+                      "213": 1
                     }
                   },
                   {
@@ -368212,60 +368183,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "3": 8.4,
-                      "4": 8,
-                      "19": 2,
-                      "20": -2,
-                      "24": 3.5
-                    },
-                    "appliedTotal": 19.9,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 16,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "0": 29,
-                      "1": 17,
-                      "2": 12,
-                      "3": 210,
-                      "4": 2,
-                      "5": 42,
-                      "6": 21,
-                      "7": 10,
-                      "8": 8,
-                      "9": 4,
-                      "10": 2,
-                      "11": 3,
-                      "12": 1,
-                      "13": 2,
-                      "14": 1,
-                      "19": 1,
-                      "20": 1,
-                      "21": 58.62,
-                      "22": 210,
-                      "23": 4,
-                      "24": 35,
-                      "27": 7,
-                      "28": 3,
-                      "29": 1,
-                      "30": 1,
-                      "39": 8.75,
-                      "40": 35,
-                      "64": 3,
-                      "73": 1,
-                      "156": 1,
-                      "158": 12,
-                      "175": 2,
-                      "210": 1,
-                      "211": 11,
-                      "212": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 18.055086489058823,
                     "appliedStats": {
                       "3": 154.4944076,
@@ -368361,6 +368278,60 @@
                       "68": 3.750857963,
                       "72": 1.443160594,
                       "99": 5.526884294
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "3": 8.4,
+                      "4": 8,
+                      "19": 2,
+                      "20": -2,
+                      "24": 3.5
+                    },
+                    "appliedTotal": 19.9,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 16,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "0": 29,
+                      "1": 17,
+                      "2": 12,
+                      "3": 210,
+                      "4": 2,
+                      "5": 42,
+                      "6": 21,
+                      "7": 10,
+                      "8": 8,
+                      "9": 4,
+                      "10": 2,
+                      "11": 3,
+                      "12": 1,
+                      "13": 2,
+                      "14": 1,
+                      "19": 1,
+                      "20": 1,
+                      "21": 58.62,
+                      "22": 210,
+                      "23": 4,
+                      "24": 35,
+                      "27": 7,
+                      "28": 3,
+                      "29": 1,
+                      "30": 1,
+                      "39": 8.75,
+                      "40": 35,
+                      "64": 3,
+                      "73": 1,
+                      "156": 1,
+                      "158": 12,
+                      "175": 2,
+                      "210": 1,
+                      "211": 11,
+                      "212": 1
                     }
                   },
                   {
@@ -374947,41 +374918,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "42": 3.3000000000000003,
-                      "43": 6,
-                      "53": 2.5
-                    },
-                    "appliedTotal": 11.8,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 16,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 5,
-                      "42": 33,
-                      "43": 1,
-                      "47": 6,
-                      "48": 3,
-                      "49": 1,
-                      "50": 1,
-                      "53": 5,
-                      "54": 1,
-                      "58": 9,
-                      "59": 18,
-                      "60": 6.6,
-                      "61": 33,
-                      "156": 1,
-                      "158": 6,
-                      "183": 1,
-                      "210": 1,
-                      "213": 3
-                    }
-                  },
-                  {
                     "appliedAverage": 15.277931405411763,
                     "appliedStats": {
                       "42": 142.1389706,
@@ -375044,6 +374980,41 @@
                       "63": 0.005335784,
                       "68": 1.15431434,
                       "72": 0.950447387
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 3.3000000000000003,
+                      "43": 6,
+                      "53": 2.5
+                    },
+                    "appliedTotal": 11.8,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 16,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 5,
+                      "42": 33,
+                      "43": 1,
+                      "47": 6,
+                      "48": 3,
+                      "49": 1,
+                      "50": 1,
+                      "53": 5,
+                      "54": 1,
+                      "58": 9,
+                      "59": 18,
+                      "60": 6.6,
+                      "61": 33,
+                      "156": 1,
+                      "158": 6,
+                      "183": 1,
+                      "210": 1,
+                      "213": 3
                     }
                   },
                   {
@@ -378348,65 +378319,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "3": 18.48,
-                      "4": 20,
-                      "20": -6,
-                      "24": 1,
-                      "25": 6
-                    },
-                    "appliedTotal": 39.48,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 4,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "0": 48,
-                      "1": 38,
-                      "2": 10,
-                      "3": 462,
-                      "4": 5,
-                      "5": 92,
-                      "6": 46,
-                      "7": 23,
-                      "8": 18,
-                      "9": 9,
-                      "10": 4,
-                      "11": 7,
-                      "12": 3,
-                      "13": 2,
-                      "14": 1,
-                      "18": 1,
-                      "20": 3,
-                      "21": 79.17,
-                      "22": 462,
-                      "23": 3,
-                      "24": 10,
-                      "25": 1,
-                      "27": 2,
-                      "28": 1,
-                      "39": 3.333,
-                      "40": 10,
-                      "64": 3,
-                      "66": 1,
-                      "70": 1,
-                      "73": 3,
-                      "155": 1,
-                      "158": 36,
-                      "175": 1,
-                      "176": 2,
-                      "177": 1,
-                      "178": 1,
-                      "179": 1,
-                      "210": 1,
-                      "211": 22,
-                      "212": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 18.755724484125,
                     "appliedStats": {
                       "3": 162.69558416,
@@ -378501,6 +378413,65 @@
                       "68": 2.325607599,
                       "72": 1.597141421,
                       "99": 7.177603839
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "3": 18.48,
+                      "4": 20,
+                      "20": -6,
+                      "24": 1,
+                      "25": 6
+                    },
+                    "appliedTotal": 39.48,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 4,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "0": 48,
+                      "1": 38,
+                      "2": 10,
+                      "3": 462,
+                      "4": 5,
+                      "5": 92,
+                      "6": 46,
+                      "7": 23,
+                      "8": 18,
+                      "9": 9,
+                      "10": 4,
+                      "11": 7,
+                      "12": 3,
+                      "13": 2,
+                      "14": 1,
+                      "18": 1,
+                      "20": 3,
+                      "21": 79.17,
+                      "22": 462,
+                      "23": 3,
+                      "24": 10,
+                      "25": 1,
+                      "27": 2,
+                      "28": 1,
+                      "39": 3.333,
+                      "40": 10,
+                      "64": 3,
+                      "66": 1,
+                      "70": 1,
+                      "73": 3,
+                      "155": 1,
+                      "158": 36,
+                      "175": 1,
+                      "176": 2,
+                      "177": 1,
+                      "178": 1,
+                      "179": 1,
+                      "210": 1,
+                      "211": 22,
+                      "212": 1
                     }
                   },
                   {
@@ -381404,26 +381375,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "86": 5
-                    },
-                    "appliedTotal": 5,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 4,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "86": 5,
-                      "87": 5,
-                      "155": 1,
-                      "158": 5,
-                      "210": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 8.500321880249999,
                     "appliedStats": {
                       "77": 27.457295988,
@@ -381485,6 +381436,26 @@
                       "198": 2.208220582,
                       "199": 2.68609335,
                       "200": 1.542367298
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "86": 5
+                    },
+                    "appliedTotal": 5,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 4,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "86": 5,
+                      "87": 5,
+                      "155": 1,
+                      "158": 5,
+                      "210": 1
                     }
                   },
                   {
@@ -384076,7 +384047,8 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {}
+                    "stats": {},
+                    "variance": {}
                   },
                   {
                     "appliedAverage": 0,
@@ -384412,8 +384384,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 0,
@@ -384427,8 +384398,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -384455,8 +384425,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -387408,38 +387377,6 @@
                 "seasonOutlook": "Wilson is eyeing a bounce-back following an injury-shortened 2025 that limited him to seven games. It was the first time Wilson had missed time, having appeared in all 51 games during his first three seasons. The 2022 first-round pick ranked no lower than sixth among receivers in targets in each of those years, but he failed to produce a fantasy campaign better than 20th (PPG) due to New York's quarterback woes. Wilson was off to a hot start last season (four TDs, 14.2 fantasy PPG) thanks to a massive 33% target share (second highest). New York's signal-caller problems still aren't completely solved, but veteran Geno Smith should provide an upgrade over last year's Justin Fields/Tyrod Taylor duo. Wilson, 26, is one of the best raw talents at the position and should be valued as a good WR2.",
                 "stats": [
                   {
-                    "appliedStats": {
-                      "42": 8.3,
-                      "53": 3
-                    },
-                    "appliedTotal": 11.3,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 20,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 6,
-                      "42": 83,
-                      "47": 16,
-                      "48": 8,
-                      "49": 4,
-                      "50": 3,
-                      "51": 1,
-                      "53": 6,
-                      "54": 1,
-                      "58": 12,
-                      "59": 11,
-                      "60": 13.833,
-                      "61": 83,
-                      "156": 1,
-                      "210": 1,
-                      "213": 6
-                    }
-                  },
-                  {
                     "appliedAverage": 10.1875,
                     "appliedStats": {
                       "42": 39.5,
@@ -387483,6 +387420,38 @@
                       "186": 1,
                       "210": 8,
                       "213": 17
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 8.3,
+                      "53": 3
+                    },
+                    "appliedTotal": 11.3,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 20,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 6,
+                      "42": 83,
+                      "47": 16,
+                      "48": 8,
+                      "49": 4,
+                      "50": 3,
+                      "51": 1,
+                      "53": 6,
+                      "54": 1,
+                      "58": 12,
+                      "59": 11,
+                      "60": 13.833,
+                      "61": 83,
+                      "156": 1,
+                      "210": 1,
+                      "213": 6
                     }
                   },
                   {
@@ -392157,53 +392126,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "80": 6,
-                      "85": -1,
-                      "86": 1
-                    },
-                    "appliedTotal": 6,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 8,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "78": 1,
-                      "79": 1,
-                      "80": 2,
-                      "81": 2,
-                      "83": 2,
-                      "84": 3,
-                      "85": 1,
-                      "86": 1,
-                      "87": 1,
-                      "155": 1,
-                      "158": 7,
-                      "210": 1,
-                      "214": 62,
-                      "215": 46,
-                      "216": 108,
-                      "217": 12,
-                      "218": 6,
-                      "219": 3,
-                      "220": 2,
-                      "221": 1,
-                      "223": 9,
-                      "224": 4,
-                      "225": 2,
-                      "226": 1,
-                      "229": 21,
-                      "230": 10,
-                      "231": 5,
-                      "232": 4,
-                      "233": 2,
-                      "234": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 8.55334084564706,
                     "appliedStats": {
                       "77": 29.763051644,
@@ -392265,6 +392187,53 @@
                       "198": 2.172972788,
                       "199": 2.374920886,
                       "200": 1.336604272
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "80": 6,
+                      "85": -1,
+                      "86": 1
+                    },
+                    "appliedTotal": 6,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 8,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "78": 1,
+                      "79": 1,
+                      "80": 2,
+                      "81": 2,
+                      "83": 2,
+                      "84": 3,
+                      "85": 1,
+                      "86": 1,
+                      "87": 1,
+                      "155": 1,
+                      "158": 7,
+                      "210": 1,
+                      "214": 62,
+                      "215": 46,
+                      "216": 108,
+                      "217": 12,
+                      "218": 6,
+                      "219": 3,
+                      "220": 2,
+                      "221": 1,
+                      "223": 9,
+                      "224": 4,
+                      "225": 2,
+                      "226": 1,
+                      "229": 21,
+                      "230": 10,
+                      "231": 5,
+                      "232": 4,
+                      "233": 2,
+                      "234": 1
                     }
                   },
                   {
@@ -393357,38 +393326,6 @@
                   },
                   {
                     "appliedStats": {
-                      "42": 5.4,
-                      "53": 2.5
-                    },
-                    "appliedTotal": 7.9,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 28,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 5,
-                      "42": 54,
-                      "47": 10,
-                      "48": 5,
-                      "49": 2,
-                      "50": 2,
-                      "51": 1,
-                      "53": 5,
-                      "54": 1,
-                      "58": 7,
-                      "59": 13,
-                      "60": 10.8,
-                      "61": 54,
-                      "155": 1,
-                      "210": 1,
-                      "213": 3
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "42": 4.398840493000001,
                       "43": 1.177117056,
                       "44": 0.02532483,
@@ -393448,6 +393385,38 @@
                       "63": 0.001,
                       "68": 0.037512689,
                       "72": 0.416863579
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 5.4,
+                      "53": 2.5
+                    },
+                    "appliedTotal": 7.9,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 28,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 5,
+                      "42": 54,
+                      "47": 10,
+                      "48": 5,
+                      "49": 2,
+                      "50": 2,
+                      "51": 1,
+                      "53": 5,
+                      "54": 1,
+                      "58": 7,
+                      "59": 13,
+                      "60": 10.8,
+                      "61": 54,
+                      "155": 1,
+                      "210": 1,
+                      "213": 3
                     }
                   },
                   {
@@ -394844,18 +394813,6 @@
                     }
                   },
                   {
-                    "appliedStats": {},
-                    "appliedTotal": 0,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 10,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {}
-                  },
-                  {
                     "appliedAverage": 7.694684064187499,
                     "appliedStats": {
                       "24": 41.909245,
@@ -394942,6 +394899,18 @@
                       "68": 1.185471478,
                       "72": 2.758296204
                     }
+                  },
+                  {
+                    "appliedStats": {},
+                    "appliedTotal": 0,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 10,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -397920,57 +397889,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "24": 11.700000000000001,
-                      "25": 12,
-                      "42": 2,
-                      "53": 1.5
-                    },
-                    "appliedTotal": 27.2,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 10,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 21,
-                      "24": 117,
-                      "25": 2,
-                      "27": 23,
-                      "28": 11,
-                      "29": 5,
-                      "30": 4,
-                      "31": 2,
-                      "32": 1,
-                      "33": 4,
-                      "34": 2,
-                      "35": 1,
-                      "37": 1,
-                      "39": 5.571,
-                      "40": 117,
-                      "41": 3,
-                      "42": 20,
-                      "47": 4,
-                      "48": 2,
-                      "49": 1,
-                      "53": 3,
-                      "58": 5,
-                      "59": 21,
-                      "60": 6.667,
-                      "61": 20,
-                      "65": 1,
-                      "66": 1,
-                      "68": 1,
-                      "156": 1,
-                      "158": 12,
-                      "179": 1,
-                      "210": 1,
-                      "212": 4
-                    }
-                  },
-                  {
                     "appliedAverage": 10.901865684937501,
                     "appliedStats": {
                       "24": 104.96760090000001,
@@ -398056,6 +397974,57 @@
                       "63": 0.0055,
                       "68": 1.85705936,
                       "72": 1.417107363
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 11.700000000000001,
+                      "25": 12,
+                      "42": 2,
+                      "53": 1.5
+                    },
+                    "appliedTotal": 27.2,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 10,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 21,
+                      "24": 117,
+                      "25": 2,
+                      "27": 23,
+                      "28": 11,
+                      "29": 5,
+                      "30": 4,
+                      "31": 2,
+                      "32": 1,
+                      "33": 4,
+                      "34": 2,
+                      "35": 1,
+                      "37": 1,
+                      "39": 5.571,
+                      "40": 117,
+                      "41": 3,
+                      "42": 20,
+                      "47": 4,
+                      "48": 2,
+                      "49": 1,
+                      "53": 3,
+                      "58": 5,
+                      "59": 21,
+                      "60": 6.667,
+                      "61": 20,
+                      "65": 1,
+                      "66": 1,
+                      "68": 1,
+                      "156": 1,
+                      "158": 12,
+                      "179": 1,
+                      "210": 1,
+                      "212": 4
                     }
                   },
                   {
@@ -402292,8 +402261,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 21.399776247882354,
@@ -402407,8 +402375,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -402519,8 +402486,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 1
@@ -413783,54 +413749,6 @@
                   },
                   {
                     "appliedStats": {
-                      "3": 8.68,
-                      "4": 4,
-                      "24": 2.3000000000000003
-                    },
-                    "appliedTotal": 14.98,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 28,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "0": 29,
-                      "1": 16,
-                      "2": 13,
-                      "3": 217,
-                      "4": 1,
-                      "5": 43,
-                      "6": 21,
-                      "7": 10,
-                      "8": 8,
-                      "9": 4,
-                      "10": 2,
-                      "11": 3,
-                      "12": 1,
-                      "13": 2,
-                      "14": 1,
-                      "21": 55.17,
-                      "22": 217,
-                      "23": 2,
-                      "24": 23,
-                      "27": 4,
-                      "28": 2,
-                      "29": 1,
-                      "39": 11.5,
-                      "40": 23,
-                      "64": 2,
-                      "155": 1,
-                      "158": 6,
-                      "175": 1,
-                      "210": 1,
-                      "211": 11,
-                      "212": 1
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "3": 9.456025876,
                       "4": 6.040638448,
                       "19": 0.194940014,
@@ -413921,6 +413839,54 @@
                       "68": 0.761386988,
                       "72": 0.282329851,
                       "99": 1.833662685
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "3": 8.68,
+                      "4": 4,
+                      "24": 2.3000000000000003
+                    },
+                    "appliedTotal": 14.98,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 28,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "0": 29,
+                      "1": 16,
+                      "2": 13,
+                      "3": 217,
+                      "4": 1,
+                      "5": 43,
+                      "6": 21,
+                      "7": 10,
+                      "8": 8,
+                      "9": 4,
+                      "10": 2,
+                      "11": 3,
+                      "12": 1,
+                      "13": 2,
+                      "14": 1,
+                      "21": 55.17,
+                      "22": 217,
+                      "23": 2,
+                      "24": 23,
+                      "27": 4,
+                      "28": 2,
+                      "29": 1,
+                      "39": 11.5,
+                      "40": 23,
+                      "64": 2,
+                      "155": 1,
+                      "158": 6,
+                      "175": 1,
+                      "210": 1,
+                      "211": 11,
+                      "212": 1
                     }
                   },
                   {
@@ -418454,42 +418420,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "42": 6.6000000000000005,
-                      "44": 2,
-                      "53": 1.5
-                    },
-                    "appliedTotal": 10.1,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 16,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 3,
-                      "42": 66,
-                      "44": 1,
-                      "47": 13,
-                      "48": 6,
-                      "49": 3,
-                      "50": 2,
-                      "51": 1,
-                      "53": 3,
-                      "58": 8,
-                      "59": 19,
-                      "60": 22,
-                      "61": 66,
-                      "108": 1,
-                      "109": 1,
-                      "156": 1,
-                      "158": 2,
-                      "210": 1,
-                      "213": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 9.8536958859,
                     "appliedStats": {
                       "24": 0.9782016656,
@@ -418569,6 +418499,42 @@
                       "63": 0.005879747,
                       "68": 0.220565134,
                       "72": 2.45105251
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 6.6000000000000005,
+                      "44": 2,
+                      "53": 1.5
+                    },
+                    "appliedTotal": 10.1,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 16,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 3,
+                      "42": 66,
+                      "44": 1,
+                      "47": 13,
+                      "48": 6,
+                      "49": 3,
+                      "50": 2,
+                      "51": 1,
+                      "53": 3,
+                      "58": 8,
+                      "59": 19,
+                      "60": 22,
+                      "61": 66,
+                      "108": 1,
+                      "109": 1,
+                      "156": 1,
+                      "158": 2,
+                      "210": 1,
+                      "213": 1
                     }
                   },
                   {
@@ -422927,52 +422893,6 @@
                 "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar.",
                 "stats": [
                   {
-                    "appliedStats": {
-                      "24": 14.700000000000001,
-                      "25": 6,
-                      "42": 0.6000000000000001,
-                      "53": 1
-                    },
-                    "appliedTotal": 22.3,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 20,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 21,
-                      "24": 147,
-                      "25": 1,
-                      "27": 29,
-                      "28": 14,
-                      "29": 7,
-                      "30": 5,
-                      "31": 2,
-                      "32": 1,
-                      "33": 4,
-                      "34": 2,
-                      "37": 1,
-                      "39": 7,
-                      "40": 147,
-                      "41": 2,
-                      "42": 6,
-                      "47": 1,
-                      "53": 2,
-                      "58": 2,
-                      "59": 12,
-                      "60": 3,
-                      "61": 6,
-                      "156": 1,
-                      "158": 6,
-                      "181": 1,
-                      "210": 1,
-                      "212": 8,
-                      "213": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 3.575,
                     "appliedStats": {
                       "24": 7.6000000000000005,
@@ -423024,6 +422944,52 @@
                       "179": 1,
                       "210": 4,
                       "212": 4,
+                      "213": 1
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 14.700000000000001,
+                      "25": 6,
+                      "42": 0.6000000000000001,
+                      "53": 1
+                    },
+                    "appliedTotal": 22.3,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 20,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 21,
+                      "24": 147,
+                      "25": 1,
+                      "27": 29,
+                      "28": 14,
+                      "29": 7,
+                      "30": 5,
+                      "31": 2,
+                      "32": 1,
+                      "33": 4,
+                      "34": 2,
+                      "37": 1,
+                      "39": 7,
+                      "40": 147,
+                      "41": 2,
+                      "42": 6,
+                      "47": 1,
+                      "53": 2,
+                      "58": 2,
+                      "59": 12,
+                      "60": 3,
+                      "61": 6,
+                      "156": 1,
+                      "158": 6,
+                      "181": 1,
+                      "210": 1,
+                      "212": 8,
                       "213": 1
                     }
                   },
@@ -435486,18 +435452,6 @@
                   {
                     "appliedStats": {},
                     "appliedTotal": 0,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 21,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {}
-                  },
-                  {
-                    "appliedStats": {},
-                    "appliedTotal": 0,
                     "appliedTotalCeiling": 0,
                     "externalId": "20269",
                     "id": "1120269",
@@ -435525,6 +435479,18 @@
                       "68": 0.181498698,
                       "72": 0.181498698
                     }
+                  },
+                  {
+                    "appliedStats": {},
+                    "appliedTotal": 0,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 21,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 10.524403990117648,
@@ -450752,43 +450718,6 @@
                   },
                   {
                     "appliedStats": {
-                      "24": 3.4000000000000004,
-                      "42": 0.30000000000000004,
-                      "53": 2
-                    },
-                    "appliedTotal": 5.7,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 21,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 11,
-                      "24": 34,
-                      "27": 6,
-                      "28": 3,
-                      "29": 1,
-                      "30": 1,
-                      "33": 2,
-                      "34": 1,
-                      "39": 3.091,
-                      "40": 34,
-                      "41": 4,
-                      "42": 3,
-                      "53": 4,
-                      "58": 6,
-                      "59": 23,
-                      "60": 0.75,
-                      "61": 3,
-                      "156": 1,
-                      "210": 1,
-                      "212": 2
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "24": 4.1533466830000005,
                       "25": 2.782871868,
                       "26": 0.017314454,
@@ -450867,6 +450796,43 @@
                       "63": 0.001,
                       "68": 0.213122383,
                       "72": 0.501508401
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 3.4000000000000004,
+                      "42": 0.30000000000000004,
+                      "53": 2
+                    },
+                    "appliedTotal": 5.7,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 21,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 11,
+                      "24": 34,
+                      "27": 6,
+                      "28": 3,
+                      "29": 1,
+                      "30": 1,
+                      "33": 2,
+                      "34": 1,
+                      "39": 3.091,
+                      "40": 34,
+                      "41": 4,
+                      "42": 3,
+                      "53": 4,
+                      "58": 6,
+                      "59": 23,
+                      "60": 0.75,
+                      "61": 3,
+                      "156": 1,
+                      "210": 1,
+                      "212": 2
                     }
                   },
                   {
@@ -457094,43 +457060,6 @@
                 "seasonOutlook": "Jeanty is eyeing a leap forward in his second NFL season after an uneven rookie campaign in which the first-round pick enjoyed a ton of volume (seventh among backs in carries, targets and receptions) and played fairly well (eighth among RBs in forced missed tackle rate, per PFF) but struggled to overcome the shaky Las Vegas offense. The good news is that the Raiders' offense should improve in 2026 with a better/healthier offensive line, a new coach in Super Bowl champion Klint Kubiak and a new quarterback in projected No. 1 NFL draft pick Fernando Mendoza. Jeanty has a clean path to a massive offensive role and is a strong bet for a leap forward. The 22-year-old is a midrange RB1 with elite upside.",
                 "stats": [
                   {
-                    "appliedStats": {
-                      "24": 0.9,
-                      "42": 6.4,
-                      "53": 1.5
-                    },
-                    "appliedTotal": 8.8,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 13,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 2,
-                      "24": 9,
-                      "27": 1,
-                      "39": 4.5,
-                      "40": 9,
-                      "41": 3,
-                      "42": 64,
-                      "47": 12,
-                      "48": 6,
-                      "49": 3,
-                      "50": 2,
-                      "51": 1,
-                      "53": 3,
-                      "58": 4,
-                      "59": 59,
-                      "60": 21.333,
-                      "61": 64,
-                      "155": 1,
-                      "210": 1,
-                      "213": 2
-                    }
-                  },
-                  {
                     "appliedAverage": 12.799999999999999,
                     "appliedStats": {
                       "24": 97.5,
@@ -457200,6 +457129,43 @@
                       "210": 17,
                       "212": 44,
                       "213": 13
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 0.9,
+                      "42": 6.4,
+                      "53": 1.5
+                    },
+                    "appliedTotal": 8.8,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 13,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 2,
+                      "24": 9,
+                      "27": 1,
+                      "39": 4.5,
+                      "40": 9,
+                      "41": 3,
+                      "42": 64,
+                      "47": 12,
+                      "48": 6,
+                      "49": 3,
+                      "50": 2,
+                      "51": 1,
+                      "53": 3,
+                      "58": 4,
+                      "59": 59,
+                      "60": 21.333,
+                      "61": 64,
+                      "155": 1,
+                      "210": 1,
+                      "213": 2
                     }
                   },
                   {
@@ -474540,7 +474506,8 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {}
+                    "stats": {},
+                    "variance": {}
                   },
                   {
                     "appliedAverage": 8.665783435700002,
@@ -478469,53 +478436,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "24": 15.3,
-                      "25": 6,
-                      "42": 1.5,
-                      "53": 1
-                    },
-                    "appliedTotal": 23.8,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 8,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 23,
-                      "24": 153,
-                      "25": 1,
-                      "27": 30,
-                      "28": 15,
-                      "29": 7,
-                      "30": 6,
-                      "31": 3,
-                      "32": 1,
-                      "33": 4,
-                      "34": 2,
-                      "37": 1,
-                      "39": 6.652,
-                      "40": 153,
-                      "41": 2,
-                      "42": 15,
-                      "47": 3,
-                      "48": 1,
-                      "53": 2,
-                      "58": 4,
-                      "59": 18,
-                      "60": 7.5,
-                      "61": 15,
-                      "155": 1,
-                      "158": 6,
-                      "182": 1,
-                      "210": 1,
-                      "212": 8,
-                      "213": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 16.888547643352947,
                     "appliedStats": {
                       "24": 115.3123756,
@@ -478601,6 +478521,53 @@
                       "63": 0.005335784,
                       "68": 1.998967742,
                       "72": 1.682382048
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 15.3,
+                      "25": 6,
+                      "42": 1.5,
+                      "53": 1
+                    },
+                    "appliedTotal": 23.8,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 8,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 23,
+                      "24": 153,
+                      "25": 1,
+                      "27": 30,
+                      "28": 15,
+                      "29": 7,
+                      "30": 6,
+                      "31": 3,
+                      "32": 1,
+                      "33": 4,
+                      "34": 2,
+                      "37": 1,
+                      "39": 6.652,
+                      "40": 153,
+                      "41": 2,
+                      "42": 15,
+                      "47": 3,
+                      "48": 1,
+                      "53": 2,
+                      "58": 4,
+                      "59": 18,
+                      "60": 7.5,
+                      "61": 15,
+                      "155": 1,
+                      "158": 6,
+                      "182": 1,
+                      "210": 1,
+                      "212": 8,
+                      "213": 1
                     }
                   },
                   {
@@ -483118,43 +483085,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "42": 7,
-                      "43": 6,
-                      "53": 2
-                    },
-                    "appliedTotal": 15,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 8,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 4,
-                      "42": 70,
-                      "43": 1,
-                      "47": 14,
-                      "48": 7,
-                      "49": 3,
-                      "50": 2,
-                      "51": 1,
-                      "53": 4,
-                      "58": 6,
-                      "59": 15,
-                      "60": 17.5,
-                      "61": 70,
-                      "108": 1,
-                      "109": 1,
-                      "155": 1,
-                      "158": 6,
-                      "183": 1,
-                      "210": 1,
-                      "213": 3
-                    }
-                  },
-                  {
                     "appliedAverage": 10.928523911294118,
                     "appliedStats": {
                       "24": 7.402388683,
@@ -483239,6 +483169,43 @@
                       "63": 0.005335784,
                       "68": 1.164363473,
                       "72": 2.224293909
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 7,
+                      "43": 6,
+                      "53": 2
+                    },
+                    "appliedTotal": 15,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 8,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 4,
+                      "42": 70,
+                      "43": 1,
+                      "47": 14,
+                      "48": 7,
+                      "49": 3,
+                      "50": 2,
+                      "51": 1,
+                      "53": 4,
+                      "58": 6,
+                      "59": 15,
+                      "60": 17.5,
+                      "61": 70,
+                      "108": 1,
+                      "109": 1,
+                      "155": 1,
+                      "158": 6,
+                      "183": 1,
+                      "210": 1,
+                      "213": 3
                     }
                   },
                   {
@@ -484365,18 +484332,6 @@
                   {
                     "appliedStats": {},
                     "appliedTotal": 0,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 21,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {}
-                  },
-                  {
-                    "appliedStats": {},
-                    "appliedTotal": 0,
                     "appliedTotalCeiling": 0,
                     "externalId": "20269",
                     "id": "1120269",
@@ -484387,6 +484342,18 @@
                     "statSplitTypeId": 1,
                     "stats": {},
                     "variance": {}
+                  },
+                  {
+                    "appliedStats": {},
+                    "appliedTotal": 0,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 21,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 21.499407601176472,
@@ -484511,7 +484478,8 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {}
+                    "stats": {},
+                    "variance": {}
                   },
                   {
                     "appliedAverage": 0,
@@ -496737,8 +496705,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -496883,8 +496850,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -496989,8 +496955,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -500890,41 +500855,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "42": 7.6000000000000005,
-                      "43": 6,
-                      "53": 2
-                    },
-                    "appliedTotal": 15.6,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 4,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 4,
-                      "42": 76,
-                      "43": 1,
-                      "47": 15,
-                      "48": 7,
-                      "49": 3,
-                      "50": 3,
-                      "51": 1,
-                      "53": 4,
-                      "58": 6,
-                      "59": 30,
-                      "60": 19,
-                      "61": 76,
-                      "155": 1,
-                      "158": 6,
-                      "185": 1,
-                      "210": 1,
-                      "213": 3
-                    }
-                  },
-                  {
                     "appliedAverage": 5.52399426675,
                     "appliedStats": {
                       "42": 40.80630653,
@@ -500985,6 +500915,41 @@
                       "63": 0.0055,
                       "68": 0.618798346,
                       "72": 0.618798346
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 7.6000000000000005,
+                      "43": 6,
+                      "53": 2
+                    },
+                    "appliedTotal": 15.6,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 4,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 4,
+                      "42": 76,
+                      "43": 1,
+                      "47": 15,
+                      "48": 7,
+                      "49": 3,
+                      "50": 3,
+                      "51": 1,
+                      "53": 4,
+                      "58": 6,
+                      "59": 30,
+                      "60": 19,
+                      "61": 76,
+                      "155": 1,
+                      "158": 6,
+                      "185": 1,
+                      "210": 1,
+                      "213": 3
                     }
                   },
                   {
@@ -541003,18 +540968,6 @@
                   {
                     "appliedStats": {},
                     "appliedTotal": 0,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 28,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {}
-                  },
-                  {
-                    "appliedStats": {},
-                    "appliedTotal": 0,
                     "appliedTotalCeiling": 0,
                     "externalId": "20269",
                     "id": "1120269",
@@ -541023,8 +540976,19 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
+                  },
+                  {
+                    "appliedStats": {},
+                    "appliedTotal": 0,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 28,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 8.89815959747059,
@@ -541126,8 +541090,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -541154,8 +541117,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -542212,42 +542174,6 @@
                   },
                   {
                     "appliedStats": {
-                      "24": 0.2,
-                      "42": 3,
-                      "53": 2
-                    },
-                    "appliedTotal": 5.2,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 21,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 1,
-                      "24": 2,
-                      "39": 2,
-                      "40": 2,
-                      "41": 4,
-                      "42": 30,
-                      "47": 6,
-                      "48": 3,
-                      "49": 1,
-                      "50": 1,
-                      "53": 4,
-                      "58": 4,
-                      "59": 2,
-                      "60": 7.5,
-                      "61": 30,
-                      "156": 1,
-                      "210": 1,
-                      "212": 1,
-                      "213": 1
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "42": 3.955383815,
                       "43": 0.5503937459999999,
                       "44": 0.008667102,
@@ -542305,6 +542231,42 @@
                       "63": 0.001,
                       "68": 0.226210458,
                       "72": 0.115470054
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 0.2,
+                      "42": 3,
+                      "53": 2
+                    },
+                    "appliedTotal": 5.2,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 21,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 1,
+                      "24": 2,
+                      "39": 2,
+                      "40": 2,
+                      "41": 4,
+                      "42": 30,
+                      "47": 6,
+                      "48": 3,
+                      "49": 1,
+                      "50": 1,
+                      "53": 4,
+                      "58": 4,
+                      "59": 2,
+                      "60": 7.5,
+                      "61": 30,
+                      "156": 1,
+                      "210": 1,
+                      "212": 1,
+                      "213": 1
                     }
                   },
                   {
@@ -543750,49 +543712,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "3": 7.04,
-                      "4": 4,
-                      "20": -2
-                    },
-                    "appliedTotal": 9.04,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 8,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "0": 25,
-                      "1": 18,
-                      "2": 7,
-                      "3": 176,
-                      "4": 1,
-                      "5": 35,
-                      "6": 17,
-                      "7": 8,
-                      "8": 7,
-                      "9": 3,
-                      "10": 1,
-                      "11": 3,
-                      "12": 1,
-                      "13": 1,
-                      "20": 1,
-                      "21": 72,
-                      "22": 176,
-                      "23": 3,
-                      "64": 4,
-                      "73": 1,
-                      "155": 1,
-                      "158": 6,
-                      "175": 1,
-                      "210": 1,
-                      "211": 8,
-                      "212": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 15.32079205729412,
                     "appliedStats": {
                       "3": 173.49016608000002,
@@ -543890,6 +543809,49 @@
                       "68": 3.009197856,
                       "72": 2.490019644,
                       "99": 5.283137655
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "3": 7.04,
+                      "4": 4,
+                      "20": -2
+                    },
+                    "appliedTotal": 9.04,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 8,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "0": 25,
+                      "1": 18,
+                      "2": 7,
+                      "3": 176,
+                      "4": 1,
+                      "5": 35,
+                      "6": 17,
+                      "7": 8,
+                      "8": 7,
+                      "9": 3,
+                      "10": 1,
+                      "11": 3,
+                      "12": 1,
+                      "13": 1,
+                      "20": 1,
+                      "21": 72,
+                      "22": 176,
+                      "23": 3,
+                      "64": 4,
+                      "73": 1,
+                      "155": 1,
+                      "158": 6,
+                      "175": 1,
+                      "210": 1,
+                      "211": 8,
+                      "212": 1
                     }
                   },
                   {
@@ -551456,79 +551418,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "89": 0,
-                      "90": 0,
-                      "91": 0,
-                      "92": 0,
-                      "95": 2,
-                      "99": 4,
-                      "123": 0,
-                      "124": 0,
-                      "128": 0,
-                      "129": 0,
-                      "130": 0,
-                      "132": -1,
-                      "133": 0,
-                      "134": 0,
-                      "135": 0,
-                      "136": 0
-                    },
-                    "appliedTotal": 5,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 16,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "89": 0,
-                      "90": 0,
-                      "91": 0,
-                      "92": 0,
-                      "95": 1,
-                      "99": 4,
-                      "100": 8,
-                      "107": 35,
-                      "108": 44,
-                      "109": 79,
-                      "110": 26,
-                      "111": 15,
-                      "112": 5,
-                      "113": 3,
-                      "114": 72,
-                      "116": 7,
-                      "117": 2,
-                      "120": 19,
-                      "121": 1,
-                      "122": 0,
-                      "123": 0,
-                      "124": 0,
-                      "127": 384,
-                      "128": 0,
-                      "129": 0,
-                      "130": 0,
-                      "131": 0,
-                      "132": 1,
-                      "133": 0,
-                      "134": 0,
-                      "135": 0,
-                      "136": 0,
-                      "156": 1,
-                      "187": 19,
-                      "188": 0,
-                      "189": 0,
-                      "190": 0,
-                      "191": 0,
-                      "192": 1,
-                      "193": 0,
-                      "194": 0,
-                      "195": 0,
-                      "210": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 7.098369291529411,
                     "appliedStats": {
                       "89": 1.2718947050000002,
@@ -551632,6 +551521,79 @@
                       "115": 76.27738519,
                       "120": 37.24649078,
                       "127": 340.1845971
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "89": 0,
+                      "90": 0,
+                      "91": 0,
+                      "92": 0,
+                      "95": 2,
+                      "99": 4,
+                      "123": 0,
+                      "124": 0,
+                      "128": 0,
+                      "129": 0,
+                      "130": 0,
+                      "132": -1,
+                      "133": 0,
+                      "134": 0,
+                      "135": 0,
+                      "136": 0
+                    },
+                    "appliedTotal": 5,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 16,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "89": 0,
+                      "90": 0,
+                      "91": 0,
+                      "92": 0,
+                      "95": 1,
+                      "99": 4,
+                      "100": 8,
+                      "107": 35,
+                      "108": 44,
+                      "109": 79,
+                      "110": 26,
+                      "111": 15,
+                      "112": 5,
+                      "113": 3,
+                      "114": 72,
+                      "116": 7,
+                      "117": 2,
+                      "120": 19,
+                      "121": 1,
+                      "122": 0,
+                      "123": 0,
+                      "124": 0,
+                      "127": 384,
+                      "128": 0,
+                      "129": 0,
+                      "130": 0,
+                      "131": 0,
+                      "132": 1,
+                      "133": 0,
+                      "134": 0,
+                      "135": 0,
+                      "136": 0,
+                      "156": 1,
+                      "187": 19,
+                      "188": 0,
+                      "189": 0,
+                      "190": 0,
+                      "191": 0,
+                      "192": 1,
+                      "193": 0,
+                      "194": 0,
+                      "195": 0,
+                      "210": 1
                     }
                   },
                   {
@@ -567687,48 +567649,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "42": 5.7,
-                      "43": 6,
-                      "53": 3,
-                      "72": -2
-                    },
-                    "appliedTotal": 12.7,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 10,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 6,
-                      "42": 57,
-                      "43": 1,
-                      "47": 11,
-                      "48": 5,
-                      "49": 2,
-                      "50": 2,
-                      "51": 1,
-                      "53": 6,
-                      "54": 1,
-                      "58": 7,
-                      "59": 24,
-                      "60": 9.5,
-                      "61": 57,
-                      "67": 1,
-                      "68": 1,
-                      "71": 1,
-                      "72": 1,
-                      "73": 1,
-                      "156": 1,
-                      "158": 6,
-                      "184": 1,
-                      "210": 1,
-                      "213": 3
-                    }
-                  },
-                  {
                     "appliedAverage": 7.6089442175,
                     "appliedStats": {
                       "24": 2.185919177,
@@ -567810,6 +567730,48 @@
                       "63": 0.0055,
                       "68": 0.755483102,
                       "72": 2.292749682
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 5.7,
+                      "43": 6,
+                      "53": 3,
+                      "72": -2
+                    },
+                    "appliedTotal": 12.7,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 10,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 6,
+                      "42": 57,
+                      "43": 1,
+                      "47": 11,
+                      "48": 5,
+                      "49": 2,
+                      "50": 2,
+                      "51": 1,
+                      "53": 6,
+                      "54": 1,
+                      "58": 7,
+                      "59": 24,
+                      "60": 9.5,
+                      "61": 57,
+                      "67": 1,
+                      "68": 1,
+                      "71": 1,
+                      "72": 1,
+                      "73": 1,
+                      "156": 1,
+                      "158": 6,
+                      "184": 1,
+                      "210": 1,
+                      "213": 3
                     }
                   },
                   {
@@ -570957,79 +570919,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "89": 0,
-                      "90": 0,
-                      "91": 0,
-                      "92": 1,
-                      "95": 2,
-                      "99": 3,
-                      "123": 0,
-                      "124": 0,
-                      "128": 0,
-                      "129": 0,
-                      "130": 2,
-                      "132": 0,
-                      "133": 0,
-                      "134": 0,
-                      "135": 0,
-                      "136": 0
-                    },
-                    "appliedTotal": 8,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 8,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "89": 0,
-                      "90": 0,
-                      "91": 0,
-                      "92": 1,
-                      "95": 1,
-                      "99": 3,
-                      "100": 6,
-                      "107": 27,
-                      "108": 26,
-                      "109": 53,
-                      "110": 17,
-                      "111": 10,
-                      "112": 2,
-                      "113": 3,
-                      "114": 71,
-                      "116": 7,
-                      "117": 2,
-                      "120": 15,
-                      "121": 0,
-                      "122": 0,
-                      "123": 0,
-                      "124": 0,
-                      "127": 266,
-                      "128": 0,
-                      "129": 0,
-                      "130": 1,
-                      "131": 0,
-                      "132": 0,
-                      "133": 0,
-                      "134": 0,
-                      "135": 0,
-                      "136": 0,
-                      "155": 1,
-                      "187": 15,
-                      "188": 0,
-                      "189": 0,
-                      "190": 0,
-                      "191": 1,
-                      "192": 0,
-                      "193": 0,
-                      "194": 0,
-                      "195": 0,
-                      "210": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 7.2074746,
                     "appliedStats": {
                       "89": 1.224979985,
@@ -571132,6 +571021,79 @@
                       "115": 97.64586299,
                       "120": 40.1933687,
                       "127": 340.9158777
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "89": 0,
+                      "90": 0,
+                      "91": 0,
+                      "92": 1,
+                      "95": 2,
+                      "99": 3,
+                      "123": 0,
+                      "124": 0,
+                      "128": 0,
+                      "129": 0,
+                      "130": 2,
+                      "132": 0,
+                      "133": 0,
+                      "134": 0,
+                      "135": 0,
+                      "136": 0
+                    },
+                    "appliedTotal": 8,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 8,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "89": 0,
+                      "90": 0,
+                      "91": 0,
+                      "92": 1,
+                      "95": 1,
+                      "99": 3,
+                      "100": 6,
+                      "107": 27,
+                      "108": 26,
+                      "109": 53,
+                      "110": 17,
+                      "111": 10,
+                      "112": 2,
+                      "113": 3,
+                      "114": 71,
+                      "116": 7,
+                      "117": 2,
+                      "120": 15,
+                      "121": 0,
+                      "122": 0,
+                      "123": 0,
+                      "124": 0,
+                      "127": 266,
+                      "128": 0,
+                      "129": 0,
+                      "130": 1,
+                      "131": 0,
+                      "132": 0,
+                      "133": 0,
+                      "134": 0,
+                      "135": 0,
+                      "136": 0,
+                      "155": 1,
+                      "187": 15,
+                      "188": 0,
+                      "189": 0,
+                      "190": 0,
+                      "191": 1,
+                      "192": 0,
+                      "193": 0,
+                      "194": 0,
+                      "195": 0,
+                      "210": 1
                     }
                   },
                   {
@@ -572613,8 +572575,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 1.7207964545294117,
@@ -572715,8 +572676,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {
@@ -572811,8 +572771,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 2
@@ -573732,42 +573691,6 @@
                   },
                   {
                     "appliedStats": {
-                      "42": 3.2,
-                      "53": 1,
-                      "72": -2
-                    },
-                    "appliedTotal": 2.2,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 28,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 2,
-                      "42": 32,
-                      "47": 6,
-                      "48": 3,
-                      "49": 1,
-                      "50": 1,
-                      "53": 2,
-                      "58": 4,
-                      "59": 5,
-                      "60": 16,
-                      "61": 32,
-                      "67": 1,
-                      "68": 1,
-                      "71": 1,
-                      "72": 1,
-                      "73": 1,
-                      "155": 1,
-                      "210": 1,
-                      "213": 1
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "42": 4.3572547020000005,
                       "43": 0.915553554,
                       "44": 0.01969748,
@@ -573825,6 +573748,42 @@
                       "63": 0.001,
                       "68": 0.174035805,
                       "72": 0.124034735
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 3.2,
+                      "53": 1,
+                      "72": -2
+                    },
+                    "appliedTotal": 2.2,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 28,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 2,
+                      "42": 32,
+                      "47": 6,
+                      "48": 3,
+                      "49": 1,
+                      "50": 1,
+                      "53": 2,
+                      "58": 4,
+                      "59": 5,
+                      "60": 16,
+                      "61": 32,
+                      "67": 1,
+                      "68": 1,
+                      "71": 1,
+                      "72": 1,
+                      "73": 1,
+                      "155": 1,
+                      "210": 1,
+                      "213": 1
                     }
                   },
                   {
@@ -578097,8 +578056,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -578212,8 +578170,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -578240,8 +578197,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 1
@@ -582815,41 +582771,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "42": 5.800000000000001,
-                      "43": 6,
-                      "53": 2
-                    },
-                    "appliedTotal": 13.8,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 16,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 4,
-                      "42": 58,
-                      "43": 1,
-                      "47": 11,
-                      "48": 5,
-                      "49": 2,
-                      "50": 2,
-                      "51": 1,
-                      "53": 4,
-                      "58": 5,
-                      "59": 11,
-                      "60": 14.5,
-                      "61": 58,
-                      "156": 1,
-                      "158": 6,
-                      "183": 1,
-                      "210": 1,
-                      "213": 3
-                    }
-                  },
-                  {
                     "appliedAverage": 8.491443517764708,
                     "appliedStats": {
                       "42": 80.21743900000001,
@@ -582910,6 +582831,41 @@
                       "63": 0.005335784,
                       "68": 1.163408685,
                       "72": 1.163408685
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 5.800000000000001,
+                      "43": 6,
+                      "53": 2
+                    },
+                    "appliedTotal": 13.8,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 16,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 4,
+                      "42": 58,
+                      "43": 1,
+                      "47": 11,
+                      "48": 5,
+                      "49": 2,
+                      "50": 2,
+                      "51": 1,
+                      "53": 4,
+                      "58": 5,
+                      "59": 11,
+                      "60": 14.5,
+                      "61": 58,
+                      "156": 1,
+                      "158": 6,
+                      "183": 1,
+                      "210": 1,
+                      "213": 3
                     }
                   },
                   {
@@ -588912,55 +588868,6 @@
                 "seasonOutlook": "Cousins signed with the Raiders and will work as the team's starter to open the 2026 season ahead of No. 1 overall draft selection Fernando Mendoza. Cousins made eight starts for Atlanta last season and was not much of a fantasy option, averaging 12.5 fantasy points per game while reaching 18 points only once. The 38-year-old will be a bridge starter at best until Mendoza is ready and is no longer a threat with his legs (7 yards on 14 carries last season). He won't be a fantasy option, even when on the field. He should only be drafted late in superflex leagues.",
                 "stats": [
                   {
-                    "appliedStats": {
-                      "3": 9.88,
-                      "4": 12,
-                      "24": 0.30000000000000004,
-                      "25": 6
-                    },
-                    "appliedTotal": 28.18,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 13,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "0": 26,
-                      "1": 19,
-                      "2": 7,
-                      "3": 247,
-                      "4": 3,
-                      "5": 49,
-                      "6": 24,
-                      "7": 12,
-                      "8": 9,
-                      "9": 4,
-                      "10": 2,
-                      "11": 3,
-                      "12": 1,
-                      "13": 1,
-                      "21": 73.08,
-                      "22": 247,
-                      "23": 5,
-                      "24": 3,
-                      "25": 1,
-                      "33": 1,
-                      "39": 0.6,
-                      "40": 3,
-                      "64": 1,
-                      "155": 1,
-                      "158": 24,
-                      "175": 2,
-                      "176": 1,
-                      "179": 1,
-                      "210": 1,
-                      "211": 12,
-                      "212": 3
-                    }
-                  },
-                  {
                     "appliedAverage": 10.354000000000001,
                     "appliedStats": {
                       "3": 68.84,
@@ -589022,6 +588929,55 @@
                       "210": 10,
                       "211": 86,
                       "212": 4
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "3": 9.88,
+                      "4": 12,
+                      "24": 0.30000000000000004,
+                      "25": 6
+                    },
+                    "appliedTotal": 28.18,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 13,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "0": 26,
+                      "1": 19,
+                      "2": 7,
+                      "3": 247,
+                      "4": 3,
+                      "5": 49,
+                      "6": 24,
+                      "7": 12,
+                      "8": 9,
+                      "9": 4,
+                      "10": 2,
+                      "11": 3,
+                      "12": 1,
+                      "13": 1,
+                      "21": 73.08,
+                      "22": 247,
+                      "23": 5,
+                      "24": 3,
+                      "25": 1,
+                      "33": 1,
+                      "39": 0.6,
+                      "40": 3,
+                      "64": 1,
+                      "155": 1,
+                      "158": 24,
+                      "175": 2,
+                      "176": 1,
+                      "179": 1,
+                      "210": 1,
+                      "211": 12,
+                      "212": 3
                     }
                   },
                   {
@@ -590792,43 +590748,6 @@
                     }
                   },
                   {
-                    "appliedStats": {
-                      "24": 2.2,
-                      "42": 1.8,
-                      "53": 1
-                    },
-                    "appliedTotal": 5,
-                    "externalId": "401873030",
-                    "id": "01401873030",
-                    "proTeamId": 16,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "23": 5,
-                      "24": 22,
-                      "27": 4,
-                      "28": 2,
-                      "29": 1,
-                      "33": 1,
-                      "39": 4.4,
-                      "40": 22,
-                      "41": 2,
-                      "42": 18,
-                      "47": 3,
-                      "48": 1,
-                      "53": 2,
-                      "58": 2,
-                      "59": 19,
-                      "60": 9,
-                      "61": 18,
-                      "156": 1,
-                      "210": 1,
-                      "213": 2
-                    }
-                  },
-                  {
                     "appliedAverage": 11.224329050705881,
                     "appliedStats": {
                       "24": 80.47877432000001,
@@ -590914,6 +590833,43 @@
                       "63": 0.005335784,
                       "68": 2.378279877,
                       "72": 1.578865568
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "24": 2.2,
+                      "42": 1.8,
+                      "53": 1
+                    },
+                    "appliedTotal": 5,
+                    "externalId": "401873030",
+                    "id": "01401873030",
+                    "proTeamId": 16,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "23": 5,
+                      "24": 22,
+                      "27": 4,
+                      "28": 2,
+                      "29": 1,
+                      "33": 1,
+                      "39": 4.4,
+                      "40": 22,
+                      "41": 2,
+                      "42": 18,
+                      "47": 3,
+                      "48": 1,
+                      "53": 2,
+                      "58": 2,
+                      "59": 19,
+                      "60": 9,
+                      "61": 18,
+                      "156": 1,
+                      "210": 1,
+                      "213": 2
                     }
                   },
                   {
@@ -593786,7 +593742,8 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {}
+                    "stats": {},
+                    "variance": {}
                   },
                   {
                     "appliedAverage": 0,
@@ -597746,22 +597703,6 @@
                 "seasonOutlook": "A team's No. 1 wide receiver is often a household name, but that's certainly not the case for the underrated Tucker, Las Vegas' top wideout for most of the 2025 season. Tucker has finished in the top 10 among wide receivers in both snaps and routes each of the last two seasons and ranked just outside of the top 30 in targets, catches, yards and touchdowns in 2025. Tucker, who also contributes as rusher, has yet to deliver a top-35 fantasy campaign while working in the Raiders' struggling offenses and would need a terrific rookie season from Fernando Mendoza to get there in 2026. That's a long shot for the undersized receiver, so he's only worth a late flier.",
                 "stats": [
                   {
-                    "appliedStats": {},
-                    "appliedTotal": 0,
-                    "externalId": "401873029",
-                    "id": "01401873029",
-                    "proTeamId": 13,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "58": 1,
-                      "155": 1,
-                      "210": 1
-                    }
-                  },
-                  {
                     "appliedAverage": 7.835294117647059,
                     "appliedStats": {
                       "24": 5.1000000000000005,
@@ -597817,6 +597758,22 @@
                       "210": 17,
                       "212": 1,
                       "213": 32
+                    }
+                  },
+                  {
+                    "appliedStats": {},
+                    "appliedTotal": 0,
+                    "externalId": "401873029",
+                    "id": "01401873029",
+                    "proTeamId": 13,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "58": 1,
+                      "155": 1,
+                      "210": 1
                     }
                   },
                   {
@@ -605572,18 +605529,6 @@
                     }
                   },
                   {
-                    "appliedStats": {},
-                    "appliedTotal": 0,
-                    "externalId": "401873031",
-                    "id": "01401873031",
-                    "proTeamId": 10,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {}
-                  },
-                  {
                     "appliedAverage": 9.689266778625,
                     "appliedStats": {
                       "42": 96.21725782,
@@ -605647,6 +605592,18 @@
                       "68": 0.206319791,
                       "72": 2.292749682
                     }
+                  },
+                  {
+                    "appliedStats": {},
+                    "appliedTotal": 0,
+                    "externalId": "401873031",
+                    "id": "01401873031",
+                    "proTeamId": 10,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -611158,8 +611115,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 1,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedAverage": 6.0692052452352945,
@@ -611238,8 +611194,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 2,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   },
                   {
                     "appliedStats": {},
@@ -611266,8 +611221,7 @@
                     "seasonId": 2026,
                     "statSourceId": 1,
                     "statSplitTypeId": 0,
-                    "stats": {},
-                    "variance": {}
+                    "stats": {}
                   }
                 ],
                 "universeId": 1
@@ -618355,37 +618309,6 @@
                   },
                   {
                     "appliedStats": {
-                      "42": 8.1,
-                      "53": 1.5
-                    },
-                    "appliedTotal": 9.6,
-                    "externalId": "401873035",
-                    "id": "01401873035",
-                    "proTeamId": 28,
-                    "scoringPeriodId": 8,
-                    "seasonId": 2026,
-                    "statSourceId": 0,
-                    "statSplitTypeId": 1,
-                    "stats": {
-                      "41": 3,
-                      "42": 81,
-                      "47": 16,
-                      "48": 8,
-                      "49": 4,
-                      "50": 3,
-                      "51": 1,
-                      "53": 3,
-                      "58": 5,
-                      "59": 16,
-                      "60": 27,
-                      "61": 81,
-                      "155": 1,
-                      "210": 1,
-                      "213": 3
-                    }
-                  },
-                  {
-                    "appliedStats": {
                       "42": 4.807625001000001,
                       "43": 2.2159080060000003,
                       "44": 0.047673674,
@@ -618445,6 +618368,37 @@
                       "63": 0.001,
                       "68": 0.037512689,
                       "72": 0.416863579
+                    }
+                  },
+                  {
+                    "appliedStats": {
+                      "42": 8.1,
+                      "53": 1.5
+                    },
+                    "appliedTotal": 9.6,
+                    "externalId": "401873035",
+                    "id": "01401873035",
+                    "proTeamId": 28,
+                    "scoringPeriodId": 8,
+                    "seasonId": 2026,
+                    "statSourceId": 0,
+                    "statSplitTypeId": 1,
+                    "stats": {
+                      "41": 3,
+                      "42": 81,
+                      "47": 16,
+                      "48": 8,
+                      "49": 4,
+                      "50": 3,
+                      "51": 1,
+                      "53": 3,
+                      "58": 5,
+                      "59": 16,
+                      "60": 27,
+                      "61": 81,
+                      "155": 1,
+                      "210": 1,
+                      "213": 3
                     }
                   },
                   {
