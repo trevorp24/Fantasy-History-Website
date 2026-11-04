@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SNAPSHOT = ROOT / "data" / "snapshots" / "2026" / "moggate_2026_2026-10-06.json"
+SNAPSHOT = ROOT / "data" / "snapshots" / "2026" / "moggate_2026_2026-11-03.json"
 OUTPUT_DIR = ROOT / "outputs" / "draft-board-points"
 CACHE_DATA = OUTPUT_DIR / "draft-board-points-data.json"
 LEAGUE_ID = 69640845
@@ -279,7 +279,7 @@ def render_board(picks, teams, metric, path):
         draw_tile(draw, box, pick, pick.get(metric), color)
 
     footer_font = font(14, False)
-    draw.text((margin_x, height - 42), "Data source: ESPN league export from October 6, 2026. RBs are colored vs RBs, WRs vs WRs, QBs vs QBs, and so on.", fill=(100, 116, 139), font=footer_font)
+    draw.text((margin_x, height - 42), "Data source: ESPN league export from November 3, 2026. RBs are colored vs RBs, WRs vs WRs, QBs vs QBs, and so on.", fill=(100, 116, 139), font=footer_font)
     image.save(path, quality=95)
 
 
@@ -297,7 +297,7 @@ def main():
     missing_ids = [
         player_id
         for player_id in player_ids
-        if (player_id not in players or not season_stat(players[player_id])) and player_id not in cached
+        if player_id not in players or not season_stat(players[player_id])
     ]
     if missing_ids:
         players.update(fetch_players(missing_ids))
@@ -311,10 +311,6 @@ def main():
         average = stat.get("appliedAverage")
         position = POSITION_BY_ID.get(player.get("defaultPositionId"), LINEUP_SLOT_BY_ID.get(pick.get("lineupSlotId"), "UNK"))
         cached_record = cached.get(pick["playerId"], {})
-        if total is None:
-            total = cached_record.get("total")
-        if average is None:
-            average = cached_record.get("ppg")
         if position == "UNK" and cached_record.get("position"):
             position = cached_record["position"]
         base_record = playerbase.get(pick["playerId"], {})
